@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <!-- 기본 경로 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/reset.css">
+    <link rel="stylesheet" href="../../../css/component.css">
+    <link rel="stylesheet" href="../../../css/common.css">
+    <link rel="stylesheet" href="../../../css/global.css">
+    <link rel="stylesheet" href="../../../css/icon.css">
+    <link rel="stylesheet" href="../../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../../css/fullcalendar/main.css">
+    <link rel="stylesheet" href="../../../css/slick/slick.css">
+    <link rel="stylesheet" href="../../../css/slick/slick-theme.css">
+    <link rel="stylesheet" href="../../../css/air-datepicker/datepicker.css">
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../../js/jquery-ui.js"></script>
+    <script src="../../../js/slick/slick.min.js"></script>
+    <script src="../../../js/chart/Chart.min.js"></script>
+    <script src="../../../js/chart/chartjs-plugin-datalabels.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.en.js"></script>
+    <script src="../../../js/fullcalendar/main.js"></script>
+    <title>프로그램관리 - 경기인관리시스템</title>
+</head>
+<!-- 메인경로 -->
+<body>
+    <div class="wrap">
+        <div class="container gamer clb">
+            <div class="content header">
+                <div class="header-nav">
+                    <h1>
+                        <a href="#">
+                            <img src="../../../img/gamer/logo-gamer.svg"  alt="체육정보시스템" width="235" height="40">
+                        </a>
+                    </h1>
+                    <div class="gnb">
+                        <ul class="clb">
+                            <!-- [D] 활성화시 li에 is_active -->
+                            <li class="is_active"><a href="#">Home</a></li>
+                            <li><a href="#">시스템관리</a></li>
+                            <li><a href="#">신청관리</a></li>
+                            <li><a href="#">등록관리</a></li>
+                            <li><a href="#">시스템공지사항</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav">
+                        <ul class="clb">
+                            <!-- [D] new마크 newMark 클래스 추가 -->
+                            <li class="newMark"><a href="#">화면 도움말</a></li>
+                            <li>화면ID : <span class="font-roboto">SPL-001</span></li>
+                            <li><a href="#">체육정보시스템</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-login clb">
+                    <div class="user clb">
+                        <p class="user-name">
+                            <span>강대한</span>
+                            <span>과장</span>
+                        </p>
+                        <p class="user-department">
+                            <span>스포츠정보화부</span>
+                        </p>
+                        <div class="login-btn">
+                            <a href="#">로그아웃</a>
+                        </div>
+                    </div>
+                    <div class="login clb">
+                        <div class="login-timer clb">
+                            <span class="font-roboto font-b">17:46:05</span>
+                        </div>
+                        <div class="login-btn">
+                            <a href="#">로그인 연장</a>
+                        </div>
+                    </div>
+                    <div class="callnum">
+                        <i class="icon icon-call"></i>
+                        <span class="font-roboto font-b">02-2144-8141</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="content clb">
+                <div class="sidenav managenav">
+                    <div class="openbtn">
+                        <button type="button">등록관리 열기</button>
+                    </div>
+                    <p class="title">
+                        <i class="icon icon-monitor"></i>
+                        등록관리
+                    </p>
+                    <ul class="managemenu">
+                        <!-- [D] 활성화시 li에 is_active -->
+                        <li>
+                            <a href="#"><i class="icon icon-manage--team"></i>팀관리</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--gamer"></i>선수관리</a>
+                            <ul class="managemenu-sub">
+                                <li class="is_active"><a href="#">메뉴1</a></li>
+                                <li><a href="#">메뉴2</a></li>
+                                <li><a href="#">메뉴3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--leader"></i>지도자관리</a>
+                        </li>
+                        <li><a href="#"><i class="icon icon-manage--judgment"></i>심판관리</a></li>
+                        <li><a href="#"><i class="icon icon-manage--gameradd"></i>선수관리담당자관리</a></li>
+                        
+                    </ul>
+                </div>
+                <!-- header end -->
+                <!-- content start -->
+ <!-- 헤더 끝 -->
+    
+<div class="conarea">
+    <div class="pagewrap clb">
+    <h2>프로그램관리</h2>
+    <ul class="pagenav clb">
+        <li>
+            <a href="">home</a>
+        </li>
+        <li>
+            <a href="">test</a>
+        </li>
+    </ul>
+</div>
+
+    <div class="inpuiry">
+        <div class="inpuiry-content">
+            <div class="inpuiry-box menu-box">
+                <div class="inpuiry-heading">
+        <h4>메뉴수정</h4>
+    </div>
+    <div class="menuService formInput">
+        <div class="menuService-select">
+
+
+            <!-- 한줄 영역 감싸는 div -->
+            <div class="form-section clb">
+
+                
+                <!-- 각 form-box에 width, margin 설정 (5단위, 5 10 15 20) -->
+                <div class="form-box wd-150 mr-20">
+                    <div class="formInput-select">
+                        <h5>메뉴레벨</h5>
+                        <select name="menuLevel" onchange="fn_selectAjax('#test')">
+                            <option value="0" selected>1</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                        </select>
+                        <!-- items 갯수만큼 출력, 미설정 시 전체 출력 -->
+                        <dl data-items='3'>
+                            <dt>
+                            </dt>   
+                            <dd>
+                                <ul>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="form-box wd-150 mr-20">
+                    <div class="formInput-select">
+                        <h5>메뉴레벨</h5>
+                        <select name="menuLevel" id="test"  onchange="fn_selectAjax('#test2')">
+                            <option value="0" selected></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <!-- items 갯수만큼 출력, 미설정 시 전체 출력 -->
+                        <dl data-items='3'>
+                            <dt>
+                            </dt>   
+                            <dd>
+                                <ul>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="form-box wd-150 mr-20">
+                    <div class="formInput-select">
+                        <h5>메뉴레벨</h5>
+                        <select name="menuLevel" id="test2">
+                            <option value="0" selected></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <!-- items 갯수만큼 출력, 미설정 시 전체 출력 -->
+                        <dl data-items='3'>
+                            <dt>
+                            </dt>   
+                            <dd>
+                                <ul>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="form-box wd-150 mr-20">
+                    <div class="formInput-select">
+                        <h5>메뉴레벨</h5>
+                        <select name="menuLevel">
+                            <option value="0" selected></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <!-- items 갯수만큼 출력, 미설정 시 전체 출력 -->
+                        <dl data-items='3'>
+                            <dt>
+                            </dt>   
+                            <dd>
+                                <ul>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="form-box wd-250 mr-20">
+                    <div class="formInput-select">
+                        <h5>메뉴레벨</h5>
+                        <select name="menuLevel">
+                            <option value="0" selected></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <!-- items 갯수만큼 출력, 미설정 시 전체 출력 -->
+                        <dl data-items='3'>
+                            <dt>
+                            </dt>   
+                            <dd>
+                                <ul>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <div class="form-box wd-250 mr-20">
+                    <div class="formInput-select">
+                        <h5>메뉴레벨</h5>
+                        <select name="menuLevel">
+                            <option value="0" selected></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <!-- items 갯수만큼 출력, 미설정 시 전체 출력 -->
+                        <dl data-items='3'>
+                            <dt>
+                            </dt>   
+                            <dd>
+                                <ul>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <!-- 한줄 감싸는 영역 end -->
+
+
+
+
+            <div class="form-section clb">
+                <div class="form-box">
+                    <h5>서블릿 ID</h5>
+                    <input name="servletId" type="text">
+                </div>
+                <div class="form-box">
+                    <h5>서블릿 KIND</h5>
+                    <input name="servletKind" type="text">
+                </div>
+                <div class="form-box">
+                    <div class="formInput-check">
+                        <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                        <div class="checkArea checkSquare clb">
+                            <h5>화면표시</h5>
+                            <input type="checkbox" name="screen" id="screen">
+                            <label >메뉴를 화면에 표시합니다.</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="menuService-check">
+            <div class="form-section clb">
+                <div class="form-box">
+                    <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                    <h5>대한체육회 기본권한</h5>
+                    <div class="formInput-radio">
+                        <div class="radioArea clb">
+                            <input  type="radio" name="koreaSports" id="noAuthority">
+                            <label  class="is_active">권한없음</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="koreaSports" id="lookup">
+                            <label >조회</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="koreaSports" id="edit">
+                            <label >추가/수정</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="koreaSports" id="remove">
+                            <label >삭제</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="koreaSports" id="allAuthority">
+                            <label >전체권한</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-box">
+                    <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                    <h5>회원종목단체 기본권한</h5>
+                    <div class="formInput-radio">
+                        <div class="radioArea clb">
+                            <input  type="radio" name="member" id="1">
+                            <label class="is_active">권한없음</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="member" id="2">
+                            <label >조회</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="member" id="3">
+                            <label >추가/수정</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="member" id="4">
+                            <label >삭제</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="member" id="5">
+                            <label >전체권한</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-box">
+                    <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                    <h5>시도체육회 기본권한</h5>
+                    <div class="formInput-radio">
+                        <div class="radioArea clb">
+                            <input  type="radio" name="city" id="6">
+                            <label class="is_active">권한없음</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="city" id="7">
+                            <label >조회</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="city" id="8">
+                            <label >추가/수정</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="city" id="9">
+                            <label >삭제</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="city" id="10">
+                            <label >전체권한</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-box">
+                    <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                    <h5>시도종목단체 기본권한</h5>
+                    <div class="formInput-radio">
+                        <div class="radioArea clb">
+                            <input  type="radio" name="cityAll" id="11">
+                            <label  class="is_active">권한없음</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="cityAll" id="12">
+                            <label >조회</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="cityAll" id="13">
+                            <label >추가/수정</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="cityAll" id="14">
+                            <label >삭제</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="cityAll" id="15">
+                            <label >전체권한</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-section clb">
+                <div class="form-box">
+                    <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                    <h5>시군구체육회 기본권한</h5>
+                    <div class="formInput-radio">
+                        <div class="radioArea clb">
+                            <input  type="radio" name="county" id="16">
+                            <label  class="is_active">권한없음</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="county" id="17">
+                            <label >조회</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="county" id="18">
+                            <label >추가/수정</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="county" id="19">
+                            <label >삭제</label>
+                        </div>
+                        <div class="radioArea clb">
+                            <input  type="radio" name="county" id="20">
+                            <label >전체권한</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            </div>
+        </div>
+
+        <div class="text-right">
+            <button class="btn btn-mint mr-10">저장</button>
+            <button class="btn btn-mint">목록</button>
+        </div>
+    </div>
+    
+</div>
+<script>
+    function fn_selectAjax(el) {
+
+        // 필요하시면 해당 remove는 function 안에 넣어드릴 수 있습니다.
+        $(el).children('option').remove();
+        var a = '<option value="1">A</option>';
+        a += '<option value="2">2</option>';
+        a += '<option value="3">3</option>';
+        a += '<option value="4">4</option>';
+        $(el).append(a);
+
+        console.log(1111111);
+
+        // html도 가능합니다.
+        // $('#test').html(a);
+
+        fn_selectMake(el); 
+
+    }
+</script>
+<!-- 푸터 시작 -->
+    <!-- content end -->
+    <!-- footer start -->
+    <div class="sidenav shortnav rightfold">
+        <div class="openbtn">
+            <button type="button">바로가기 열기</button>
+        </div>
+        <p class="title">
+            <i class="icon icon-monitor"></i>
+            바로가기
+        </p>
+        <ul>
+            <li><a href="#">전자문서시스템</a></li>
+            <li><a href="#">체육단체인트라넷</a></li>
+            <li><a href="#">PC 원격제어</a></li>
+            <li><a href="#">시스템메뉴얼</a></li>
+        </ul>
+        <img src="../../../img/common/logo_v.svg"  alt="대한체육회" width="60" height="73">
+    </div>
+</div>
+    <div class="footer  clb ">
+
+        <div class="footcon clb">
+            <div class="footer-policyLink policyLink">
+                <a href="#" class="font-b">개인정보처리방침</a>
+            </div>
+            <dl class="footer-info clb">
+                <dt>이용문의</dt>
+                <dd>
+                    <p class="mt-m1">
+                        체육정보시스템 콜센터
+                        <span class="font-roboto font-18"><strong>02-2144-8141</strong></span>
+                    </p>
+                </dd>
+                <dt>근무시간 <span class="font-roboto">09:00 ~ 18:00</span></dt>
+                <dd>
+                    <p>점심시간 <span class="font-roboto">(12&#58;00 &#126; 13&#58;00)</span></p>
+                </dd>
+            </dl>
+            <div class="footer-copyright copyright">
+                <p>ⓒ 대한체육회</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+    </div>
+    <script src="../../../js/common.js"></script>
+    <script src="../../../js/gamer.js"></script>
+    </body>
+</html>

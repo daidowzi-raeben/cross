@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <!-- 기본 경로 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/reset.css">
+    <link rel="stylesheet" href="../../../css/component.css">
+    <link rel="stylesheet" href="../../../css/common.css">
+    <link rel="stylesheet" href="../../../css/global.css">
+    <link rel="stylesheet" href="../../../css/icon.css">
+    <link rel="stylesheet" href="../../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../../css/fullcalendar/main.css">
+    <link rel="stylesheet" href="../../../css/slick/slick.css">
+    <link rel="stylesheet" href="../../../css/slick/slick-theme.css">
+    <link rel="stylesheet" href="../../../css/air-datepicker/datepicker.css">
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../../js/jquery-ui.js"></script>
+    <script src="../../../js/slick/slick.min.js"></script>
+    <script src="../../../js/chart/Chart.min.js"></script>
+    <script src="../../../js/chart/chartjs-plugin-datalabels.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.en.js"></script>
+    <script src="../../../js/fullcalendar/main.js"></script>
+    <title>징계관리 - 경기인관리시스템</title>
+</head>
+<!-- 메인경로 -->
+<body>
+    <div class="wrap">
+        <div class="container gamer clb">
+            <div class="content header">
+                <div class="header-nav">
+                    <h1>
+                        <a href="#">
+                            <img src="../../../img/gamer/logo-gamer.svg"  alt="체육정보시스템" width="235" height="40">
+                        </a>
+                    </h1>
+                    <div class="gnb">
+                        <ul class="clb">
+                            <!-- [D] 활성화시 li에 is_active -->
+                            <li class="is_active"><a href="#">Home</a></li>
+                            <li><a href="#">시스템관리</a></li>
+                            <li><a href="#">신청관리</a></li>
+                            <li><a href="#">등록관리</a></li>
+                            <li><a href="#">시스템공지사항</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav">
+                        <ul class="clb">
+                            <!-- [D] new마크 newMark 클래스 추가 -->
+                            <li class="newMark"><a href="#">화면 도움말</a></li>
+                            <li>화면ID : <span class="font-roboto">SPL-001</span></li>
+                            <li><a href="#">체육정보시스템</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-login clb">
+                    <div class="user clb">
+                        <p class="user-name">
+                            <span>강대한</span>
+                            <span>과장</span>
+                        </p>
+                        <p class="user-department">
+                            <span>스포츠정보화부</span>
+                        </p>
+                        <div class="login-btn">
+                            <a href="#">로그아웃</a>
+                        </div>
+                    </div>
+                    <div class="login clb">
+                        <div class="login-timer clb">
+                            <span class="font-roboto font-b">17:46:05</span>
+                        </div>
+                        <div class="login-btn">
+                            <a href="#">로그인 연장</a>
+                        </div>
+                    </div>
+                    <div class="callnum">
+                        <i class="icon icon-call"></i>
+                        <span class="font-roboto font-b">02-2144-8141</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="content clb">
+                <div class="sidenav managenav">
+                    <div class="openbtn">
+                        <button type="button">등록관리 열기</button>
+                    </div>
+                    <p class="title">
+                        <i class="icon icon-monitor"></i>
+                        등록관리
+                    </p>
+                    <ul class="managemenu">
+                        <!-- [D] 활성화시 li에 is_active -->
+                        <li>
+                            <a href="#"><i class="icon icon-manage--team"></i>팀관리</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--gamer"></i>선수관리</a>
+                            <ul class="managemenu-sub">
+                                <li class="is_active"><a href="#">메뉴1</a></li>
+                                <li><a href="#">메뉴2</a></li>
+                                <li><a href="#">메뉴3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--leader"></i>지도자관리</a>
+                        </li>
+                        <li><a href="#"><i class="icon icon-manage--judgment"></i>심판관리</a></li>
+                        <li><a href="#"><i class="icon icon-manage--gameradd"></i>선수관리담당자관리</a></li>
+                        
+                    </ul>
+                </div>
+                <!-- header end -->
+                <!-- content start -->
+<!-- 헤더 끝 -->
+<div class="conarea">
+    <div class="pagewrap clb">
+    <h2>징계정보조회</h2>
+    <ul class="pagenav clb">
+        <li>
+            <a href="">home</a>
+        </li>
+        <li>
+            <a href="">test</a>
+        </li>
+    </ul>
+</div>
+    <div class="tab tabLarge">
+        <ul class="tab-nav clb">
+    <!-- [D] 활성화시 li에 is_active -->
+    
+        <li class="is_active"><a href="#">징계상세정보</a></li>
+    
+        <li class=""><a href="#">등록이력</a></li>
+    
+</ul>
+        <div class="inpuiry-bg">
+            <div class="inpuiry">
+    <div class="inpuiry-content clb">
+        <div class="inpuiry-info float-left bg-f">
+            <form class="app" action="/" method="GET">
+                <!-- 신규정보조회_신규등록 -->
+
+
+
+
+
+
+
+
+
+<!-- 신규정보조회_상세정보조회 -->
+
+
+
+
+
+
+    <div class="notice notice__fix">
+        <div class="notice-header clb bc-3d">
+            <h3 class="float-left">징계대상자정보</h3>
+        </div>
+
+        <div class="notice-content">
+            <ul class="notice-content--write formInput">
+                <li class="item mini-item clb">
+                    <strong class="title">기관분류</strong>
+                    <div class="item-content">회원종목단체</div>
+                </li>
+                <li class="item mini-item clb">
+                    <strong class="title">징계기관명</strong>
+                    <div class="item-content">대한축구협회</div>
+                </li>
+                <li class="item mini-item clb">
+                    <strong class="title">종목</strong>
+                    <div class="item-content">축구</div>
+                </li>
+                
+                <li class="item mini-item clb">
+                    <strong class="title">체육인번호</strong>
+                    <div class="item-content">
+                        <span class="font-roboto"><span class="mr-10">123456</span>3BA4567</span>
+                    </div>
+                </li>
+                <li class="item mini-item clb">
+                    <strong class="title">팀/이름(한글)</strong>
+                    <div class="item-content">
+                        <span class="font-roboto">FC</span>서울
+                    </div>
+                </li>
+                <li class="item mini-item clb">    
+                    <strong class="title">당시 대상구분</strong>
+                    <div class="item-content">운동부 및 단체</div>
+                </li>
+                <li class="item mini-item clb">    
+                    <strong class="title">당시 소속/직위</strong>
+                    <div class="item-content">
+                        <label class="sound-only">당시 소속/직위</label>
+                        <input type="text" placeholder="당시 소속을 입력하세요" class="wd-279 mr-15">/<input type="text" placeholder="당시 직위을 입력하세요" class="wd-279 ml-15">
+                    </div>
+                </li>
+                <li class="item mini-item clb">    
+                    <strong class="title">현재 소속/직위</strong>
+                    <div class="item-content">
+                        <label class="sound-only">현재 소속/직위</label>
+                        <input type="text" placeholder="현재 소속을 입력하세요" class="wd-279 mr-15">/<input type="text" placeholder="현재 직위을 입력하세요" class="wd-279 ml-15">
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--quick link-->
+
+
+
+
+
+
+
+<!--테이블-->
+ 
+                <!-- 신규정보조회_신규등록 -->
+
+
+
+
+
+    <div class="notice">
+        <div class="notice-header bc-3d">
+            <h3>징계사유</h3>
+        </div>
+        <div class="notice-content formInput">
+            <ul class="strong-wd-123 mr-45 pd-25">
+                <li class="item clb">
+                    <strong class="title">위반행위<span class="ml-12">*</span></strong>
+                    <div class="item-content full-content">
+                        <div class="mb-11">* 아래의 항목에서 해당되는 위반행위를 모두 선택하세요</div>
+                        <div class="formInput-check clb">
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="bribery" />
+                                <label >금품수수</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="embezzle" />
+                                <label >횡령/배임</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="abuseAuthority" />
+                                <label >직권남용/직무태만</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="matchFixing" />
+                                <label >승부조작/편파판정</label>
+                            </div>
+                            <div class="checkArea checkSquare clb mr-0">
+                                <input type="checkbox"  name="admission" />
+                                <label >입학비리</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="violence" />
+                                <label >폭력</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="sexualViolence" />
+                                <label >성폭력</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="molest" />
+                                <label >성추행</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="sexualHarassment" />
+                                <label >성희롱</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="basicRights" />
+                                <label >선수기본권침해</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="election" />
+                                <label >선거관련 부정행위</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="drinking" />
+                                <label >음주운전/음주소란</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="gambing" />
+                                <label >불법도박</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="damageDignity" />
+                                <label >사회적물의/품위훼손</label>
+                            </div>
+                            <div class="checkArea checkSquare clb mr-0">
+                                <input type="checkbox"  name="disturbance" />
+                                <label >경기장 질서문란</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="doping" />
+                                <label >도핑</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="GGINregulation" />
+                                <label >경기인규정위반</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="contestRegulation" />
+                                <label >대회규정위반</label>
+                            </div>
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="infringementEtc" />
+                                <label >기타</label>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item clb">
+                    <strong class="title">위반행위 기타내용</strong>
+                    <div class="item-content">
+                        <label class="sound-only">위반행위 기타내용</label>
+                        <input type="text" disabled="disabled"  onkeyup="inputNumberFormat(this)" class="wd-350 mr-20">
+                        <span>* 위반행위가 기타인 경우 상세정보를 입력하세요.</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+<!-- 신규정보조회_상세정보조회 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--quick link-->
+
+
+
+
+
+
+
+<!--테이블-->
+ 
+                <!-- 신규정보조회_신규등록 -->
+
+
+
+
+
+
+
+
+
+<!-- 신규정보조회_상세정보조회 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="notice">
+        <div class="notice-header bc-3d">
+            <h3>심의결과</h3>
+        </div>
+        <div class="notice-content formInput">
+            <ul class="strong-wd-167 mr-50">
+                <li class="item clb pd-24p5">
+                    <strong class="title">회의명</strong>
+                    <div class="item-content">
+                        <label class="sound-only">회의명</label>
+                        <input type="text" placeholder="회의명을 입력하세요" class="wd-350">
+                    </div>
+                </li>
+                <li class="item clb pd-19p5">
+                    <strong class="title">심의일</strong>
+                    <div class="item-content">
+                        <label class="sound-only">심의일</label>
+                        <input type="text" disabled="disabled"  onkeyup="inputNumberFormat(this)" class="wd-230">
+                    </div>
+                </li>
+                <li class="item clb pd-19p5">
+                    <strong class="title">확정년도</strong>
+                    <div class="item-content">
+                        <label class="sound-only">확정년도</label>
+                        <input type="text" disabled="disabled"  onkeyup="inputNumberFormat(this)" class="wd-230 mr-50">
+                        <span>* 최종의결일 기준으로 자동 설정</span>
+                    </div>
+                </li>
+                <li class="item clb pd-19p5">
+                    <strong class="title">최종의결일</strong>
+                    <div class="item-content">
+                        <label class="sound-only">최종의결일</label>
+                        <input type="text" disabled="disabled"  onkeyup="inputNumberFormat(this)" class="wd-230">
+                    </div>
+                </li>
+                <li class="item clb pd-24p5">
+                    <strong class="title">자격정지사유</strong>
+                    <div class="item-content">
+                        <div class="formInput-radio float-left">
+                            <div class="radioArea float-left">
+                                <input  type="radio" name="stopReason" id="no">
+                                <label  class="is_active">해당없음</label>
+                            </div>
+                            <div class="radioArea float-left">
+                                <input  type="radio" name="stopReason" id="common">
+                                <label >일반</label>
+                            </div>
+                            <div class="radioArea float-left mr-20">
+                                <input  type="radio" name="stopReason" id="doping">
+                                <label >도핑</label>
+                            </div>
+                        </div>
+                        <span>(징계양정이 자격정지인 경우)</span>
+                    </div>
+                </li>
+                <li class="item clb pd-24p5">
+                    <strong class="title">징계종류</strong>
+                    <div class="item-content">
+                        <div class="formInput-radio">
+                            <div class="radioArea float-left mr-20">
+                                <input  type="radio" name="punishKind" id="reprimand">
+                                <label  class="is_active">견책</label>
+                            </div>
+                            <div class="radioArea float-left mr-20">
+                                <input  type="radio" name="punishKind" id="payCut">
+                                <label >감봉</label>
+                            </div>
+                            <div class="radioArea float-left mr-20">
+                                <input  type="radio" name="punishKind" id="participateStop">
+                                <label >출전정지</label>
+                            </div>
+                            <div class="radioArea float-left mr-20">
+                                <input  type="radio" name="punishKind" id="certificateStop">
+                                <label >자격정지</label>
+                            </div>
+                            <div class="radioArea float-left mr-20">
+                                <input  type="radio" name="punishKind" id="relegation">
+                                <label >강등</label>
+                            </div>
+                            <div class="radioArea float-left mr-20">
+                                <input  type="radio" name="punishKind" id="certificateStop">
+                                <label >해임</label>
+                            </div>
+                            <div class="radioArea float-left mr-20">
+                                <input  type="radio" name="punishKind" id="removal">
+                                <label >제명(영구제명)</label>
+                            </div>
+                            <div class="radioArea float-left mr-20">
+                                <input  type="radio" name="punishKind" id="invalidity">
+                                <label >징계취소/무효</label>
+                            </div>
+                            <div class="radioArea float-left">
+                                <input  type="radio" name="punishKind" id="etc">
+                                <label >기타</label>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item clb pd-24p5">
+                    <strong class="title">징계종류 기타내용</strong>
+                    <div class="item-content">
+                        <label class="sound-only">징계종류 기타내용</label>
+                        <input type="text" disabled="disabled"  onkeyup="inputNumberFormat(this)" class="wd-350 mr-20">
+                        <span>* 징계종류가 기타인 경우 상세정보를 입력하세요.</span>
+                    </div>
+                </li>
+                <li class="item clb pd-24p5">
+                    <strong class="title">징계기간</strong>
+                    <div class="item-content">
+                        <label class="sound-only">징계기간</label>
+                        <div class="formInput-check">
+                            <div class="checkArea checkSquare clb">
+                                <input type="checkbox"  name="forever" />
+                                <label >기간 영구</label>
+                            </div>
+                        </div>
+                        <input type="text" placeholder="징계기간을 입력하세요" class="wd-251">
+                    </div>
+                </li>
+                <li class="item clb pd-24p5">
+                    <strong class="title">효력발생일 ~ 종료일</strong>
+                    <div class="item-content">
+                        <label class="sound-only">효력발생일 ~ 종료일</label>
+                        <span>2017.05.18</span><span class="mn-25">~</span><span>2017.05.18</span>
+                    </div>
+                </li>
+                <li class="item clb pd-19p5">
+                    <strong class="title">징계부가금</strong>
+                    <div class="item-content">
+                        <div class="formInput-radio float-left">
+                            <div class="radioArea float-left">
+                                <input  type="radio" name="surcharge" id="no">
+                                <label  class="is_active">해당없음</label>
+                            </div>
+                            <div class="radioArea float-left">
+                                <input  type="radio" name="surcharge" id="yes">
+                                <label >있음</label>
+                            </div>
+                        </div>
+                        <label class="sound-only">징계부가금</label>
+                        <input type="text" disabled="disabled"  onkeyup="inputNumberFormat(this)" class="wd-190">
+                    </div>
+                </li>
+                <li class="item clb pd-24p5">
+                    <strong class="title">징계효력 일시정지 중<br/>여부</strong>
+                    <div class="item-content pd-14">
+                        <div class="formInput-radio float-left">
+                            <div class="radioArea float-left">
+                                <input  type="radio" name="puase" id="no">
+                                <label  class="is_active">해당없음</label>
+                            </div>
+                            <div class="radioArea float-left mr-20">
+                                <input  type="radio" name="puase" id="re">
+                                <label >재심의 신청 중</label>
+                            </div>
+                            <div class="float-left">
+                                * 선수권익침해사안(폭력/성폭력 등) 제외
+                            </div>
+                            <div class="radioArea float-left">
+                                <input  type="radio" name="puase" id="injunction">
+                                <label >효력정지 가처분 신청 중</label>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item clb pd-24p5">
+                    <strong class="title">최종의결일과 효력발생일<br/>차이사유</strong>
+                    <div class="item-content full-content">
+                        <textarea class="width-full hg-119"></textarea>
+                    </div>
+                </li>
+                <li class="item clb pd-24p5">
+                    <strong class="title">최종의결사유</strong>
+                    <div class="item-content full-content">
+                        <div class="mb-20">
+                            * 위반행위별로 간결하고 명료하게 기재하되, 고유식별정보 및 민감정보(성생활 등에 관한 정보, 범죄경력자료 등)는 제외<br/>
+                            * 개인정보보호법 제23조 및 동법 시행령 제18조 유의
+                        </div>
+                        <textarea class="width-full hg-119"></textarea>
+                    </div>
+                </li>
+                <li class="item clb pd-24p5">
+                    <strong class="title">변경사유</strong>
+                    <div class="item-content full-content">
+                        <textarea class="width-full hg-119"></textarea>
+                    </div>
+                </li>
+                <li class="item clb pd-24p5">
+                    <strong class="title">비고</strong>
+                    <div class="item-content full-content">
+                        <textarea class="width-full hg-119"></textarea>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+<!--quick link-->
+
+
+
+
+
+
+
+<!--테이블-->
+ 
+            </form>
+            <div class="inpuiry-btn-wrap mt-20">
+                <button type="button" class="btn btn-inpuiry btn-mint mr-10">저장</button>
+                <button type="button" class="btn btn-inpuiry btn-mint">취소</button>
+            </div>
+        </div>
+
+        <div class="inpuiry-link float-left hoverBorder pr-18">
+            <!-- 신규정보조회_신규등록 -->
+
+
+
+
+
+
+
+
+
+<!-- 신규정보조회_상세정보조회 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--quick link-->
+
+
+    <h4 class="inpuiry-link-title">QUICK 링크</h4>
+    <ul class="inpuiry-link-list">
+        <li class="inpuiry-link-list-title"><strong>징계대상자정보</strong></li>
+        <li><a href="#">기관분류</a></li>
+        <li><a href="#">징계기관명</a></li>
+        <li><a href="#">종목</a></li>
+        <li><a href="#">체육인번호</a></li>
+        <li><a href="#">팀/이름(한글)</a></li>
+        <li><a href="#">당시 대상구분</a></li>
+        <li><a href="#">당시 소속직위</a></li>
+        <li><a href="#">현재 소속직위</a></li>
+    </ul>
+    <ul class="inpuiry-link-list">
+        <li class="inpuiry-link-list-title"><strong>징계사유</strong></li>
+        <li><a href="#">금품수수</a></li>
+        <li><a href="#">횡령/배임</a></li>
+        <li><a href="#">직권남용/직무태만</a></li>
+        <li><a href="#">승부조작/편파판정</a></li>
+        <li><a href="#">입학비리</a></li>
+        <li><a href="#">폭력</a></li>
+        <li><a href="#">성폭력</a></li>
+        <li><a href="#">성추행</a></li>
+        <li><a href="#">성희롱</a></li>
+        <li><a href="#">선수기본권침해</a></li>
+        <li><a href="#">선거관련 부정행위</a></li>
+        <li><a href="#">음주운전/음주소란</a></li>
+        <li><a href="#">불법도박</a></li>
+        <li><a href="#">사회적물의/품위훼손</a></li>
+        <li><a href="#">경기장 질서문란</a></li>
+        <li><a href="#">도핑</a></li>
+        <li><a href="#">경기인규정위반</a></li>
+        <li><a href="#">대회규정위반</a></li>
+        <li><a href="#">기타</a></li>
+    </ul>
+    <ul class="inpuiry-link-list">
+        <li class="inpuiry-link-list-title"><strong>심의결과</strong></li>
+        <li><a href="#">회의명</a></li>
+        <li><a href="#">심의일</a></li>
+        <li><a href="#">확정년도</a></li>
+        <li><a href="#">최종의결일</a></li>
+        <li><a href="#">자격정지사유</a></li>
+        <li><a href="#">징계종류</a></li>
+        <li><a href="#">징계종류 기타내용</a></li>
+        <li><a href="#">징계기간</a></li>
+        <li><a href="#">효력발생일 ~ 종료일</a></li>
+        <li><a href="#">징계부가금</a></li>
+        <li><a href="#">징계효력 일시정지 중 여부</a></li>
+        <li><a href="#">최종의결일과 효력발생일 차이사유</a></li>
+        <li><a href="#">최종의결사유</a></li>
+        <li><a href="#">변경사유</a></li>
+        <li><a href="#">비고</a></li>
+    </ul>
+
+
+
+
+
+
+<!--테이블-->
+ 
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+<!-- 푸터 시작 -->
+    <!-- content end -->
+    <!-- footer start -->
+    <div class="sidenav shortnav rightfold">
+        <div class="openbtn">
+            <button type="button">바로가기 열기</button>
+        </div>
+        <p class="title">
+            <i class="icon icon-monitor"></i>
+            바로가기
+        </p>
+        <ul>
+            <li><a href="#">전자문서시스템</a></li>
+            <li><a href="#">체육단체인트라넷</a></li>
+            <li><a href="#">PC 원격제어</a></li>
+            <li><a href="#">시스템메뉴얼</a></li>
+        </ul>
+        <img src="../../../img/common/logo_v.svg"  alt="대한체육회" width="60" height="73">
+    </div>
+</div>
+    <div class="footer  clb ">
+
+        <div class="footcon clb">
+            <div class="footer-policyLink policyLink">
+                <a href="#" class="font-b">개인정보처리방침</a>
+            </div>
+            <dl class="footer-info clb">
+                <dt>이용문의</dt>
+                <dd>
+                    <p class="mt-m1">
+                        체육정보시스템 콜센터
+                        <span class="font-roboto font-18"><strong>02-2144-8141</strong></span>
+                    </p>
+                </dd>
+                <dt>근무시간 <span class="font-roboto">09:00 ~ 18:00</span></dt>
+                <dd>
+                    <p>점심시간 <span class="font-roboto">(12&#58;00 &#126; 13&#58;00)</span></p>
+                </dd>
+            </dl>
+            <div class="footer-copyright copyright">
+                <p>ⓒ 대한체육회</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+    </div>
+    <script src="../../../js/common.js"></script>
+    <script src="../../../js/gamer.js"></script>
+    </body>
+</html>

@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <!-- 기본 경로 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/reset.css">
+    <link rel="stylesheet" href="../../../css/component.css">
+    <link rel="stylesheet" href="../../../css/common.css">
+    <link rel="stylesheet" href="../../../css/global.css">
+    <link rel="stylesheet" href="../../../css/icon.css">
+    <link rel="stylesheet" href="../../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../../css/fullcalendar/main.css">
+    <link rel="stylesheet" href="../../../css/slick/slick.css">
+    <link rel="stylesheet" href="../../../css/slick/slick-theme.css">
+    <link rel="stylesheet" href="../../../css/air-datepicker/datepicker.css">
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../../js/jquery-ui.js"></script>
+    <script src="../../../js/slick/slick.min.js"></script>
+    <script src="../../../js/chart/Chart.min.js"></script>
+    <script src="../../../js/chart/chartjs-plugin-datalabels.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.en.js"></script>
+    <script src="../../../js/fullcalendar/main.js"></script>
+    <title>프로그램관리 - 경기인관리시스템</title>
+</head>
+<!-- 메인경로 -->
+<body>
+    <div class="wrap">
+        <div class="container gamer clb">
+            <div class="content header">
+                <div class="header-nav">
+                    <h1>
+                        <a href="#">
+                            <img src="../../../img/gamer/logo-gamer.svg"  alt="체육정보시스템" width="235" height="40">
+                        </a>
+                    </h1>
+                    <div class="gnb">
+                        <ul class="clb">
+                            <!-- [D] 활성화시 li에 is_active -->
+                            <li class="is_active"><a href="#">Home</a></li>
+                            <li><a href="#">시스템관리</a></li>
+                            <li><a href="#">신청관리</a></li>
+                            <li><a href="#">등록관리</a></li>
+                            <li><a href="#">시스템공지사항</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav">
+                        <ul class="clb">
+                            <!-- [D] new마크 newMark 클래스 추가 -->
+                            <li class="newMark"><a href="#">화면 도움말</a></li>
+                            <li>화면ID : <span class="font-roboto">SPL-001</span></li>
+                            <li><a href="#">체육정보시스템</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-login clb">
+                    <div class="user clb">
+                        <p class="user-name">
+                            <span>강대한</span>
+                            <span>과장</span>
+                        </p>
+                        <p class="user-department">
+                            <span>스포츠정보화부</span>
+                        </p>
+                        <div class="login-btn">
+                            <a href="#">로그아웃</a>
+                        </div>
+                    </div>
+                    <div class="login clb">
+                        <div class="login-timer clb">
+                            <span class="font-roboto font-b">17:46:05</span>
+                        </div>
+                        <div class="login-btn">
+                            <a href="#">로그인 연장</a>
+                        </div>
+                    </div>
+                    <div class="callnum">
+                        <i class="icon icon-call"></i>
+                        <span class="font-roboto font-b">02-2144-8141</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="content clb">
+                <div class="sidenav managenav">
+                    <div class="openbtn">
+                        <button type="button">등록관리 열기</button>
+                    </div>
+                    <p class="title">
+                        <i class="icon icon-monitor"></i>
+                        등록관리
+                    </p>
+                    <ul class="managemenu">
+                        <!-- [D] 활성화시 li에 is_active -->
+                        <li>
+                            <a href="#"><i class="icon icon-manage--team"></i>팀관리</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--gamer"></i>선수관리</a>
+                            <ul class="managemenu-sub">
+                                <li class="is_active"><a href="#">메뉴1</a></li>
+                                <li><a href="#">메뉴2</a></li>
+                                <li><a href="#">메뉴3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--leader"></i>지도자관리</a>
+                        </li>
+                        <li><a href="#"><i class="icon icon-manage--judgment"></i>심판관리</a></li>
+                        <li><a href="#"><i class="icon icon-manage--gameradd"></i>선수관리담당자관리</a></li>
+                        
+                    </ul>
+                </div>
+                <!-- header end -->
+                <!-- content start -->
+<!-- 헤더 끝 -->
+
+<div class="conarea main">
+    <div class="pagewrap clb">
+    <h2>프로그램관리</h2>
+    <ul class="pagenav clb">
+        <li>
+            <a href="">home</a>
+        </li>
+        <li>
+            <a href="">test</a>
+        </li>
+    </ul>
+</div>
+    
+    <div class="list-system popup">
+        <div class="list-system-box">
+            <div class="list-system-header clb">
+                <h4 class="float-left">리스트 관리</h4>
+                <button type="button"><i class="icon icon-closebtn"></i></button>
+            </div>
+
+            <div class="list-system-top clb">
+                <div class="list-system-top-check float-left">
+                    <input type="checkbox" class="check-all" />
+                </div>
+                <div class="list-system-top-title float-left">
+                    <h5>항목명</h5>
+                </div>
+            </div>
+            <form action="./application.singe.html" method="GET">
+                <div class="list-system-table">
+                    <table>
+                        <colgroup>
+                            <col style="width:35px" />
+                            <col style="width:221px" />
+                        </colgroup>
+
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>종목</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>등록년도</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>CASI 수정일시</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>개인정보(선수보호)</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>선수정보</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>소속팀정보</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>신청서첨부</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>등록일(종료일)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="list-system-btn-wrap clb">
+                    <button type="reset" class="list-system-btn float-left list-system--white">초기화</button>
+                    <button type="submit" class="list-system-btn float-right list-system--blue">확인</button>
+                    <button type="submit" class="list-system-btn float-right list-system--white mr-5">저장</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <form class="app" action="/" method="GET">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 지도자 관리  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 심판관리 -->
+
+
+
+
+    
+
+
+
+<!-- 선수관리담당자관리 -->
+
+
+
+
+
+
+
+<!-- 사용자관리 -->
+
+
+
+
+
+
+
+ <!-- 시스템관리 -->
+
+ 
+
+
+
+
+    <div class="gm-chart">
+        <div class="gm-chart-top clb">
+            <div class="gm-chart-title float-left">
+                <h3>Home</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+<!-- 발급관리 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- punish -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 지도자 관리  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 심판 관리 -->
+
+
+
+
+
+
+
+<!-- 선수관리담당자관리 -->
+
+
+
+
+
+
+
+
+
+<!-- 사용자관리 -->
+
+
+
+
+
+
+
+ <!-- 시스템관리 -->
+
+ 
+
+
+
+
+    <table class="gm-table">
+        <colgroup>
+            <col style="width:4.47%" />
+            <col style="width:5.39%" />
+            <col style="width:6.18%" />
+            <col style="width:6.18%" />
+             <col style="width:auto" />
+            <col style="width:4.54%" />
+            <col style="width:5.53%" />
+            <col style="width:16.64%"/>
+            <col style="width:16.64%" />
+            <col style="width:12.04%" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col"><input type="checkbox" class="check-all" /></th>
+                <th scope="col">Level</th>
+                <th scope="col">메뉴ID</th>
+                <th scope="col">상위ID</th>
+                <th scope="col">메뉴명</th>
+                <th scope="col">구분</th>
+                <th scope="col">메뉴레벨</th>
+                <th scope="col">서블릿ID</th>
+                <th scope="col">서블릿KIND</th>
+                <th scope="col">수정</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- 데이터 구간1 -->
+            
+            <tr class="fw-500">
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 1</td>
+                <td>0001</td>
+                <td>0000</td>
+                <td>Home</td>
+                <td>ALL</td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+             <!-- 데이터 구간2 -->
+            <tr class="fw-500">
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 2</td>
+                <td>0100</td>
+                <td>0001</td>
+                <td>공지사항</td>
+                <td>ALL</td>
+                <td>2</td>
+                <td>board</td>
+                <td></td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+            <!-- 데이터 구간3 -->
+            <tr>
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 3</td>
+                <td>0101</td>
+                <td>0100</td>
+                <td>공지사항</td>
+                <td>ALL</td>
+                <td>3</td>
+                <td>board</td>
+                <td>noticeList</td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+
+
+
+<!-- 발급관리 -->
+
+
+
+
+
+<!-- 인트라넷 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 지도자 관리  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 심판관리 -->
+
+
+
+
+    
+
+
+
+<!-- 선수관리담당자관리 -->
+
+
+
+
+
+
+
+<!-- 사용자관리 -->
+
+
+
+
+
+
+
+ <!-- 시스템관리 -->
+
+ 
+
+
+
+
+
+
+    <div class="gm-chart mt-50">
+        <div class="gm-chart-top clb">
+            <div class="gm-chart-title float-left">
+                <h3>시스템관리</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+<!-- 발급관리 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- punish -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 지도자 관리  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 심판 관리 -->
+
+
+
+
+
+
+
+<!-- 선수관리담당자관리 -->
+
+
+
+
+
+
+
+
+
+<!-- 사용자관리 -->
+
+
+
+
+
+
+
+ <!-- 시스템관리 -->
+
+ 
+
+
+
+
+
+
+
+    <table class="gm-table">
+        <colgroup>
+            <col style="width:4.47%" />
+            <col style="width:5.39%" />
+            <col style="width:6.18%" />
+            <col style="width:6.18%" />
+             <col style="width:auto" />
+            <col style="width:4.54%" />
+            <col style="width:5.53%" />
+            <col style="width:16.64%"/>
+            <col style="width:16.64%" />
+            <col style="width:12.04%" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col"><input type="checkbox" class="check-all" /></th>
+                <th scope="col">Level</th>
+                <th scope="col">메뉴ID</th>
+                <th scope="col">상위ID</th>
+                <th scope="col">메뉴명</th>
+                <th scope="col">구분</th>
+                <th scope="col">메뉴레벨</th>
+                <th scope="col">서블릿ID</th>
+                <th scope="col">서블릿KIND</th>
+                <th scope="col">수정</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- 데이터 구간1 -->
+            
+            <tr class="fw-500">
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 1</td>
+                <td>0002</td>
+                <td>0000</td>
+                <td>시스템관리</td>
+                <td>SYS</td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+            <!-- 데이터 구간2 -->
+            <tr class="fw-500">
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 2</td>
+                <td>0200</td>
+                <td>0002</td>
+                <td>코드관리</td>
+                <td>SYS</td>
+                <td>2</td>
+                <td>board</td>
+                <td></td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+            <!-- 데이터 구간3 -->
+            <tr>
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 3</td>
+                <td>0210</td>
+                <td>0200</td>
+                <td>공통코드조회</td>
+                <td>SYS</td>
+                <td>3</td>
+                <td>board</td>
+                <td>noticeList</td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+            <!-- 데이터 구간4 -->
+            <tr class="fw-500">
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 2</td>
+                <td>0100</td>
+                <td>0001</td>
+                <td>프로그램관리</td>
+                <td>SYS</td>
+                <td>2</td>
+                <td>program</td>
+                <td></td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+            <!-- 데이터 구간5 -->
+            <tr>
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 3</td>
+                <td>0101</td>
+                <td>0100</td>
+                <td>프로그램관리</td>
+                <td>SYS</td>
+                <td>3</td>
+                <td>program</td>
+                <td>list</td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+            <!-- 데이터 구간6 -->
+            <tr class="fw-500">
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 2</td>
+                <td>0100</td>
+                <td>0001</td>
+                <td>권한관리</td>
+                <td>SYS</td>
+                <td>2</td>
+                <td>program</td>
+                <td></td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+            <!-- 데이터 구간7 -->
+            <tr>
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 3</td>
+                <td>0101</td>
+                <td>0100</td>
+                <td>사용자권한관리</td>
+                <td>SYS</td>
+                <td>3</td>
+                <td>program</td>
+                <td>list</td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+            <!-- 데이터 구간8 -->
+            <tr>
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 3</td>
+                <td>0101</td>
+                <td>0100</td>
+                <td>사용자권한관리</td>
+                <td>SYS</td>
+                <td>3</td>
+                <td>program</td>
+                <td>list</td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+            <!-- 데이터 구간9 -->
+            <tr>
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 3</td>
+                <td>0101</td>
+                <td>0100</td>
+                <td>사용자권한관리</td>
+                <td>SYS</td>
+                <td>3</td>
+                <td>program</td>
+                <td>list</td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr> 
+            
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+<!-- 발급관리 -->
+
+
+
+
+
+<!-- 인트라넷 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 지도자 관리  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 심판관리 -->
+
+
+
+
+    
+
+
+
+<!-- 선수관리담당자관리 -->
+
+
+
+
+
+
+
+<!-- 사용자관리 -->
+
+
+
+
+
+
+
+ <!-- 시스템관리 -->
+
+ 
+
+
+
+
+
+
+
+
+    <div class="gm-chart mt-50">
+        <div class="gm-chart-top clb">
+            <div class="gm-chart-title float-left">
+                <h3>징계관리</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<!-- 발급관리 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- punish -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 지도자 관리  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 심판 관리 -->
+
+
+
+
+
+
+
+<!-- 선수관리담당자관리 -->
+
+
+
+
+
+
+
+
+
+<!-- 사용자관리 -->
+
+
+
+
+
+
+
+ <!-- 시스템관리 -->
+
+ 
+
+
+
+
+
+
+
+
+
+    <table class="gm-table">
+        <colgroup>
+            <col style="width:4.47%" />
+            <col style="width:5.39%" />
+            <col style="width:6.18%" />
+            <col style="width:6.18%" />
+             <col style="width:auto" />
+            <col style="width:4.54%" />
+            <col style="width:5.53%" />
+            <col style="width:16.64%"/>
+            <col style="width:16.64%" />
+            <col style="width:12.04%" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col"><input type="checkbox" class="check-all" /></th>
+                <th scope="col">Level</th>
+                <th scope="col">메뉴ID</th>
+                <th scope="col">상위ID</th>
+                <th scope="col">메뉴명</th>
+                <th scope="col">구분</th>
+                <th scope="col">메뉴레벨</th>
+                <th scope="col">서블릿ID</th>
+                <th scope="col">서블릿KIND</th>
+                <th scope="col">수정</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- 데이터 구간1 -->
+            
+            <tr class="fw-500">
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 1</td>
+                <td>0002</td>
+                <td>0000</td>
+                <td>징계관리</td>
+                <td>PUN</td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+             <!-- 데이터 구간2 -->
+             <tr class="fw-500">
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 3</td>
+                <td>0200</td>
+                <td>0002</td>
+                <td>징계관리</td>
+                <td>PUN</td>
+                <td>2</td>
+                <td>code</td>
+                <td></td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+            <!-- 데이터 구간3 -->
+            <tr>
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 3</td>
+                <td>0210</td>
+                <td>0200</td>
+                <td>징계정보조회</td>
+                <td>PUN</td>
+                <td>3</td>
+                <td>code</td>
+                <td>list</td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+            <!-- 데이터 구간4 -->
+            <tr>
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 3</td>
+                <td>0210</td>
+                <td>0200</td>
+                <td>징계정보조회</td>
+                <td>PUN</td>
+                <td>3</td>
+                <td>code</td>
+                <td>list</td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+            <!-- 데이터 구간5 -->
+            <tr>
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 3</td>
+                <td>0210</td>
+                <td>0200</td>
+                <td>징계정보조회</td>
+                <td>PUN</td>
+                <td>3</td>
+                <td>code</td>
+                <td>list</td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+            <!-- 데이터 구간6 -->
+            <tr>
+                <td>
+                    <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                </td>
+                <td>Level 3</td>
+                <td>0210</td>
+                <td>0200</td>
+                <td>징계정보조회</td>
+                <td>PUN</td>
+                <td>3</td>
+                <td>code</td>
+                <td>list</td>
+                <td>
+                    <button type="button" class="btn btn-block">수정</button>
+                    <button type="button" class="btn btn-block">권한적용</button>
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+
+
+
+
+<!-- 발급관리 -->
+
+
+
+
+
+<!-- 인트라넷 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="inpuiry-btn-wrap mt-20">
+            <button type="button" class="btn btn-mint mr-10">삭제</button>
+            <button type="button" class="btn btn-mint">신규</button>
+        </div>
+    </form>
+</div>
+
+<!-- 푸터 시작 -->
+    <!-- content end -->
+    <!-- footer start -->
+    <div class="sidenav shortnav rightfold">
+        <div class="openbtn">
+            <button type="button">바로가기 열기</button>
+        </div>
+        <p class="title">
+            <i class="icon icon-monitor"></i>
+            바로가기
+        </p>
+        <ul>
+            <li><a href="#">전자문서시스템</a></li>
+            <li><a href="#">체육단체인트라넷</a></li>
+            <li><a href="#">PC 원격제어</a></li>
+            <li><a href="#">시스템메뉴얼</a></li>
+        </ul>
+        <img src="../../../img/common/logo_v.svg"  alt="대한체육회" width="60" height="73">
+    </div>
+</div>
+    <div class="footer  clb ">
+
+        <div class="footcon clb">
+            <div class="footer-policyLink policyLink">
+                <a href="#" class="font-b">개인정보처리방침</a>
+            </div>
+            <dl class="footer-info clb">
+                <dt>이용문의</dt>
+                <dd>
+                    <p class="mt-m1">
+                        체육정보시스템 콜센터
+                        <span class="font-roboto font-18"><strong>02-2144-8141</strong></span>
+                    </p>
+                </dd>
+                <dt>근무시간 <span class="font-roboto">09:00 ~ 18:00</span></dt>
+                <dd>
+                    <p>점심시간 <span class="font-roboto">(12&#58;00 &#126; 13&#58;00)</span></p>
+                </dd>
+            </dl>
+            <div class="footer-copyright copyright">
+                <p>ⓒ 대한체육회</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+    </div>
+    <script src="../../../js/common.js"></script>
+    <script src="../../../js/gamer.js"></script>
+    </body>
+</html>

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <!-- 기본 경로 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/reset.css">
+    <link rel="stylesheet" href="../../../css/component.css">
+    <link rel="stylesheet" href="../../../css/common.css">
+    <link rel="stylesheet" href="../../../css/global.css">
+    <link rel="stylesheet" href="../../../css/icon.css">
+    <link rel="stylesheet" href="../../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../../css/fullcalendar/main.css">
+    <link rel="stylesheet" href="../../../css/slick/slick.css">
+    <link rel="stylesheet" href="../../../css/slick/slick-theme.css">
+    <link rel="stylesheet" href="../../../css/air-datepicker/datepicker.css">
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../../js/jquery-ui.js"></script>
+    <script src="../../../js/slick/slick.min.js"></script>
+    <script src="../../../js/chart/Chart.min.js"></script>
+    <script src="../../../js/chart/chartjs-plugin-datalabels.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.en.js"></script>
+    <script src="../../../js/fullcalendar/main.js"></script>
+    <title>시도체육회미승인건처리 - 경기인관리시스템</title>
+</head>
+<!-- 메인경로 -->
+<body>
+    <div class="wrap">
+        <div class="container gamer clb">
+            <div class="content header">
+                <div class="header-nav">
+                    <h1>
+                        <a href="#">
+                            <img src="../../../img/gamer/logo-gamer.svg"  alt="체육정보시스템" width="235" height="40">
+                        </a>
+                    </h1>
+                    <div class="gnb">
+                        <ul class="clb">
+                            <!-- [D] 활성화시 li에 is_active -->
+                            <li class="is_active"><a href="#">Home</a></li>
+                            <li><a href="#">시스템관리</a></li>
+                            <li><a href="#">신청관리</a></li>
+                            <li><a href="#">등록관리</a></li>
+                            <li><a href="#">시스템공지사항</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav">
+                        <ul class="clb">
+                            <!-- [D] new마크 newMark 클래스 추가 -->
+                            <li class="newMark"><a href="#">화면 도움말</a></li>
+                            <li>화면ID : <span class="font-roboto">SPL-001</span></li>
+                            <li><a href="#">체육정보시스템</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-login clb">
+                    <div class="user clb">
+                        <p class="user-name">
+                            <span>강대한</span>
+                            <span>과장</span>
+                        </p>
+                        <p class="user-department">
+                            <span>스포츠정보화부</span>
+                        </p>
+                        <div class="login-btn">
+                            <a href="#">로그아웃</a>
+                        </div>
+                    </div>
+                    <div class="login clb">
+                        <div class="login-timer clb">
+                            <span class="font-roboto font-b">17:46:05</span>
+                        </div>
+                        <div class="login-btn">
+                            <a href="#">로그인 연장</a>
+                        </div>
+                    </div>
+                    <div class="callnum">
+                        <i class="icon icon-call"></i>
+                        <span class="font-roboto font-b">02-2144-8141</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="content clb">
+                <div class="sidenav managenav">
+                    <div class="openbtn">
+                        <button type="button">등록관리 열기</button>
+                    </div>
+                    <p class="title">
+                        <i class="icon icon-monitor"></i>
+                        등록관리
+                    </p>
+                    <ul class="managemenu">
+                        <!-- [D] 활성화시 li에 is_active -->
+                        <li>
+                            <a href="#"><i class="icon icon-manage--team"></i>팀관리</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--gamer"></i>선수관리</a>
+                            <ul class="managemenu-sub">
+                                <li class="is_active"><a href="#">메뉴1</a></li>
+                                <li><a href="#">메뉴2</a></li>
+                                <li><a href="#">메뉴3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--leader"></i>지도자관리</a>
+                        </li>
+                        <li><a href="#"><i class="icon icon-manage--judgment"></i>심판관리</a></li>
+                        <li><a href="#"><i class="icon icon-manage--gameradd"></i>선수관리담당자관리</a></li>
+                        
+                    </ul>
+                </div>
+                <!-- header end -->
+                <!-- content start -->
+<!-- 헤더 끝 -->
+<!-- "gamer.application.singe.css" -->
+
+<div class="conarea">
+    <div class="pagewrap clb">
+    <h2>시도체육회 미승인건처리</h2>
+    <ul class="pagenav clb">
+        <li>
+            <a href="">home</a>
+        </li>
+        <li>
+            <a href="">test</a>
+        </li>
+    </ul>
+</div>
+    <div class="">
+        <div class="tab tabLarge">
+            <ul class="tab-nav clb">
+    <!-- [D] 활성화시 li에 is_active -->
+    
+        <li class="is_active"><a href="#">상세정보</a></li>
+    
+        <li class=""><a href="#">징계정보</a></li>
+    
+</ul>
+            <ul class="tab-con">
+                <!-- [D] 활성화시 li에 is_active -->
+                    <li class="is_active">
+                    <div class="inpuiry-bg">
+                        <div class="inpuiry">
+                            <div class="inpuiry-content">
+                                <div class="clb">
+                                    <div class="inpuiry-info float-left">
+                                        <div class="inpuiry-box hoverBorder">
+                                            
+
+
+    <div class="inpuiry-heading">
+        <h4>기본정보</h4>
+    </div>
+    <div class="inpuiry-inner clb">
+        <div class="inpuiry-photo float-left">
+            <img src="../../../img/gamer/pic.svg" alt="프로필 사진" />
+        </div>
+
+        <ul class="data float-left">
+            <li class="data-item">
+                <strong>개인번호</strong>
+                <span>202198765432</span>
+            </li>
+            <li class="data-item">
+                <strong>체육인번호</strong>
+                <span>123456 3BA4567</span>
+            </li>
+            <li class="data-item">
+                <strong>이름</strong>
+                <span>국문 나체육 &#47; 한문 <span lang="zh-cn">羅體育</span> &#47; 영문 Na che yug</span>
+            </li>
+            <li class="data-item">
+                <strong>등록년도</strong>
+                <span>2021</span>
+            </li>
+            <li class="data-item">
+                <strong>생년월일</strong>
+                <span>20120425</span>
+            </li>
+            <li class="data-item">
+                <strong>성별</strong>
+                <span>남자</span>
+            </li>
+            <li class="data-item">
+                <strong>주소</strong>
+                <span>98765 부산광역시 서구 장군산로 40 103동 203호(장군동, 장군산힐스테이트)</span>
+            </li>
+            <li class="data-item">
+                <strong>연락처</strong>
+                <span>010-9876-5432</span>
+            </li>
+            <li class="data-item">
+                <strong>휴대폰</strong>
+                <span>010-9876-5432</span>
+            </li>
+            <li class="data-item">
+                <strong>이메일</strong>
+                <span>hohope992naver.com</span>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+                                        </div>
+                                        <div class="inpuiry-box hoverBorder">
+                                            
+
+    <div class="inpuiry-heading sub-heading">
+        <h4>신청 상세정보</h4>
+    </div>
+    <div class="inpuiry-inner clb">
+        <ul class="data data-left float-left">
+            <li class="data-item">
+                <strong>변경이력</strong>
+                <span>
+                    등록일(등록자) : 2021.07.30 13:30:48 (이주호)<br/>
+                    수정일(수정자) : 2021.07.30 13:56:51 (이주호)
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>종목</strong>
+                <span>[JJ] / 유도</span>
+            </li>
+            <li class="data-item">
+                <strong>세부종목</strong>
+                <span>[JU016] 개인전 60KG 이하급</span>
+            </li>
+            <li class="data-item">
+                <strong>종별</strong>
+                <span>[21] / 16세 이하부</span>
+            </li>
+            <li class="data-item">
+                <strong>시도</strong>
+                <span>[02] / 부산</span>
+            </li>
+            <li class="data-item">
+                <strong>최종학력</strong>
+                <span>[05] / 대학교</span>
+            </li>
+        </ul>
+        <ul class="data data-right float-left data__line">
+            <li class="data-item">
+                <strong>등록구분</strong>
+                <span>
+                    등록확정요청<br />
+                    시도종목단체 : -<br />
+                    회원종목단체 : -
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>소속팀</strong>
+                <span>[JU90459] 부산체육부</span>
+            </li>
+            <li class="data-item">
+                <strong>팀성별</strong>
+                <span>혼성</span>
+            </li>
+            <li class="data-item">
+                <strong>소속구분</strong>
+                <span>운동부 및 클럽</span>
+            </li>
+            <li class="data-item">
+                <strong>지도자구분</strong>
+                <span>[02] / 감독</span>
+            </li>
+            <li class="data-item">
+                <strong>지도기간</strong>
+                <span>0101 ~ 1231</span>
+            </li>
+            <li class="data-item">
+                <strong>개인지도여부</strong>
+                <span>아니오</span>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+                                        </div>
+                                        <div class="inpuiry-box hoverBorder">
+                                            
+    <div class="inpuiry-heading">
+        <h4>첨부파일 및 교육이수 정보</h4>
+    </div>
+    <div class="inpuiry-inner clb">
+        <ul class="data float-left">
+            <li class="data-item">
+                <strong>약관동의</strong>
+                <span>
+                    개인정보수집 : 동의 / 2021.07.30 13:30:48
+                    <br />
+                    제3자 제공 : 동의 / 2021.07.30 13:30:48
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>교육이수</strong>
+                <span>
+                    스포츠인권 : 수료 (2021-07-30 12:53:45)
+                    <br />
+                    도핑방지 : 수료 (2021.07.30 12:56:34)
+                </span>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+    
+                                        </div>
+                                        <div class="inpuiry-btn-wrap">
+                                            <button type="button" class="btn btn-block mr-10">
+                                            시도종목단체 비승인
+                                            </button>
+                                            <button type="button" class="btn btn-blue mr-20">
+                                            시도종목단체 승인
+                                            </button>
+                                            <button type="button" class="btn btn-mint">목록</button>
+                                        </div>
+                                    </div>
+                                    <div class="inpuiry-link float-left hoverBorder">
+                                        
+
+
+    <h4 class="inpuiry-link-title">QUICK 링크</h4>
+    <ul class="inpuiry-link-list">
+        <li class="inpuiry-link-list-title"><strong>기본정보</strong></li>
+        <li><a href="#">개인번호</a></li>
+        <li><a href="#">체육인번호</a></li>
+        <li><a href="#">이름(국문/한문/영문)</a></li>
+        <li><a href="#">등록년도</a></li>
+        <li><a href="#">생년월일</a></li>
+        <li><a href="#">성별</a></li>
+        <li><a href="#">주소</a></li>
+        <li><a href="#">연락처</a></li>
+        <li><a href="#">휴대폰</a></li>
+        <li><a href="#">이메일</a></li>
+    </ul>
+    <ul class="inpuiry-link-list">
+        <li class="inpuiry-link-list-title"><strong>신청 상세정보</strong></li>
+        <li><a href="#">변경이력</a></li>
+        <li><a href="#">품목</a></li>
+        <li><a href="#">세부종목</a></li>
+        <li><a href="#">종별</a></li>
+        <li><a href="#">시도</a></li>
+        <li><a href="#">최종학력</a></li>
+        <li><a href="#">등록구분</a></li>
+        <li><a href="#">소속팀</a></li>
+        <li><a href="#">팀성별</a></li>
+        <li><a href="#">소속구분</a></li>
+        <li><a href="#">지도자구분</a></li>
+        <li><a href="#">지도기간</a></li>
+        <li><a href="#">개인지도여부</a></li>
+    </ul>
+    <ul class="inpuiry-link-list">
+        <li class="inpuiry-link-list-title"><strong>첨부 및 교육이수 정보</strong></li>
+        <li><a href="#">약관동의</a></li>
+        <li><a href="#">교육이수</a></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        </div>
+                    </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<!-- 푸터 시작 -->
+    <!-- content end -->
+    <!-- footer start -->
+    <div class="sidenav shortnav rightfold">
+        <div class="openbtn">
+            <button type="button">바로가기 열기</button>
+        </div>
+        <p class="title">
+            <i class="icon icon-monitor"></i>
+            바로가기
+        </p>
+        <ul>
+            <li><a href="#">전자문서시스템</a></li>
+            <li><a href="#">체육단체인트라넷</a></li>
+            <li><a href="#">PC 원격제어</a></li>
+            <li><a href="#">시스템메뉴얼</a></li>
+        </ul>
+        <img src="../../../img/common/logo_v.svg"  alt="대한체육회" width="60" height="73">
+    </div>
+</div>
+    <div class="footer  clb ">
+
+        <div class="footcon clb">
+            <div class="footer-policyLink policyLink">
+                <a href="#" class="font-b">개인정보처리방침</a>
+            </div>
+            <dl class="footer-info clb">
+                <dt>이용문의</dt>
+                <dd>
+                    <p class="mt-m1">
+                        체육정보시스템 콜센터
+                        <span class="font-roboto font-18"><strong>02-2144-8141</strong></span>
+                    </p>
+                </dd>
+                <dt>근무시간 <span class="font-roboto">09:00 ~ 18:00</span></dt>
+                <dd>
+                    <p>점심시간 <span class="font-roboto">(12&#58;00 &#126; 13&#58;00)</span></p>
+                </dd>
+            </dl>
+            <div class="footer-copyright copyright">
+                <p>ⓒ 대한체육회</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+    </div>
+    <script src="../../../js/common.js"></script>
+    <script src="../../../js/gamer.js"></script>
+    </body>
+</html>

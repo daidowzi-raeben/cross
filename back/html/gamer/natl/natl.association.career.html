@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <!-- 기본 경로 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/reset.css">
+    <link rel="stylesheet" href="../../../css/component.css">
+    <link rel="stylesheet" href="../../../css/common.css">
+    <link rel="stylesheet" href="../../../css/global.css">
+    <link rel="stylesheet" href="../../../css/icon.css">
+    <link rel="stylesheet" href="../../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../../css/fullcalendar/main.css">
+    <link rel="stylesheet" href="../../../css/slick/slick.css">
+    <link rel="stylesheet" href="../../../css/slick/slick-theme.css">
+    <link rel="stylesheet" href="../../../css/air-datepicker/datepicker.css">
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../../js/jquery-ui.js"></script>
+    <script src="../../../js/slick/slick.min.js"></script>
+    <script src="../../../js/chart/Chart.min.js"></script>
+    <script src="../../../js/chart/chartjs-plugin-datalabels.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.en.js"></script>
+    <script src="../../../js/fullcalendar/main.js"></script>
+    <title>국가대표관리시스템 - 경기인관리시스템</title>
+</head>
+<!-- 메인경로 -->
+<body>
+    <div class="wrap">
+        <div class="container gamer clb">
+            <div class="content header">
+                <div class="header-nav">
+                    <h1>
+                        <a href="#">
+                            <img src="../../../img/gamer/logo-gamer.svg"  alt="체육정보시스템" width="235" height="40">
+                        </a>
+                    </h1>
+                    <div class="gnb">
+                        <ul class="clb">
+                            <!-- [D] 활성화시 li에 is_active -->
+                            <li class="is_active"><a href="#">Home</a></li>
+                            <li><a href="#">시스템관리</a></li>
+                            <li><a href="#">신청관리</a></li>
+                            <li><a href="#">등록관리</a></li>
+                            <li><a href="#">시스템공지사항</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav">
+                        <ul class="clb">
+                            <!-- [D] new마크 newMark 클래스 추가 -->
+                            <li class="newMark"><a href="#">화면 도움말</a></li>
+                            <li>화면ID : <span class="font-roboto">SPL-001</span></li>
+                            <li><a href="#">체육정보시스템</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-login clb">
+                    <div class="user clb">
+                        <p class="user-name">
+                            <span>강대한</span>
+                            <span>과장</span>
+                        </p>
+                        <p class="user-department">
+                            <span>스포츠정보화부</span>
+                        </p>
+                        <div class="login-btn">
+                            <a href="#">로그아웃</a>
+                        </div>
+                    </div>
+                    <div class="login clb">
+                        <div class="login-timer clb">
+                            <span class="font-roboto font-b">17:46:05</span>
+                        </div>
+                        <div class="login-btn">
+                            <a href="#">로그인 연장</a>
+                        </div>
+                    </div>
+                    <div class="callnum">
+                        <i class="icon icon-call"></i>
+                        <span class="font-roboto font-b">02-2144-8141</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="content clb">
+                <div class="sidenav managenav">
+                    <div class="openbtn">
+                        <button type="button">등록관리 열기</button>
+                    </div>
+                    <p class="title">
+                        <i class="icon icon-monitor"></i>
+                        등록관리
+                    </p>
+                    <ul class="managemenu">
+                        <!-- [D] 활성화시 li에 is_active -->
+                        <li>
+                            <a href="#"><i class="icon icon-manage--team"></i>팀관리</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--gamer"></i>선수관리</a>
+                            <ul class="managemenu-sub">
+                                <li class="is_active"><a href="#">메뉴1</a></li>
+                                <li><a href="#">메뉴2</a></li>
+                                <li><a href="#">메뉴3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--leader"></i>지도자관리</a>
+                        </li>
+                        <li><a href="#"><i class="icon icon-manage--judgment"></i>심판관리</a></li>
+                        <li><a href="#"><i class="icon icon-manage--gameradd"></i>선수관리담당자관리</a></li>
+                        
+                    </ul>
+                </div>
+                <!-- header end -->
+                <!-- content start -->
+<!-- 헤더 끝 -->
+<!-- "gamer.application.singe.css" -->
+<div class="conarea">
+    <div class="pagewrap clb">
+    <h2>협회선수조회</h2>
+    <ul class="pagenav clb">
+        <li>
+            <a href="">home</a>
+        </li>
+        <li>
+            <a href="">test</a>
+        </li>
+    </ul>
+</div>
+    <div class="">
+        <div class="tab tabLarge">
+            <ul class="tab-nav clb">
+    <!-- [D] 활성화시 li에 is_active -->
+    
+        <li class=""><a href="#">신상정보</a></li>
+    
+        <li class="is_active"><a href="#">대표경력</a></li>
+    
+</ul>
+            <ul class="tab-con">
+                <!-- [D] 활성화시 li에 is_active -->
+                <li class="is_active">
+                    <div class="inpuiry-bg">
+                        <div class="inpuiry">
+                            <div class="inpuiry-content">
+                                <div class="clb">
+                                    <div class="inpuiry-box">
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="inpuiry-heading">
+        <h4>기본정보</h4>
+    </div>
+    <div class="inpuiry-inner clb">
+        <div class="inpuiry-photo float-left">
+            <img src="../../../img/gamer/pic.svg" alt="프로필 사진" />
+        </div>
+
+        <ul class="data float-left">
+            <li class="data-item">
+                <strong>개인번호</strong>
+                <span>202198765432</span>
+            </li>
+            <li class="data-item">
+                <strong>체육인번호</strong>
+                <span>123456 3BA4567</span>
+            </li>
+            <li class="data-item">
+                <strong>이름</strong>
+                <span>국문 나체육 &#47; 한문 <span lang="zh-cn">羅體育</span> &#47; 영문 Na che yug</span>
+            </li>
+            <li class="data-item">
+                <strong>생년월일</strong>
+                <span>20120425</span>
+            </li>
+            <li class="data-item">
+                <strong>성별</strong>
+                <span>남자</span>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    </div>
+                                    <div class="inpuiry-box hoverBorder">
+                                         
+
+ 
+
+ 
+
+
+    <div class="table-wrap">
+        <div class="text-title clb">
+            <h4 class="inpuiry-title">대표경력(5건)</h4>
+        </div>
+        <table class="mb-20">
+            <colgroup>
+                <col style="width:46px" />
+                <col style="width:111px" />
+                <col style="width:111px" />
+                <col style="width:121px" />
+                <col style="width:auto" />
+                <col style="width:156px" />
+                <col style="width:118px" />
+                <col style="width:250px" />
+                <col style="width:228px" />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col"><input type="checkbox" class="check-all" /></th>
+                    <th scope="col">시작일</th>
+                    <th scope="col">종료일</th>
+                    <th scope="col">훈련구분</th>
+                    <th scope="col">종목</th>
+                    <th scope="col">세부종목</th>
+                    <th scope="col">구분</th>
+                    <th scope="col">소속</th>
+                    <th scope="col">비고</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                    </td>
+                    <td>2006.10.01</td>
+                    <td>2006.10.28</td>
+                    <td class="text-left">태릉선수촌</td>
+                    <td class="text-left">야구소프트볼(소프트볼)</td>
+                    <td class="text-left">단체전</td>
+                    <td class="text-left">대표선수</td>
+                    <td>
+                        <div class="formInput">
+                            <input name="selfName" type="text" placeholder="" class="wd-230">
+                        </div>
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="text-right">
+            <button type="button" class="btn btn-blue btn-sm">소속저장</button>
+            <button type="button" class="btn btn-block btn-sm">경력삭제</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+                                    </div>
+                                    <div class="inpuiry-box hoverBorder">
+                                         
+
+ 
+
+ 
+
+
+
+
+    <div class="table-wrap">
+        <div class="text-title clb">
+            <h4 class="inpuiry-title">후보경력(5건)</h4>
+        </div>
+        <table class="mb-20">
+            <colgroup>
+                <col style="width:46px" />
+                <col style="width:111px" />
+                <col style="width:111px" />
+                <col style="width:auto" />
+                <col style="width:156px" />
+                <col style="width:118px" />
+                <col style="width:250px" />
+                <col style="width:228px" />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col"><input type="checkbox" class="check-all" /></th>
+                    <th scope="col">시작일</th>
+                    <th scope="col">종료일</th>
+                    <th scope="col">종목</th>
+                    <th scope="col">세부종목</th>
+                    <th scope="col">구분</th>
+                    <th scope="col">소속</th>
+                    <th scope="col">비고</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                    </td>
+                    <td>2006.10.01</td>
+                    <td>2006.10.28</td>
+                    <td class="text-left">야구소프트볼(소프트볼)</td>
+                    <td class="text-left">단체전</td>
+                    <td class="text-left">대표선수</td>
+                    <td>
+                        <div class="formInput">
+                            <input name="selfName" type="text" placeholder="" class="wd-230">
+                        </div>
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="text-right">
+            <button type="button" class="btn btn-blue btn-sm">소속저장</button>
+            <button type="button" class="btn btn-block btn-sm">경력삭제</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+ 
+                                    </div>
+                                    <div class="inpuiry-box hoverBorder">
+                                         
+
+ 
+
+ 
+
+
+
+
+
+
+    <div class="table-wrap">
+        <div class="text-title clb">
+            <h4 class="inpuiry-title">꿈나무선수경력(5건)</h4>
+        </div>
+        <table class="mb-20">
+            <colgroup>
+                <col style="width:46px" />
+                <col style="width:111px" />
+                <col style="width:111px" />
+                <col style="width:auto" />
+                <col style="width:114px" />
+                <col style="width:103px" />
+                <col style="width:101px" />
+                <col style="width:103px" />
+                <col style="width:80px" />
+                <col style="width:184px" />
+                <col style="width:64px" />
+                <col style="width:150px" />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col"><input type="checkbox" class="check-all" /></th>
+                    <th scope="col">시작일</th>
+                    <th scope="col">종료일</th>
+                    <th scope="col">종목</th>
+                    <th scope="col">세부종목</th>
+                    <th scope="col">구분</th>
+                    <th scope="col">선발시기록</th>
+                    <th scope="col">합숙후기록</th>
+                    <th scope="col">평가</th>
+                    <th scope="col">학교</th>
+                    <th scope="col">학년</th>
+                    <th scope="col">비고</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                    </td>
+                    <td>2006.10.01</td>
+                    <td>2006.10.28</td>
+                    <td class="text-left">야구소프트볼(소프트볼)</td>
+                    <td class="text-left">단체전</td>
+                    <td class="text-left">대표선수</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <div class="formInput">
+                            <input name="selfName" type="text" placeholder="" class="wd-160">
+                        </div>
+                    </td>
+                    <td>1</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="text-right">
+            <button type="button" class="btn btn-blue btn-sm">소속저장</button>
+            <button type="button" class="btn btn-block btn-sm">경력삭제</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+ 
+                                    </div>
+                                    <div class="inpuiry-box hoverBorder">
+                                         
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+    <div class="table-wrap">
+        <div class="text-title clb">
+            <h4 class="inpuiry-title">청소년대표선수경력(5건)</h4>
+        </div>
+        <table class="mb-20">
+            <colgroup>
+                <col style="width:46px" />
+                <col style="width:111px" />
+                <col style="width:111px" />
+                <col style="width:121px" />
+                <col style="width:auto" />
+                <col style="width:156px" />
+                <col style="width:118px" />
+                <col style="width:250px" />
+                <col style="width:228px" />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col"><input type="checkbox" class="check-all" /></th>
+                    <th scope="col">시작일</th>
+                    <th scope="col">종료일</th>
+                    <th scope="col">훈련구분</th>
+                    <th scope="col">종목</th>
+                    <th scope="col">세부종목</th>
+                    <th scope="col">구분</th>
+                    <th scope="col">소속</th>
+                    <th scope="col">비고</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                    </td>
+                    <td>2006.10.01</td>
+                    <td>2006.10.28</td>
+                    <td class="text-left">태릉선수촌</td>
+                    <td class="text-left">야구소프트볼(소프트볼)</td>
+                    <td class="text-left">단체전</td>
+                    <td class="text-left">대표선수</td>
+                    <td>
+                        <div class="formInput">
+                            <input name="selfName" type="text" placeholder="" class="wd-230">
+                        </div>
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="text-right">
+            <button type="button" class="btn btn-blue btn-sm">소속저장</button>
+            <button type="button" class="btn btn-block btn-sm">경력삭제</button>
+        </div>
+    </div>
+
+
+
+
+
+
+ 
+                                    </div>
+                                    <div class="inpuiry-box hoverBorder">
+                                         
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+    <div class="table-wrap">
+        <div class="text-title clb">
+            <h4 class="inpuiry-title">지도자경력(5건)</h4>
+        </div>
+        <table class="mb-20">
+            <colgroup>
+                <col style="width:46px" />
+                <col style="width:111px" />
+                <col style="width:111px" />
+                <col style="width:121px" />
+                <col style="width:auto" />
+                <col style="width:156px" />
+                <col style="width:118px" />
+                <col style="width:250px" />
+                <col style="width:228px" />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col"><input type="checkbox" class="check-all" /></th>
+                    <th scope="col">시작일</th>
+                    <th scope="col">종료일</th>
+                    <th scope="col">훈련구분</th>
+                    <th scope="col">종목</th>
+                    <th scope="col">세부종목</th>
+                    <th scope="col">구분</th>
+                    <th scope="col">소속</th>
+                    <th scope="col">비고</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                    </td>
+                    <td>2006.10.01</td>
+                    <td>2006.10.28</td>
+                    <td class="text-left">태릉선수촌</td>
+                    <td class="text-left">야구소프트볼(소프트볼)</td>
+                    <td class="text-left">단체전</td>
+                    <td class="text-left">대표선수</td>
+                    <td>
+                        <div class="formInput">
+                            <input name="selfName" type="text" placeholder="" class="wd-230">
+                        </div>
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="text-right">
+            <button type="button" class="btn btn-blue btn-sm">소속저장</button>
+            <button type="button" class="btn btn-block btn-sm">경력삭제</button>
+        </div>
+    </div>
+
+
+
+
+ 
+                                    </div>
+                                    <div class="inpuiry-box hoverBorder">
+                                         
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="table-wrap">
+        <div class="text-title clb">
+            <h4 class="inpuiry-title">협회선수경력(5건)</h4>
+        </div>
+        <table class="mb-20">
+            <colgroup>
+                <col style="width:46px" />
+                <col style="width:111px" />
+                <col style="width:111px" />
+                <col style="width:121px" />
+                <col style="width:auto" />
+                <col style="width:156px" />
+                <col style="width:118px" />
+                <col style="width:250px" />
+                <col style="width:228px" />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col"><input type="checkbox" class="check-all" /></th>
+                    <th scope="col">시작일</th>
+                    <th scope="col">종료일</th>
+                    <th scope="col">훈련구분</th>
+                    <th scope="col">종목</th>
+                    <th scope="col">세부종목</th>
+                    <th scope="col">구분</th>
+                    <th scope="col">소속</th>
+                    <th scope="col">비고</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="gamer_info[]" class="del-chk" />
+                    </td>
+                    <td>2006.10.01</td>
+                    <td>2006.10.28</td>
+                    <td class="text-left">태릉선수촌</td>
+                    <td class="text-left">야구소프트볼(소프트볼)</td>
+                    <td class="text-left">단체전</td>
+                    <td class="text-left">대표선수</td>
+                    <td>
+                        <div class="formInput">
+                            <input name="selfName" type="text" placeholder="" class="wd-230">
+                        </div>
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="text-right">
+            <button type="button" class="btn btn-blue btn-sm">소속저장</button>
+            <button type="button" class="btn btn-block btn-sm">경력삭제</button>
+        </div>
+    </div>
+
+
+ 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inpuiry-btn-wrap">
+                            <button type="button" class="btn btn-mint">목록</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+</div>
+
+<!-- 조건저장 팝업 -->
+
+    <div id="savebtn" class="popup">
+        <div class="popup-bg has_close"></div>
+        <div class="popup-box savepop">
+            <div class="popContent">
+                <div class="popContent-header clb">
+                    <span>최근 검색한 조건
+                    (보관은 최대 5개까지 가능합니다.)</span>
+                    <button class="has_close" type="button">
+                        <i class="icon icon-closebtn" ></i>닫기
+                    </button>
+                </div>
+                <div class="popContent-con">
+                    <table>
+                        <colgroup>
+                            <col style="width:200px">
+                            <col style="width: auto">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>검색일</th>
+                                <th>검색조건 저장명</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2021.07.27 / 15:38:24</td>
+                                <td class="tdBox">
+                                    <div class="tdBox-text formInput float-left clb ">
+                                        제목
+                                    </div>
+                                    <div class="tdBox-del float-left">
+                                        <button type="button" class="btn btn-block">삭제</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2021.07.27 / 15:38:24</td>
+                                <td class="tdBox">
+                                    <div class="tdBox-input formInput float-left dis-inline clb ">
+                                        <div class="">
+                                            <input name="selfName" type="text" placeholder="Normal">
+                                        </div>
+                                    </div>
+                                    <div class="tdBox-btn float-left">
+                                        <button type="button" class="btn btn-blue">저장</button>
+                                        <button type="button" class="btn btn-block">삭제</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<!-- 푸터 시작 -->
+    <!-- content end -->
+    <!-- footer start -->
+    <div class="sidenav shortnav rightfold">
+        <div class="openbtn">
+            <button type="button">바로가기 열기</button>
+        </div>
+        <p class="title">
+            <i class="icon icon-monitor"></i>
+            바로가기
+        </p>
+        <ul>
+            <li><a href="#">전자문서시스템</a></li>
+            <li><a href="#">체육단체인트라넷</a></li>
+            <li><a href="#">PC 원격제어</a></li>
+            <li><a href="#">시스템메뉴얼</a></li>
+        </ul>
+        <img src="../../../img/common/logo_v.svg"  alt="대한체육회" width="60" height="73">
+    </div>
+</div>
+    <div class="footer  clb ">
+
+        <div class="footcon clb">
+            <div class="footer-policyLink policyLink">
+                <a href="#" class="font-b">개인정보처리방침</a>
+            </div>
+            <dl class="footer-info clb">
+                <dt>이용문의</dt>
+                <dd>
+                    <p class="mt-m1">
+                        체육정보시스템 콜센터
+                        <span class="font-roboto font-18"><strong>02-2144-8141</strong></span>
+                    </p>
+                </dd>
+                <dt>근무시간 <span class="font-roboto">09:00 ~ 18:00</span></dt>
+                <dd>
+                    <p>점심시간 <span class="font-roboto">(12&#58;00 &#126; 13&#58;00)</span></p>
+                </dd>
+            </dl>
+            <div class="footer-copyright copyright">
+                <p>ⓒ 대한체육회</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+    </div>
+    <script src="../../../js/common.js"></script>
+    <script src="../../../js/gamer.js"></script>
+    </body>
+</html>
+
