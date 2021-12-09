@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <!-- 기본 경로 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/reset.css">
+    <link rel="stylesheet" href="../../../css/component.css">
+    <link rel="stylesheet" href="../../../css/common.css">
+    <link rel="stylesheet" href="../../../css/global.css">
+    <link rel="stylesheet" href="../../../css/icon.css">
+    <link rel="stylesheet" href="../../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../../css/fullcalendar/main.css">
+    <link rel="stylesheet" href="../../../css/slick/slick.css">
+    <link rel="stylesheet" href="../../../css/slick/slick-theme.css">
+    <link rel="stylesheet" href="../../../css/air-datepicker/datepicker.css">
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../../js/jquery-ui.js"></script>
+    <script src="../../../js/slick/slick.min.js"></script>
+    <script src="../../../js/chart/Chart.min.js"></script>
+    <script src="../../../js/chart/chartjs-plugin-datalabels.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.en.js"></script>
+    <script src="../../../js/fullcalendar/main.js"></script>
+    <title>임원정보관리 - 경기인관리시스템</title>
+</head>
+<!-- 메인경로 -->
+<body>
+    <div class="wrap">
+        <div class="container gamer clb">
+            <div class="content header">
+                <div class="header-nav">
+                    <h1>
+                        <a href="#">
+                            <img src="../../../img/gamer/logo-gamer.svg"  alt="체육정보시스템" width="235" height="40">
+                        </a>
+                    </h1>
+                    <div class="gnb">
+                        <ul class="clb">
+                            <!-- [D] 활성화시 li에 is_active -->
+                            <li class="is_active"><a href="#">Home</a></li>
+                            <li><a href="#">시스템관리</a></li>
+                            <li><a href="#">신청관리</a></li>
+                            <li><a href="#">등록관리</a></li>
+                            <li><a href="#">시스템공지사항</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav">
+                        <ul class="clb">
+                            <!-- [D] new마크 newMark 클래스 추가 -->
+                            <li class="newMark"><a href="#">화면 도움말</a></li>
+                            <li>화면ID : <span class="font-roboto">SPL-001</span></li>
+                            <li><a href="#">체육정보시스템</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-login clb">
+                    <div class="user clb">
+                        <p class="user-name">
+                            <span>강대한</span>
+                            <span>과장</span>
+                        </p>
+                        <p class="user-department">
+                            <span>스포츠정보화부</span>
+                        </p>
+                        <div class="login-btn">
+                            <a href="#">로그아웃</a>
+                        </div>
+                    </div>
+                    <div class="login clb">
+                        <div class="login-timer clb">
+                            <span class="font-roboto font-b">17:46:05</span>
+                        </div>
+                        <div class="login-btn">
+                            <a href="#">로그인 연장</a>
+                        </div>
+                    </div>
+                    <div class="callnum">
+                        <i class="icon icon-call"></i>
+                        <span class="font-roboto font-b">02-2144-8141</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="content clb">
+                <div class="sidenav managenav">
+                    <div class="openbtn">
+                        <button type="button">등록관리 열기</button>
+                    </div>
+                    <p class="title">
+                        <i class="icon icon-monitor"></i>
+                        등록관리
+                    </p>
+                    <ul class="managemenu">
+                        <!-- [D] 활성화시 li에 is_active -->
+                        <li>
+                            <a href="#"><i class="icon icon-manage--team"></i>팀관리</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--gamer"></i>선수관리</a>
+                            <ul class="managemenu-sub">
+                                <li class="is_active"><a href="#">메뉴1</a></li>
+                                <li><a href="#">메뉴2</a></li>
+                                <li><a href="#">메뉴3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--leader"></i>지도자관리</a>
+                        </li>
+                        <li><a href="#"><i class="icon icon-manage--judgment"></i>심판관리</a></li>
+                        <li><a href="#"><i class="icon icon-manage--gameradd"></i>선수관리담당자관리</a></li>
+                        
+                    </ul>
+                </div>
+                <!-- header end -->
+                <!-- content start -->
+<!-- 헤더 끝 -->
+<div class="conarea">
+    <div class="pagewrap clb">
+    <h2>임원정보관리</h2>
+    <ul class="pagenav clb">
+        <li>
+            <a href="">home</a>
+        </li>
+        <li>
+            <a href="">test</a>
+        </li>
+    </ul>
+</div>
+    <div class="inpuiry">
+        <div class="inpuiry-content clb">
+            <div class="inpuiry-info float-left">
+                <form class="app" action="/" method="GET">
+                    <div class="inpuiry-box">
+                        <!--profile-->
+
+
+    <div class="inpuiry-heading">
+        <h4>기본정보</h4>
+        <div class="boxIn-button-wrap">
+            <button class="btn btn-block pd-0-12 mr-5">체육인번호 재발급</button>
+            <button class="btn btn-block pd-0-12">개명신청</button>
+        </div>
+    </div>
+    <div class="inpuiry-inner clb formInput">
+        <div class="inpuiry-photo float-left">
+            <img src="../../../img/gamer/pic.svg" alt="프로필 사진" />
+            <button class="btn pd-0-42 btn-blue">사진업로드</button>
+        </div>
+
+        <ul class="data float-left">
+            <li class="data-item">
+                <strong>개인번호</strong>
+                <span><span class="font-roboto">202198765432</span></span>
+            </li>
+            <li class="data-item">
+                <strong>체육인번호</strong>
+                <span><span class="font-roboto">123456 3BA4567</span></span>
+            </li>
+            <li class="data-item">
+                <strong>이름</strong>
+                <span>국문 나체육<span class="mn-15">/</span>한문<input name="ChineseName" type="text" class="wd-140 ml-10"><span class="mn-15">/</span>영문<input name="EnglishName" type="text" class="wd-140 mn-10"></span>
+            </li>
+            <li class="data-item">
+                <strong>생년월일</strong>
+                <span><span class="font-roboto">20120425</span></span>
+            </li>
+            <li class="data-item">
+                <strong>성별</strong>
+                <span>남자</span>
+            </li>
+            <li class="data-item">
+                <strong>주소</strong>
+                <span>
+                    98765 부산광역시 서구 장군산로 40 103동 203호(장군동, 장군산힐스테이트)
+                    <button class="btn btn-block pd-0-12 ml-10">주소찾기</button>
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>본적</strong>
+                <span><input name="hometown" type="text" class="wd-180"></span>
+            </li>
+            <li class="data-item">
+                <strong>출신시도</strong>
+                <span>
+                    <div class="formInput-select wd-180">
+                        <select name="homeCity">
+                            <option value="0" selected>부산</option>
+                            <option value="1">test1</option>
+                            <option value="2">test2</option>
+                            <option value="3">test3</option>
+                        </select>
+                        <!-- items 갯수만큼 출력, 미설정 시 전체 출력 -->
+                        <dl data-items='3'>
+                            <dt class="wd-180">
+                            </dt>   
+                            <dd>
+                                <ul>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>자택전화</strong>
+                <span><input name="homeNumber" type="text" class="wd-180"></span>
+            </li>
+            <li class="data-item">
+                <strong>휴대폰</strong>
+                <span><input name="phoneNumber" type="text" class="wd-180"></span>
+            </li>
+            <li class="data-item">
+                <strong>이메일</strong>
+                <span><input name="email" type="text" class="wd-180"></span>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+<!--double text-->
+
+
+
+<!--sigle text-->
+
+
+
+
+
+<!--quick link-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="inpuiry-box">
+                        <!--profile-->
+
+
+
+
+
+
+
+
+
+<!--double text-->
+
+
+    <div class="inpuiry-heading sub-heading">
+        <h4>소속 상세정보</h4>
+    </div>
+    <div class="inpuiry-inner noPaspaning clb pb-0 formInput">
+        <ul class="data data-left float-left re-pd exe">
+            <li class="data-item">
+                <strong>단체구분</strong>
+                <span>
+                    <div class="formInput-select wd-320">
+                        <select name="GroupKind">
+                            <option value="0" selected>대한체육회</option>
+                            <option value="1">test1</option>
+                            <option value="2">test2</option>
+                            <option value="3">test3</option>
+                        </select>
+                        <!-- items 갯수만큼 출력, 미설정 시 전체 출력 -->
+                        <dl data-items='3'>
+                            <dt class="wd-320">
+                            </dt>   
+                            <dd>
+                                <ul>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>소속</strong>
+                <span>
+                    <div class="formInput-select wd-320">
+                        <select name="belong">
+                            <option value="0" selected>[1001] 대한체육회</option>
+                            <option value="1">test1</option>
+                            <option value="2">test2</option>
+                            <option value="3">test3</option>
+                        </select>
+                        <!-- items 갯수만큼 출력, 미설정 시 전체 출력 -->
+                        <dl data-items='3'>
+                            <dt class="wd-320">
+                            </dt>   
+                            <dd>
+                                <ul>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>부소속</strong>
+                <span>
+                    <div class="formInput-select wd-320">
+                        <select name="subBelong">
+                            <option value="0" selected>[01] 임원</option>
+                            <option value="1">test1</option>
+                            <option value="2">test2</option>
+                            <option value="3">test3</option>
+                        </select>
+                        <!-- items 갯수만큼 출력, 미설정 시 전체 출력 -->
+                        <dl data-items='3'>
+                            <dt class="wd-320">
+                            </dt>   
+                            <dd>
+                                <ul>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>직위</strong>
+                <span>
+                    <div class="formInput-select wd-320">
+                        <select name="position">
+                            <option value="0" selected>[01] 회장</option>
+                            <option value="1">test1</option>
+                            <option value="2">test2</option>
+                            <option value="3">test3</option>
+                        </select>
+                        <!-- items 갯수만큼 출력, 미설정 시 전체 출력 -->
+                        <dl data-items='3'>
+                            <dt class="wd-320">
+                            </dt>   
+                            <dd>
+                                <ul>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>재임기간</strong>
+                <span><input name="termStart" type="text" class="wd-100"><span class="mn-10">~</span><input name="termFinish" type="text" class="wd-100"></span>
+            </li>
+            <li class="data-item">
+                <strong>경기인 / 비경기인</strong>
+                <span>
+                    <div class="formInput-select wd-320">
+                        <select name="gamerNonegamer">
+                            <option value="0" selected>[01] 경기인[국가대표]</option>
+                            <option value="1">test1</option>
+                            <option value="2">test2</option>
+                            <option value="3">test3</option>
+                        </select>
+                        <!-- items 갯수만큼 출력, 미설정 시 전체 출력 -->
+                        <dl data-items='3'>
+                            <dt class="wd-320">
+                            </dt>   
+                            <dd>
+                                <ul>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>임원여부</strong>
+                <span>
+                    <div class="formInput-check clb">
+                        <div class="checkArea checkSquare clb mb-13 mt-5">
+                            <input type="checkbox" name="cityContryExecutive" id="cityContryExecutive" />
+                            <label for="cityContryExecutive">시도&전국규모연맹체 임원 여부</label>
+                        </div>
+                    </div>
+                    <div class="formInput-check clb">
+                        <div class="checkArea checkSquare clb">
+                            <input type="checkbox" name="cityContryExecutive" id="otherGroupExecutive"/>
+                            <label for="otherGroupExecutive">다른 회원종목단체 임원여부</label>
+                        </div>
+                    </div>
+                </span>
+            </li>
+        </ul>
+    
+        <ul class="data data-right float-left re-pd exe">
+            <li class="data-item">
+                <strong>단체명</strong>
+                <span>
+                    <input name="groupName" type="text" class="wd-320">
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>직위</strong>
+                <span>
+                    <input name="groupPosition" type="text" class="wd-320">
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>연임제한대상</strong>
+                <span><div class="formInput-check clb">
+                    <div class="checkArea checkSquare clb mb-13 mt-5">
+                        <input type="checkbox" name="exception" id="exception" />
+                        <label for="exception">예외 인정 여부(스포츠공정위원회)</label>
+                    </div>
+                </div></span>
+            </li>
+            <li class="data-item">
+                <strong>당해임원재임횟수</strong>
+                <span>
+                    <input name="reTime" type="text" class="wd-100">
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>체크사항</strong>
+                <span>
+                    <div class="formInput-check clb float-left">
+                        <div class="checkArea checkSquare clb mb-13 mt-5">
+                            <input type="checkbox" name="disqualification" id="disqualification" />
+                            <label for="disqualification">임원의 결격사유 해당 유무</label>
+                        </div>
+                    </div>
+                    <div class="formInput-check clb">
+                        <div class="checkArea checkSquare clb mb-13">
+                            <input type="checkbox" name="familyCheck" id="familyCheck" />
+                            <label for="familyCheck">회장의 친족인지 여부</label>
+                        </div>
+                    </div>
+                    <div class="formInput-check clb">
+                        <div class="checkArea checkSquare clb">
+                            <input type="checkbox" name="exOffice" id="exOffice" />
+                            <label for="exOffice">당연직 여부</label>
+                        </div>
+                    </div>
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>사임구분</strong>
+                <span>
+                    <input name="finish" type="text" class="wd-320">
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>사임이유</strong>
+                <span>
+                    <input name="finishReason" type="text" class="wd-320">
+                </span>
+            </li>
+        </ul>
+    </div>
+
+
+<!--sigle text-->
+
+
+
+
+
+<!--quick link-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="inpuiry-box">
+                        
+    <div class="table-wrap mhg-0 pb-40">
+        <div class="text-title clb">
+            <h4 class="inpuiry-title">소속 상세정보</h4>
+        </div>
+        <table>
+            <colgroup>
+                <col style="width:343px" />
+                 <col style="width:auto" />
+                <col style="width:92px" />
+                <col style="width:132px" />
+                <col style="width:132px" />
+                <col style="width:132px" />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col">소속</th>
+                    <th scope="col">부소속</th>
+                    <th scope="col">직위</th>
+                    <th scope="col">재임시작기간</th>
+                    <th scope="col">재임종료기간</th>
+                    <th scope="col">기수</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="hg-58 pd-10 font-16">
+                    <td class="text-left">(사)대한산악연맹 관리위원회 임원</td>
+                    <td class="text-left">전무이사</td>
+                    <td>사무처</td>
+                    <td><span class="font-roboto">2009.01.01</span></td>
+                    <td><span class="font-roboto">2012.12.31</span></td>
+                    <td><span class="font-roboto">1</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--list table-->
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="inpuiry-box">
+                        <!--profile-->
+
+
+
+
+
+
+
+
+
+<!--double text-->
+
+
+
+<!--sigle text-->
+
+
+    <div class="inpuiry-heading">
+        <h4>학력사항 정보</h4>
+    </div>
+    <div class="inpuiry-inner clb">
+        <ul class="data float-left formInput">
+            <li class="data-item">
+                <strong>학교구분</strong>
+                <span>
+                    <div class="formInput-radio float-left">
+                        <div class="radioArea float-left mr-15">
+                            <input  type="radio" name="school" id="elementary">
+                            <label for="elementary" class="is_active">초등학교</label>
+                        </div>
+                        <div class="radioArea float-left mr-15">
+                            <input  type="radio" name="school" id="middle">
+                            <label for="middle">중학교</label>
+                        </div>
+                        <div class="radioArea float-left mr-15">
+                            <input  type="radio" name="school" id="high">
+                            <label for="high">고등학교</label>
+                        </div>
+                        <div class="radioArea float-left mr-15">
+                            <input  type="radio" name="school" id="collage">
+                            <label for="collage">대학교</label>
+                        </div>
+                        <div class="radioArea float-left mr-15">
+                            <input  type="radio" name="school" id="graduateSchool">
+                            <label for="graduateSchool">대학원</label>
+                        </div>
+                        <div class="radioArea float-left mr-15">
+                            <input  type="radio" name="school" id="specialSchool">
+                            <label for="specialSchool">특수</label>
+                        </div>
+                        <div class="radioArea float-left mr-15">
+                            <input  type="radio" name="school" id="etcSchool">
+                            <label for="etcSchool">기타</label>
+                        </div>
+                    </div>
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>졸업구분</strong>
+                <span>
+                    <div class="formInput-radio float-left">
+                        <div class="radioArea float-left mr-41">
+                            <input  type="radio" name="graduation" id="yes">
+                            <label for="yes" class="is_active">졸업</label>
+                        </div>
+                        <div class="radioArea float-left mr-30">
+                            <input  type="radio" name="graduation" id="giveUp">
+                            <label for="giveUp">중퇴</label>
+                        </div>
+                        <div class="radioArea float-left mr-41">
+                            <input  type="radio" name="graduation" id="attending">
+                            <label for="attending">재학</label>
+                        </div>
+                        <div class="radioArea float-left mr-30">
+                            <input  type="radio" name="graduation" id="transfer">
+                            <label for="transfer">전학</label>
+                        </div>
+                        <div class="radioArea float-left">
+                            <input  type="radio" name="graduation" id="completion">
+                            <label for="completion">수료</label>
+                        </div>
+                    </div>
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>학교명</strong>
+                <span >
+                    98765 경기초등학교 서울 서대문구 충정로 3가 70번지
+                    <button class="btn btn-block pd-0-12 ml-10">주소찾기</button>
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>기간(입학/졸업)</strong>
+                <span>
+                    <input class="wd-100" name="schoolYear" type="text" id="schoolYear"/><span class="mn-10">~</span><input class="wd-100" name="schoolYear" type="text" id="schoolYear"/>
+                </span>
+            </li>
+            <li class="data-item">
+                <strong>전공분야</strong>
+                <span><input name="major" type="text" class="wd-320"></span>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+<!--quick link-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="inpuiry-box">
+                        
+
+
+    <div class="table-wrap mhg-0 pb-40">
+        <div class="text-title clb">
+            <h4 class="inpuiry-title">소속 상세정보</h4>
+        </div>
+        <table>
+            <colgroup>
+                <col style="width:99px" />
+                <col style="width:239px" />
+                <col style="width:92px" />
+                <col style="width:115px" />
+                <col style="width:115px" />
+                 <col style="width:auto" />
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col">구분</th>
+                    <th scope="col">학교명</th>
+                    <th scope="col">상태</th>
+                    <th scope="col">입학일</th>
+                    <th scope="col">졸업일</th>
+                    <th scope="col">전공분야</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="hg-58 pd-10 font-16">
+                    <td>대학교</td>
+                    <td class="text-left">연세대학교</td>
+                    <td>졸업</td>
+                    <td><span class="font-roboto">0000.00</span></td>
+                    <td><span class="font-roboto">1962.09</span></td>
+                    <td class="text-left">경영학과</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--list table-->
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="inpuiry-box">
+                        <!--profile-->
+
+
+
+
+
+
+
+
+
+<!--double text-->
+
+
+
+<!--sigle text-->
+
+
+
+
+    <div class="inpuiry-heading">
+        <h4>개인정보수집동의</h4>
+    </div>
+    <div class="inpuiry-inner clb paddingb-0">
+        <ul class="data float-left formInput">
+            <li class="data-item">
+                <div class="formInput-check clb">
+                    <div class="checkArea checkSquare clb font-16">
+                        <input type="checkbox" name="privacyAgree" id="privacyAgree" />
+                        <label for="privacyAgree">
+                        </label>
+                        <span class="lh-27">개인정보보호법에 따라 임원정보관리에 신규 등록하기 위해서는 반드시 개인정보 수집 이용 동의서를 작성하여 주관단체에서 보관하여야합니다. 해당 신청자의 개인정보 수집</span>
+                        <span class="lh-27">이용 동의서를 모두 작성하였습니까?</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+<!--quick link-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </form>
+                <div class="inpuiry-btn-wrap mt-20">
+                    <button type="button" class="btn btn-inpuiry btn-mint mr-10">저장</button>
+                    <button type="button" class="btn btn-inpuiry btn-mint">종료</button>
+                </div>
+            </div>
+
+            <div class="inpuiry-link float-left hoverBorder pr-22">
+                <!--profile-->
+
+
+
+
+
+
+
+
+
+<!--double text-->
+
+
+
+<!--sigle text-->
+
+
+
+
+
+<!--quick link-->
+
+
+    <h4 class="inpuiry-link-title">QUICK 링크</h4>
+    <ul class="inpuiry-link-list">
+        <li class="inpuiry-link-list-title"><strong>기본정보</strong></li>
+        <li><a href="#">개인번호</a></li>
+        <li><a href="#">체육인번호</a></li>
+        <li><a href="#">이름(국문/한문/영문)</a></li>
+        <li><a href="#">생년월일</a></li>
+        <li><a href="#">성별</a></li>
+        <li><a href="#">주소</a></li>
+        <li><a href="#">본적</a></li>
+        <li><a href="#">출신시도</a></li>
+        <li><a href="#">자택전화</a></li>
+        <li><a href="#">휴대폰</a></li>
+        <li><a href="#">이메일</a></li>
+    </ul>
+    <ul class="inpuiry-link-list">
+        <li class="inpuiry-link-list-title"><strong>소속 상세정보</strong></li>
+        <li><a href="#">단체구분</a></li>
+        <li><a href="#">소속</a></li>
+        <li><a href="#">부소속</a></li>
+        <li><a href="#">직위</a></li>
+        <li><a href="#">재임기간</a></li>
+        <li><a href="#">경기인/비경기인</a></li>
+        <li><a href="#">임원여부</a></li>
+        <li><a href="#">단체명</a></li>
+        <li><a href="#">직위</a></li>
+        <li><a href="#">연임제한대상</a></li>
+        <li><a href="#">당해임원재임횟수</a></li>
+        <li><a href="#">체크사항</a></li>
+        <li><a href="#">사임구분</a></li>
+        <li><a href="#">사임이유</a></li>
+        <li><a href="#">소속</a></li>
+        <li><a href="#">부소속</a></li>
+        <li><a href="#">직위</a></li>
+        <li><a href="#">재임시작기간</a></li>
+        <li><a href="#">재임종료기간</a></li>
+        <li><a href="#">기수</a></li>
+    </ul>
+    <ul class="inpuiry-link-list">
+        <li class="inpuiry-link-list-title"><strong>학력사항 정보</strong></li>
+        <li><a href="#">학교구분</a></li>
+        <li><a href="#">졸업구분</a></li>
+        <li><a href="#">학교명</a></li>
+        <li><a href="#">기간(입학/졸업)</a></li>
+        <li><a href="#">전공분야</a></li>
+        <li><a href="#">구분</a></li>
+        <li><a href="#">학교명</a></li>
+        <li><a href="#">상태</a></li>
+        <li><a href="#">입학일</a></li>
+        <li><a href="#">졸업일</a></li>
+        <li><a href="#">전공분야</a></li>
+    </ul>
+    <ul class="inpuiry-link-list">
+        <li class="inpuiry-link-list-title"><strong>개인정보수집동의</strong></li>
+        <li><a href="#">개인정보수집동의</a></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 푸터 시작 -->
+    <!-- content end -->
+    <!-- footer start -->
+    <div class="sidenav shortnav rightfold">
+        <div class="openbtn">
+            <button type="button">바로가기 열기</button>
+        </div>
+        <p class="title">
+            <i class="icon icon-monitor"></i>
+            바로가기
+        </p>
+        <ul>
+            <li><a href="#">전자문서시스템</a></li>
+            <li><a href="#">체육단체인트라넷</a></li>
+            <li><a href="#">PC 원격제어</a></li>
+            <li><a href="#">시스템메뉴얼</a></li>
+        </ul>
+        <img src="../../../img/common/logo_v.svg"  alt="대한체육회" width="60" height="73">
+    </div>
+</div>
+    <div class="footer  clb ">
+
+        <div class="footcon clb">
+            <div class="footer-policyLink policyLink">
+                <a href="#" class="font-b">개인정보처리방침</a>
+            </div>
+            <dl class="footer-info clb">
+                <dt>이용문의</dt>
+                <dd>
+                    <p class="mt-m1">
+                        체육정보시스템 콜센터
+                        <span class="font-roboto font-18"><strong>02-2144-8141</strong></span>
+                    </p>
+                </dd>
+                <dt>근무시간 <span class="font-roboto">09:00 ~ 18:00</span></dt>
+                <dd>
+                    <p>점심시간 <span class="font-roboto">(12&#58;00 &#126; 13&#58;00)</span></p>
+                </dd>
+            </dl>
+            <div class="footer-copyright copyright">
+                <p>ⓒ 대한체육회</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+    </div>
+    <script src="../../../js/common.js"></script>
+    <script src="../../../js/gamer.js"></script>
+    </body>
+</html>
