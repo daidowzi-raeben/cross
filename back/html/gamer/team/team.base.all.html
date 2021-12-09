@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <!-- 기본 경로 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/reset.css">
+    <link rel="stylesheet" href="../../../css/component.css">
+    <link rel="stylesheet" href="../../../css/common.css">
+    <link rel="stylesheet" href="../../../css/global.css">
+    <link rel="stylesheet" href="../../../css/icon.css">
+    <link rel="stylesheet" href="../../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../../css/fullcalendar/main.css">
+    <link rel="stylesheet" href="../../../css/slick/slick.css">
+    <link rel="stylesheet" href="../../../css/slick/slick-theme.css">
+    <link rel="stylesheet" href="../../../css/air-datepicker/datepicker.css">
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../../js/jquery-ui.js"></script>
+    <script src="../../../js/slick/slick.min.js"></script>
+    <script src="../../../js/chart/Chart.min.js"></script>
+    <script src="../../../js/chart/chartjs-plugin-datalabels.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.en.js"></script>
+    <script src="../../../js/fullcalendar/main.js"></script>
+    <title>팀정보관리 - 경기인관리시스템</title>
+</head>
+<!-- 메인경로 -->
+<body>
+    <div class="wrap">
+        <div class="container gamer clb">
+            <div class="content header">
+                <div class="header-nav">
+                    <h1>
+                        <a href="#">
+                            <img src="../../../img/gamer/logo-gamer.svg"  alt="체육정보시스템" width="235" height="40">
+                        </a>
+                    </h1>
+                    <div class="gnb">
+                        <ul class="clb">
+                            <!-- [D] 활성화시 li에 is_active -->
+                            <li class="is_active"><a href="#">Home</a></li>
+                            <li><a href="#">시스템관리</a></li>
+                            <li><a href="#">신청관리</a></li>
+                            <li><a href="#">등록관리</a></li>
+                            <li><a href="#">시스템공지사항</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav">
+                        <ul class="clb">
+                            <!-- [D] new마크 newMark 클래스 추가 -->
+                            <li class="newMark"><a href="#">화면 도움말</a></li>
+                            <li>화면ID : <span class="font-roboto">SPL-001</span></li>
+                            <li><a href="#">체육정보시스템</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-login clb">
+                    <div class="user clb">
+                        <p class="user-name">
+                            <span>강대한</span>
+                            <span>과장</span>
+                        </p>
+                        <p class="user-department">
+                            <span>스포츠정보화부</span>
+                        </p>
+                        <div class="login-btn">
+                            <a href="#">로그아웃</a>
+                        </div>
+                    </div>
+                    <div class="login clb">
+                        <div class="login-timer clb">
+                            <span class="font-roboto font-b">17:46:05</span>
+                        </div>
+                        <div class="login-btn">
+                            <a href="#">로그인 연장</a>
+                        </div>
+                    </div>
+                    <div class="callnum">
+                        <i class="icon icon-call"></i>
+                        <span class="font-roboto font-b">02-2144-8141</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="content clb">
+                <div class="sidenav managenav">
+                    <div class="openbtn">
+                        <button type="button">등록관리 열기</button>
+                    </div>
+                    <p class="title">
+                        <i class="icon icon-monitor"></i>
+                        등록관리
+                    </p>
+                    <ul class="managemenu">
+                        <!-- [D] 활성화시 li에 is_active -->
+                        <li>
+                            <a href="#"><i class="icon icon-manage--team"></i>팀관리</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--gamer"></i>선수관리</a>
+                            <ul class="managemenu-sub">
+                                <li class="is_active"><a href="#">메뉴1</a></li>
+                                <li><a href="#">메뉴2</a></li>
+                                <li><a href="#">메뉴3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--leader"></i>지도자관리</a>
+                        </li>
+                        <li><a href="#"><i class="icon icon-manage--judgment"></i>심판관리</a></li>
+                        <li><a href="#"><i class="icon icon-manage--gameradd"></i>선수관리담당자관리</a></li>
+                        
+                    </ul>
+                </div>
+                <!-- header end -->
+                <!-- content start -->
+<!-- 헤더 끝 -->
+
+<!-- gamer.application.management.scss -->
+
+<div class="conarea">
+    <div class="pagewrap clb">
+    <h2>팀정보관리</h2>
+    <ul class="pagenav clb">
+        <li>
+            <a href="">home</a>
+        </li>
+        <li>
+            <a href="">test</a>
+        </li>
+    </ul>
+</div>
+    <!-- 신큐팀 등록 -->
+
+
+
+
+
+
+<!-- --------신규팀 등록  all ( checkbox 있는 거) ------------ -->
+
+<div class="management border">
+    <form action="/" method="GET">
+        <div class="management-inner">
+            <!--form 안쪽 border을 위한-->
+            <div class="formInput">
+                <h3>신규팀 등록</h3>
+                <div class="management-box clb">
+                    <h5>소속팀명(한글)</h5>
+                    <div class="management-input">
+                        <input class="wd-350" name="team_name" type="text" />
+                    </div>
+                </div>
+
+                <div class="management-box clb">
+                    <h5>학교코드</h5>
+                    <div class="management-input">
+                        <div class="clb">
+                            <div class="school-code float-left">
+                                <input class="wd-350" name="school_code" type="text" />
+                            </div>
+                            <div class="float-left">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-s btn-block mr-5 wd-52 btn-hg-34">검색</button>
+                                    <button type="button" class="btn btn-s btn-block btn-hg-34">학교코드가 없습니다.</button>
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            ※ 비 학교(체육관팀,클럽,동호회,시도지부,협회 등)면서 초중고대의 종별일 경우,<br />
+                            학교코드 입력시 [비학교코드]로 검색하거나 "학교코드가 없습니다" 버튼을 클릭<br />
+                            학교코드가 조회안될경우 dhlee@jinjin.co.kr (진진시스템)에 학교명,주소,연락처를 기입하시어 메일로 보내주시면 등록해드리겠습니다.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="management-box clb">
+                    <h5>종목</h5>
+                    <div class="management-input">
+                        <div class="formInput-select">
+                            <select name="event">
+                                <option value="" selected>선택</option>
+                                <option value="1">test1</option>
+                                <option value="2">test2</option>
+                                <option value="3">test3</option>
+                            </select>
+                            <dl>
+                                <dt class="wd-350"></dt>
+                                <dd>
+                                    <ul></ul>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="management-box clb">
+                    <h5>세부종목</h5>
+                    <div class="management-input">
+                        <div class="formInput-select">
+                            <select name="detail_event">
+                                <option value="" selected>선택</option>
+                                <option value="1">test1</option>
+                                <option value="2">test2</option>
+                                <option value="3">test3</option>
+                            </select>
+                            <dl>
+                                <dt class="wd-350"></dt>
+                                <dd>
+                                    <ul></ul>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="management-box clb divison">
+                    <h5>소속구분</h5>
+                    <div class="management-input">
+                        <!-- - formInput클래스 안에 있는 input만 적용 -->
+                        <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                        <div class="formInput-radio clb dlb">
+                            <div class="radioArea float-left">
+                                <input type="radio"  name="division" checked />
+                                <label  class="is_active">일반 및 학교</label>
+                            </div>
+                            <div class="radioArea float-left club">
+                                <input type="radio"  name="division" />
+                                <label >동호회</label>
+                            </div>
+                        </div>
+                        <div class="dlb club-select">
+                            <div class="formInput-select">
+                                <select name="division">
+                                    <option value="" selected>선택</option>
+                                    <option value="1">test1</option>
+                                    <option value="2">test2</option>
+                                    <option value="3">test3</option>
+                                </select>
+                                <dl class="divison-list">
+                                    <dt></dt>
+                                    <dd>
+                                        <ul></ul>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="management-box clb">
+                    <h5>시도</h5>
+                    <div class="management-input">
+                        <div class="formInput-select">
+                            <select name="city">
+                                <option value="" selected>선택</option>
+                                <option value="1">test1</option>
+                                <option value="2">test2</option>
+                                <option value="3">test3</option>
+                            </select>
+                            <dl>
+                                <dt class="wd-350"></dt>
+                                <dd>
+                                    <ul></ul>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="management-box clb">
+                    <h5>대표자명</h5>
+                    <div class="float-left">
+                        <input class="wd-350" name="leader_name" type="text" />
+                    </div>
+                </div>
+
+                <div class="management-box clb">
+                    <h5>주소</h5>
+                    <div class="management-input">
+                        <button type="button" class="btn btn-s btn-block btn-hg-34">주소검색</button>
+                    </div>
+                </div>
+
+                <div class="management-box clb">
+                    <h5>연락처</h5>
+                    <div class="float-left">
+                        <input class="wd-350" name="contact" type="text" />
+                    </div>
+                </div>
+
+                <div class="management-box clb">
+                    <h5>FAX</h5>
+                    <div class="float-left">
+                        <input class="wd-350" name="FAX" type="text" />
+
+                    </div>
+                </div>
+
+                <div class="management-box clb">
+                    <h5>창단일</h5>
+                    <div class="management-input">
+                        <div class="day">
+                            <input
+                                type="text"
+                                class="calender datepicker-here"
+                                data-position="bottom left"
+                                data-language="en"
+                                data-date-format="yyyy-mm-dd"
+                                placeholder="시작일"
+                                name="founding_date"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="management-box clb">
+                    <h5>해체일</h5>
+                    <div class="management-input">
+                        <div class="day">
+                            <input
+                                type="text"
+                                class="calender datepicker-here"
+                                data-position="bottom left"
+                                data-language="en"
+                                data-date-format="yyyy-mm-dd"
+                                placeholder="시작일"
+                                name="disbandment-date"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="management-box clb">
+                    <h5>종별/팀성별</h5>
+                    <div class="management-input formInput team-checkbox">
+                        <div class=" clb">
+                            <div class="formInput-check float-left mb-14">
+                                <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                                <div class="checkArea checkSquare clb">
+                                    <input type="checkbox" name="elementary" id="elementary"/>
+                                    <label >13세 이하부(초등부)</label>
+                                </div>
+                            </div>
+                            <div class="formInput-check float-left mb-14">
+                                <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                                <div class="checkArea checkSquare clb">
+                                    <input type="checkbox" name="elementary" id="man"/>
+                                    <label >남자</label>
+                                </div>
+                            </div>
+                            <div class="formInput-check float-left mb-14">
+                                <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                                <div class="checkArea checkSquare clb">
+                                    <input type="checkbox" name="elementary" id="woman"/>
+                                    <label >여자</label>
+                                </div>
+                            </div>
+                            <div class="formInput-check float-left mb-14">
+                                <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                                <div class="checkArea checkSquare clb">
+                                    <input type="checkbox" name="elementary" id="unisex"/>
+                                    <label >혼성</label>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="formInput-check float-left mb-14">
+                                <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                                <div class="checkArea checkSquare clb">
+                                    <input type="checkbox" name="middle[]" id="middle"/>
+                                    <label >16세 이하부(중학부)</label>
+                                </div>
+                            </div>
+                            <div class="formInput-check float-left mb-14">
+                                <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                                <div class="checkArea checkSquare clb">
+                                    <input type="checkbox" name="middle[]" id="man"/>
+                                    <label >남자</label>
+                                </div>
+                            </div>
+                            <div class="formInput-check float-left mb-14">
+                                <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                                <div class="checkArea checkSquare clb">
+                                    <input type="checkbox" name="middle[]" id="woman"/>
+                                    <label >여자</label>
+                                </div>
+                            </div>
+                            <div class="formInput-check float-left mb-14">
+                                <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                                <div class="checkArea checkSquare clb">
+                                    <input type="checkbox" name="middle[]" id="unisex"/>
+                                    <label >혼성</label>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="formInput-check float-left">
+                                <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                                <div class="checkArea checkSquare clb">
+                                    <input type="checkbox" name="high" id="high"/>
+                                    <label >19세 이하부(고등부)</label>
+                                </div>
+                            </div>
+                            <div class="formInput-check float-left">
+                                <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                                <div class="checkArea checkSquare clb">
+                                    <input type="checkbox" name="high" id="man"/>
+                                    <label >남자</label>
+                                </div>
+                            </div>
+                            <div class="formInput-check float-left">
+                                <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                                <div class="checkArea checkSquare clb">
+                                    <input type="checkbox" name="high" id="woman"/>
+                                    <label >여자</label>
+                                </div>
+                            </div>
+                            <div class="formInput-check float-left">
+                                <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                                <div class="checkArea checkSquare clb">
+                                    <input type="checkbox" name="high" id="unisex"/>
+                                    <label >혼성</label>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="management-composition-text">※ 대학/일반부는 개별적으로 등록이 가능합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--form 안쪽 border을 위한-->
+        <div class="management-btn">
+            <button type="submit" class="btn btn-mint mr-10">저장</button>
+            <button type="button" class="btn btn-mint">목록</button>
+        </div>
+    </form>
+</div>
+
+
+
+</div>
+
+
+<!-- 조건저장 팝업 -->
+
+    <div id="savebtn" class="popup">
+        <div class="popup-bg has_close"></div>
+        <div class="popup-box savepop">
+            <div class="popContent">
+                <div class="popContent-header clb">
+                    <span>최근 검색한 조건
+                    (보관은 최대 5개까지 가능합니다.)</span>
+                    <button class="has_close" type="button">
+                        <i class="icon icon-closebtn" ></i>닫기
+                    </button>
+                </div>
+                <div class="popContent-con">
+                    <table>
+                        <colgroup>
+                            <col style="width:200px">
+                            <col style="width: auto">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>검색일</th>
+                                <th>검색조건 저장명</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2021.07.27 / 15:38:24</td>
+                                <td class="tdBox">
+                                    <div class="tdBox-text formInput float-left clb ">
+                                        제목
+                                    </div>
+                                    <div class="tdBox-del float-left">
+                                        <button type="button" class="btn btn-block">삭제</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2021.07.27 / 15:38:24</td>
+                                <td class="tdBox">
+                                    <div class="tdBox-input formInput float-left dis-inline clb ">
+                                        <div class="">
+                                            <input name="selfName" type="text" placeholder="Normal">
+                                        </div>
+                                    </div>
+                                    <div class="tdBox-btn float-left">
+                                        <button type="button" class="btn btn-blue">저장</button>
+                                        <button type="button" class="btn btn-block">삭제</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+<!-- 푸터 시작 -->
+    <!-- content end -->
+    <!-- footer start -->
+    <div class="sidenav shortnav rightfold">
+        <div class="openbtn">
+            <button type="button">바로가기 열기</button>
+        </div>
+        <p class="title">
+            <i class="icon icon-monitor"></i>
+            바로가기
+        </p>
+        <ul>
+            <li><a href="#">전자문서시스템</a></li>
+            <li><a href="#">체육단체인트라넷</a></li>
+            <li><a href="#">PC 원격제어</a></li>
+            <li><a href="#">시스템메뉴얼</a></li>
+        </ul>
+        <img src="../../../img/common/logo_v.svg"  alt="대한체육회" width="60" height="73">
+    </div>
+</div>
+    <div class="footer  clb ">
+
+        <div class="footcon clb">
+            <div class="footer-policyLink policyLink">
+                <a href="#" class="font-b">개인정보처리방침</a>
+            </div>
+            <dl class="footer-info clb">
+                <dt>이용문의</dt>
+                <dd>
+                    <p class="mt-m1">
+                        체육정보시스템 콜센터
+                        <span class="font-roboto font-18"><strong>02-2144-8141</strong></span>
+                    </p>
+                </dd>
+                <dt>근무시간 <span class="font-roboto">09:00 ~ 18:00</span></dt>
+                <dd>
+                    <p>점심시간 <span class="font-roboto">(12&#58;00 &#126; 13&#58;00)</span></p>
+                </dd>
+            </dl>
+            <div class="footer-copyright copyright">
+                <p>ⓒ 대한체육회</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+    </div>
+    <script src="../../../js/common.js"></script>
+    <script src="../../../js/gamer.js"></script>
+    </body>
+</html>
