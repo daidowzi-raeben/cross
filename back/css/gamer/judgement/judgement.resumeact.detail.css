@@ -1,0 +1,21 @@
+.user-left {
+  width: 50%;
+  padding-bottom: 25px !important;
+}
+.user-left dt {
+  width: 59px;
+  margin-right: 50px;
+}
+
+.user-right {
+  width: 50%;
+}
+.user-right dt {
+  width: 108px;
+  margin-right: 50px;
+}
+
+.btn {
+  font-size: 15px;
+  padding: 12px 26px 11px;
+}

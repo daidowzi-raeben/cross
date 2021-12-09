@@ -1,0 +1,42 @@
+.wrap-guide .container .gnb {
+  width: 200px;
+  height: 100vh;
+  background: #eee;
+  position: fixed;
+  left: 0;
+  right: 0;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.wrap-guide .container .gnb ul li {
+  font-size: 0.8rem;
+  margin: 0 0 5px 0;
+}
+.wrap-guide .container .gnb ul li.item-title {
+  font-size: 1.2rem;
+  color: #000;
+  margin: 0 0 20px 0;
+}
+.wrap-guide .container .contents {
+  margin: 0 2rem 0 15rem;
+  padding: 20px 0 0;
+}
+.wrap-guide .container .contents .guide xmp {
+  background: #eee;
+  padding: 10px;
+  margin: 10px;
+}
+.wrap-guide .container .contents .guide-code__title {
+  font-size: 1.5rem;
+}
+.wrap-guide .container .contents .guide-code__code {
+  margin: 10px 0 0;
+}
+.wrap-guide .container .contents .guide-code__code textarea {
+  background: #000;
+  color: #fff;
+  min-height: 8rem;
+  width: 100%;
+  text-indent: -10rem;
+  padding: 1rem;
+}

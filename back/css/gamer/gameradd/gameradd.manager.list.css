@@ -1,0 +1,29 @@
+.mb-14 {
+  margin-bottom: 14px !important;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.resultBox .resultBox-item {
+  max-width: calc(100% - 298px) !important;
+}
+.resultBox .resultBox-lately button::after {
+  background-image: url(../../../img/common/arrow-s.svg) !important;
+}
+.resultBox .resultBox-btn {
+  width: 120px !important;
+  text-align: center;
+}
+
+.footer-table-page dt {
+  width: 68px;
+}
+
+.gm-table td {
+  height: 132px;
+}
+.gm-table td:last-child {
+  height: auto;
+}

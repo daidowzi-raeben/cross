@@ -1,0 +1,93 @@
+.app-condition .condiBox.height-690 {
+  height: 690px;
+}
+.app-condition .condiBox .formInput .formInput-check.mr-7 .checkArea:not(.checkAll) {
+  margin-right: 7px;
+}
+.app-condition .condiBox .formInput .formInput-check.mr-7 .checkArea:not(.checkAll):last-child {
+  margin-right: 0;
+}
+.app-condition .condiBox .formInput .formInput-check.mr-12 .checkArea:not(.checkAll) {
+  margin-right: 12px;
+}
+.app-condition .condiBox .formInput .formInput-check.mr-12 .checkArea.mr-0 {
+  margin-right: 0;
+}
+.app-condition .condiBox .formInput .formInput-check.mr-15 .checkArea:not(.checkAll) {
+  margin-right: 15px;
+}
+.app-condition .condiBox .formInput .formInput-check.mr-15 .checkArea:not(.checkAll):last-child {
+  margin-right: 0;
+}
+.app-condition .condiBox .formInput .formInput-check.mr-17 .checkArea:not(.checkAll) {
+  margin-right: 17px;
+}
+.app-condition .condiBox .formInput .formInput-check.mr-18 .checkArea:not(.checkAll) {
+  margin-right: 18px;
+}
+.app-condition .condiBox .formInput .formInput-check.mr-31 .checkArea:not(.checkAll) {
+  margin-right: 18px;
+}
+.app-condition .condiBox .formInput .formInput-check .checkSquare {
+  margin-bottom: 10px;
+}
+.app-condition .condiBox.single .formInput > div.mr-63 {
+  margin-right: 63px;
+}
+
+.mn-10 {
+  margin: 0 10px;
+}
+
+.gm-table thead.hg-95 {
+  height: 95px;
+}
+.gm-table thead tr.pd-4 th {
+  padding: 4px 0 !important;
+  height: 44px;
+  border-top: 1px solid #9ad5db;
+  background-color: #48c2cd;
+}
+.gm-table thead tr.pd-4 th:last-child {
+  border-right: 1px solid #9ad5db;
+}
+
+.gm-chart-ex {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.x-scroll {
+  overflow-x: scroll;
+  margin-top: 0px;
+  width: 1531px;
+}
+.x-scroll::-webkit-scrollbar {
+  height: 12px;
+}
+.x-scroll::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-clip: padding-box;
+  border: 3px solid transparent;
+  background-color: #034EA2;
+}
+.x-scroll::-webkit-scrollbar-track {
+  height: 12px;
+  background-color: #E4E8EB;
+}
+.x-scroll table {
+  margin-top: 0;
+  table-layout: fixed;
+}
+.x-scroll table thead tr.wd-92 th {
+  width: 92px;
+}
+.x-scroll table thead tr.wd-92 th.wd-54 {
+  width: 54px;
+}
+.x-scroll table thead tr.wd-92 th.wd-149 {
+  width: 149px;
+}
+.x-scroll table thead tr.wd-92 th.wd-371 {
+  width: 371px;
+}

@@ -1,0 +1,242 @@
+.notice-content.wd-114-88 ul li.item.pd-10-0 {
+  padding: 10px 0 5px !important;
+}
+.notice-content.wd-114-88 ul li.item.pd-10-0-10 {
+  padding: 10px 0 10px !important;
+}
+.notice-content.wd-114-88 ul li.item.pd-12-0 {
+  padding: 12px 0 7px !important;
+}
+.notice-content.wd-114-88 ul li.item.pd-15-0 {
+  padding: 15px 0 !important;
+}
+.notice-content.wd-114-88 ul li.item.pd-15-0-35 {
+  padding: 15px 0 35px !important;
+}
+.notice-content.wd-114-88 ul li.item.pd-17-0 {
+  padding: 17px 0;
+}
+.notice-content.wd-114-88 ul li.item.pd-18-0 {
+  padding: 18px 0;
+}
+.notice-content.wd-114-88 ul li.item.pd-20-0 {
+  padding: 20px 0;
+}
+.notice-content.wd-114-88 ul li.item.pd-22-0 {
+  padding: 22px 0 !important;
+}
+.notice-content.wd-114-88 ul li.item.pd-24-0 {
+  padding: 24px 0;
+}
+.notice-content.wd-114-88 ul li.item.pd-32-0 {
+  padding: 32px 0 20px;
+}
+.notice-content.wd-114-88 ul li.item.pl-0 {
+  padding-left: 0;
+}
+.notice-content.wd-114-88 ul li.item.pb-0 {
+  padding-bottom: 0;
+}
+.notice-content.wd-114-88 ul li.item strong.title {
+  width: 147px;
+  margin-right: 55px;
+}
+.notice-content.wd-114-88 ul li.item strong.pd-3-0 {
+  padding: 3px 0;
+}
+.notice-content.wd-114-88 ul li.item strong.pd-5-0 {
+  padding: 5px 0;
+}
+.notice-content.wd-114-88 ul li.item strong.pd-10-0 {
+  padding: 10px 0;
+}
+.notice-content.wd-114-88 ul li.item .item-content.width-full-calc {
+  width: calc(100% - 202px);
+}
+.notice-content.wd-114-88 ul li.item .item-content.hg-433 {
+  min-height: 433px;
+}
+.notice-content.wd-114-88 ul li.item .item-content.hg-669 {
+  min-height: 669px;
+}
+.notice-content.wd-114-88 ul li.item .item-content.lh-28 {
+  line-height: 28px;
+}
+.notice-content.wd-114-88 ul li.item .item-content.up-3 {
+  margin-top: -3px;
+}
+.notice-content.wd-114-88 ul li.item .item-content.pl-15 {
+  padding-left: 15px;
+}
+.notice-content.wd-114-88 ul li.item .item-content button.pd-0-14 {
+  padding: 0 14px;
+  height: 35px;
+}
+.notice-content.wd-114-88 ul li.item .item-content .font-m {
+  font-weight: 500 !important;
+}
+.notice-content.wd-114-88 ul li.item .item-content .font-noto {
+  font-family: "NotoSans", sans-serif;
+}
+.notice-content.wd-114-88 ul li.item .item-content textarea {
+  border: 1px solid #bebebe;
+  border-radius: 3px;
+  padding: 17px 10px;
+  resize: none;
+  font-size: 16px;
+  font-family: "roboto", "NotoSans", "Malgun Gothic", sans-serif;
+  color: #3d3d3d;
+}
+.notice-content.wd-114-88 ul li.item .item-content textarea.wd-1231 {
+  width: 1231px;
+}
+.notice-content.wd-114-88 ul li.item .item-content textarea.hg-528 {
+  height: 528px;
+}
+.notice-content.wd-114-88 ul li.item .item-content textarea.hg-463 {
+  height: 463px;
+}
+.notice-content.wd-114-88 ul li.item .item-content textarea.hg-478 {
+  height: 478px;
+}
+.notice-content.wd-114-88 ul li.item .item-content textarea.hg-655 {
+  height: 655px;
+}
+.notice-content.wd-114-88 ul li.item .item-content textarea::-webkit-scrollbar {
+  width: 12px;
+}
+.notice-content.wd-114-88 ul li.item .item-content textarea::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-clip: padding-box;
+  border: 3px solid transparent;
+  background-color: #0E4194;
+}
+.notice-content.wd-114-88 ul li.item .item-content textarea::-webkit-scrollbar-track {
+  width: 12px;
+  background-color: #E4E8EB;
+}
+.notice-content.wd-114-88 ul li.item .item-content.captcha .captcha-image {
+  width: 136px;
+  height: 47px;
+  background: #000;
+}
+.notice-content.wd-114-88 ul li.item .item-content.captcha .captcha-txt {
+  padding: 6px 0;
+}
+.notice-content.wd-114-88 ul li.item .item-content.upload-file {
+  width: 640px;
+}
+.notice-content.wd-114-88 ul li.item .item-content.upload-file .upload-file-item {
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 22px;
+}
+.notice-content.wd-114-88 ul li.item .item-content.upload-file .upload-file-item:last-child {
+  margin-bottom: 0;
+}
+.notice-content.wd-114-88 ul li.item .item-content.upload-file .upload-file-item * {
+  float: left;
+}
+.notice-content.wd-114-88 ul li.item .item-content.upload-file .upload-file-item i:first-child {
+  margin-top: -1px;
+  margin-right: 5px;
+}
+.notice-content.wd-114-88 ul li.item .item-content.upload-file .upload-file-item i:last-child {
+  margin-top: 3px;
+  margin-left: 7px;
+}
+.notice-content.wd-114-88 ul li.item .item-content.upload-file .upload-file-item i.icon-close--red {
+  margin-left: 0;
+  margin-top: 0;
+}
+.notice-content.wd-114-88 ul li.item .btn-pd-0-26 {
+  text-align: right;
+  padding-top: 15px;
+}
+.notice-content.wd-114-88 ul li.item .btn-pd-0-26 button {
+  padding: 0 26px;
+  line-height: 35px;
+}
+.notice-content ul li.item.pd-42-0 {
+  padding: 42px 0 !important;
+  border-bottom: 1px solid #bebebe;
+}
+.notice-content ul li.item.last-item-border {
+  border-bottom: 1px solid #bebebe;
+  padding-bottom: 10px;
+}
+.notice-content.wd-152-50 ul li.item {
+  padding: 15px 0 !important;
+}
+.notice-content.wd-152-50 ul li.item strong.title {
+  width: 152px;
+  margin-right: 50px;
+}
+.notice-content.wd-152-50 ul li.item .item-content {
+  margin-right: 0;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.ml-9 {
+  margin-left: 9px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-12 {
+  margin-bottom: 12px !important;
+}
+.mb-15 {
+  margin-bottom: 15px !important;
+}
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.hg-a {
+  height: auto !important;
+}
+.hg-34 {
+  height: 34px;
+}
+.hg-75 {
+  height: 75px;
+}
+.hg-467 {
+  min-height: 467px;
+}
+
+.pt-5 {
+  padding-top: 5px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+
+.inpuiry-box .inpuiry-inner .formInput strong.lh-24 {
+  line-height: 24px;
+}
+.inpuiry-box .inpuiry-inner .formInput span.pt-10 {
+  padding-top: 10px;
+}
+.inpuiry-box .inpuiry-inner .formInput span.wd-a {
+  width: auto;
+}
+.inpuiry-box .inpuiry-inner .formInput span.wd-a .checkArea {
+  width: 100%;
+}
+.inpuiry-box .inpuiry-inner .formInput span button.pd-0-12 {
+  padding: 0 12px;
+  height: 34px;
+}
+.inpuiry-box .inpuiry-inner .formInput-select.wd-279 {
+  width: 279px !important;
+}
+
+.gm-table tbody tr.last-none-border:last-child td {
+  border-bottom: none;
+}

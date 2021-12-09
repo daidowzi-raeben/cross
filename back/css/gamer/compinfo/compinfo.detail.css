@@ -1,0 +1,15 @@
+.data-item .wd-350 {
+  width: 350px !important;
+}
+.data-item .wd-230 {
+  width: 230px !important;
+}
+.data-item .font-normal {
+  font-weight: normal;
+}
+.data-item .mt-10 {
+  margin-top: 10px;
+}
+.data-item .height-auto {
+  height: auto !important;
+}

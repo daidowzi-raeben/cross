@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <!-- 기본 경로 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/reset.css">
+    <link rel="stylesheet" href="../../../css/component.css">
+    <link rel="stylesheet" href="../../../css/common.css">
+    <link rel="stylesheet" href="../../../css/global.css">
+    <link rel="stylesheet" href="../../../css/icon.css">
+    <link rel="stylesheet" href="../../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../../css/fullcalendar/main.css">
+    <link rel="stylesheet" href="../../../css/slick/slick.css">
+    <link rel="stylesheet" href="../../../css/slick/slick-theme.css">
+    <link rel="stylesheet" href="../../../css/air-datepicker/datepicker.css">
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../../js/jquery-ui.js"></script>
+    <script src="../../../js/slick/slick.min.js"></script>
+    <script src="../../../js/chart/Chart.min.js"></script>
+    <script src="../../../js/chart/chartjs-plugin-datalabels.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.en.js"></script>
+    <script src="../../../js/fullcalendar/main.js"></script>
+    <title>체육발전 유공 훈·포장관리시스템 - 경기인관리시스템</title>
+</head>
+<!-- 메인경로 -->
+<body>
+    <div class="wrap">
+        <div class="container gamer clb">
+            <div class="content header">
+                <div class="header-nav">
+                    <h1>
+                        <a href="#">
+                            <img src="../../../img/gamer/logo-gamer.svg"  alt="체육정보시스템" width="235" height="40">
+                        </a>
+                    </h1>
+                    <div class="gnb">
+                        <ul class="clb">
+                            <!-- [D] 활성화시 li에 is_active -->
+                            <li class="is_active"><a href="#">Home</a></li>
+                            <li><a href="#">시스템관리</a></li>
+                            <li><a href="#">신청관리</a></li>
+                            <li><a href="#">등록관리</a></li>
+                            <li><a href="#">시스템공지사항</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav">
+                        <ul class="clb">
+                            <!-- [D] new마크 newMark 클래스 추가 -->
+                            <li class="newMark"><a href="#">화면 도움말</a></li>
+                            <li>화면ID : <span class="font-roboto">SPL-001</span></li>
+                            <li><a href="#">체육정보시스템</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-login clb">
+                    <div class="user clb">
+                        <p class="user-name">
+                            <span>강대한</span>
+                            <span>과장</span>
+                        </p>
+                        <p class="user-department">
+                            <span>스포츠정보화부</span>
+                        </p>
+                        <div class="login-btn">
+                            <a href="#">로그아웃</a>
+                        </div>
+                    </div>
+                    <div class="login clb">
+                        <div class="login-timer clb">
+                            <span class="font-roboto font-b">17:46:05</span>
+                        </div>
+                        <div class="login-btn">
+                            <a href="#">로그인 연장</a>
+                        </div>
+                    </div>
+                    <div class="callnum">
+                        <i class="icon icon-call"></i>
+                        <span class="font-roboto font-b">02-2144-8141</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="content clb">
+                <div class="sidenav managenav">
+                    <div class="openbtn">
+                        <button type="button">등록관리 열기</button>
+                    </div>
+                    <p class="title">
+                        <i class="icon icon-monitor"></i>
+                        등록관리
+                    </p>
+                    <ul class="managemenu">
+                        <!-- [D] 활성화시 li에 is_active -->
+                        <li>
+                            <a href="#"><i class="icon icon-manage--team"></i>팀관리</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--gamer"></i>선수관리</a>
+                            <ul class="managemenu-sub">
+                                <li class="is_active"><a href="#">메뉴1</a></li>
+                                <li><a href="#">메뉴2</a></li>
+                                <li><a href="#">메뉴3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--leader"></i>지도자관리</a>
+                        </li>
+                        <li><a href="#"><i class="icon icon-manage--judgment"></i>심판관리</a></li>
+                        <li><a href="#"><i class="icon icon-manage--gameradd"></i>선수관리담당자관리</a></li>
+                        
+                    </ul>
+                </div>
+                <!-- header end -->
+                <!-- content start -->
+<!-- 헤더 끝 -->   
+
+    <!-- "gamer.application.singe.css" -->
+    <div class="conarea">
+        <div class="pagewrap clb">
+    <h2>이용가이드</h2>
+    <ul class="pagenav clb">
+        <li>
+            <a href="">home</a>
+        </li>
+        <li>
+            <a href="">test</a>
+        </li>
+    </ul>
+</div>
+        
+    <div class="list-system popup">
+        <div class="list-system-box">
+            <div class="list-system-header clb">
+                <h4 class="float-left">리스트 관리</h4>
+                <button type="button"><i class="icon icon-closebtn"></i></button>
+            </div>
+
+            <div class="list-system-top clb">
+                <div class="list-system-top-check float-left">
+                    <input type="checkbox" class="check-all" />
+                </div>
+                <div class="list-system-top-title float-left">
+                    <h5>항목명</h5>
+                </div>
+            </div>
+            <form action="./application.singe.html" method="GET">
+                <div class="list-system-table">
+                    <table>
+                        <colgroup>
+                            <col width="35" />
+                            <col width="221" />
+                        </colgroup>
+
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>종목</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>등록년도</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>CASI 수정일시</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>개인정보(선수보호)</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>선수정보</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>소속팀정보</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>신청서첨부</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="list_system[]" class="del-chk" /></td>
+                                <td>등록일(종료일)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="list-system-btn-wrap clb">
+                    <button type="reset" class="list-system-btn float-left list-system--white">초기화</button>
+                    <button type="submit" class="list-system-btn float-right list-system--blue">확인</button>
+                    <button type="submit" class="list-system-btn float-right list-system--white mr-5">저장</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+        <form class="app" action="" method="GET">
+            
+    <!-- typeB -->
+    <div class="app-condition type-b clb">
+        <div class="conSignebox clb">
+            <div class="condiBox single">
+                <div class="clb">
+                    <div class="condiBox-section formInput">
+                        <div class="formInput-select wd-230">
+                            <label class="labelTitle" for="event">분류</label>
+                            <select name="event" id="event">
+                                <option value="0" selected>전체</option>
+                                <option value="1"></option>
+                                <option value="2"></option>
+                                <option value="3"></option>
+                            </select>
+                            <dl>
+                                <dt></dt>
+                                <dd>
+                                    <ul></ul>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div>
+                            <label for="playerName" class="labelTitle">이름(한글)</label>
+                            <input name="playerName" type="text" id="playerName"/>
+                        </div>
+                        <div>
+                            <label for="playerName" class="labelTitle">제목</label>
+                            <input name="playerName" type="text" id="playerName"/>
+                        </div>
+                        <div>
+                            <label for="playerName" class="labelTitle">내용</label>
+                            <input name="playerName" type="text" id="playerName"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- formBox e -->
+        </div>
+    </div>
+ 
+            
+    <div class="app-search">
+        <div class="resultBox clb">
+            <h3 class="sound-only">검색조건</h3>
+          <div class="resultBox-each resultBox-item ">
+                <div class="search clb">
+                    <div class="search-list">
+                        <ul class="clb">
+                            <li class="search-item"> 
+                                <span>남자</span>
+                                <button type="button">
+                                    <i class="icon icon-delete--circle"></i>
+                                </button>
+                            </li>
+                            <li class="search-item">
+                                <span>공덕소프트베이스볼클럽</span>
+                                <button type="button">
+                                    <i class="icon icon-delete--circle"></i>
+                                </button>
+                            </li>
+                            <li class="search-item">
+                                <span>내국인</span>
+                                <button type="button">
+                                    <i class="icon icon-delete--circle"></i>
+                                </button>
+                            </li>
+                            <li class="search-item">
+                                <span>서울특별시</span>
+                                <button type="button">
+                                    <i class="icon icon-delete--circle"></i>
+                                </button>
+                            </li>
+                            <li class="search-item">
+                                <span>운동부 및 클럽</span>
+                                <button type="button">
+                                    <i class="icon icon-delete--circle"></i>
+                                </button>
+                            </li>
+                            <li class="search-item">
+                                <span>등록신청</span>
+                                <button type="button">
+                                    <i class="icon icon-delete--circle"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search-btn">
+                        <button type="button" class="btn btn-s btn-block mr-5">초기화</button>
+                        <button type="button" class="popbtn btn btn-s btn-block"
+                            data-name="savebtn">조건저장</button>
+                    </div>
+                </div>
+            </div>
+            <div class="resultBox-each resultBox-lately">
+                <button>
+                    최근 검색한 조건<span>4</span>건 <i class="icon icon-arrow icon-arrow--s"></i>
+                </button>
+            </div>
+            <div class="resultBox-each resultBox-btn resultBox-btn--right">
+                <button type="button" class="btn btn-m btn-blue mr-5">검색</button>
+                <button type="button" class="btn btn-m btn-mint btn-open" data-name="popup2">신규</button>
+            </div>
+        </div>
+        <div class="foldBtn">
+            <button type="button">
+                <span class="fold-text">조회조건 접기</span>
+                <i class="icon icon-arrow"></i>
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+<!-- 버튼이 검색만 있는 놈 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--선수관리담당자관리-->
+
+
+
+
+
+
+
+<!--사용자관리-->
+
+
+
+
+
+
+
+<!--시스템관리-->
+
+
+
+
+
+
+
+<!-- 발급관리 -->
+
+
+
+
+
+<!-- 심판관리 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
+
+    <div class="modalWrap" id="popup2">
+        <div class="modal">
+            <div class="modal-header clb">
+                <h3 class="float-left">웹신청선수등록</h3>
+                <button type="button" class="float-right">
+                    <i class="icon icon-closebtn btn-close"></i>
+                </button>
+            </div>
+            <div class="modal-main">
+                <dl class="formInput">
+                    <div class="modal-list">
+                        <dt>년도</dt>
+                        <dd>
+                            <span class="text">2021</span>
+                        </dd>
+                    </div>
+                    <div class="modal-list">
+                        <dt>종목</dt>
+                        <dd>
+                            <div class="formInput-select wd-227">
+                                <select name="sports">
+                                    <option value="0" selected>선택</option>
+                                    <option value="1">test1</option>
+                                    <option value="2">test2</option>
+                                    <option value="3">test3</option>
+                                </select>
+                                <!-- items 갯수만큼 출력, 미설정 시 전체 출력 -->
+                                <dl data-items='3'>
+                                    <dt>
+                                    </dt>   
+                                    <dd>
+                                        <ul>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </dd>
+                    </div>
+                    <div class="modal-list">
+                        <dt>이름(한글)</dt>
+                        <dd><input name="userName" type="text" placeholder="이름을 입력해주세요" class="wd-227"></dd>
+                    </div>
+                    <div class="modal-list">
+                        <dt>체육인번호</dt>
+                        <dd>
+                            <div class="input-group">
+                                <input name="userNumber" type="text" class="wd-71 mr-10">
+                                <input name="userNumber" type="text" class="wd-61 mr-10">
+                                <button type="button" class="btn btn-block">체육인번호 조회</button>
+                            </div>
+                            <p>
+                                ※ "체육인번호 조회"버튼을 클릭하여 기존 번호를<br/> 
+                                선택하거나 신규로 생성할 수 있습니다.
+                            </p>
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+            <div class="modal-footer">
+               <button type="reset" class="btn btn-block mr-10">선택초기화</button>
+                <button type="button" class="btn btn-blue mr-20">등록가능여부확인</button>
+                <button type="button" class="btn btn-blue btn-close">종료</button>
+            </div>
+        </div>
+    </div>
+
+   
+
+   
+
+   
+
+   
+        
+   
+
+   
+
+   
+
+   
+        </form>
+        <div>
+            
+    <div class="gm-chart pd-50">
+        <div class="clb">
+            <div class="float-left gm-chart__total">
+                <h3>검색 목록</h3>
+                <span>2,398</span>
+                <span class="gm-chart__total--sm">건</span>
+            </div>
+            <div class="float-right gm-chart__content">
+                <div class="float-left gm-chart__content__excel">
+                    <div class="formInput float-left">
+                        <!-- 기본 -->
+                        <div class="formInput-select">
+                            <select name="download">
+                                <option value="" selected>다운로드 사유선택</option>
+                                <option value="1">test1</option>
+                                <option value="2">test2</option>
+                                <option value="3">test3</option>
+                            </select>
+                            <dl class="down-select">
+                                <dt></dt>
+                                <dd>
+                                    <ul></ul>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <button class="btn btn-m btn-block float-left">명부(Excel)</button>
+                </div>
+                <div class="float-left gm-chart__content__page">
+                    <div class="formInput-select float-left">
+                        <label for="page-choice" class="float-left">페이지 표시건수</label>
+                        <select name="page" id="page-choice">
+                            <option value="0" selected>100</option>
+                            <option value="1">50</option>
+                            <option value="2">25</option>
+                            <option value="3">10</option>
+                        </select>
+                        <dl class="float-left choice">
+                            <dt></dt>
+                            <dd>
+                                <ul></ul>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="formInput-select float-left">
+                        <select name="page">
+                            <option value="" selected>정렬선택</option>
+                            <option value="1">번호</option>
+                            <option value="2">종목</option>
+                            <option value="3">등록일</option>
+                        </select>
+                        <dl class="float-left align">
+                            <dt></dt>
+                            <dd>
+                                <ul></ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="float-left gm-chart__content__option">
+                    <div class="tooltip">
+                        <button type="button" class="btn-system tooltip-btn"><i
+                                class="icon icon-setting"></i></button>
+                        <div class="tooltip-con tooltip-s tooltip-topCenter">
+                            <div class="toolCon">
+                                <p class="toolCon-text">리스트관리</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+             
+
+
+<table class="gm-table tableA">
+    <colgroup>
+        <col width="6.9%" />
+        <col width="*" />
+        <col width="5.6%" />
+        <col width="9.5%" />
+        <col width="13.3%" />
+    </colgroup>
+    <thead>
+        <tr>
+            <th scope="col">번호</th>
+            <th scope="col">분류</th>
+            <th scope="col">제목</th>
+            <th scope="col">첨부</th>
+            <th scope="col">작성자</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- 데이터 반복구간 -->
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+
+        <tr>
+            <td>1</td>
+            <td class="text-left">사용자시스템메뉴얼입니다.</td>
+            <td>
+                <i class="icon icon-upload"></i>
+            </td>
+            <td class="text-left">대한체육회</td>
+            <td>2021.06.02 21:52</td>
+        </tr>
+        
+        <!-- 데이터 반복구간 -->
+        <tr>
+            <td colspan="6" class="footer-table clb fpd">
+                <div class="footer-table-page">
+                    <div class="formInput-select clb">
+                        <label for="page-length" class="float-left">페이지표시건수</label>
+                        <select name="page-length" id="page-length">
+                            <option value="0" selected>100</option>
+                            <option value="1">50</option>
+                            <option value="2">25</option>
+                            <option value="3">10</option>
+                        </select>
+                        <dl class="float-left">
+                            <dt></dt>
+                            <dd>
+                                <ul></ul>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="footer-table-pagination clb">
+                    <div class="footer-table-pagination-before float-left">
+                        <a href="#" role="button"><i class="icon icon-arrow icon-arrow--s"></i></a>
+                        <a href="#" role="button"><i class="icon icon-arrow-double"></i></a>
+                    </div>
+
+                    <div class="footer-table-pagination-main float-left">
+                        <ol>
+                            <li>
+                                <a href="#" role="button">01</a>
+                            </li>
+                            <li>
+                                <a href="#" class="is_active" role="button">02</a>
+                            </li>
+                            <li>
+                                <a href="#" role="button">03</a>
+                            </li>
+                            <li>
+                                <a href="#" role="button">04</a>
+                            </li>
+                            <li>
+                                <a href="#" role="button">05</a>
+                            </li>
+                        </ol>
+                    </div>
+
+                    <div class="footer-table-pagination-after float-left">
+                        <a href="#" role="button"><i class="icon icon-arrow-double"></i></a>
+                        <a href="#" role="button"><i class="icon icon-arrow icon-arrow--s"></i></a>
+                    </div>
+                </div>
+                <div class="footer-table-now-page">
+                    <form action="./application.singe.html" method="GET">
+                        <input type="number" name="page" max="45" placeholder="02" />
+                        <span>/ 45</span>
+                        <input type="submit" class="hidden" />
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+ 
+
+
+
+
+    
+
+        </div>  
+    </div>
+    
+
+
+
+    <div id="savebtn" class="popup">
+        <div class="popup-bg has_close"></div>
+        <div class="popup-box savepop">
+            <div class="popContent">
+                <div class="popContent-header clb">
+                    <span>최근 검색한 조건
+                    (보관은 최대 5개까지 가능합니다.)</span>
+                    <button class="has_close" type="button">
+                        <i class="icon icon-closebtn" ></i>닫기
+                    </button>
+                </div>
+                <div class="popContent-con">
+                    <table>
+                        <colgroup>
+                            <col width="200">
+                            <col style="width: auto">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>검색일</th>
+                                <th>검색조건 저장명</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2021.07.27 / 15:38:24</td>
+                                <td class="tdBox">
+                                    <div class="tdBox-text formInput float-left clb ">
+                                        제목
+                                    </div>
+                                    <div class="tdBox-del float-left">
+                                        <button type="button" class="btn btn-block">삭제</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2021.07.27 / 15:38:24</td>
+                                <td class="tdBox">
+                                    <div class="tdBox-input formInput float-left dis-inline clb ">
+                                        <div class="">
+                                            <input name="" type="text" placeholder="Normal">
+                                        </div>
+                                    </div>
+                                    <div class="tdBox-btn float-left">
+                                        <button type="button" class="btn btn-blue">저장</button>
+                                        <button type="button" class="btn btn-block">삭제</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+<!-- 푸터 시작 -->
+    <!-- content end -->
+    <!-- footer start -->
+    <div class="sidenav shortnav rightfold">
+        <div class="openbtn">
+            <button type="button">바로가기 열기</button>
+        </div>
+        <p class="title">
+            <i class="icon icon-monitor"></i>
+            바로가기
+        </p>
+        <ul>
+            <li><a href="#">전자문서시스템</a></li>
+            <li><a href="#">체육단체인트라넷</a></li>
+            <li><a href="#">PC 원격제어</a></li>
+            <li><a href="#">시스템메뉴얼</a></li>
+        </ul>
+        <img src="../../../img/common/logo_v.svg"  alt="대한체육회" width="60" height="73">
+    </div>
+</div>
+    <div class="footer  clb ">
+
+        <div class="footcon clb">
+            <div class="footer-policyLink policyLink">
+                <a href="#" class="font-b">개인정보처리방침</a>
+            </div>
+            <dl class="footer-info clb">
+                <dt>이용문의</dt>
+                <dd>
+                    <p class="mt-m1">
+                        체육정보시스템 콜센터
+                        <span class="font-roboto font-18"><strong>02-2144-8141</strong></span>
+                    </p>
+                </dd>
+                <dt>근무시간 <span class="font-roboto">09:00 ~ 18:00</span></dt>
+                <dd>
+                    <p>점심시간 <span class="font-roboto">(12&#58;00 &#126; 13&#58;00)</span></p>
+                </dd>
+            </dl>
+            <div class="footer-copyright copyright">
+                <p>ⓒ 대한체육회</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+    </div>
+    <script src="../../../js/common.js"></script>
+    <script src="../../../js/gamer.js"></script>
+    </body>
+</html>
+
+
+<script>
+    function fn_checked(el) {
+        var val = $(el).val();
+        var chk = $(el).prop('checked');
+        console.log(val)
+        console.log(chk)
+    }
+
+    function fn_selected(el) {
+        var val = $(el).val();
+        console.log(val)
+    }
+</script>

@@ -1,0 +1,99 @@
+.modalWrap {
+  display: none;
+}
+.modalWrap .sender {
+  margin-top: 27px;
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+}
+.modalWrap .sender-top {
+  padding: 15px;
+}
+.modalWrap .sender-title {
+  width: 100%;
+  background-color: #36BAC6;
+  text-align: center;
+}
+.modalWrap .sender-title h2 {
+  background-color: #36BAC6;
+  border-right: 1px solid #9ad5db;
+  height: 42px;
+  line-height: 42px;
+  float: left;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+.modalWrap .sender-title h2:nth-child(1) {
+  width: 313px;
+  border-left: 1px solid #36BAC6;
+}
+.modalWrap .sender-title h2:nth-child(2) {
+  width: 104px;
+}
+.modalWrap .sender-title h2:nth-child(3) {
+  width: 175px;
+}
+.modalWrap .sender-title h2:nth-child(4) {
+  width: 93px;
+}
+.modalWrap .sender-title h2:last-child {
+  border-right: 1px solid #36BAC6;
+  width: 451px;
+}
+.modalWrap .sender-body {
+  display: flex;
+}
+.modalWrap .sender-body .sender-section {
+  padding: 20px 0 20px 17px;
+  height: 423px;
+  border-right: 1px solid #b8b8b8;
+  overflow-y: auto;
+  overflow-X: hidden;
+}
+.modalWrap .sender-body .sender-section .formInput-check {
+  display: inline-block;
+}
+.modalWrap .sender-body .sender-section:nth-child(1) {
+  width: 313px;
+  padding-left: 27px;
+}
+.modalWrap .sender-body .sender-section:nth-child(2) {
+  width: 104px;
+}
+.modalWrap .sender-body .sender-section:nth-child(3) {
+  width: 175px;
+}
+.modalWrap .sender-body .sender-section:nth-child(4) {
+  width: 93px;
+}
+.modalWrap .sender-body .sender-section:last-child {
+  border-right: none;
+  width: 451px;
+}
+.modalWrap .sender-body .sender-section:last-child li {
+  float: left;
+  width: 117px;
+}
+.modalWrap .sender-body .sender-section:last-child li:nth-of-type(4n) {
+  width: auto;
+}
+.modalWrap .sender-body .sender-section:nth-child(even) {
+  background-color: #F8F8F8;
+}
+.modalWrap .sender-body .sender-section-item {
+  position: relative;
+  left: 35px;
+}
+.modalWrap .sender-body li {
+  margin-bottom: 10px;
+}
+.modalWrap .sender-footer {
+  margin-top: 12px;
+  padding-bottom: 38px;
+  border-bottom: 1px solid #BEBEBE;
+}
+.modalWrap .sender-footer strong {
+  font-weight: 900;
+  font-size: 18px;
+}

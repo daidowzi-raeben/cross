@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <!-- 기본 경로 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/reset.css">
+    <link rel="stylesheet" href="../../../css/component.css">
+    <link rel="stylesheet" href="../../../css/common.css">
+    <link rel="stylesheet" href="../../../css/global.css">
+    <link rel="stylesheet" href="../../../css/icon.css">
+    <link rel="stylesheet" href="../../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../../css/fullcalendar/main.css">
+    <link rel="stylesheet" href="../../../css/slick/slick.css">
+    <link rel="stylesheet" href="../../../css/slick/slick-theme.css">
+    <link rel="stylesheet" href="../../../css/air-datepicker/datepicker.css">
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../../js/jquery-ui.js"></script>
+    <script src="../../../js/slick/slick.min.js"></script>
+    <script src="../../../js/chart/Chart.min.js"></script>
+    <script src="../../../js/chart/chartjs-plugin-datalabels.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.js"></script>
+    <script src="../../../js/air-datepicker/datepicker.en.js"></script>
+    <script src="../../../js/fullcalendar/main.js"></script>
+    <title>발급관리 - 경기인관리시스템</title>
+</head>
+<!-- 메인경로 -->
+<body>
+    <div class="wrap">
+        <div class="container gamer clb">
+            <div class="content header">
+                <div class="header-nav">
+                    <h1>
+                        <a href="#">
+                            <img src="../../../img/gamer/logo-gamer.svg"  alt="체육정보시스템" width="235" height="40">
+                        </a>
+                    </h1>
+                    <div class="gnb">
+                        <ul class="clb">
+                            <!-- [D] 활성화시 li에 is_active -->
+                            <li class="is_active"><a href="#">Home</a></li>
+                            <li><a href="#">시스템관리</a></li>
+                            <li><a href="#">신청관리</a></li>
+                            <li><a href="#">등록관리</a></li>
+                            <li><a href="#">시스템공지사항</a></li>
+                        </ul>
+                    </div>
+                    <div class="subnav">
+                        <ul class="clb">
+                            <!-- [D] new마크 newMark 클래스 추가 -->
+                            <li class="newMark"><a href="#">화면 도움말</a></li>
+                            <li>화면ID : <span class="font-roboto">SPL-001</span></li>
+                            <li><a href="#">체육정보시스템</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-login clb">
+                    <div class="user clb">
+                        <p class="user-name">
+                            <span>강대한</span>
+                            <span>과장</span>
+                        </p>
+                        <p class="user-department">
+                            <span>스포츠정보화부</span>
+                        </p>
+                        <div class="login-btn">
+                            <a href="#">로그아웃</a>
+                        </div>
+                    </div>
+                    <div class="login clb">
+                        <div class="login-timer clb">
+                            <span class="font-roboto font-b">17:46:05</span>
+                        </div>
+                        <div class="login-btn">
+                            <a href="#">로그인 연장</a>
+                        </div>
+                    </div>
+                    <div class="callnum">
+                        <i class="icon icon-call"></i>
+                        <span class="font-roboto font-b">02-2144-8141</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="content clb">
+                <div class="sidenav managenav">
+                    <div class="openbtn">
+                        <button type="button">등록관리 열기</button>
+                    </div>
+                    <p class="title">
+                        <i class="icon icon-monitor"></i>
+                        등록관리
+                    </p>
+                    <ul class="managemenu">
+                        <!-- [D] 활성화시 li에 is_active -->
+                        <li>
+                            <a href="#"><i class="icon icon-manage--team"></i>팀관리</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--gamer"></i>선수관리</a>
+                            <ul class="managemenu-sub">
+                                <li class="is_active"><a href="#">메뉴1</a></li>
+                                <li><a href="#">메뉴2</a></li>
+                                <li><a href="#">메뉴3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon icon-manage--leader"></i>지도자관리</a>
+                        </li>
+                        <li><a href="#"><i class="icon icon-manage--judgment"></i>심판관리</a></li>
+                        <li><a href="#"><i class="icon icon-manage--gameradd"></i>선수관리담당자관리</a></li>
+                        
+                    </ul>
+                </div>
+                <!-- header end -->
+                <!-- content start -->
+<!-- 헤더 끝 -->
+
+<div class="conarea">
+    <div class="pagewrap clb">
+    <h2>신청 및 발급</h2>
+    <ul class="pagenav clb">
+        <li>
+            <a href="">home</a>
+        </li>
+        <li>
+            <a href="">test</a>
+        </li>
+    </ul>
+</div>
+    <div class="inpuiry td-height-auto">
+        <div class="inpuiry-content">
+            <div class="clb">
+                <div class="inpuiry-box pb-0">
+                    
+
+    <!-- 2개 -->
+    <div class="inpuiry-heading">
+        <h4>신청자 정보</h4>
+    </div>
+    <div class="detailLine detailLine--2 clb">
+        <ul>
+            <li>
+                <strong class="title">신청자</strong>
+                <p>나체육</p>
+            </li>
+            <li>
+                <strong class="title">신청일</strong>
+                <p>2021.09.17</p>
+            </li>
+            <li>
+                <strong class="title">연락처</strong>
+                <p>010-0000-0000</p>
+            </li>
+            <li>
+                <strong class="title">이메일</strong>
+                <p>aaa@hanmail.net</p>
+            </li>
+            <li>
+                <strong class="title">주소</strong>
+                <p>
+                    98765 <span class="text-indent">부산광역시 서구 장군산로 40 103동 203호<br />
+                        (장군동, 장군산힐스테이트)</span>
+                </p>
+            </li>
+            <li>
+                <strong class="title">결제자</strong>
+                <p>나체육</p>
+            </li>
+            <li>
+                <strong class="title">결제일</strong>
+                <p>2021.09.17</p>
+            </li>
+            <li>
+                <strong class="title">결제금액(원)</strong>
+                <p>100,000</p>
+            </li>
+            <li>
+                <strong class="title">결제방법</strong>
+                <p>신용카드</p>
+            </li>
+            <li>
+                <strong class="title">첨부파일</strong>
+                <p>
+                    <button type="btn" class="btn-upload">
+                        <i class="icon icon-upload"></i> IMG_2468.jpg
+                    </button>
+                </p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <strong class="title">증명서종류</strong>
+                <p>지도자실적증명서</p>
+            </li>
+            <li>
+                <strong class="title">종목</strong>
+                <p>야구소프트볼[야구]</p>
+            </li>
+            <li>
+                <strong class="title">선수명</strong>
+                <p>나체육</p>
+            </li>
+            <li>
+                <strong class="title">생년월일</strong>
+                <p>1973.10.16</p>
+            </li>
+            <li>
+                <strong class="title">선수번호</strong>
+                <p>200705G00251</p>
+            </li>
+
+            <li>
+                <strong class="title">최종소속</strong>
+                <p>나체육고등학교</p>
+            </li>
+
+            <li>
+                <strong class="title">발급용도</strong>
+                <p>서류제출용</p>
+            </li>
+
+            <li>
+                <strong class="title">신청부수</strong>
+                <p>1</p>
+            </li>
+
+            <li>
+                <strong class="title">제출처</strong>
+                <p>학교</p>
+            </li>
+
+            <li>
+                <strong class="title">발행일자</strong>
+                <p>2021.06.11</p>
+            </li>
+        </ul>       
+    </div>
+    <!-- 2개 -->
+
+
+
+                </div>
+                <div class="inpuiry-box pb-40">
+                    
+
+
+    <div class="inpuiry-heading">
+        <h4>발급진행 정보</h4>
+    </div>
+    <div class="inpuiry-inner clb pb-0">
+        <ul class="data float-left">
+            <li class="data-item">
+                <strong>발급 진행 상태</strong>
+                <span class="formInput">
+                        <!-- 비활성화시 checkArea에 disabled클래스 추가-->
+                        <div class="formInput-radio radio-inline">
+                            <div class="radioArea clb readonly">
+                                <input  type="radio" name="issueState" title="issue-state" id="issueState1">
+                                <label for="issueState1">결제대기</label>
+                            </div>
+                            <div class="radioArea clb readonly">
+                                <input  type="radio" name="issueState" title="issue-state" id="issueState2">
+                                <label for="issueState2">결제취소</label>
+                            </div>
+                            <div class="radioArea clb readonly">
+                                <input  type="radio" name="issueState" title="issue-state" id="issueState3">
+                                <label for="issueState3">결제완료</label>
+                            </div>
+                            <div class="radioArea clb readonly">
+                                <input  type="radio" name="issueState" title="issue-state" id="issueState4">
+                                <label for="issueState4">승인대기</label>
+                            </div>
+                            <div class="radioArea clb readonly">
+                                <input  type="radio" name="issueState" title="issue-state" id="issueState5">
+                                <label for="issueState5">승인거부</label>
+                            </div>
+                            <div class="radioArea clb readonly">
+                                <input  type="radio" name="issueState" title="issue-state" id="issueState6">
+                                <label for="issueState6" class="is_active">승인완료</label>
+                            </div>
+                            <div class="radioArea clb readonly">
+                                <input  type="radio" name="issueState" title="issue-state" id="issueState7">
+                                <label for="issueState7">발급완료</label>
+                            </div>
+                        </div>
+                </span>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+                 
+
+
+    <div class="table-wrap height-auto pb-20">
+        <h4 class="table-title lg">실적인증 처리 완료된 정보</h4>
+        <div class="formInput-check clb">
+            <table class="gm-table">
+                <colgroup>
+                    <col width="5%" />
+                    <col width="15%" />
+                    <col width="5%" />
+                    <col width="29%" />
+                    <col width="20%" />
+                    <col width="8%" />
+                    <col width="8%" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th scope="col">
+                            <input type="checkbox" class="check-all" />
+                        </th>
+                        <th scope="col">대회기간</th>
+                        <th scope="col">구분</th>
+                        <th scope="col">대회명</th>
+                        <th scope="col">종목</th>
+                        <th scope="col">순위</th>
+                        <th scope="col">지도선수명</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="certificate_info[]" class="del-chk" />
+                            </td>
+                            <td>2020.08.01 ~ 2020.09.06</td>
+                            <td class="text-left">팀실적</td>
+                            <td class="text-left">고교야구 주말리그 전반기 (대전충청권)</td>
+                            <td class="text-left">야구소프트볼[야구]</td>
+                            <td class="text-left">3위</td>
+                            <td class="text-left">나체육</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="certificate_info[]" class="del-chk" />
+                            </td>
+                            <td>2020.08.01 ~ 2020.09.06</td>
+                            <td class="text-left">팀실적</td>
+                            <td class="text-left">고교야구 주말리그 전반기 (대전충청권)</td>
+                            <td class="text-left">야구소프트볼[야구]</td>
+                            <td class="text-left">3위</td>
+                            <td class="text-left">나체육</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="certificate_info[]" class="del-chk" />
+                            </td>
+                            <td>2020.08.01 ~ 2020.09.06</td>
+                            <td class="text-left">팀실적</td>
+                            <td class="text-left">고교야구 주말리그 전반기 (대전충청권)</td>
+                            <td class="text-left">야구소프트볼[야구]</td>
+                            <td class="text-left">3위</td>
+                            <td class="text-left">나체육</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="certificate_info[]" class="del-chk" />
+                            </td>
+                            <td>2020.08.01 ~ 2020.09.06</td>
+                            <td class="text-left">팀실적</td>
+                            <td class="text-left">고교야구 주말리그 전반기 (대전충청권)</td>
+                            <td class="text-left">야구소프트볼[야구]</td>
+                            <td class="text-left">3위</td>
+                            <td class="text-left">나체육</td>
+                        </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+                <div class="inpuiry-btn-wrap">
+                    <button type="button" class="btn btn-block mr-10">
+                    비승인
+                    </button>
+                    <button type="button" class="btn btn-blue mr-20">
+                    승인
+                    </button>
+                    <button type="button" class="btn btn-mint mr-5">(재)발급</button>
+                    <button type="button" class="btn btn-mint mr-10">인쇄</button>
+                    <button type="button" class="btn btn-mint mr-10">수정</button>
+                    <button type="button" class="btn btn-mint">목록</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 푸터 시작 -->
+    <!-- content end -->
+    <!-- footer start -->
+    <div class="sidenav shortnav rightfold">
+        <div class="openbtn">
+            <button type="button">바로가기 열기</button>
+        </div>
+        <p class="title">
+            <i class="icon icon-monitor"></i>
+            바로가기
+        </p>
+        <ul>
+            <li><a href="#">전자문서시스템</a></li>
+            <li><a href="#">체육단체인트라넷</a></li>
+            <li><a href="#">PC 원격제어</a></li>
+            <li><a href="#">시스템메뉴얼</a></li>
+        </ul>
+        <img src="../../../img/common/logo_v.svg"  alt="대한체육회" width="60" height="73">
+    </div>
+</div>
+    <div class="footer  clb ">
+
+        <div class="footcon clb">
+            <div class="footer-policyLink policyLink">
+                <a href="#" class="font-b">개인정보처리방침</a>
+            </div>
+            <dl class="footer-info clb">
+                <dt>이용문의</dt>
+                <dd>
+                    <p class="mt-m1">
+                        체육정보시스템 콜센터
+                        <span class="font-roboto font-18"><strong>02-2144-8141</strong></span>
+                    </p>
+                </dd>
+                <dt>근무시간 <span class="font-roboto">09:00 ~ 18:00</span></dt>
+                <dd>
+                    <p>점심시간 <span class="font-roboto">(12&#58;00 &#126; 13&#58;00)</span></p>
+                </dd>
+            </dl>
+            <div class="footer-copyright copyright">
+                <p>ⓒ 대한체육회</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+    </div>
+    <script src="../../../js/common.js"></script>
+    <script src="../../../js/gamer.js"></script>
+    </body>
+</html>

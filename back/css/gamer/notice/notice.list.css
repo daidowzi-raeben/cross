@@ -1,0 +1,10 @@
+.wd-85 {
+  width: 85px;
+  float: left;
+  margin-right: 5px;
+}
+
+.type-b .condiBox .formInput div input.wd-140 {
+  width: 140px;
+  float: left;
+}

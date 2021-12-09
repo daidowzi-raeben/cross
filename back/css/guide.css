@@ -1,0 +1,182 @@
+.font-l {
+  font-weight: 100;
+}
+.font-r {
+  font-weight: 300;
+}
+.font-m {
+  font-weight: 500;
+}
+.font-b {
+  font-weight: 700;
+}
+.font-eb {
+  font-weight: 900;
+}
+.font-35 {
+  font-size: 35px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-23 {
+  font-size: 23px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-13 {
+  font-size: 13px;
+}
+
+.guide .codebox {
+  font-size: 13px;
+}
+
+.guide {
+  position: relative;
+  height: 100%;
+}
+.guide h1 {
+  font-size: 40px;
+}
+.guide h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.guide h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.guide h4 {
+  font-size: 20px;
+}
+.guide .commentBox {
+  margin-top: 10px;
+}
+.guide .commentBox + .commentBox {
+  margin-left: 30px;
+}
+.guide .commentBox p {
+  text-transform: none;
+  line-height: 1.7;
+}
+.guide .commentBox .colorTag.gradient i {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#164194), to(#36bac6));
+  background-image: linear-gradient(0deg, #164194 0%, #36bac6 100%);
+}
+.guide .commentBox .colorTag i {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  background-color: #aaa;
+  border: #111;
+  border-radius: 100%;
+  width: 13px;
+  height: 13px;
+}
+.guide-list {
+  position: fixed;
+  float: left;
+  width: 310px;
+  height: 100%;
+  padding: 10px 50px;
+  border-right: 1px solid #B5B5B5;
+  background-color: #F4F4F4;
+}
+.guide-list li {
+  height: 25px;
+  font-size: 15px;
+  list-style: disc;
+}
+.guide-list li:first-child {
+  font-size: 30px;
+  margin: 0 0 50px 0;
+  list-style: none;
+}
+.guide-list li a:hover {
+  color: #224B9E;
+}
+.guide-content {
+  width: calc(100% - 310px);
+  margin: 0 0 0 310px;
+  font-size: 20px;
+}
+.guide-content > div {
+  padding: 80px 60px;
+}
+.guide-content > div .conWrap {
+  width: 100%;
+  margin: 20px 0;
+}
+.guide-content > div .condiv {
+  min-width: 20%;
+  padding: 10px;
+}
+.guide-content > div .condiv-50 {
+  min-width: calc(50% - 50px);
+  padding: 10px;
+}
+.guide .codebox {
+  background-color: #0f192a;
+  color: #fff;
+}
+.guide .codebox xmp {
+  margin: 10px;
+}
+.guide .codebox .copybtn {
+  padding: 3px 6px;
+  margin: 10px 10px 0;
+  border: 2px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.guideSpin i.icon-arrow-com.guideSpinhover, .guideSpin i.icon-arrow-com.guideSpinactive {
+  background-image: url("../img/common/arrow-com-w.svg") !important;
+}
+
+.mouseOver {
+  border-color: #3d3d3d !important;
+  background-color: #ffffff !important;
+}
+
+.mouseFocus {
+  border-color: #224B9E !important;
+  background-color: #FFFFFF !important;
+}
+
+.mouseOverbg {
+  background-color: #3d3d3d !important;
+}
+
+.mouseFocusbg {
+  background-color: #224B9E !important;
+}
+
+.popbtn {
+  padding: 10px 20px;
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+}

@@ -1,0 +1,63 @@
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mr-22 {
+  margin-right: 22px;
+}
+
+.mr-122 {
+  margin-right: 122px;
+}
+
+.item-pd {
+  padding: 10px 0 10px 0 !important;
+}
+
+.pd-10-0 {
+  padding: 15px 0;
+}
+
+.pd-none {
+  padding-bottom: 0;
+}
+
+.file-list li {
+  display: flex;
+}
+.file-list li span {
+  font-weight: 400;
+}
+
+.inpuiry-btn-wrap button.btn-blue {
+  padding: 0 26px !important;
+}
+
+.inpuiry-btn-wrap button.btn-block {
+  height: 35px;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.blue-btn {
+  height: 35px !important;
+}
+
+.historyContent li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.historyContent li .list-left {
+  display: flex;
+  align-items: center;
+}
+.historyContent li .triangle-black {
+  transform: rotate(180deg);
+}

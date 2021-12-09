@@ -1,0 +1,76 @@
+.conarea {
+  padding-bottom: 50px;
+}
+.conarea .inpuiry-box {
+  padding: 40px 40px 0 40px;
+}
+.conarea .inpuiry-box:last-child {
+  margin-bottom: 20px;
+  padding: 40px 41px 41px 40px;
+}
+.conarea .inpuiry-box .mini-title {
+  font-size: 18px;
+  margin-bottom: 17px;
+}
+.conarea .inpuiry-box .user-left {
+  width: 33.4%;
+  padding: 25px 0 25px 0;
+  border-right: 0;
+}
+.conarea .inpuiry-box .user-left dt {
+  width: 74px;
+  margin-right: 45px;
+}
+.conarea .inpuiry-box .user div {
+  height: 22.6px;
+}
+.conarea .inpuiry-box .user-center {
+  width: 33.3%;
+  padding: 25px 0 25px 40px;
+  border-right: 1px solid #d8d8d8;
+  border-left: 1px solid #d8d8d8;
+}
+.conarea .inpuiry-box .user-center dt {
+  width: 59px;
+  margin-right: 45px;
+}
+.conarea .inpuiry-box .user-right {
+  width: 33.3%;
+  padding: 25px 0 25px 40px;
+}
+.conarea .inpuiry-box .user-right dt {
+  width: 59px;
+  margin-right: 45px;
+}
+.conarea .inpuiry-box .table-wrap {
+  padding-bottom: 0;
+}
+.conarea .inpuiry-box .table-wrap thead th {
+  text-align: center;
+}
+.conarea .inpuiry-box table.subTable {
+  margin-bottom: 0;
+}
+.conarea .inpuiry-box table {
+  margin-bottom: 51px;
+}
+.conarea .inpuiry-box table:last-child {
+  margin-bottom: 0px;
+}
+.conarea .inpuiry-box table thead tr th {
+  padding: 12.5px 0;
+}
+.conarea .inpuiry-box table tbody td {
+  font-size: 16px;
+}
+.conarea .inpuiry-box table tbody .formInput-radio .radioArea {
+  float: left;
+  margin-right: 18px;
+  padding: 0;
+}
+.conarea .inpuiry-box table tbody .formInput-radio .radioArea label {
+  padding-top: 1px;
+}
+.conarea .btn {
+  font-size: 15px;
+}

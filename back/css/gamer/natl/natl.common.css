@@ -1,0 +1,163 @@
+.main .link .linkitem-btn.full {
+  width: 100%;
+}
+.main .link .linkitem-btn.full span:nth-child(2) {
+  position: relative;
+  display: inline-block;
+}
+.main .link .linkitem-btn.full span:nth-child(2):after {
+  content: "<";
+  display: block;
+  font-size: 18px;
+  position: absolute;
+  right: -18px;
+  top: 18px;
+}
+
+.main-link.mt-165 {
+  margin-top: 165px;
+}
+
+.formInput .wd-600 {
+  width: 600px !important;
+}
+
+.formInput .guide {
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+.data-item .formInput .textarea.w-100 {
+  width: calc(100% - 147px);
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "NotoSans";
+  border-color: #bebebe;
+  resize: none;
+  border-radius: 3px;
+}
+
+.data.formInput .data-item strong, .data.formInput .data-item span {
+  height: 35px;
+  line-height: 35px;
+}
+.data.formInput input {
+  font-weight: 300;
+  font-family: "NotoSans";
+}
+
+.text-right .btn-sm {
+  height: 34px !important;
+  line-height: 34px !important;
+}
+
+.formInput-inline .formInput {
+  display: inline-block;
+}
+
+.h-420 .condiBox {
+  height: 420px;
+}
+
+.gradient-table {
+  border-top: none;
+}
+.gradient-table th {
+  padding: 15px 0 !important;
+}
+.gradient-table tbody tr:first-child td {
+  border-top: none;
+}
+
+.th-gradient1 th {
+  background: #48c2cd;
+  border-top: 1px solid #9ad5db;
+  border-right: 1px solid #9ad5db !important;
+}
+
+.th-gradient2 th {
+  background: #5cc9d3;
+  border-top: 1px solid #9ad5db;
+  border-right: 1px solid #9ad5db !important;
+}
+
+.modal.wd-max2 {
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+.modal.wd-max2 table {
+  margin-bottom: 0;
+  border-bottom: 1px solid #afafaf;
+}
+.modal.wd-max2 .gm-table tbody tr {
+  background: #ececec;
+}
+
+.modalWrap .modal .gm-chart__content__excel .btn {
+  min-width: unset;
+  width: auto;
+}
+
+.gm-chart__total .guide {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+.total-table td[rowspan] {
+  border-right: 1px solid #ccc;
+}
+.total-table td[rowspan] + td {
+  border-left: none;
+}
+
+.dorm-wrap {
+  overflow-y: hidden;
+  margin-bottom: 40px;
+}
+.dorm-wrap > div {
+  width: calc(50% - 20px);
+  float: left;
+}
+.dorm-wrap .left {
+  margin-right: 40px;
+}
+.dorm-wrap .top {
+  margin-bottom: 30px;
+}
+.dorm-wrap .top .right {
+  float: right;
+}
+.dorm-wrap .top .right .formInput-select {
+  display: inline-block;
+}
+.dorm-wrap .top .right .btn-sm {
+  height: 35px;
+  line-height: 35px;
+  padding: 0 20px;
+  font-size: 15px;
+  vertical-align: top;
+}
+.dorm-wrap img {
+  width: 100%;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.data-item .btn-sm {
+  padding: 0 10px;
+  font-size: 15px;
+  height: 34px;
+  line-height: 34px;
+  margin-left: 5px;
+}
+
+.guide.abs {
+  position: absolute;
+  bottom: 55px;
+}

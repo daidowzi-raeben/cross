@@ -1,0 +1,11 @@
+.mb-14 {
+  margin-bottom: 14px !important;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.resultBox .resultBox-lately button::after {
+  background-image: url(../../../img/common/arrow-s.svg) !important;
+}

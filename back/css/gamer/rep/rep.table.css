@@ -1,0 +1,78 @@
+.management__rep .management-list__wrap textarea {
+  width: 100%;
+  height: 132px;
+  display: block;
+  resize: none;
+  border-radius: 3px;
+  border: 1px solid #B1B1B1;
+  background-color: #fff;
+}
+.management__rep .management-list__wrap textarea:focus {
+  outline: none;
+}
+
+.training-table .up, .training-table .down {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #3d3d3d;
+  border-radius: 50%;
+}
+.training-table .down {
+  transform: rotate(180deg);
+}
+
+.management__rep {
+  margin-bottom: 0;
+}
+.management__rep .management-list__wrap .repTable {
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 50px;
+}
+.management__rep .management-list__wrap .repTable-wrap {
+  display: flex;
+  width: 1387px;
+}
+.management__rep .management-list__wrap .repTable-wrap table {
+  width: 1387px;
+}
+.management__rep .management-list__wrap table {
+  margin-bottom: 0 !important;
+}
+.management__rep .management-list__wrap table th {
+  border-right: 1px solid #9AD5DB;
+}
+.management__rep .management-list__wrap table tr.special-tr td {
+  background-color: #fff;
+}
+.management__rep .management-list__wrap table tr.special-tr td.td-grey {
+  background-color: #F8F8F8;
+}
+.management__rep .management-list__wrap table tbody th {
+  background-color: #36BAC6;
+  color: #fff;
+}
+.management__rep .management-list__wrap table tbody input {
+  width: 100%;
+}
+.management__rep .management-list__wrap table tbody .first-tr td:nth-child(even) {
+  background-color: #F8F8F8;
+}
+.management__rep .management-list__wrap table tbody .first-tr td:nth-child(odd) {
+  background-color: #fff;
+}
+.management__rep .management-list__wrap table td:nth-child(even) {
+  background-color: #fff;
+}
+.management__rep .management-list__wrap table td:nth-child(odd) {
+  background-color: #F8F8F8;
+}
+.management__rep .management-list__wrap table .height-150 {
+  height: 150px;
+}
+.management__rep .management-list__wrap table .height-58 {
+  height: 58px;
+}
+.management__rep .management-list__wrap .solve-table {
+  width: 100%;
+}

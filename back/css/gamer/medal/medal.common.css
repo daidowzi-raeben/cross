@@ -1,0 +1,141 @@
+.inpuiry-box .pb-50 {
+  padding-bottom: 50px;
+}
+.inpuiry-box ul.strong-188 li.data-item strong {
+  width: 188px;
+}
+.inpuiry-box ul.strong-188 li.data-item > span {
+  width: calc(100% - 188px);
+}
+.inpuiry-box ul.strong-188.formInput li.data-item:not(.none) strong {
+  line-height: 24px;
+  height: 24px;
+}
+.inpuiry-box ul.strong-188.formInput li.data-item:not(.none) span {
+  line-height: 24px;
+  height: 24px;
+}
+.inpuiry-box ul.strong-171 li.data-item strong {
+  width: 171px;
+}
+.inpuiry-box ul.strong-171 li.data-item > span {
+  width: calc(100% - 171px);
+}
+.inpuiry-box ul.strong-179 li.data-item strong {
+  width: 179px;
+}
+.inpuiry-box ul.strong-179 li.data-item > span {
+  width: calc(100% - 179px);
+}
+.inpuiry-box ul.strong-138 li.data-item strong {
+  width: 138px;
+}
+.inpuiry-box ul.strong-138 li.data-item > span {
+  width: calc(100% - 138px);
+}
+.inpuiry-box.notice .notice-content ul.pl-0 li.item {
+  padding-left: 0 !important;
+}
+.inpuiry-box.notice .notice-content ul.pd-25-0 li.item {
+  padding: 25px 0 !important;
+}
+.inpuiry-box.notice .notice-content ul.pd-25-0 li.item.select-pd {
+  padding: 25px 0 20px !important;
+}
+.inpuiry-box.notice .notice-content ul.strong-124 li.item strong.title {
+  width: 124px;
+}
+.inpuiry-box.notice .notice-content ul.strong-124 li.item strong.title.mt-3 {
+  margin-top: 3px;
+}
+.inpuiry-box.notice .notice-content ul.strong-124 li.item div {
+  width: calc(100% - 124px);
+  margin-right: 0;
+}
+.inpuiry-box.notice .notice-content ul.strong-124 li.item textarea.hg-119 {
+  width: calc(100% - 15px);
+  height: 119px;
+  resize: none;
+  border: solid 1px #b1b1b1;
+  border-radius: 3px;
+  font-family: "NotoSans", sans-serif;
+  font-size: 15px;
+  color: #3d3d3d;
+  font-weight: 400;
+  padding: 8px 10px;
+}
+.inpuiry-box.pb-15 {
+  padding-bottom: 15px !important;
+}
+.inpuiry-box.hg-612 {
+  min-height: 612px;
+}
+.inpuiry-box.hg-548 {
+  min-height: 548px;
+}
+.inpuiry-box button.pd-0-12 {
+  padding: 0 12px !important;
+  height: 34px !important;
+  line-height: 34px;
+}
+
+table thead tr.hg-70 {
+  height: 70px;
+}
+table thead tr.hg-100 {
+  height: 100px;
+}
+table thead.hg-50 th {
+  height: 50px;
+}
+table thead.hg-50 tr.table-th-second th {
+  background: #48c2cd;
+  border-top: 1px solid #9ad5db;
+}
+table thead.hg-50 tr.table-th-second th:last-child {
+  border-right: 1px solid #9ad5db !important;
+}
+table thead.hg-50 tr.table-th-second.br-0.bt-y th {
+  border-top: 1px solid #9ad5db;
+}
+table thead.hg-50 tr.table-th-second.br-0.bt-y th:last-child {
+  border-right: 0 !important;
+}
+
+label.mt-10 {
+  margin-top: 10px !important;
+}
+
+td.pd-11-24 {
+  padding: 11px 24px !important;
+}
+
+.mr-14 {
+  margin-right: 14px !important;
+}
+
+.type-b .conSignebox .condiBox.single .formInput div.mh-100 {
+  min-height: 100px;
+}
+
+.modalWrap .modal-main .pd-15-0 {
+  padding: 15px 0;
+}
+.modalWrap .modal-main .lh-25 {
+  line-height: 25px;
+}
+.modalWrap .modal-main .h5-189 h5 {
+  width: 189px;
+}
+.modalWrap .modal-main .ml-251 {
+  margin-left: 251px;
+}
+.modalWrap .modal-main .mn-6-10 {
+  margin: 0 6px 0 10px;
+}
+.modalWrap .modal-main .pt-4 {
+  padding-top: 4px;
+}
+.modalWrap .modal-main .pl-12 {
+  padding-left: 12px;
+}

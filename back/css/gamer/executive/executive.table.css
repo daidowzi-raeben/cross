@@ -1,0 +1,51 @@
+.inpuiry .table-wrap.mhg-0 {
+  min-height: auto;
+}
+.inpuiry .table-wrap table tbody tr.hg-58 {
+  height: 58px;
+}
+.inpuiry .table-wrap table tbody tr.hg-68 {
+  height: 68px;
+}
+.inpuiry .table-wrap table tbody tr.hg-69 {
+  height: 69px;
+}
+.inpuiry .table-wrap table tbody tr.pd-10.font-16 td {
+  padding: 10px;
+  font-size: 16px;
+}
+.inpuiry .table-wrap table tbody tr td .btn-group .wd-52 {
+  width: 52px;
+  min-width: 52px;
+  padding: 0 12px;
+}
+.inpuiry .table-wrap table tbody tr td.pr-0 {
+  padding-right: 0 !important;
+}
+.inpuiry .table-wrap .icon-span {
+  height: 27px;
+}
+.inpuiry .table-wrap .icon-span i {
+  float: left;
+}
+.inpuiry .table-wrap .icon-span span {
+  float: left;
+  margin-top: 4px;
+}
+
+.type-b .conSignebox .condiBox.single .formInput > div.mr-94 {
+  margin-right: 94px;
+}
+.type-b .conSignebox .condiBox.single .formInput > div.wd-294 {
+  width: 294px;
+  max-width: unset;
+}
+
+.table-wrap thead tr.hg-29 th {
+  height: 29px;
+  padding: 0;
+}
+.table-wrap tbody tr.hg-40 td {
+  height: 40px;
+  padding: 0 10px;
+}

@@ -1,0 +1,151 @@
+html {
+  height: 100%;
+}
+
+.wrap {
+  height: 100%;
+  width: 100%;
+}
+.wrap .container .contents-visual {
+  width: 46%;
+  height: 100%;
+  background: url("../img/login/login_bg.svg") no-repeat 0/cover;
+  background-position: center;
+  position: fixed;
+}
+.wrap .container .contents-visual__text {
+  position: fixed;
+  top: 50%;
+  margin-top: -100px;
+  text-align: center;
+  width: 46%;
+}
+.wrap .container .contents-visual__text::before {
+  content: "";
+  width: 1px;
+  background: #fff;
+  height: calc(50% - 200px);
+  top: 0;
+  position: fixed;
+  left: 23%;
+}
+.wrap .container .contents-visual__text::after {
+  content: "";
+  width: 1px;
+  background: #fff;
+  height: calc(50% - 200px);
+  bottom: 0;
+  position: fixed;
+  left: 23%;
+}
+.wrap .container .contents-login {
+  margin-left: calc(46% + 96px);
+  height: 100px;
+}
+.wrap .container .contents-login__logo {
+  margin-top: 110px;
+}
+.wrap .container .contents-login__logo h2 {
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.51;
+  letter-spacing: -0.9px;
+  color: #3d3d3d;
+  margin: 6px 0 0;
+}
+.wrap .container .contents-login__form {
+  margin: 38px 0 0;
+}
+.wrap .container .contents-login__form > h3 {
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.49;
+}
+.wrap .container .contents-login__form .formInput-id input, .wrap .container .contents-login__form .formInput-pw input {
+  height: 40px;
+  width: 260px;
+}
+.wrap .container .contents-login__form .formInput-id {
+  margin: 20px 0 10px 0;
+}
+.wrap .container .contents-login__form .formInput-check {
+  margin: 13px 0 16px 5px;
+}
+.wrap .container .contents-login__form button {
+  width: 90px;
+  height: 90px;
+  margin: 20px 13px 11px 7px;
+  border-radius: 3px;
+  background-color: #164194;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+}
+.wrap .container .contents-login__form ul.sign {
+  width: 100%;
+  border-top: 1px solid #bebebe;
+  border-bottom: 1px solid #bebebe;
+  padding: 9px 10px;
+}
+.wrap .container .contents-login__form ul.sign li {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  float: left;
+  margin-right: 40px;
+}
+.wrap .container .contents-login__form ul.sign li:last-child {
+  margin-right: 0;
+}
+.wrap .container .contents-login__form ul.sign li:nth-child(2)::before, .wrap .container .contents-login__form ul.sign li:nth-child(2)::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 14px;
+  background-color: #bebebe;
+  margin-top: 5px;
+}
+.wrap .container .contents-login__form ul.sign li:nth-child(2)::before {
+  margin-left: -20px;
+}
+.wrap .container .contents-login__form ul.sign li:nth-child(2)::after {
+  margin-left: 20px;
+}
+.wrap .container .contents-login__footer .contents__text {
+  margin-top: 27px;
+}
+.wrap .container .contents-login__footer .contents__text dt {
+  margin: 20px 0 3px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+.wrap .container .contents-login__footer .contents__text dd {
+  margin: 0 0 20px 0;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: -0.3px;
+}
+.wrap .container .contents-login__footer .contents .policyLink {
+  margin: 6px 0 41px 0;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: -0.3px;
+}
+.wrap .container .contents-login__footer .contents .policyLink a {
+  color: #164194;
+}

@@ -1,0 +1,41 @@
+.gm-chart__total {
+  font-size: 20px;
+  font-weight: bold;
+}
+.gm-chart__total h3 {
+  display: inline-block;
+  min-width: 128px;
+  margin-bottom: -4px;
+}
+.gm-chart__total--sm {
+  font-size: 15px;
+  position: absolute;
+  margin-top: 4.5px;
+}
+.gm-chart__content__excel {
+  margin: 0 0 7px 0;
+}
+.gm-chart__content__excel button {
+  width: 96px;
+  margin-top: 1px;
+  padding: 8px 12px 8px 14px;
+}
+.gm-chart__content__page {
+  margin: 0 0 7px 40px;
+}
+.gm-chart__content__page label {
+  margin: 5px 7px 0 0;
+}
+.gm-chart__content__page dl.choice {
+  width: 68px;
+}
+.gm-chart__content__page dl.align {
+  width: 114px;
+  margin-left: 5px;
+}
+.gm-chart__content__etc {
+  margin: 5px 0 7px 40px;
+}
+.gm-chart__content__option {
+  margin: 0 0 7px 5px;
+}

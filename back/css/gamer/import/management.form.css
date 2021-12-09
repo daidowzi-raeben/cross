@@ -1,0 +1,177 @@
+.management {
+  margin-bottom: 30px;
+}
+.management .dlb {
+  display: inline-block;
+  vertical-align: middle;
+}
+.management-inner {
+  border: 1px solid #bebebe;
+  padding: 40px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.management-box {
+  margin-bottom: 15px;
+}
+.management-box:last-child {
+  margin-bottom: 0;
+}
+.management hr {
+  margin-bottom: 25px;
+}
+.management .management-header {
+  border-bottom: 1px solid #3d3d3d;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+.management .management-header h3 {
+  font-size: 18px;
+}
+.management h5 {
+  width: 150px;
+  font-size: 16px;
+  color: #3d3d3d;
+  float: left;
+  margin-top: 5px;
+  font-weight: 500;
+}
+.management p {
+  color: #3d3d3d;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.management-input {
+  float: left;
+}
+.management-input.management-input__max {
+  width: calc(100% - 150px);
+}
+.management-input textarea {
+  width: 100%;
+  height: 140px;
+  resize: none;
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 17px;
+}
+.management-input textarea:focus {
+  outline: none;
+}
+.management .wd-350 {
+  width: 350px;
+}
+.management .club {
+  position: relative;
+  left: 250px;
+}
+.management .club-select {
+  position: relative;
+  left: -83px;
+}
+.management .school-code {
+  margin-right: 10px;
+}
+.management dl.divison-list {
+  width: 225px;
+  margin-right: 20px;
+}
+.management dl.code-group-list {
+  width: 257px;
+  margin-bottom: 15px;
+}
+.management dl.detail-group1 {
+  width: 258px;
+  margin-bottom: 15px;
+}
+.management dl.detail-group2 {
+  width: 258px;
+}
+.management .day input {
+  width: 179px;
+}
+.management .btn {
+  padding: 7px 12px 6px 12px;
+  font-size: 15px;
+}
+.management label {
+  margin-right: 20px;
+  font-weight: 400;
+}
+.management label[for=code-group] {
+  margin-right: 29px;
+}
+.management-btn {
+  margin-top: 20px;
+  font-size: 0;
+  text-align: right;
+}
+.management-btn .btn {
+  padding: 12px 26px 11px;
+}
+.management-input.team-checkbox {
+  margin-top: 10px;
+}
+.management p.management-composition-text {
+  margin-top: 10px;
+}
+.management-list {
+  width: 100%;
+  border: 1px solid #B8B8B8;
+}
+.management-list thead {
+  background-color: #36BAC6;
+}
+.management-list thead th {
+  text-align: center;
+  border: 1px solid #9ad5db;
+  color: #fff;
+}
+.management-list thead th:first-child {
+  padding-left: 0;
+}
+.management-list tbody th {
+  text-align: center;
+}
+.management-list tbody th:first-child {
+  padding-left: 0;
+}
+.management-list td {
+  padding: 15px 10px;
+}
+.management-list td:nth-child(even) {
+  background-color: #F8F8F8;
+}
+.management-list td .nonBox {
+  min-height: 26px;
+}
+.management-list td.tableWhite {
+  background-color: #fff !important;
+}
+.management-list td.tableGrey {
+  background-color: #F8F8F8 !important;
+}
+.management-list tr.dark-blue th {
+  background-color: #48C2CD;
+}
+.management-list tr.light-blue th {
+  background-color: #5CC9D3;
+}
+.management-list tr.white-blue th {
+  background-color: #66D5DC;
+}
+.management-list input[type=number] {
+  width: 100%;
+  padding-right: 10px;
+}
+.management .newBtn {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 0;
+}
+
+td {
+  text-align: center;
+}

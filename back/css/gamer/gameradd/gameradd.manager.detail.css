@@ -1,0 +1,19 @@
+table thead tr th {
+  line-height: 1;
+}
+
+.inpuiry-box:last-child {
+  margin-bottom: 20px;
+}
+
+.user-left div {
+  margin-right: 47px !important;
+}
+.user-left div dt {
+  width: 59px !important;
+  margin-right: 50px !important;
+}
+.user-right dt {
+  width: 88px !important;
+  margin-right: 50px !important;
+}

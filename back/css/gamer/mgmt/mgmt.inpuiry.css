@@ -1,0 +1,242 @@
+.management-header {
+  display: flex;
+  justify-content: space-between;
+}
+.management-header .icon-plus {
+  margin-left: 40px;
+  margin-bottom: -15px;
+}
+.management-header span {
+  align-items: center;
+}
+.management-header.management-header__plus {
+  padding-bottom: 15px;
+}
+.management-header.management-header__plus h3 {
+  position: relative;
+  top: 10px;
+}
+.management-group {
+  display: flex;
+  border-bottom: 1px solid #BEBEBE;
+  padding-bottom: 30px;
+  margin-bottom: 25px;
+}
+.management-group:first-child {
+  padding-bottom: 30px;
+}
+.management-group:last-child {
+  border-bottom: none;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+.management-group h5 {
+  width: auto;
+  margin-bottom: 5px;
+  float: none;
+}
+.management-group .management-box {
+  margin-right: 73px;
+  margin-bottom: 0;
+}
+.management-group .management-input {
+  float: none;
+}
+.management .table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.management .table-header .listTitle {
+  margin-bottom: 0;
+}
+.management.management__reg .management-header__md {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.management.management__reg .listTitle {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+.management.management__reg .font-15 {
+  font-size: 15px;
+}
+.management.management__reg h4 {
+  margin: 5px 0;
+  font-weight: 500;
+}
+.management.management__reg h5 {
+  width: 82px;
+}
+.management.management__reg .management-input {
+  width: calc(100% - 82px);
+}
+.management.management__reg .wd-531 {
+  width: 531px;
+}
+.management.management__reg .management-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.management.management__reg textarea {
+  padding: 17px;
+  width: 100%;
+  min-height: 210px;
+  border-radius: 3px;
+  border: 1px solid #BEBEBE;
+  font-size: 16px;
+  font-weight: 500;
+  resize: none;
+}
+.management.management__reg textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+.management.management__reg textarea.etc {
+  min-height: 210px;
+  padding: 17px;
+}
+.management-block {
+  padding-bottom: 0;
+}
+.management-block .management-header {
+  margin-bottom: 0;
+}
+.management-block .boxWrapp {
+  display: flex;
+}
+.management-block .boxWrapp .twoBox {
+  width: 50%;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+.management-block .boxWrapp .twoBox:first-child {
+  border-right: 1px solid #D8D8D8;
+}
+.management-block .boxWrapp .twoBox:last-child {
+  padding-left: 40px;
+}
+.management-block .boxWrapp .threeBox {
+  width: 33.3333%;
+  border-right: 1px solid #D8D8D8;
+  padding: 25px 0 40px 40px;
+}
+.management-block .boxWrapp .threeBox:first-child {
+  padding-left: 0;
+}
+.management-block .boxWrapp .threeBox:last-child {
+  border-right: none;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-60 {
+  margin-right: 60px !important;
+}
+
+.mr-80 {
+  margin-right: 80px !important;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.icon-point-info {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pr-24 {
+  padding-right: 0 !important;
+}
+
+.min-266 {
+  min-height: 266px !important;
+}
+
+.min-268 {
+  min-height: 268px !important;
+}
+
+.wd-438 {
+  width: 438px !important;
+}
+
+.wd-604 {
+  width: 604px !important;
+}
+
+.wd-608 {
+  width: 608px !important;
+}
+
+.wd-773 {
+  width: 773px !important;
+}
+
+.inner-56 {
+  display: flex;
+  width: 100%;
+  height: 124px;
+  margin-top: 12px;
+  margin-bottom: 31px;
+  border-radius: 3px;
+  border: solid 1px #bebebe;
+  background-color: #fff;
+}
+.inner-56-btn .btn-block {
+  margin-top: 45px;
+  margin-left: 32px;
+  height: 35px;
+  padding: 0 8px;
+}
+.inner-56-btn .btn-last {
+  margin-top: 17px !important;
+}
+.inner-56-left {
+  width: 135px;
+  height: 124px;
+  border-right: solid 1px #bebebe;
+}
+.inner-56-right {
+  width: calc(100%-135px);
+  height: 124px;
+}
+.inner-56-right .right-contents {
+  padding-top: 17px;
+  padding-left: 15px;
+}
+.inner-56-right .right-contents li {
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+.inner-56-right .right-contents li .icon-download {
+  height: 17px;
+}
+
+.hoverBorder:hover {
+  box-shadow: 0 0 0 1px #3d3d3d;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.modalWrap .wd-724 {
+  width: 724px !important;
+}
+
+td.table-even {
+  background-color: #fff !important;
+}

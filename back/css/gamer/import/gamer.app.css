@@ -1,0 +1,366 @@
+.savepop .popContent-con table td, .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span, .condiBox .formInput .formInput-check label, .condiBox .formInput .formInput-radio label {
+  font-weight: 400;
+}
+.app-search .foldBtn button, .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p, .condiBox .formInput div label {
+  font-weight: 500;
+}
+h3 {
+  font-weight: 700;
+}
+h3 {
+  font-size: 18px;
+}
+.savepop .popContent-con table td {
+  font-size: 16px;
+}
+.condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p {
+  font-size: 15px;
+}
+.app-search .foldBtn button {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span {
+  font-size: 13px;
+}
+.singeBox {
+  height: 122px;
+  width: 100%;
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+  padding: 22px 30px;
+}
+.singeBox .singeform {
+  float: left;
+  width: calc(25% - 74px);
+}
+.singeBox .singeform + .singeform {
+  margin-left: 94px;
+}
+.singeBox .singeform input {
+  width: 100%;
+}
+
+.conSignebox {
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+}
+.conSignebox .condiBox.single {
+  width: 100%;
+  min-width: 230px;
+  height: auto;
+  background-color: inherit;
+  border: 0;
+  padding: 7px 33px 0px 0px;
+}
+.conSignebox .condiBox.single .formInput > div {
+  float: left;
+  width: calc(20% - 34px);
+  min-height: 75px;
+  margin: 0 0 40px 33px;
+}
+.conSignebox .condiBox.single .formInput > div:nth-of-type(5n) {
+  margin-right: 0;
+}
+
+.condiBox {
+  float: left;
+  width: calc(25% - 25px);
+  height: 585px;
+  padding: 22px 30px 44px;
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+  margin-right: 33px;
+}
+.condiBox:last-child {
+  margin-right: 0;
+}
+.condiBox .formInput {
+  margin: 33px 0 0;
+}
+.condiBox .formInput div {
+  margin: 15px 0 0;
+}
+.condiBox .formInput div label.labelTitle {
+  margin: 0 0 5px;
+}
+.condiBox .formInput div input[name=subCode] {
+  display: inline-block;
+  width: 100px;
+}
+.condiBox .formInput div input {
+  width: 100%;
+}
+.condiBox .formInput div .water {
+  margin: 0 6px;
+}
+.condiBox .formInput .formInput-radio .radioArea {
+  padding: 0;
+}
+.condiBox .formInput .formInput-check, .condiBox .formInput .formInput-radio {
+  position: relative;
+  margin: 30px 0 0;
+  padding: 0;
+}
+.condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p {
+  float: left;
+  width: 100%;
+  margin: 0 0 12px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #b8b8b8;
+}
+.condiBox .formInput .formInput-check .checkArea, .condiBox .formInput .formInput-radio .checkArea {
+  float: left;
+  height: 18px;
+}
+.condiBox .formInput .formInput-check .checkArea + .checkArea, .condiBox .formInput .formInput-radio .checkArea + .checkArea {
+  margin: 0 20px 5px 0;
+}
+.condiBox .formInput .formInput-check .checkArea:first-of-type, .condiBox .formInput .formInput-radio .checkArea:first-of-type {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  margin: 0;
+}
+.condiBox .formInput .formInput-check .checkArea:first-of-type label, .condiBox .formInput .formInput-radio .checkArea:first-of-type label {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check .checkArea:last-of-type, .condiBox .formInput .formInput-radio .checkArea:last-of-type {
+  margin: 0;
+}
+.condiBox .formInput .formInput-check .checkArea label, .condiBox .formInput .formInput-radio .checkArea label {
+  padding-left: 21px;
+  line-height: 16px;
+}
+.condiBox .formInput .formInput-check .checkArea label::before, .condiBox .formInput .formInput-radio .checkArea label::before {
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+}
+.condiBox .formInput .formInput-check .checkArea label.is_active::before, .condiBox .formInput .formInput-radio .checkArea label.is_active::before {
+  background-color: #0E4194;
+  border-color: #0E4194;
+}
+.condiBox .formInput .formInput-check .checkArea input:hover, .condiBox .formInput .formInput-radio .checkArea input:hover {
+  display: none;
+}
+.condiBox .formInput .explanText {
+  float: right;
+}
+.condiBox .formInput .wd-230 {
+  width: 230px;
+}
+.condiBox .formInput .wd-350 {
+  width: 350px;
+}
+.condiBox .formInput-radio div.radioArea {
+  display: inline-block;
+  margin: 0;
+  margin-right: 16px;
+}
+.condiBox .formInput-radio div.radioArea label {
+  display: inline-block;
+  margin-top: 0;
+}
+
+.condiBox .formInput .formInput-check .radioArea, .condiBox .formInput .formInput-radio .radioArea {
+  margin: 0 20px 5px 0;
+}
+
+.condiBox .formInput .formInput-check .checkArea, .condiBox .formInput .formInput-check .radioArea, .condiBox .formInput .formInput-radio .checkArea, .condiBox .formInput .formInput-radio .radioArea {
+  float: left;
+  height: 18px;
+}
+
+.condiBox .formInput .formInput-check .checkArea + .checkArea, .condiBox .formInput .formInput-check .radioArea + .checkArea, .condiBox .formInput .formInput-radio .checkArea + .checkArea, .condiBox .formInput .formInput-radio .radioArea + .checkArea {
+  margin: 0 20px 5px 0;
+}
+
+.condiBox .formInput .formInput-check .checkArea:last-of-type, .condiBox .formInput .formInput-check .radioArea:last-of-type, .condiBox .formInput .formInput-radio .checkArea:last-of-type, .condiBox .formInput .formInput-radio .radioArea:last-of-type {
+  margin: 0;
+}
+
+.condiBox .formInput .formInput-check .checkArea label, .condiBox .formInput .formInput-check .radioArea label, .condiBox .formInput .formInput-radio .checkArea label, .condiBox .formInput .formInput-radio .radioArea label {
+  padding-left: 21px;
+  line-height: 16px;
+}
+
+.condiBox .formInput .formInput-check .checkArea label::before, .condiBox .formInput .formInput-check .radioArea label::before, .condiBox .formInput .formInput-radio .checkArea label::before, .condiBox .formInput .formInput-radio .radioArea label::before {
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+}
+
+.condiBox .formInput .formInput-check .checkArea label.is_active::before, .condiBox .formInput .formInput-check .radioArea label.is_active::before, .condiBox .formInput .formInput-radio .checkArea label.is_active::before, .condiBox .formInput .formInput-radio .radioArea label.is_active::before {
+  background-color: #0E4194;
+  border-color: #0E4194;
+}
+
+.condiBox .formInput .formInput-check .checkArea input:hover, .condiBox .formInput .formInput-check .radioArea input:hover, .condiBox .formInput .formInput-radio .checkArea input:hover, .condiBox .formInput .formInput-radio .radioArea input:hover {
+  display: none;
+}
+
+.app-search {
+  position: relative;
+  margin-top: 27px;
+  width: 100%;
+  height: auto;
+  min-height: 77px;
+  border-radius: 3px;
+  border: solid 1px #3d3d3d;
+  padding: 20px;
+  vertical-align: middle;
+  background-color: #f8f8f8;
+  margin-bottom: 80px;
+}
+.app-search .resultBox-each {
+  float: left;
+}
+.app-search .resultBox-each .search {
+  float: left;
+}
+.app-search .resultBox-each .search-list {
+  float: left;
+  width: 600px;
+}
+.app-search .resultBox-each .search-list ul li {
+  margin-top: 5px;
+  float: left;
+  padding-right: 16px;
+}
+.app-search .resultBox-each .search-list ul li button {
+  position: relative;
+  top: 4.2px;
+}
+.app-search .resultBox-each .search-btn {
+  font-size: 0;
+  float: right;
+  margin-right: 43px;
+  padding-top: 5px;
+}
+.app-search .resultBox-each .search-btn button.btn-block {
+  width: 68px;
+  height: 30px;
+  padding: 0;
+  font-size: 14px;
+  position: relative;
+  top: -2px;
+}
+.app-search .resultBox-lately {
+  margin-right: 43px;
+  padding-top: 5px;
+}
+.app-search .resultBox-lately .icon-arrow--s {
+  transform: rotate(-90deg);
+  margin-left: 5px;
+}
+.app-search .resultBox .resultBox-lately::before {
+  content: "";
+  margin-left: -21px;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  background-color: #b8b8b8;
+  position: absolute;
+}
+.app-search .resultBox .resultBox-lately::after {
+  content: "";
+  margin-left: 21px;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  background-color: #b8b8b8;
+  position: absolute;
+}
+.app-search .resultBox-btn {
+  font-size: 0;
+}
+.app-search .resultBox-btn--right {
+  float: right;
+}
+.app-search .resultBox-btn--right::before {
+  display: none;
+}
+.app-search .resultBox-btn button {
+  min-width: 80px;
+  height: 35px;
+  font-size: 15px;
+  padding: 0 12px;
+}
+.app-search .foldBtn {
+  position: absolute;
+  left: 50%;
+  margin-left: -55px;
+  margin-top: 21px;
+}
+.app-search .foldBtn button {
+  padding: 4px 10px 5px;
+  border: 1px solid #c9c9c9;
+  border-top: 0;
+  border-radius: 0 0 3px 3px;
+  text-align: center;
+  background-color: #efefef;
+  color: #3d3d3d;
+}
+.app-search .foldBtn button i {
+  transform: rotate(180deg);
+}
+
+.savepop {
+  max-width: none;
+  width: 789px;
+}
+.savepop .popContent-header {
+  padding: 0;
+}
+.savepop .popContent-con {
+  border: 0;
+}
+.savepop .popContent-con table {
+  width: 100%;
+  text-align: left;
+}
+.savepop .popContent-con table tr {
+  border-bottom: 1px solid #B1B1B1;
+}
+.savepop .popContent-con table th {
+  padding: 5px 8px;
+  border-top: 2px solid #0E4194;
+}
+.savepop .popContent-con table td {
+  padding: 5px 16px;
+  height: 55px;
+  line-height: 50px;
+}
+.savepop .popContent-con table td .tdBox-text {
+  width: calc(100% - 92px);
+}
+.savepop .popContent-con table td .tdBox-input {
+  width: calc(100% - 164px);
+  margin: 0 5px 0 0;
+}
+.savepop .popContent-con table td .tdBox-btn {
+  width: auto;
+}
+.savepop .popContent-con table td span {
+  float: left;
+  width: auto;
+  height: auto;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.savepop .popContent-con table td button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin: 10px 0 0;
+}
+.savepop .popContent-con table td button + button {
+  margin: 10px 0 0 3px;
+}
+.savepop .popContent-con table td input {
+  width: 100%;
+}

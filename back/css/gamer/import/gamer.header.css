@@ -1,0 +1,426 @@
+.sidenav.shortnav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.sidenav.managenav .managemenu > li .managemenu-sub, .header-login .user-department {
+  font-weight: 400;
+}
+.sidenav.shortnav li a, .sidenav.managenav .managemenu > li .managemenu-sub > li.is_active > a, .sidenav.managenav .managemenu, .header-nav .gnb ul li {
+  font-weight: 500;
+}
+.conarea h2, .sidenav.shortnav .title, .sidenav.shortnav, .sidenav.managenav .title, .header-login .login-btn a, .header-login .login-timer, .header-login .user-name, .header-nav .subnav li.newMark::after {
+  font-weight: 700;
+}
+.conarea h2 {
+  font-size: 27px;
+}
+.sidenav.managenav .title {
+  font-size: 20px;
+}
+.header-login .callnum, .header-nav .gnb ul li {
+  font-size: 18px;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub {
+  font-size: 17px;
+}
+.header-login .login-timer, .header-login .user {
+  font-size: 16px;
+}
+.sidenav.shortnav li a {
+  font-size: 15px;
+}
+.header-login .login-btn a {
+  font-size: 14px;
+}
+.header-nav .subnav li.newMark::after {
+  font-size: 12px;
+}
+
+.sidenav.shortnav li a, .header-login .login-btn a {
+  border: 1px solid #c7c7c7;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 23px 20px 20px 11px;
+  color: #fff;
+  text-align: center;
+  background-image: linear-gradient(90deg, #164194 0%, #36bac6 100%);
+}
+.header-nav h1 {
+  width: 255px;
+}
+.header-nav .gnb {
+  padding: 29px 0 0 175px;
+}
+.header-nav .gnb ul {
+  margin: 0 auto;
+}
+.header-nav .gnb ul li {
+  float: left;
+  width: auto;
+  margin: 0 20px;
+  color: inherit;
+}
+.header-nav .gnb ul li.is_active, .header-nav .gnb ul li:hover {
+  padding: 0 0 18px 0;
+}
+.header-nav .gnb ul li.is_active a, .header-nav .gnb ul li:hover a {
+  position: relative;
+}
+.header-nav .gnb ul li.is_active a::after, .header-nav .gnb ul li:hover a::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  left: 0;
+  right: 0;
+  bottom: -19px;
+  background: #fff;
+}
+.header-nav .subnav {
+  width: auto;
+}
+.header-nav .subnav ul {
+  margin: -3px 0 0;
+}
+.header-nav .subnav li {
+  position: relative;
+  float: left;
+  width: auto;
+  padding: 0 13px;
+}
+.header-nav .subnav li:nth-of-type(3) {
+  padding: 0 11px;
+}
+.header-nav .subnav li + li::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  width: 1px;
+  height: 16px;
+  background-color: #fff;
+}
+.header-nav .subnav li.newMark a {
+  position: relative;
+  margin: 0 38px 0 6px;
+}
+.header-nav .subnav li.newMark::after {
+  content: "new";
+  position: absolute;
+  display: block;
+  top: 3px;
+  bottom: 0;
+  right: 13px;
+  height: 15px;
+  line-height: 14px;
+  margin: auto;
+  padding: 0 6px;
+  border-radius: 14px;
+  background-color: #FF0023;
+  letter-spacing: -1px;
+}
+.header-login {
+  width: 100%;
+  height: 52px;
+  padding: 14px 8px;
+  border-bottom: 1px solid #3d3d3d;
+  background-color: #fff;
+  color: #3d3d3d;
+}
+.header-login .user {
+  position: relative;
+  float: left;
+  padding: 0 15px;
+}
+.header-login .user::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 1px;
+  height: 100%;
+  background-color: #b8b8b8;
+}
+.header-login .user-name {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.header-login .user-department {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.header-login .login {
+  float: left;
+  padding: 0 15px;
+}
+.header-login .login-timer {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.header-login .login-btn {
+  float: left;
+}
+.header-login .login-btn a {
+  display: block;
+  padding: 1px 12px;
+  background-color: transparent;
+  border: 1px solid #afbabe !important;
+}
+.header-login .callnum {
+  position: relative;
+  float: right;
+  padding: 0 10px 0;
+  line-height: 20px;
+}
+.header-login .callnum i {
+  position: absolute;
+  top: -2px;
+  left: -24px;
+}
+
+.sidenav {
+  min-height: 805px;
+  position: absolute;
+  height: calc(100% - 132px);
+  z-index: 1;
+  top: 132px;
+  bottom: 0;
+  color: #3d3d3d;
+  font-size: 17px;
+}
+.sidenav.managenav {
+  float: left;
+  left: 0;
+  width: 280px;
+  background-color: #f6f6f6;
+  border-right: 1px solid #cccccc;
+}
+.sidenav.managenav::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -20px;
+  height: 100%;
+  width: 20px;
+  opacity: 0.1;
+  background: linear-gradient(90deg, #3d3d3d, transparent);
+}
+.sidenav.managenav .openbtn {
+  top: 0;
+  right: -22px;
+  border-top: 0;
+  border-left: 0;
+  z-index: 1;
+  color: #3d3d3d;
+}
+.sidenav.managenav .title {
+  position: relative;
+  padding: 28px 0 8px 24px;
+  height: 77px;
+  border-bottom: 1px solid #cccccc;
+  background-color: #ECECEC;
+}
+.sidenav.managenav .title i {
+  display: inline-block;
+  width: 30px;
+  height: 24px;
+  margin: 0 4px 0 0;
+  background-size: cover;
+  transform: translateY(5px);
+}
+.sidenav.managenav .managemenu {
+  padding: 24px 0 0 15px;
+}
+.sidenav.managenav .managemenu > li > a {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 35px;
+  padding: 0px 12px 6px;
+  margin: 0 0 11px 0;
+  border-radius: 35px 0 0 35px;
+}
+.sidenav.managenav .managemenu > li > a::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 18px;
+  margin: auto;
+  width: 8px;
+  height: 14px;
+  background: url("../img/common/arrow-submenu.svg") no-repeat 0/200% 100%;
+  transform: rotate(180deg);
+}
+.sidenav.managenav .managemenu > li > a i {
+  width: 24px;
+  height: 24px;
+  margin: 0 14px 0 0;
+  transform: translateY(6px);
+  background-position: 0 0;
+  background-size: 200% 100%;
+}
+.sidenav.managenav .managemenu > li.is_active > a, .sidenav.managenav .managemenu > li:hover > a {
+  color: #fff;
+  background-image: linear-gradient(90deg, #164194 0%, #36bac6 100%);
+}
+.sidenav.managenav .managemenu > li.is_active > a::after, .sidenav.managenav .managemenu > li:hover > a::after {
+  transform: rotate(-90deg);
+  background-position: 100% 0;
+}
+.sidenav.managenav .managemenu > li.is_active > a i, .sidenav.managenav .managemenu > li:hover > a i {
+  background-position: 100% 0;
+}
+.sidenav.managenav .managemenu > li.is_active .managemenu-sub {
+  display: block;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub {
+  display: none;
+  color: #3d3d3d;
+  padding: 0 0 34px 50px;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub > li {
+  margin: 0 0 10px 0;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub > li.is_active > a {
+  color: #164194;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub > li a::after {
+  display: none;
+}
+.sidenav.managenav.foldmode {
+  font-size: 0;
+  width: 74px;
+}
+.sidenav.managenav.foldmode .title {
+  font-size: 0;
+}
+.sidenav.managenav.foldmode .openbtn button {
+  transform: rotate(180deg);
+}
+.sidenav.managenav.foldmode .managemenu li a::after {
+  display: none;
+}
+.sidenav.shortnav {
+  float: right;
+  right: 0;
+  width: 173px;
+  padding: 18px 8px;
+  background-color: #fff;
+  border-left: 1px solid #c7c7c7;
+  text-align: center;
+}
+.sidenav.shortnav.foldmode, .sidenav.shortnav.rightfold {
+  width: 0;
+  padding: 0;
+  border: 0;
+}
+.sidenav.shortnav.foldmode > *:not(.openbtn), .sidenav.shortnav.rightfold > *:not(.openbtn) {
+  display: none;
+}
+.sidenav.shortnav.foldmode .openbtn button, .sidenav.shortnav.rightfold .openbtn button {
+  transform: rotate(0deg);
+}
+.sidenav.shortnav .openbtn {
+  top: 0;
+  left: -25px;
+  width: 25px;
+  height: 36px;
+  border-top: 0;
+}
+.sidenav.shortnav .openbtn button {
+  transform: rotate(180deg);
+}
+.sidenav.shortnav .title {
+  position: relative;
+  height: 30px;
+  margin: 0 6px 5px 0;
+  transform: translateY(-10px);
+  font-size: 16px;
+}
+.sidenav.shortnav .title i {
+  transform: translateY(8px);
+}
+.sidenav.shortnav li {
+  width: 154px;
+}
+.sidenav.shortnav li:hover a {
+  background-color: #36BAC6;
+  color: #fff;
+}
+.sidenav.shortnav li:hover a::before {
+  background-image: url("../img/common/arrow-round-w.svg");
+}
+.sidenav.shortnav li a {
+  transition: background-color 0.3s;
+  position: relative;
+  background-color: #00A4BA;
+  padding: 8px 6px 8px 27px;
+  text-align: left;
+  margin: 0 0 5px 0;
+  border: 1px solid #c7c7c7;
+}
+.sidenav.shortnav li a:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  margin: auto;
+  width: 7px;
+  height: 11px;
+  background-image: url("../img/common/arrow-round.svg");
+}
+.sidenav.shortnav img {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.sidenav.topnav {
+  position: fixed;
+  top: 0;
+  height: 100%;
+}
+
+.openbtn {
+  position: absolute;
+  width: 21px;
+  height: 29px;
+  background-color: #efefef;
+  border: 1px solid #c9c9c9;
+}
+.openbtn button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("../img/common/arrow-circle-dg.svg") no-repeat 50%;
+  font-size: 0;
+  background-size: 40%;
+}
+
+.conarea {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  padding: 52px 52px 100px 124px;
+}

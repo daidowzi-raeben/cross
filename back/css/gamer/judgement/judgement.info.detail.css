@@ -1,0 +1,10 @@
+.inpuiry-btn-wrap {
+  font-size: 0;
+  text-align: right;
+}
+.inpuiry-btn-wrap button.btn {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 12px 20px;
+  height: 44px;
+}

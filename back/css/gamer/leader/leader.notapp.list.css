@@ -1,0 +1,1548 @@
+.sidenav.shortnav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.conarea .pagewrap .pagenav li a::after {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.gm-table tbody, .savepop .popContent-con table td, .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span, .condiBox .formInput .formInput-check label, .condiBox .formInput .formInput-radio label, .footer-info, .sidenav.managenav .managemenu > li .managemenu-sub, .header-login .user-department {
+  font-weight: 400;
+}
+.app-search .foldBtn button, .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p, .condiBox .formInput div label, .sidenav.shortnav li a, .sidenav.managenav .managemenu > li .managemenu-sub > li.is_active > a, .sidenav.managenav .managemenu, .header-nav .gnb ul li {
+  font-weight: 500;
+}
+h3, .conarea h2, .sidenav.shortnav .title, .sidenav.shortnav, .sidenav.managenav .title, .header-login .login-btn a, .header-login .login-timer, .header-login .user-name, .header-nav .subnav li.newMark::after {
+  font-weight: 700;
+}
+.conarea h2 {
+  font-size: 27px;
+}
+.sidenav.managenav .title {
+  font-size: 20px;
+}
+h3, .header-login .callnum, .header-nav .gnb ul li {
+  font-size: 18px;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub {
+  font-size: 17px;
+}
+.savepop .popContent-con table td, .header-login .login-timer, .header-login .user {
+  font-size: 16px;
+}
+.condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p, .footer, .sidenav.shortnav li a {
+  font-size: 15px;
+}
+.gm-table tbody, .app-search .foldBtn button, .header-login .login-btn a {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span {
+  font-size: 13px;
+}
+.header-nav .subnav li.newMark::after {
+  font-size: 12px;
+}
+
+.sidenav.shortnav li a, .header-login .login-btn a {
+  border: 1px solid #c7c7c7;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 23px 20px 20px 11px;
+  color: #fff;
+  text-align: center;
+  background-image: linear-gradient(90deg, #164194 0%, #36bac6 100%);
+}
+.header-nav h1 {
+  width: 255px;
+}
+.header-nav .gnb {
+  padding: 29px 0 0 175px;
+}
+.header-nav .gnb ul {
+  margin: 0 auto;
+}
+.header-nav .gnb ul li {
+  float: left;
+  width: auto;
+  margin: 0 20px;
+  color: inherit;
+}
+.header-nav .gnb ul li.is_active, .header-nav .gnb ul li:hover {
+  padding: 0 0 18px 0;
+}
+.header-nav .gnb ul li.is_active a, .header-nav .gnb ul li:hover a {
+  position: relative;
+}
+.header-nav .gnb ul li.is_active a::after, .header-nav .gnb ul li:hover a::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  left: 0;
+  right: 0;
+  bottom: -19px;
+  background: #fff;
+}
+.header-nav .subnav {
+  width: auto;
+}
+.header-nav .subnav ul {
+  margin: -3px 0 0;
+}
+.header-nav .subnav li {
+  position: relative;
+  float: left;
+  width: auto;
+  padding: 0 13px;
+}
+.header-nav .subnav li:nth-of-type(3) {
+  padding: 0 11px;
+}
+.header-nav .subnav li + li::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  width: 1px;
+  height: 16px;
+  background-color: #fff;
+}
+.header-nav .subnav li.newMark a {
+  position: relative;
+  margin: 0 38px 0 6px;
+}
+.header-nav .subnav li.newMark::after {
+  content: "new";
+  position: absolute;
+  display: block;
+  top: 3px;
+  bottom: 0;
+  right: 13px;
+  height: 15px;
+  line-height: 14px;
+  margin: auto;
+  padding: 0 6px;
+  border-radius: 14px;
+  background-color: #FF0023;
+  letter-spacing: -1px;
+}
+.header-login {
+  width: 100%;
+  height: 52px;
+  padding: 14px 8px;
+  border-bottom: 1px solid #3d3d3d;
+  background-color: #fff;
+  color: #3d3d3d;
+}
+.header-login .user {
+  position: relative;
+  float: left;
+  padding: 0 15px;
+}
+.header-login .user::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 1px;
+  height: 100%;
+  background-color: #b8b8b8;
+}
+.header-login .user-name {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.header-login .user-department {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.header-login .login {
+  float: left;
+  padding: 0 15px;
+}
+.header-login .login-timer {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.header-login .login-btn {
+  float: left;
+}
+.header-login .login-btn a {
+  display: block;
+  padding: 1px 12px;
+  background-color: transparent;
+  border: 1px solid #afbabe !important;
+}
+.header-login .callnum {
+  position: relative;
+  float: right;
+  padding: 0 10px 0;
+  line-height: 20px;
+}
+.header-login .callnum i {
+  position: absolute;
+  top: -2px;
+  left: -24px;
+}
+
+.sidenav {
+  min-height: 805px;
+  position: absolute;
+  height: calc(100% - 132px);
+  z-index: 1;
+  top: 132px;
+  bottom: 0;
+  color: #3d3d3d;
+  font-size: 17px;
+}
+.sidenav.managenav {
+  float: left;
+  left: 0;
+  width: 280px;
+  background-color: #f6f6f6;
+  border-right: 1px solid #cccccc;
+}
+.sidenav.managenav::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -20px;
+  height: 100%;
+  width: 20px;
+  opacity: 0.1;
+  background: linear-gradient(90deg, #3d3d3d, transparent);
+}
+.sidenav.managenav .openbtn {
+  top: 0;
+  right: -22px;
+  border-top: 0;
+  border-left: 0;
+  z-index: 1;
+  color: #3d3d3d;
+}
+.sidenav.managenav .title {
+  position: relative;
+  padding: 28px 0 8px 24px;
+  height: 77px;
+  border-bottom: 1px solid #cccccc;
+  background-color: #ECECEC;
+}
+.sidenav.managenav .title i {
+  display: inline-block;
+  width: 30px;
+  height: 24px;
+  margin: 0 4px 0 0;
+  background-size: cover;
+  transform: translateY(5px);
+}
+.sidenav.managenav .managemenu {
+  padding: 24px 0 0 15px;
+}
+.sidenav.managenav .managemenu > li > a {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 35px;
+  padding: 0px 12px 6px;
+  margin: 0 0 11px 0;
+  border-radius: 35px 0 0 35px;
+}
+.sidenav.managenav .managemenu > li > a::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 18px;
+  margin: auto;
+  width: 8px;
+  height: 14px;
+  background: url("../img/common/arrow-submenu.svg") no-repeat 0/200% 100%;
+  transform: rotate(180deg);
+}
+.sidenav.managenav .managemenu > li > a i {
+  width: 24px;
+  height: 24px;
+  margin: 0 14px 0 0;
+  transform: translateY(6px);
+  background-position: 0 0;
+  background-size: 200% 100%;
+}
+.sidenav.managenav .managemenu > li.is_active > a, .sidenav.managenav .managemenu > li:hover > a {
+  color: #fff;
+  background-image: linear-gradient(90deg, #164194 0%, #36bac6 100%);
+}
+.sidenav.managenav .managemenu > li.is_active > a::after, .sidenav.managenav .managemenu > li:hover > a::after {
+  transform: rotate(-90deg);
+  background-position: 100% 0;
+}
+.sidenav.managenav .managemenu > li.is_active > a i, .sidenav.managenav .managemenu > li:hover > a i {
+  background-position: 100% 0;
+}
+.sidenav.managenav .managemenu > li.is_active .managemenu-sub {
+  display: block;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub {
+  display: none;
+  color: #3d3d3d;
+  padding: 0 0 34px 50px;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub > li {
+  margin: 0 0 10px 0;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub > li.is_active > a {
+  color: #164194;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub > li a::after {
+  display: none;
+}
+.sidenav.managenav.foldmode {
+  font-size: 0;
+  width: 74px;
+}
+.sidenav.managenav.foldmode .title {
+  font-size: 0;
+}
+.sidenav.managenav.foldmode .openbtn button {
+  transform: rotate(180deg);
+}
+.sidenav.managenav.foldmode .managemenu li a::after {
+  display: none;
+}
+.sidenav.shortnav {
+  float: right;
+  right: 0;
+  width: 173px;
+  padding: 18px 8px;
+  background-color: #fff;
+  border-left: 1px solid #c7c7c7;
+  text-align: center;
+}
+.sidenav.shortnav.foldmode, .sidenav.shortnav.rightfold {
+  width: 0;
+  padding: 0;
+  border: 0;
+}
+.sidenav.shortnav.foldmode > *:not(.openbtn), .sidenav.shortnav.rightfold > *:not(.openbtn) {
+  display: none;
+}
+.sidenav.shortnav.foldmode .openbtn button, .sidenav.shortnav.rightfold .openbtn button {
+  transform: rotate(0deg);
+}
+.sidenav.shortnav .openbtn {
+  top: 0;
+  left: -25px;
+  width: 25px;
+  height: 36px;
+  border-top: 0;
+}
+.sidenav.shortnav .openbtn button {
+  transform: rotate(180deg);
+}
+.sidenav.shortnav .title {
+  position: relative;
+  height: 30px;
+  margin: 0 6px 5px 0;
+  transform: translateY(-10px);
+  font-size: 16px;
+}
+.sidenav.shortnav .title i {
+  transform: translateY(8px);
+}
+.sidenav.shortnav li {
+  width: 154px;
+}
+.sidenav.shortnav li:hover a {
+  background-color: #36BAC6;
+  color: #fff;
+}
+.sidenav.shortnav li:hover a::before {
+  background-image: url("../img/common/arrow-round-w.svg");
+}
+.sidenav.shortnav li a {
+  transition: background-color 0.3s;
+  position: relative;
+  background-color: #00A4BA;
+  padding: 8px 6px 8px 27px;
+  text-align: left;
+  margin: 0 0 5px 0;
+  border: 1px solid #c7c7c7;
+}
+.sidenav.shortnav li a:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  margin: auto;
+  width: 7px;
+  height: 11px;
+  background-image: url("../img/common/arrow-round.svg");
+}
+.sidenav.shortnav img {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.sidenav.topnav {
+  position: fixed;
+  top: 0;
+  height: 100%;
+}
+
+.openbtn {
+  position: absolute;
+  width: 21px;
+  height: 29px;
+  background-color: #efefef;
+  border: 1px solid #c9c9c9;
+}
+.openbtn button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("../img/common/arrow-circle-dg.svg") no-repeat 50%;
+  font-size: 0;
+  background-size: 40%;
+}
+
+.conarea {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  padding: 52px 52px 100px 124px;
+}
+.sidenav.shortnav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.conarea .pagewrap .pagenav li a::after {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.gm-table tbody, .savepop .popContent-con table td, .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span, .condiBox .formInput .formInput-check label, .condiBox .formInput .formInput-radio label, .footer-info, .header-login .user-department, .sidenav.managenav .managemenu > li .managemenu-sub {
+  font-weight: 400;
+}
+.app-search .foldBtn button, .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p, .condiBox .formInput div label, .header-nav .gnb ul li, .sidenav.managenav .managemenu, .sidenav.managenav .managemenu > li .managemenu-sub > li.is_active > a, .sidenav.shortnav li a {
+  font-weight: 500;
+}
+h3, .header-nav .subnav li.newMark::after, .header-login .user-name, .header-login .login-timer, .header-login .login-btn a, .sidenav.managenav .title, .sidenav.shortnav, .sidenav.shortnav .title, .conarea h2 {
+  font-weight: 700;
+}
+.conarea h2 {
+  font-size: 27px;
+}
+.sidenav.managenav .title {
+  font-size: 20px;
+}
+h3, .header-nav .gnb ul li, .header-login .callnum {
+  font-size: 18px;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub {
+  font-size: 17px;
+}
+.savepop .popContent-con table td, .header-login .user, .header-login .login-timer {
+  font-size: 16px;
+}
+.condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p, .footer, .sidenav.shortnav li a {
+  font-size: 15px;
+}
+.gm-table tbody, .app-search .foldBtn button, .header-login .login-btn a {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span {
+  font-size: 13px;
+}
+.header-nav .subnav li.newMark::after {
+  font-size: 12px;
+}
+
+.header-login .login-btn a, .sidenav.shortnav li a {
+  border: 1px solid #c7c7c7;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.conarea .pagewrap {
+  margin: 0 0 30px 0;
+  padding: 0 0 0 2px;
+}
+.conarea .pagewrap h2 {
+  float: left;
+  width: 50%;
+}
+.conarea .pagewrap .pagenav {
+  float: right;
+  text-align: right;
+  margin: 15px 2px 0;
+}
+.conarea .pagewrap .pagenav li {
+  display: inline;
+  float: left;
+}
+.conarea .pagewrap .pagenav li a::after {
+  content: " ";
+  display: inline-block;
+  width: 8.5px;
+  height: 5.2px;
+  margin: 2px 10px;
+  background-image: url("../img/common/arrow-s.svg");
+  background-size: 100% !important;
+  transform: rotate(-90deg);
+}
+.conarea .pagewrap .pagenav li:last-child a::after {
+  display: none;
+}
+
+.sidenav.shortnav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.conarea .pagewrap .pagenav li a::after {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.gm-table tbody, .savepop .popContent-con table td, .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span, .condiBox .formInput .formInput-check label, .condiBox .formInput .formInput-radio label, .footer-info, .header-login .user-department, .sidenav.managenav .managemenu > li .managemenu-sub {
+  font-weight: 400;
+}
+.app-search .foldBtn button, .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p, .condiBox .formInput div label, .header-nav .gnb ul li, .sidenav.managenav .managemenu, .sidenav.managenav .managemenu > li .managemenu-sub > li.is_active > a, .sidenav.shortnav li a {
+  font-weight: 500;
+}
+h3, .header-nav .subnav li.newMark::after, .header-login .user-name, .header-login .login-timer, .header-login .login-btn a, .sidenav.managenav .title, .sidenav.shortnav, .sidenav.shortnav .title, .conarea h2 {
+  font-weight: 700;
+}
+.conarea h2 {
+  font-size: 27px;
+}
+.sidenav.managenav .title {
+  font-size: 20px;
+}
+h3, .header-nav .gnb ul li, .header-login .callnum {
+  font-size: 18px;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub {
+  font-size: 17px;
+}
+.savepop .popContent-con table td, .header-login .user, .header-login .login-timer {
+  font-size: 16px;
+}
+.condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p, .footer, .sidenav.shortnav li a {
+  font-size: 15px;
+}
+.gm-table tbody, .app-search .foldBtn button, .header-login .login-btn a {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span {
+  font-size: 13px;
+}
+.header-nav .subnav li.newMark::after {
+  font-size: 12px;
+}
+
+.header-login .login-btn a, .sidenav.shortnav li a {
+  border: 1px solid #c7c7c7;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: #3d3d3d;
+  line-height: 14px;
+  margin-bottom: 60px;
+}
+.footer .footcon {
+  display: inline-block;
+  padding-left: 120px;
+}
+.footer-policyLink {
+  float: left;
+  padding: 0 21.5px 0 0px;
+  border-right: 1px solid #acacac;
+}
+.footer-info {
+  float: left;
+  line-height: 14px;
+}
+.footer-info dt {
+  padding: 0 0 0 17.5px;
+  float: left;
+}
+.footer-info dd {
+  float: left;
+  padding: 0 21.5px 0 10px;
+  border-right: 1px solid #acacac;
+}
+.footer-info dd .mt-m1 {
+  margin-top: -1px;
+}
+.footer-info dd .mt-m1 span strong {
+  margin-left: 10px;
+}
+.footer-copyright {
+  float: left;
+  padding: 0 17.5px;
+}
+
+.sidenav.shortnav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.conarea .pagewrap .pagenav li a::after {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.gm-table tbody, .savepop .popContent-con table td, .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span, .condiBox .formInput .formInput-check label, .condiBox .formInput .formInput-radio label, .header-login .user-department, .sidenav.managenav .managemenu > li .managemenu-sub, .footer-info {
+  font-weight: 400;
+}
+.app-search .foldBtn button, .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p, .condiBox .formInput div label, .header-nav .gnb ul li, .sidenav.managenav .managemenu, .sidenav.managenav .managemenu > li .managemenu-sub > li.is_active > a, .sidenav.shortnav li a {
+  font-weight: 500;
+}
+h3, .header-nav .subnav li.newMark::after, .header-login .user-name, .header-login .login-timer, .header-login .login-btn a, .sidenav.managenav .title, .sidenav.shortnav, .sidenav.shortnav .title, .conarea h2 {
+  font-weight: 700;
+}
+.conarea h2 {
+  font-size: 27px;
+}
+.sidenav.managenav .title {
+  font-size: 20px;
+}
+h3, .header-nav .gnb ul li, .header-login .callnum {
+  font-size: 18px;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub {
+  font-size: 17px;
+}
+.savepop .popContent-con table td, .header-login .user, .header-login .login-timer {
+  font-size: 16px;
+}
+.condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p, .sidenav.shortnav li a, .footer {
+  font-size: 15px;
+}
+.gm-table tbody, .app-search .foldBtn button, .header-login .login-btn a {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span {
+  font-size: 13px;
+}
+.header-nav .subnav li.newMark::after {
+  font-size: 12px;
+}
+
+.header-login .login-btn a, .sidenav.shortnav li a {
+  border: 1px solid #c7c7c7;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.singeBox {
+  height: 122px;
+  width: 100%;
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+  padding: 22px 30px;
+}
+.singeBox .singeform {
+  float: left;
+  width: calc(25% - 74px);
+}
+.singeBox .singeform + .singeform {
+  margin-left: 94px;
+}
+.singeBox .singeform input {
+  width: 100%;
+}
+
+.conSignebox {
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+}
+.conSignebox .condiBox.single {
+  width: 100%;
+  min-width: 230px;
+  height: auto;
+  background-color: inherit;
+  border: 0;
+  padding: 7px 33px 0px 0px;
+}
+.conSignebox .condiBox.single .formInput > div {
+  float: left;
+  width: calc(20% - 34px);
+  min-height: 75px;
+  margin: 0 0 40px 33px;
+}
+.conSignebox .condiBox.single .formInput > div:nth-of-type(5n) {
+  margin-right: 0;
+}
+
+.condiBox {
+  float: left;
+  width: calc(25% - 25px);
+  height: 585px;
+  padding: 22px 30px 44px;
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+  margin-right: 33px;
+}
+.condiBox:last-child {
+  margin-right: 0;
+}
+.condiBox .formInput {
+  margin: 33px 0 0;
+}
+.condiBox .formInput div {
+  margin: 15px 0 0;
+}
+.condiBox .formInput div label.labelTitle {
+  margin: 0 0 5px;
+}
+.condiBox .formInput div input[name=subCode] {
+  display: inline-block;
+  width: 100px;
+}
+.condiBox .formInput div input {
+  width: 100%;
+}
+.condiBox .formInput div .water {
+  margin: 0 6px;
+}
+.condiBox .formInput .formInput-radio .radioArea {
+  padding: 0;
+}
+.condiBox .formInput .formInput-check, .condiBox .formInput .formInput-radio {
+  position: relative;
+  margin: 30px 0 0;
+  padding: 0;
+}
+.condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p {
+  float: left;
+  width: 100%;
+  margin: 0 0 12px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #b8b8b8;
+}
+.condiBox .formInput .formInput-check .checkArea, .condiBox .formInput .formInput-radio .checkArea {
+  float: left;
+  height: 18px;
+}
+.condiBox .formInput .formInput-check .checkArea + .checkArea, .condiBox .formInput .formInput-radio .checkArea + .checkArea {
+  margin: 0 20px 5px 0;
+}
+.condiBox .formInput .formInput-check .checkArea:first-of-type, .condiBox .formInput .formInput-radio .checkArea:first-of-type {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  margin: 0;
+}
+.condiBox .formInput .formInput-check .checkArea:first-of-type label, .condiBox .formInput .formInput-radio .checkArea:first-of-type label {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check .checkArea:last-of-type, .condiBox .formInput .formInput-radio .checkArea:last-of-type {
+  margin: 0;
+}
+.condiBox .formInput .formInput-check .checkArea label, .condiBox .formInput .formInput-radio .checkArea label {
+  padding-left: 21px;
+  line-height: 16px;
+}
+.condiBox .formInput .formInput-check .checkArea label::before, .condiBox .formInput .formInput-radio .checkArea label::before {
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+}
+.condiBox .formInput .formInput-check .checkArea label.is_active::before, .condiBox .formInput .formInput-radio .checkArea label.is_active::before {
+  background-color: #0E4194;
+  border-color: #0E4194;
+}
+.condiBox .formInput .formInput-check .checkArea input:hover, .condiBox .formInput .formInput-radio .checkArea input:hover {
+  display: none;
+}
+.condiBox .formInput .explanText {
+  float: right;
+}
+.condiBox .formInput .wd-230 {
+  width: 230px;
+}
+.condiBox .formInput .wd-350 {
+  width: 350px;
+}
+.condiBox .formInput-radio div.radioArea {
+  display: inline-block;
+  margin: 0;
+  margin-right: 16px;
+}
+.condiBox .formInput-radio div.radioArea label {
+  display: inline-block;
+  margin-top: 0;
+}
+
+.condiBox .formInput .formInput-check .radioArea, .condiBox .formInput .formInput-radio .radioArea {
+  margin: 0 20px 5px 0;
+}
+
+.condiBox .formInput .formInput-check .checkArea, .condiBox .formInput .formInput-check .radioArea, .condiBox .formInput .formInput-radio .checkArea, .condiBox .formInput .formInput-radio .radioArea {
+  float: left;
+  height: 18px;
+}
+
+.condiBox .formInput .formInput-check .checkArea + .checkArea, .condiBox .formInput .formInput-check .radioArea + .checkArea, .condiBox .formInput .formInput-radio .checkArea + .checkArea, .condiBox .formInput .formInput-radio .radioArea + .checkArea {
+  margin: 0 20px 5px 0;
+}
+
+.condiBox .formInput .formInput-check .checkArea:last-of-type, .condiBox .formInput .formInput-check .radioArea:last-of-type, .condiBox .formInput .formInput-radio .checkArea:last-of-type, .condiBox .formInput .formInput-radio .radioArea:last-of-type {
+  margin: 0;
+}
+
+.condiBox .formInput .formInput-check .checkArea label, .condiBox .formInput .formInput-check .radioArea label, .condiBox .formInput .formInput-radio .checkArea label, .condiBox .formInput .formInput-radio .radioArea label {
+  padding-left: 21px;
+  line-height: 16px;
+}
+
+.condiBox .formInput .formInput-check .checkArea label::before, .condiBox .formInput .formInput-check .radioArea label::before, .condiBox .formInput .formInput-radio .checkArea label::before, .condiBox .formInput .formInput-radio .radioArea label::before {
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+}
+
+.condiBox .formInput .formInput-check .checkArea label.is_active::before, .condiBox .formInput .formInput-check .radioArea label.is_active::before, .condiBox .formInput .formInput-radio .checkArea label.is_active::before, .condiBox .formInput .formInput-radio .radioArea label.is_active::before {
+  background-color: #0E4194;
+  border-color: #0E4194;
+}
+
+.condiBox .formInput .formInput-check .checkArea input:hover, .condiBox .formInput .formInput-check .radioArea input:hover, .condiBox .formInput .formInput-radio .checkArea input:hover, .condiBox .formInput .formInput-radio .radioArea input:hover {
+  display: none;
+}
+
+.app-search {
+  position: relative;
+  margin-top: 27px;
+  width: 100%;
+  height: auto;
+  min-height: 77px;
+  border-radius: 3px;
+  border: solid 1px #3d3d3d;
+  padding: 20px;
+  vertical-align: middle;
+  background-color: #f8f8f8;
+  margin-bottom: 80px;
+}
+.app-search .resultBox-each {
+  float: left;
+}
+.app-search .resultBox-each .search {
+  float: left;
+}
+.app-search .resultBox-each .search-list {
+  float: left;
+  width: 600px;
+}
+.app-search .resultBox-each .search-list ul li {
+  margin-top: 5px;
+  float: left;
+  padding-right: 16px;
+}
+.app-search .resultBox-each .search-list ul li button {
+  position: relative;
+  top: 4.2px;
+}
+.app-search .resultBox-each .search-btn {
+  font-size: 0;
+  float: right;
+  margin-right: 43px;
+  padding-top: 5px;
+}
+.app-search .resultBox-each .search-btn button.btn-block {
+  width: 68px;
+  height: 30px;
+  padding: 0;
+  font-size: 14px;
+  position: relative;
+  top: -2px;
+}
+.app-search .resultBox-lately {
+  margin-right: 43px;
+  padding-top: 5px;
+}
+.app-search .resultBox-lately .icon-arrow--s {
+  transform: rotate(-90deg);
+  margin-left: 5px;
+}
+.app-search .resultBox .resultBox-lately::before {
+  content: "";
+  margin-left: -21px;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  background-color: #b8b8b8;
+  position: absolute;
+}
+.app-search .resultBox .resultBox-lately::after {
+  content: "";
+  margin-left: 21px;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  background-color: #b8b8b8;
+  position: absolute;
+}
+.app-search .resultBox-btn {
+  font-size: 0;
+}
+.app-search .resultBox-btn--right {
+  float: right;
+}
+.app-search .resultBox-btn--right::before {
+  display: none;
+}
+.app-search .resultBox-btn button {
+  min-width: 80px;
+  height: 35px;
+  font-size: 15px;
+  padding: 0 12px;
+}
+.app-search .foldBtn {
+  position: absolute;
+  left: 50%;
+  margin-left: -55px;
+  margin-top: 21px;
+}
+.app-search .foldBtn button {
+  padding: 4px 10px 5px;
+  border: 1px solid #c9c9c9;
+  border-top: 0;
+  border-radius: 0 0 3px 3px;
+  text-align: center;
+  background-color: #efefef;
+  color: #3d3d3d;
+}
+.app-search .foldBtn button i {
+  transform: rotate(180deg);
+}
+
+.savepop {
+  max-width: none;
+  width: 789px;
+}
+.savepop .popContent-header {
+  padding: 0;
+}
+.savepop .popContent-con {
+  border: 0;
+}
+.savepop .popContent-con table {
+  width: 100%;
+  text-align: left;
+}
+.savepop .popContent-con table tr {
+  border-bottom: 1px solid #B1B1B1;
+}
+.savepop .popContent-con table th {
+  padding: 5px 8px;
+  border-top: 2px solid #0E4194;
+}
+.savepop .popContent-con table td {
+  padding: 5px 16px;
+  height: 55px;
+  line-height: 50px;
+}
+.savepop .popContent-con table td .tdBox-text {
+  width: calc(100% - 92px);
+}
+.savepop .popContent-con table td .tdBox-input {
+  width: calc(100% - 164px);
+  margin: 0 5px 0 0;
+}
+.savepop .popContent-con table td .tdBox-btn {
+  width: auto;
+}
+.savepop .popContent-con table td span {
+  float: left;
+  width: auto;
+  height: auto;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.savepop .popContent-con table td button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin: 10px 0 0;
+}
+.savepop .popContent-con table td button + button {
+  margin: 10px 0 0 3px;
+}
+.savepop .popContent-con table td input {
+  width: 100%;
+}
+
+.sidenav.shortnav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.conarea .pagewrap .pagenav li a::after {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.gm-table tbody, .header-login .user-department, .sidenav.managenav .managemenu > li .managemenu-sub, .footer-info, .condiBox .formInput .formInput-check label, .condiBox .formInput .formInput-radio label, .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span, .savepop .popContent-con table td {
+  font-weight: 400;
+}
+.header-nav .gnb ul li, .sidenav.managenav .managemenu, .sidenav.managenav .managemenu > li .managemenu-sub > li.is_active > a, .sidenav.shortnav li a, .condiBox .formInput div label, .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p, .app-search .foldBtn button {
+  font-weight: 500;
+}
+.header-nav .subnav li.newMark::after, .header-login .user-name, .header-login .login-timer, .header-login .login-btn a, .sidenav.managenav .title, .sidenav.shortnav, .sidenav.shortnav .title, .conarea h2, h3 {
+  font-weight: 700;
+}
+.conarea h2 {
+  font-size: 27px;
+}
+.sidenav.managenav .title {
+  font-size: 20px;
+}
+.header-nav .gnb ul li, .header-login .callnum, h3 {
+  font-size: 18px;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub {
+  font-size: 17px;
+}
+.header-login .user, .header-login .login-timer, .savepop .popContent-con table td {
+  font-size: 16px;
+}
+.sidenav.shortnav li a, .footer, .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p {
+  font-size: 15px;
+}
+.gm-table tbody, .header-login .login-btn a, .app-search .foldBtn button {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span {
+  font-size: 13px;
+}
+.header-nav .subnav li.newMark::after {
+  font-size: 12px;
+}
+
+.header-login .login-btn a, .sidenav.shortnav li a {
+  border: 1px solid #c7c7c7;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.list-system {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 40;
+}
+.list-system-box {
+  width: 297px;
+  height: 412px;
+  padding: 25px 20px 20px 20px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+.list-system-header button {
+  float: right;
+}
+.list-system-top {
+  background-color: #00a4ba;
+}
+.list-system-top-check {
+  width: 35px;
+  height: 30px;
+  line-height: 30px;
+  border-right: 1px solid #fff;
+  text-align: center;
+  position: relative;
+  left: 1px;
+}
+.list-system-top-title {
+  width: 221px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 16px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+.list-system-top-title h5 {
+  color: #fff;
+}
+.list-system-table {
+  overflow: auto;
+  width: 100%;
+  height: 255px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #AFBABE;
+}
+.list-system-table::-webkit-scrollbar {
+  width: 15px;
+  background-clip: padding-box;
+}
+.list-system-table::-webkit-scrollbar-thumb {
+  background-color: #034ea2;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+.list-system-table::-webkit-scrollbar-track {
+  background-color: #b8b8b8;
+}
+.list-system table {
+  border-collapse: collapse;
+}
+.list-system th {
+  border-right: 1px solid #9ad5db;
+}
+.list-system input[type=checkbox] {
+  transform: scale(1.4);
+}
+.list-system thead {
+  background-color: #00a4ba;
+}
+.list-system td {
+  border: 1px solid #AFBABE;
+  height: 34px;
+  padding: 0 7px;
+  font-size: 14px;
+}
+.list-system td:nth-child(2) {
+  text-align: left;
+}
+.list-system .list-system-btn-wrap .list-system--white {
+  background-color: #F8F8F8;
+  border: 1px solid #A7A7A7;
+}
+.list-system .list-system-btn-wrap .list-system--blue {
+  background-color: #0E4194;
+  border: 1px solid #A7A7A7;
+  color: #fff;
+}
+.list-system .list-system-btn {
+  padding: 7.5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.gm-chart {
+  margin-bottom: 22px;
+}
+.gm-chart .tooltip {
+  width: 35px;
+}
+.gm-chart .tooltip-btn {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  background-image: none;
+}
+.gm-chart .a-center {
+  display: flex;
+  align-items: center;
+}
+.gm-chart .pb-0 {
+  padding-bottom: 0 !important;
+}
+.gm-chart .tooltip-con {
+  color: #fff;
+  bottom: 46px;
+}
+.gm-chart__total {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+.gm-chart__total h3 {
+  float: left;
+  margin-right: 20px;
+  padding-top: 2px;
+}
+.gm-chart__total--sm {
+  font-size: 15px;
+  position: absolute;
+  margin-top: 5px;
+}
+.gm-chart .icon-discription {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.gm-chart__content {
+  font-size: 14px;
+}
+.gm-chart__content__excel {
+  margin-right: 40px;
+}
+.gm-chart__content__excel dl.down-select {
+  width: 230px;
+}
+.gm-chart__content__excel button.btn-block {
+  width: 96px;
+  height: 35px;
+  margin-left: 5px;
+  padding: 0;
+}
+.gm-chart__content__page > .formInput-select {
+  margin-right: 5px;
+}
+.gm-chart__content__page label.float-left {
+  padding-top: 7px;
+  margin-right: 5px;
+}
+.gm-chart__content__page dl.choice {
+  width: 68px;
+}
+.gm-chart__content__page dl.align {
+  width: 114px;
+}
+.gm-chart .icon-setting {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #a7a7a7;
+  border-radius: 4px;
+  background-color: #F8F8F8;
+}
+
+.gm-table {
+  background: linear-gradient(to bottom, #36bac6 50%, #ececec 50%);
+  border-collapse: separate;
+  border: 1px solid #bebebe;
+  width: 100%;
+  margin-top: 12px;
+  text-align: center;
+  border-spacing: 0;
+  border-radius: 3px;
+}
+.gm-table.icon-table {
+  border-left: none !important;
+}
+.gm-table.icon-table tr.dark-blue th {
+  background-color: #48C2CD;
+}
+.gm-table.icon-table tr.dark-blue .bg-blue {
+  background-color: #36BAC6 !important;
+}
+.gm-table.icon-table th,
+.gm-table.icon-table td {
+  padding: 0 !important;
+}
+.gm-table.icon-table th {
+  border-bottom: 1px solid #9AD5DB;
+}
+.gm-table.icon-table th:last-child {
+  border-right: 1px solid #9AD5DB;
+}
+.gm-table.icon-table td {
+  border-left: 1px solid #B8B8B8 !important;
+}
+.gm-table.icon-table td.pl-10 {
+  padding-left: 10px !important;
+}
+.gm-table.icon-table td.pr-10 {
+  padding-right: 10px !important;
+}
+.gm-table button.btn-system {
+  width: 35px;
+  height: 35px;
+}
+.gm-table input[type=checkbox] {
+  transform: scale(1.4);
+}
+.gm-table thead th {
+  padding: 9px 0 !important;
+  text-align: center;
+  border-right: 1px solid #9ad5db;
+  height: 55px;
+  color: #fff;
+  font-weight: 500;
+}
+.gm-table thead th:first-child {
+  border-radius: 3px 0 0 0;
+}
+.gm-table thead th:last-child {
+  border-radius: 0 3px 0 0;
+  border-right: none;
+}
+.gm-table.vertical-top td {
+  vertical-align: top;
+}
+.gm-table.tableA tbody td {
+  font-size: 16px;
+}
+.gm-table.tableA tbody .list-link-btn {
+  font-size: 16px;
+}
+.gm-table tbody {
+  color: #3d3d3d;
+}
+.gm-table tbody tr {
+  position: relative;
+}
+.gm-table tbody tr:last-child:hover::after {
+  border: 0;
+}
+.gm-table tbody tr:last-child td.footer-table {
+  padding: 0;
+  background-color: transparent;
+}
+.gm-table tbody tr:last-child td:not(.footer-table) {
+  border-bottom: 1px solid #AFBABE;
+}
+.gm-table tbody th:first-child {
+  -moz-border-radius: 3px 0 0 0;
+  -webkit-border-radius: 3px 0 0 0;
+  border-radius: 3px 0 0 0;
+}
+.gm-table tbody th:last-child {
+  -moz-border-radius: 0 3px 0 0;
+  -webkit-border-radius: 0 3px 0 0;
+  border-radius: 0 3px 0 0;
+}
+.gm-table tbody th:only-child {
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+.gm-table tbody tr:last-child td:first-child {
+  -moz-border-radius: 0 0 0 3px;
+  -webkit-border-radius: 0 0 0 3px;
+  border-radius: 0 0 0 3px;
+}
+.gm-table tbody tr:last-child td:last-child {
+  -moz-border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+.gm-table tbody td {
+  padding: 19px 14px;
+  border: 1px solid #AFBABE;
+  border-bottom: 0;
+  border-right: 0;
+}
+.gm-table tbody td:first-child {
+  border-left: none;
+}
+.gm-table tbody td:nth-child(even) {
+  background-color: #f8f8f8;
+}
+.gm-table tbody td:nth-child(odd) {
+  background-color: #fff;
+}
+.gm-table tbody .mb-5 {
+  margin-bottom: 5px;
+}
+.gm-table tbody .btn {
+  padding: 7px 12px;
+}
+.gm-table tbody .list-link {
+  position: relative;
+}
+.gm-table tbody .list-link-btn {
+  font-size: 14px;
+}
+.gm-table tbody .summary {
+  display: none;
+  position: absolute;
+  left: 30%;
+  top: -202.7px;
+  width: 609px;
+  background-color: #3d3d3d;
+  z-index: 30;
+  border-radius: 10px;
+  color: #fff;
+  text-align: left;
+  padding: 20px;
+}
+.gm-table tbody .summary::before {
+  content: "";
+  position: absolute;
+  left: 21px;
+  bottom: -24px;
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-top: 12px solid #3d3d3d;
+  border-bottom: 12px solid transparent;
+}
+.gm-table tbody .summary-header {
+  margin-bottom: 16px;
+}
+.gm-table tbody .summary-header h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.gm-table tbody .summary-header .btn-cirarrow {
+  float: right;
+}
+.gm-table tbody .summary-header .btn-cirarrow strong {
+  display: block;
+  float: left;
+  padding-top: 2px;
+  margin-right: 10px;
+  font-weight: 500;
+}
+.gm-table tbody .summary-header .btn-cirarrow a {
+  display: block;
+  width: 26px;
+  height: 26px;
+  float: left;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.gm-table tbody .summary-contents {
+  width: 100%;
+  position: relative;
+}
+.gm-table tbody .summary-contents img {
+  display: block;
+  width: 101px;
+  height: 121px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.gm-table tbody .summary-contents dl {
+  width: 213px;
+}
+.gm-table tbody .summary-contents dl.summary-contents-left {
+  width: 195px;
+  margin-right: 40px;
+}
+.gm-table tbody .summary-contents dl.summary-contents-left::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #7b7b7b;
+  position: absolute;
+  top: 0;
+  left: 335px;
+}
+.gm-table tbody .summary-contents dt,
+.gm-table tbody .summary-contents dd {
+  float: left;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  word-break: break-all;
+}
+.gm-table .footer-table {
+  text-align: center;
+  background-color: transparent;
+}
+.gm-table .footer-table.fpd {
+  padding: 11px 14px 3px 14px !important;
+}
+.gm-table .footer-table-page {
+  float: left;
+}
+.gm-table .footer-table-page label {
+  display: block;
+  padding-top: 6px;
+  margin-right: 7px;
+}
+.gm-table .footer-table-page dl {
+  width: 68px;
+  text-align: left;
+}
+.gm-table .footer-table-pagination {
+  display: inline-block;
+}
+.gm-table .footer-table-pagination a {
+  display: block;
+  min-width: 30px;
+  padding: 0 5px;
+  height: 30px;
+  line-height: 26px;
+  border: 1px solid #a7a7a7;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.gm-table .footer-table-pagination a[role=button] {
+  display: inline-block;
+  margin-right: 5px;
+}
+.gm-table .footer-table-pagination li {
+  float: left;
+}
+.gm-table .footer-table-pagination .is_active {
+  background-color: #4d4d4d;
+  color: #fff;
+}
+.gm-table .footer-table-pagination-before {
+  margin-right: 20px;
+}
+.gm-table .footer-table-pagination-before .icon-arrow--s {
+  transform: rotate(90deg);
+}
+.gm-table .footer-table-pagination-after {
+  margin-left: 20px;
+}
+.gm-table .footer-table-pagination-after .icon-arrow-double {
+  transform: rotate(180deg);
+}
+.gm-table .footer-table-pagination-after .icon-arrow--s {
+  transform: rotate(-90deg);
+}
+.gm-table .footer-table-now-page {
+  float: right;
+}
+.gm-table .footer-table-now-page input[type=number] {
+  width: 43px;
+  height: 30px;
+  background-color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #B1B1B1;
+}
+.gm-table .footer-table-now-page input[type=number]::-webkit-outer-spin-button, .gm-table .footer-table-now-page input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

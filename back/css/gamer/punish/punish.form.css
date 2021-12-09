@@ -1,0 +1,201 @@
+.inpuiry-btn-wrap.mt-20 {
+  margin-top: 20px;
+}
+.inpuiry-btn-wrap.mt-20 button.mr-40 {
+  margin-right: 40px;
+}
+
+.mn-15 {
+  margin: 0 15px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.notice.pb-40 {
+  padding-bottom: 40px;
+}
+.notice-header {
+  position: relative;
+}
+.notice-header .boxIn-button-wrap {
+  position: absolute;
+  top: -3px;
+  right: 0;
+}
+.notice-header .boxIn-button-wrap button.pd-0-12 {
+  padding: 0px 12px;
+  line-height: 33px;
+  height: 34px;
+}
+.notice-header.bc-3d {
+  border-bottom: 1px solid #3d3d3d;
+}
+.notice-content ul li.pd-19p5 {
+  padding: 19.5px 0 18.5px;
+}
+.notice-content ul li.pd-24p5 {
+  padding: 24.5px 0;
+}
+.notice-content ul li.pd-24p5 .pd-14 {
+  padding: 14px 0;
+}
+.notice-content ul li.pd-24p5 .mn-25 {
+  margin: 0 25px;
+}
+.notice-content ul li.pd-24p5:last-child {
+  padding-bottom: 6px;
+}
+.notice-content ul.strong-wd-167.mr-50 li strong.title {
+  width: 167px;
+  margin-right: 50px;
+}
+.notice-content ul.strong-wd-167.mr-50 li .formInput-check {
+  float: left;
+  margin-top: 8px;
+  margin-right: 20px;
+}
+.notice-content ul.strong-wd-167.mr-50 li .formInput-radio div {
+  margin-right: 15px;
+}
+.notice-content ul.strong-wd-167.mr-50 li .formInput-radio div:last-child {
+  margin-right: 20px;
+}
+.notice-content ul.strong-wd-167.mr-50 li .formInput-radio div.mr-20 {
+  margin-right: 20px;
+}
+.notice-content ul.strong-wd-167.mr-50 li .full-content {
+  width: calc(100% - 231px);
+  margin-right: 0;
+}
+.notice-content ul.strong-wd-167.mr-50 li .full-content textarea.hg-119 {
+  height: 119px;
+  border: 1px solid #b1b1b1;
+}
+.notice-content ul.strong-wd-167.mr-50 li .full-content .mb-20 {
+  margin-bottom: 20px;
+}
+.notice-content ul.strong-wd-167.mr-50 li:first-child {
+  padding: 24.5px 0 !important;
+}
+.notice-content ul.strong-wd-167.mr-50 li:last-child {
+  padding: 24.5px 0;
+}
+.notice-content ul.strong-wd-123.mr-45 li strong.title {
+  width: 123px;
+  margin-right: 50px;
+}
+.notice-content ul.strong-wd-123.mr-45 li strong.title .ml-12 {
+  margin-left: 12px;
+}
+.notice-content ul.strong-wd-123.mr-45 li .full-content {
+  width: calc(100% - 173px);
+  margin-right: 0;
+}
+.notice-content ul.strong-wd-123.mr-45 li .full-content .checkArea {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 14px;
+}
+.notice-content ul.strong-wd-123.mr-45 li .mb-11 {
+  margin-bottom: 11px;
+}
+.notice-content ul.pd-25 li {
+  padding: 25px 0 22.5px !important;
+}
+.notice-content ul li.mini-item {
+  padding: 15px 0 0;
+}
+.notice-content ul li.mini-item:first-child {
+  padding: 20px 0 0 !important;
+}
+.notice-content ul li.mini-item:last-child {
+  padding: 15px 0 0;
+}
+.notice-content ul li.mini-item strong.title:first-child {
+  width: 100px !important;
+  margin-right: 50px;
+}
+.notice-content ul li.mini-item button.pd-0-12 {
+  padding: 0px 12px;
+  line-height: 33px;
+  height: 34px;
+}
+.notice-content ul li.item input.wd-350 {
+  width: 350px;
+}
+.notice-content ul li.item input.mr-50 {
+  margin-right: 50px;
+}
+.notice-content .mr-15 {
+  margin-right: 15px;
+}
+.notice-content .ml-15 {
+  margin-left: 15px;
+}
+.notice-content .ml-10 {
+  margin-left: 10px;
+}
+
+.inpuiry-content .inpuiry-info .inpuiry-box .inpuiry-inner.pb-0 {
+  padding-bottom: 0;
+}
+.inpuiry-content .inpuiry-info .inpuiry-box .inpuiry-inner.pb-0 .data-left.re-pd {
+  padding: 25px 0 40px;
+  border-right: 1px solid #d8d8d8;
+}
+.inpuiry-content .inpuiry-info .inpuiry-box .inpuiry-inner.pb-0 .data-left.re-pd .data-item strong {
+  width: 100px;
+  margin-right: 50px;
+}
+.inpuiry-content .inpuiry-info .inpuiry-box .inpuiry-inner.pb-0 .data-left.re-pd .data-item > span {
+  width: calc(100% - 150px);
+}
+.inpuiry-content .inpuiry-info .inpuiry-box .inpuiry-inner.pb-0 .data-right.re-pd {
+  padding: 25px 0 40px 40px;
+}
+.inpuiry-content .inpuiry-info .inpuiry-box .inpuiry-inner.pb-0 .data-right.re-pd .data-item strong {
+  width: 136px;
+  margin-right: 50px;
+}
+.inpuiry-content .inpuiry-info .inpuiry-box .inpuiry-inner.pb-0 .data-right.re-pd .data-item > span {
+  width: calc(100% - 186px);
+  word-break: keep-all;
+}
+.inpuiry-content .inpuiry-info.bg-f .notice {
+  background-color: #fff;
+}
+.inpuiry-content .inpuiry-info .table-wrap .title-mini {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.inpuiry-content .inpuiry-info .table-wrap table.mb-40 {
+  margin-bottom: 40px;
+}
+.inpuiry-content .inpuiry-info .table-wrap table tbody tr.hg-88 td {
+  height: 88px;
+}
+.inpuiry-heading {
+  position: relative;
+}
+.inpuiry-heading .boxIn-button-wrap {
+  position: absolute;
+  top: -3px;
+  right: 0;
+}
+.inpuiry-heading .boxIn-button-wrap button.pd-0-12 {
+  padding: 0px 12px;
+  line-height: 33px;
+  height: 34px;
+}
+.inpuiry-link.pr-22 {
+  padding-right: 22px;
+}
+.inpuiry-link.pr-18 {
+  padding-right: 18px;
+}

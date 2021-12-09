@@ -1,0 +1,306 @@
+.min-height-192 {
+  min-height: 192px;
+}
+
+.wd-200 {
+  width: 200px !important;
+}
+
+.ml-53 {
+  margin-left: 53px !important;
+}
+
+.mr-40 {
+  margin-right: 40px !important;
+}
+
+.mr-30 {
+  margin-right: 30px !important;
+}
+
+.mr-27 {
+  margin-right: 27px;
+}
+
+.mr-72 {
+  margin-right: 72px !important;
+}
+
+.mr-5-none {
+  margin-right: 0 !important;
+}
+
+.height-44 {
+  height: 44px !important;
+}
+
+.height-116 {
+  height: 116px;
+}
+
+.box-table td {
+  padding: 15px 5px !important;
+}
+.box-table label {
+  padding-left: 0 !important;
+  margin-left: 5px;
+}
+
+.rep-check-data {
+  display: inline-block;
+}
+
+.hg-729 {
+  min-height: 729px;
+}
+.hg-827 {
+  min-height: 827px;
+}
+
+.mr-34 {
+  margin-right: 34px !important;
+}
+
+.mb-41 {
+  margin-bottom: 41px;
+}
+
+.pr-26 {
+  padding-right: 26px !important;
+}
+
+.pb-100 {
+  padding-bottom: 100px !important;
+}
+.pb-3 {
+  padding-bottom: 3px !important;
+}
+
+.btn.rep-table-btn {
+  padding: 0 10px;
+  height: 35px;
+  line-height: 35px;
+  width: 168px;
+}
+
+.wd-852 {
+  width: 852px !important;
+}
+
+.newtraining.formInput li.data-item span {
+  width: calc(100% - 139px);
+  height: auto;
+  max-height: 119px;
+}
+.newtraining.formInput li.data-item span textarea {
+  width: 100%;
+  height: 119px;
+  resize: none;
+  border: 1px solid #b1b1b1;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-family: "roboto", "NotoSans", "Malgun Gothic", sans-serif;
+  color: #3d3d3d;
+  padding: 8px 10px;
+  font-size: 15px;
+}
+
+.inpuiry-btn-wrap button.btn-blue.pn-20, .inpuiry-btn-wrap button.btn-block.pn-20 {
+  padding: 0 20px !important;
+}
+
+.inpuiry .conSignebox .condiBox.single .formInput .formInput-radio.withicon {
+  width: auto;
+  max-width: 988px;
+  min-height: 122px;
+  margin-right: 0;
+}
+.inpuiry .conSignebox .condiBox.single .formInput .formInput-radio.withicon .icon {
+  position: absolute;
+  top: 30px;
+  left: 45%;
+}
+.inpuiry .conSignebox .condiBox.single .formInput .rep-condition-btn {
+  float: right;
+  margin-right: 0;
+  max-width: unset;
+  width: auto;
+  padding-top: 25px;
+}
+.inpuiry .conSignebox .condiBox.single .formInput .rep-condition-btn button {
+  min-width: 80px;
+  height: 35px;
+  padding: 0 12px;
+}
+.inpuiry .table-wrap.namefix {
+  min-height: unset;
+  margin-bottom: 30px;
+}
+.inpuiry .table-wrap.namefix:last-child {
+  margin-bottom: 41px;
+}
+.inpuiry .table-wrap.namefix table tbody td {
+  padding: 17px 7px;
+  font-size: 14px;
+}
+.inpuiry .table-wrap.namefix table tbody td:not(.origin) input {
+  width: 100%;
+}
+.inpuiry .table-wrap.namefix table tbody td:not(.origin) input.withbtn {
+  width: 138px;
+}
+.inpuiry .table-wrap.namefix table tbody td .pd-0-12 {
+  min-width: 53px;
+  line-height: 35px;
+  height: 35px !important;
+}
+.inpuiry .table-wrap.namefix table tbody td .mb-7 {
+  margin-bottom: 7px;
+}
+.inpuiry .table-wrap.namefix table tbody td .mr-4 {
+  margin-right: 4px;
+}
+.inpuiry .rep.table-scroll {
+  height: 868px;
+  margin-bottom: 20px;
+}
+.inpuiry .rep.table-scroll .size-17 {
+  transform: scale(1.308);
+}
+.inpuiry .rep.table-scroll td.pd-10 {
+  padding: 10px;
+}
+.inpuiry .rep.table-scroll td.pd-10 .detailInfo_rep li {
+  margin-bottom: 7px;
+  height: 35px;
+}
+.inpuiry .rep.table-scroll td.pd-10 .detailInfo_rep li:last-child {
+  margin-bottom: 0;
+}
+.inpuiry .rep.table-scroll td.pd-10 .detailInfo_rep li span {
+  width: 80px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.inpuiry .rep.table-scroll td.pd-10 .detailInfo_rep li > * {
+  float: left;
+}
+.inpuiry .rep.table-scroll td.tc {
+  padding: 17px 0 0 12px;
+}
+.inpuiry .rep.table-scroll td > p {
+  margin-bottom: 13px;
+}
+.inpuiry .rep.table-scroll td .btn-s {
+  padding: 0 8px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.inpuiry .rep.table-scroll .formInput-check .checkArea.checkAll {
+  height: 18px;
+  width: 50px;
+}
+.inpuiry .rep.table-scroll .formInput-check .checkArea input {
+  transform: none;
+  left: 0;
+  top: 0;
+}
+.inpuiry .rep.table-scroll .formInput-check .checkArea.checkSquare label::before {
+  width: 17px;
+  height: 17px;
+  background: none;
+}
+.inpuiry .rep.table-scroll .formInput-check .checkArea.checkSquare label.is_active::before {
+  background-image: url("../img/gamer/icon-diamond.svg");
+}
+.inpuiry .rep.table-scroll .formInput-check .checkArea.checkSquare label:hover::before {
+  background-image: url("../img/gamer/icon-diamond.svg");
+}
+.inpuiry .rep.table-scroll .formInput-check .checkArea.checkRound label {
+  padding-left: 18px;
+  font-size: 14px;
+  line-height: 18px;
+}
+.inpuiry .rep.table-scroll .formInput-check .checkArea.checkRound label::before {
+  width: 18px;
+  height: 18px;
+}
+.inpuiry .rep.table-scroll .formInput-check .checkArea.checkRound label.is_active::before {
+  background-color: #034ea2;
+  border-color: #034ea2;
+}
+.inpuiry .rep.table-scroll .formInput-check .checkArea.checkRound label:hover::before {
+  background-color: #034ea2;
+  border-color: #034ea2;
+}
+.inpuiry .rep.table-scroll .training-check {
+  margin-top: 32px;
+}
+.inpuiry .rep.table-scroll .training-check li {
+  overflow: hidden;
+  margin-bottom: 22px;
+}
+.inpuiry .rep.table-scroll .training-check li:first-child {
+  margin-bottom: 8px;
+}
+.inpuiry .rep.table-scroll .training-check li > * {
+  float: left;
+  font-size: 14px;
+  width: 17px;
+  height: 17px;
+  margin-right: 9px;
+  text-align: center;
+}
+.inpuiry .rep.table-scroll .training-check li > *:first-child {
+  width: 30px;
+  margin-right: 15px;
+  text-align: right;
+  font-weight: 400;
+}
+.inpuiry .rep.table-scroll .training-check li > *:first-child.font-16 {
+  font-size: 16px;
+  line-height: 17px;
+}
+.inpuiry .rep.table-scroll--sm table tbody tr td {
+  padding: 17px 8px !important;
+}
+.inpuiry .rep.table-scroll--sm table tbody tr td span.sm {
+  font-size: 14px;
+}
+.inpuiry .rep.table-scroll--sm table tbody tr td.tc ul.training-check {
+  margin-top: 32px;
+}
+.inpuiry .rep.table-scroll--sm table tbody tr td.tc ul.training-check li {
+  overflow: hidden;
+  margin-bottom: 22px;
+}
+.inpuiry .rep.table-scroll--sm table tbody tr td.tc ul.training-check li span em.blue {
+  color: #0E4194;
+  text-decoration: normal;
+}
+.inpuiry .rep.table-scroll--sm table tbody tr td.tc ul.training-check li label {
+  margin-left: 5px;
+}
+.inpuiry .rep.table-scroll--sm table tbody tr td.tc ul.training-check li:first-child {
+  margin-bottom: 8px;
+}
+.inpuiry .rep.table-scroll--sm table tbody tr td.tc ul.training-check li > * {
+  float: left;
+  font-size: 12px;
+  width: 25px;
+  height: 30px;
+  text-align: center;
+  margin-right: 3px;
+}
+.inpuiry .rep.table-scroll--sm table tbody tr td.tc ul.training-check li > *:last-child {
+  margin-right: 0;
+}
+.inpuiry .rep.table-scroll--sm table tbody tr td.tc ul.training-check li > *:first-child {
+  margin-right: 10px;
+  text-align: right;
+  font-weight: 400;
+}
+.inpuiry .rep.table-scroll--sm table tbody tr td.tc ul.training-check li > *:first-child.font-16 {
+  font-size: 16px;
+  line-height: 17px;
+}

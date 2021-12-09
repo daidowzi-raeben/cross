@@ -1,0 +1,11 @@
+.btn-i {
+  padding: 7px 12px !important;
+}
+
+table thead tr th {
+  line-height: 1;
+}
+
+.inpuiry-box:last-child {
+  margin-bottom: 20px;
+}

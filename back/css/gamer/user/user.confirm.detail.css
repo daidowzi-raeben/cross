@@ -1,0 +1,14 @@
+.id-box-data {
+  padding-bottom: 150px;
+}
+
+.sub-item dd > div {
+  margin-bottom: 5px;
+}
+.sub-item span {
+  margin-left: 12px;
+}
+
+.mr-25 {
+  margin-right: 25px;
+}

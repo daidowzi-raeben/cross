@@ -1,0 +1,1838 @@
+.gm-table tbody, .type-b .condiBox .formInput .formInput-check span, .type-b .condiBox .formInput .formInput-check label, .savepop .popContent-con table td, .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span, .condiBox .formInput .formInput-check label, .condiBox .formInput .formInput-radio label, .inpuiry-link li, .inpuiry .table-wrap table tbody td {
+  font-weight: 400;
+}
+.type-b .condiBox .formInput .formInput-check p, .type-b .condiBox .formInput div label, .app-search .foldBtn button, .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p, .condiBox .formInput div label, .inpuiry-link strong {
+  font-weight: 500;
+}
+h3, .inpuiry-link-title, .inpuiry-title {
+  font-weight: 700;
+}
+h3 {
+  font-size: 18px;
+}
+.savepop .popContent-con table td, .inpuiry .table-wrap table tbody td {
+  font-size: 16px;
+}
+.type-b .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p {
+  font-size: 15px;
+}
+.gm-table tbody, .app-search .foldBtn button {
+  font-size: 14px;
+}
+.type-b .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span {
+  font-size: 13px;
+}
+.inpuiry-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #F2F4F7;
+  padding: 46px 28.5px 51px 30px;
+  border: 1px solid #c1cede;
+}
+.inpuiry-bg strong {
+  width: 101px;
+  font-weight: 500;
+}
+.inpuiry-bg.white-bg {
+  background-color: transparent;
+  padding: 0px;
+  border: 0;
+}
+
+.inpuiry {
+  width: 100%;
+  height: 100%;
+}
+.inpuiry i.icon-plus {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #4d4d4d;
+  border-radius: 2px;
+}
+.inpuiry-content {
+  width: 100%;
+  height: 100%;
+}
+.inpuiry-info {
+  width: 84.2%;
+  padding-right: 24px;
+}
+.inpuiry .full .inpuiry-info {
+  width: 100%;
+  padding-right: 0;
+}
+.inpuiry-info--lg {
+  width: 100%;
+  padding-right: 0;
+}
+.inpuiry-title {
+  margin-bottom: 25px;
+  color: #3d3d3d;
+  font-size: 18px;
+}
+.inpuiry-photo {
+  width: 191px;
+  margin-right: 56px;
+  margin-top: 3px;
+  text-align: center;
+}
+.inpuiry-photo img {
+  display: block;
+  width: 100%;
+  height: 228px;
+  object-fit: cover;
+}
+.inpuiry .text-title h4 {
+  float: left;
+}
+.inpuiry .text-title p {
+  float: right;
+  font-size: 14px;
+}
+.inpuiry .text-title p i {
+  position: relative;
+  top: 5px;
+}
+.inpuiry .table-wrap {
+  min-height: 388px;
+  padding-bottom: 44px;
+}
+.inpuiry .table-wrap .btn {
+  padding: 0;
+  min-width: 60px;
+  height: 35px;
+  font-size: 15px;
+  padding: 0 15px;
+}
+.inpuiry .table-wrap .text-title {
+  border-bottom: 1px solid #3d3d3d;
+  margin-bottom: 25px;
+}
+.inpuiry .table-wrap hr {
+  margin-bottom: 25px;
+  background-color: #3d3d3d;
+}
+.inpuiry .table-wrap .plus-btn {
+  position: relative;
+  float: right;
+}
+.inpuiry .table-wrap table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #AFBABE;
+  border-collapse: collapse;
+}
+.inpuiry .table-wrap table thead {
+  background-color: #36bac6;
+  color: #fff;
+}
+.inpuiry .table-wrap table thead th {
+  text-align: center;
+  border-right: 1px solid #9ad5db;
+}
+.inpuiry .table-wrap table thead th:last-child {
+  border-right: 0;
+}
+.inpuiry .table-wrap table tbody td {
+  border: 1px solid #bebebe;
+  padding: 23px 10px;
+}
+.inpuiry .table-wrap table tbody td:nth-child(even) {
+  background-color: #f8f8f8;
+}
+.inpuiry .table-wrap table.vertical-top td {
+  vertical-align: top;
+}
+.inpuiry .table-wrap td.text-left {
+  text-align: left;
+}
+.inpuiry .table-wrap td.text-right {
+  text-align: right;
+}
+.inpuiry .table-wrap td.text-center {
+  text-align: center;
+}
+.inpuiry input[type=checkbox] {
+  transform: scale(1.4);
+}
+.inpuiry .inpuiry-heading {
+  border-bottom: 1px solid #3d3d3d;
+}
+.inpuiry .inpuiry-heading h4 {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.inpuiry .inpuiry-heading-subheading {
+  border-bottom: none;
+}
+.inpuiry .data__line::before {
+  width: 1px;
+  height: 100%;
+  content: "";
+  background: #d8d8d8;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+}
+.inpuiry .data-item {
+  margin-bottom: 15px;
+}
+.inpuiry .data-item:last-child {
+  margin-bottom: 0;
+}
+.inpuiry .data-item::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.inpuiry .data-item strong {
+  display: block;
+  float: left;
+  width: 147px;
+  font-weight: 500;
+}
+.inpuiry .data-item > span {
+  display: block;
+  float: left;
+  font-weight: 400;
+  width: calc(100% - 147px);
+}
+.inpuiry .data-left {
+  width: 50%;
+}
+.inpuiry .data-right {
+  width: 50%;
+  padding-left: 40px;
+}
+.inpuiry hr {
+  margin: 0;
+}
+.inpuiry .hr-margin {
+  margin-bottom: 25px;
+  background-color: #3d3d3d;
+}
+.inpuiry-inner {
+  position: relative;
+  padding-top: 22px;
+  padding-bottom: 40px;
+}
+.inpuiry-inner__underline .data-item {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  min-height: 85px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 25px 0;
+}
+.inpuiry-inner__underline .data-item data {
+  float: none;
+}
+.inpuiry-inner__underline .data-item:first-child {
+  padding-top: 0;
+}
+.inpuiry-inner__underline .data-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.inpuiry-inner__underline .data-item .fileIn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inpuiry-inner__underline .data-item .fileIn label {
+  display: block;
+  width: 52px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 3px;
+  background-color: #4D4D4D;
+  color: #fff;
+  cursor: pointer;
+}
+.inpuiry-inner .last-inner {
+  padding-bottom: 25px;
+  height: 377px;
+}
+.inpuiry .hoverBorder:hover {
+  box-shadow: 0 0 0 1px #3d3d3d;
+}
+.inpuiry-box {
+  width: 100%;
+  background-color: #fff;
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  border: 1px solid #bebebe;
+}
+.inpuiry-box.height-816 {
+  min-height: 816px;
+}
+.inpuiry-box:last-child {
+  margin-bottom: 0px;
+}
+.inpuiry-box .hoverBorder:hover {
+  box-shadow: 0 0 0 2px #AFBABE;
+}
+.inpuiry-box hr {
+  background-color: #3d3d3d;
+}
+.inpuiry-box li {
+  display: block;
+  font-weight: 500;
+}
+.inpuiry-box:last-child {
+  margin-bottom: 20px;
+}
+.inpuiry-box.last-box {
+  height: 377px;
+}
+.inpuiry-box:nth-child(2) {
+  padding-bottom: 0;
+}
+.inpuiry-btn-wrap {
+  font-size: 0;
+  text-align: right;
+}
+.inpuiry-btn-wrap button.btn {
+  font-size: 15px;
+  font-weight: 500;
+}
+.inpuiry-btn-wrap button.btn-mint {
+  min-width: 80px;
+}
+.inpuiry-btn-wrap button.btn-mint, .inpuiry-btn-wrap button.btn-block {
+  padding: 0 26px;
+}
+.inpuiry-btn-wrap button.btn-blue {
+  padding: 0 20px;
+}
+.inpuiry input[type=file] {
+  display: none;
+}
+.inpuiry label[for=picture] {
+  display: inline-block;
+  width: 154px;
+  height: 35px;
+  background-color: #0e4194;
+  color: #fff;
+  border-radius: 4px;
+  line-height: 35px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.inpuiry .inpuiry-box__color {
+  margin-bottom: 30px;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #bebebe;
+}
+.inpuiry .inpuiry-box__color-text {
+  padding: 40px 40px 30px 40px;
+}
+.inpuiry .inpuiry-box__color-text ul > li {
+  display: block;
+  margin-bottom: 15px;
+}
+.inpuiry .inpuiry-box__color-text ul > li::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.inpuiry .inpuiry-box__color-text .text-header {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #3d3d3d;
+}
+.inpuiry .inpuiry-box__color-text h4 {
+  width: 146px;
+  float: left;
+  font-weight: 500;
+}
+.inpuiry .inpuiry-box__color-text h4 + div {
+  float: left;
+}
+.inpuiry .inpuiry-box__color-bar {
+  width: 100%;
+  height: 50px;
+  background-color: #36BAC6;
+}
+.inpuiry .inpuiry-box__color-bar .bar {
+  text-align: center;
+  width: 50%;
+  line-height: 50px;
+  color: #fff;
+  font-weight: 500;
+}
+.inpuiry .inpuiry-box__color-bar .bar:first-child {
+  border-right: 1px solid #9AD5DB;
+}
+.inpuiry .inpuiry-box__color-half {
+  padding: 25px 40px 40px 40px;
+  position: relative;
+}
+.inpuiry .inpuiry-box__color-half .inpuiry-list {
+  width: 50%;
+  float: left;
+}
+.inpuiry .inpuiry-box__color-half .inpuiry-list:first-child::after {
+  content: "";
+  display: block;
+  width: 1px;
+  position: absolute;
+  background: #D8D8D8;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-1px);
+}
+.inpuiry .inpuiry-box__color-half .inpuiry-list:last-child {
+  padding-left: 40px;
+}
+.inpuiry .inpuiry-box__color-half .inpuiry-list h4 {
+  width: 146px;
+  float: left;
+  font-weight: 500;
+}
+.inpuiry .inpuiry-box__color-half .inpuiry-list > li {
+  margin-bottom: 15px;
+}
+.inpuiry .inpuiry-box__color-half .inpuiry-list h4 + div {
+  float: left;
+}
+.inpuiry .inpuiry-box__color-half li {
+  display: block;
+}
+
+.inpuiry-link {
+  width: 15.6%;
+  height: 100%;
+  background-color: #fff;
+  padding: 31px 34px;
+  border-radius: 4px;
+  border: 1px solid #AFBABE;
+  margin-bottom: 30px;
+  margin-left: auto;
+}
+.inpuiry-link-title {
+  line-height: 20px;
+  color: #3d3d3d;
+  margin-bottom: 18px;
+}
+.inpuiry-link strong {
+  width: 100%;
+}
+.inpuiry-link li {
+  display: block;
+  margin-bottom: 5px;
+}
+.inpuiry-link a {
+  color: #3d3d3d;
+}
+.inpuiry-link-list {
+  margin-bottom: 25px;
+}
+.inpuiry-link-list-title {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.management {
+  margin-bottom: 30px;
+}
+.management .dlb {
+  display: inline-block;
+  vertical-align: middle;
+}
+.management-inner {
+  border: 1px solid #bebebe;
+  padding: 40px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.management-box {
+  margin-bottom: 15px;
+}
+.management-box:last-child {
+  margin-bottom: 0;
+}
+.management hr {
+  margin-bottom: 25px;
+}
+.management .management-header {
+  border-bottom: 1px solid #3d3d3d;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+.management .management-header h3 {
+  font-size: 18px;
+}
+.management h5 {
+  width: 150px;
+  font-size: 16px;
+  color: #3d3d3d;
+  float: left;
+  margin-top: 5px;
+  font-weight: 500;
+}
+.management p {
+  color: #3d3d3d;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.management-input {
+  float: left;
+}
+.management-input.management-input__max {
+  width: calc(100% - 150px);
+}
+.management-input textarea {
+  width: 100%;
+  height: 140px;
+  resize: none;
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 17px;
+}
+.management-input textarea:focus {
+  outline: none;
+}
+.management .wd-350 {
+  width: 350px;
+}
+.management .club {
+  position: relative;
+  left: 250px;
+}
+.management .club-select {
+  position: relative;
+  left: -83px;
+}
+.management .school-code {
+  margin-right: 10px;
+}
+.management dl.divison-list {
+  width: 225px;
+  margin-right: 20px;
+}
+.management dl.code-group-list {
+  width: 257px;
+  margin-bottom: 15px;
+}
+.management dl.detail-group1 {
+  width: 258px;
+  margin-bottom: 15px;
+}
+.management dl.detail-group2 {
+  width: 258px;
+}
+.management .day input {
+  width: 179px;
+}
+.management .btn {
+  padding: 7px 12px 6px 12px;
+  font-size: 15px;
+}
+.management label {
+  margin-right: 20px;
+  font-weight: 400;
+}
+.management label[for=code-group] {
+  margin-right: 29px;
+}
+.management-btn {
+  margin-top: 20px;
+  font-size: 0;
+  text-align: right;
+}
+.management-btn .btn {
+  padding: 12px 26px 11px;
+}
+.management-input.team-checkbox {
+  margin-top: 10px;
+}
+.management p.management-composition-text {
+  margin-top: 10px;
+}
+.management-list {
+  width: 100%;
+  border: 1px solid #B8B8B8;
+}
+.management-list thead {
+  background-color: #36BAC6;
+}
+.management-list thead th {
+  text-align: center;
+  border: 1px solid #9ad5db;
+  color: #fff;
+}
+.management-list thead th:first-child {
+  padding-left: 0;
+}
+.management-list tbody th {
+  text-align: center;
+}
+.management-list tbody th:first-child {
+  padding-left: 0;
+}
+.management-list td {
+  padding: 15px 10px;
+}
+.management-list td:nth-child(even) {
+  background-color: #F8F8F8;
+}
+.management-list td .nonBox {
+  min-height: 26px;
+}
+.management-list td.tableWhite {
+  background-color: #fff !important;
+}
+.management-list td.tableGrey {
+  background-color: #F8F8F8 !important;
+}
+.management-list tr.dark-blue th {
+  background-color: #48C2CD;
+}
+.management-list tr.light-blue th {
+  background-color: #5CC9D3;
+}
+.management-list tr.white-blue th {
+  background-color: #66D5DC;
+}
+.management-list input[type=number] {
+  width: 100%;
+  padding-right: 10px;
+}
+.management .newBtn {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 0;
+}
+
+td {
+  text-align: center;
+}
+
+.gm-table tbody, .type-b .condiBox .formInput .formInput-check span, .type-b .condiBox .formInput .formInput-check label, .savepop .popContent-con table td, .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span, .condiBox .formInput .formInput-check label, .condiBox .formInput .formInput-radio label, .inpuiry .table-wrap table tbody td, .inpuiry-link li {
+  font-weight: 400;
+}
+.type-b .condiBox .formInput .formInput-check p, .type-b .condiBox .formInput div label, .app-search .foldBtn button, .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p, .condiBox .formInput div label, .inpuiry-link strong {
+  font-weight: 500;
+}
+h3, .inpuiry-title, .inpuiry-link-title {
+  font-weight: 700;
+}
+h3 {
+  font-size: 18px;
+}
+.savepop .popContent-con table td, .inpuiry .table-wrap table tbody td {
+  font-size: 16px;
+}
+.type-b .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p {
+  font-size: 15px;
+}
+.gm-table tbody, .app-search .foldBtn button {
+  font-size: 14px;
+}
+.type-b .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span {
+  font-size: 13px;
+}
+.singeBox {
+  height: 122px;
+  width: 100%;
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+  padding: 22px 30px;
+}
+.singeBox .singeform {
+  float: left;
+  width: calc(25% - 74px);
+}
+.singeBox .singeform + .singeform {
+  margin-left: 94px;
+}
+.singeBox .singeform input {
+  width: 100%;
+}
+
+.conSignebox {
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+}
+.conSignebox .condiBox.single {
+  width: 100%;
+  min-width: 230px;
+  height: auto;
+  background-color: inherit;
+  border: 0;
+  padding: 7px 33px 0px 0px;
+}
+.conSignebox .condiBox.single .formInput > div {
+  float: left;
+  width: calc(20% - 34px);
+  min-height: 75px;
+  margin: 0 0 40px 33px;
+}
+.conSignebox .condiBox.single .formInput > div:nth-of-type(5n) {
+  margin-right: 0;
+}
+
+.condiBox {
+  float: left;
+  width: calc(25% - 25px);
+  height: 585px;
+  padding: 22px 30px 44px;
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+  margin-right: 33px;
+}
+.condiBox:last-child {
+  margin-right: 0;
+}
+.condiBox .formInput {
+  margin: 33px 0 0;
+}
+.condiBox .formInput div {
+  margin: 15px 0 0;
+}
+.condiBox .formInput div label.labelTitle {
+  margin: 0 0 5px;
+}
+.condiBox .formInput div input[name=subCode] {
+  display: inline-block;
+  width: 100px;
+}
+.condiBox .formInput div input {
+  width: 100%;
+}
+.condiBox .formInput div .water {
+  margin: 0 6px;
+}
+.condiBox .formInput .formInput-radio .radioArea {
+  padding: 0;
+}
+.condiBox .formInput .formInput-check, .condiBox .formInput .formInput-radio {
+  position: relative;
+  margin: 30px 0 0;
+  padding: 0;
+}
+.condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p {
+  float: left;
+  width: 100%;
+  margin: 0 0 12px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #b8b8b8;
+}
+.condiBox .formInput .formInput-check .checkArea, .condiBox .formInput .formInput-radio .checkArea {
+  float: left;
+  height: 18px;
+}
+.condiBox .formInput .formInput-check .checkArea + .checkArea, .condiBox .formInput .formInput-radio .checkArea + .checkArea {
+  margin: 0 20px 5px 0;
+}
+.condiBox .formInput .formInput-check .checkArea:first-of-type, .condiBox .formInput .formInput-radio .checkArea:first-of-type {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  margin: 0;
+}
+.condiBox .formInput .formInput-check .checkArea:first-of-type label, .condiBox .formInput .formInput-radio .checkArea:first-of-type label {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check .checkArea:last-of-type, .condiBox .formInput .formInput-radio .checkArea:last-of-type {
+  margin: 0;
+}
+.condiBox .formInput .formInput-check .checkArea label, .condiBox .formInput .formInput-radio .checkArea label {
+  padding-left: 21px;
+  line-height: 16px;
+}
+.condiBox .formInput .formInput-check .checkArea label::before, .condiBox .formInput .formInput-radio .checkArea label::before {
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+}
+.condiBox .formInput .formInput-check .checkArea label.is_active::before, .condiBox .formInput .formInput-radio .checkArea label.is_active::before {
+  background-color: #0E4194;
+  border-color: #0E4194;
+}
+.condiBox .formInput .formInput-check .checkArea input:hover, .condiBox .formInput .formInput-radio .checkArea input:hover {
+  display: none;
+}
+.condiBox .formInput .explanText {
+  float: right;
+}
+.condiBox .formInput .wd-230 {
+  width: 230px;
+}
+.condiBox .formInput .wd-350 {
+  width: 350px;
+}
+.condiBox .formInput-radio div.radioArea {
+  display: inline-block;
+  margin: 0;
+  margin-right: 16px;
+}
+.condiBox .formInput-radio div.radioArea label {
+  display: inline-block;
+  margin-top: 0;
+}
+
+.condiBox .formInput .formInput-check .radioArea, .condiBox .formInput .formInput-radio .radioArea {
+  margin: 0 20px 5px 0;
+}
+
+.condiBox .formInput .formInput-check .checkArea, .condiBox .formInput .formInput-check .radioArea, .condiBox .formInput .formInput-radio .checkArea, .condiBox .formInput .formInput-radio .radioArea {
+  float: left;
+  height: 18px;
+}
+
+.condiBox .formInput .formInput-check .checkArea + .checkArea, .condiBox .formInput .formInput-check .radioArea + .checkArea, .condiBox .formInput .formInput-radio .checkArea + .checkArea, .condiBox .formInput .formInput-radio .radioArea + .checkArea {
+  margin: 0 20px 5px 0;
+}
+
+.condiBox .formInput .formInput-check .checkArea:last-of-type, .condiBox .formInput .formInput-check .radioArea:last-of-type, .condiBox .formInput .formInput-radio .checkArea:last-of-type, .condiBox .formInput .formInput-radio .radioArea:last-of-type {
+  margin: 0;
+}
+
+.condiBox .formInput .formInput-check .checkArea label, .condiBox .formInput .formInput-check .radioArea label, .condiBox .formInput .formInput-radio .checkArea label, .condiBox .formInput .formInput-radio .radioArea label {
+  padding-left: 21px;
+  line-height: 16px;
+}
+
+.condiBox .formInput .formInput-check .checkArea label::before, .condiBox .formInput .formInput-check .radioArea label::before, .condiBox .formInput .formInput-radio .checkArea label::before, .condiBox .formInput .formInput-radio .radioArea label::before {
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+}
+
+.condiBox .formInput .formInput-check .checkArea label.is_active::before, .condiBox .formInput .formInput-check .radioArea label.is_active::before, .condiBox .formInput .formInput-radio .checkArea label.is_active::before, .condiBox .formInput .formInput-radio .radioArea label.is_active::before {
+  background-color: #0E4194;
+  border-color: #0E4194;
+}
+
+.condiBox .formInput .formInput-check .checkArea input:hover, .condiBox .formInput .formInput-check .radioArea input:hover, .condiBox .formInput .formInput-radio .checkArea input:hover, .condiBox .formInput .formInput-radio .radioArea input:hover {
+  display: none;
+}
+
+.app-search {
+  position: relative;
+  margin-top: 27px;
+  width: 100%;
+  height: auto;
+  min-height: 77px;
+  border-radius: 3px;
+  border: solid 1px #3d3d3d;
+  padding: 20px;
+  vertical-align: middle;
+  background-color: #f8f8f8;
+  margin-bottom: 80px;
+}
+.app-search .resultBox-each {
+  float: left;
+}
+.app-search .resultBox-each .search {
+  float: left;
+}
+.app-search .resultBox-each .search-list {
+  float: left;
+  width: 600px;
+}
+.app-search .resultBox-each .search-list ul li {
+  margin-top: 5px;
+  float: left;
+  padding-right: 16px;
+}
+.app-search .resultBox-each .search-list ul li button {
+  position: relative;
+  top: 4.2px;
+}
+.app-search .resultBox-each .search-btn {
+  font-size: 0;
+  float: right;
+  margin-right: 43px;
+  padding-top: 5px;
+}
+.app-search .resultBox-each .search-btn button.btn-block {
+  width: 68px;
+  height: 30px;
+  padding: 0;
+  font-size: 14px;
+  position: relative;
+  top: -2px;
+}
+.app-search .resultBox-lately {
+  margin-right: 43px;
+  padding-top: 5px;
+}
+.app-search .resultBox-lately .icon-arrow--s {
+  transform: rotate(-90deg);
+  margin-left: 5px;
+}
+.app-search .resultBox .resultBox-lately::before {
+  content: "";
+  margin-left: -21px;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  background-color: #b8b8b8;
+  position: absolute;
+}
+.app-search .resultBox .resultBox-lately::after {
+  content: "";
+  margin-left: 21px;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  background-color: #b8b8b8;
+  position: absolute;
+}
+.app-search .resultBox-btn {
+  font-size: 0;
+}
+.app-search .resultBox-btn--right {
+  float: right;
+}
+.app-search .resultBox-btn--right::before {
+  display: none;
+}
+.app-search .resultBox-btn button {
+  min-width: 80px;
+  height: 35px;
+  font-size: 15px;
+  padding: 0 12px;
+}
+.app-search .foldBtn {
+  position: absolute;
+  left: 50%;
+  margin-left: -55px;
+  margin-top: 21px;
+}
+.app-search .foldBtn button {
+  padding: 4px 10px 5px;
+  border: 1px solid #c9c9c9;
+  border-top: 0;
+  border-radius: 0 0 3px 3px;
+  text-align: center;
+  background-color: #efefef;
+  color: #3d3d3d;
+}
+.app-search .foldBtn button i {
+  transform: rotate(180deg);
+}
+
+.savepop {
+  max-width: none;
+  width: 789px;
+}
+.savepop .popContent-header {
+  padding: 0;
+}
+.savepop .popContent-con {
+  border: 0;
+}
+.savepop .popContent-con table {
+  width: 100%;
+  text-align: left;
+}
+.savepop .popContent-con table tr {
+  border-bottom: 1px solid #B1B1B1;
+}
+.savepop .popContent-con table th {
+  padding: 5px 8px;
+  border-top: 2px solid #0E4194;
+}
+.savepop .popContent-con table td {
+  padding: 5px 16px;
+  height: 55px;
+  line-height: 50px;
+}
+.savepop .popContent-con table td .tdBox-text {
+  width: calc(100% - 92px);
+}
+.savepop .popContent-con table td .tdBox-input {
+  width: calc(100% - 164px);
+  margin: 0 5px 0 0;
+}
+.savepop .popContent-con table td .tdBox-btn {
+  width: auto;
+}
+.savepop .popContent-con table td span {
+  float: left;
+  width: auto;
+  height: auto;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.savepop .popContent-con table td button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin: 10px 0 0;
+}
+.savepop .popContent-con table td button + button {
+  margin: 10px 0 0 3px;
+}
+.savepop .popContent-con table td input {
+  width: 100%;
+}
+
+.gm-table tbody, .type-b .condiBox .formInput .formInput-check span, .type-b .condiBox .formInput .formInput-check label, .inpuiry .table-wrap table tbody td, .inpuiry-link li, .condiBox .formInput .formInput-check label, .condiBox .formInput .formInput-radio label, .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span, .savepop .popContent-con table td {
+  font-weight: 400;
+}
+.type-b .condiBox .formInput .formInput-check p, .type-b .condiBox .formInput div label, .inpuiry-link strong, .condiBox .formInput div label, .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p, .app-search .foldBtn button {
+  font-weight: 500;
+}
+.inpuiry-title, .inpuiry-link-title, h3 {
+  font-weight: 700;
+}
+h3 {
+  font-size: 18px;
+}
+.inpuiry .table-wrap table tbody td, .savepop .popContent-con table td {
+  font-size: 16px;
+}
+.type-b .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p {
+  font-size: 15px;
+}
+.gm-table tbody, .app-search .foldBtn button {
+  font-size: 14px;
+}
+.type-b .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span {
+  font-size: 13px;
+}
+.type-b {
+  position: relative;
+}
+.type-b .conSignebox {
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+}
+.type-b .conSignebox .condiBox.single {
+  width: 100%;
+  min-width: 230px;
+  height: auto;
+  background-color: inherit;
+  border: 0;
+  padding: 0px;
+}
+.type-b .conSignebox .condiBox.single .formInput {
+  margin: 0;
+  padding: 35px 35px 0 35px;
+}
+.type-b .conSignebox .condiBox.single .formInput > hr.type-b__line {
+  width: 100%;
+  height: 1px;
+  margin: 35px 0;
+  float: unset !important;
+  border-top: 1px solid #BEBEBE;
+}
+.type-b .conSignebox .condiBox.single .formInput > div {
+  float: left;
+  width: 100%;
+  max-width: 230px;
+  min-height: 110px;
+  margin: 0;
+  margin-right: 60px;
+}
+.type-b .conSignebox .condiBox.single .formInput > div:nth-of-type(5n) {
+  margin-right: 0px;
+}
+.type-b .conSignebox .condiBox.single .formInput > div.formInput-radio > p {
+  padding-bottom: 4px;
+  border-bottom: 1px solid #b8b8b8;
+  margin-bottom: 9px;
+}
+.type-b .conSignebox .condiBox.single .formInput > div.formInput-radio .radioArea label {
+  font-weight: normal;
+}
+.type-b .condiBox {
+  float: left;
+  width: calc(25% - 25px);
+  min-width: 348px;
+  height: 585px;
+  padding: 22px 30px 44px;
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+  margin-right: 33px;
+}
+.type-b .condiBox:last-child {
+  margin-right: 0;
+}
+.type-b .condiBox .formInput {
+  margin: 33px 0 0;
+}
+.type-b .condiBox .formInput div {
+  margin: 15px 0 0;
+}
+.type-b .condiBox .formInput div label.labelTitle {
+  margin: 0 0 5px;
+}
+.type-b .condiBox .formInput div input[name=subCode] {
+  display: inline-block;
+  width: 100px;
+}
+.type-b .condiBox .formInput div input {
+  width: 100%;
+}
+.type-b .condiBox .formInput div .water {
+  margin: 0 6px;
+}
+.type-b .condiBox .formInput .formInput-check {
+  position: relative;
+  margin: 30px 0 0;
+}
+.type-b .condiBox .formInput .formInput-check p {
+  float: left;
+  width: 100%;
+  margin: 0 0 12px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #b8b8b8;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea {
+  float: left;
+  height: 18px;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea + .checkArea {
+  margin: 0 20px 5px 0;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea:first-of-type {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  margin: 0;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea:first-of-type label {
+  font-size: 14px;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea:last-of-type {
+  margin: 0;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea label {
+  padding-left: 21px;
+  line-height: 16px;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea label::before {
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea label.is_active::before {
+  background-color: #0E4194;
+  border-color: #0E4194;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea input:hover {
+  display: none;
+}
+.type-b .condiBox .formInput .explanText {
+  float: right;
+}
+.type-b .condiBox .formInput .formInput-radio div.radioArea {
+  display: inline-block;
+  margin: 0;
+  margin-right: 14px;
+  padding: 0;
+  position: relative;
+  top: -4px;
+}
+.type-b .condiBox .formInput .formInput-radio div.radioArea label {
+  display: inline-block;
+  margin-top: 0;
+}
+
+.gm-table tbody, .inpuiry .table-wrap table tbody td, .inpuiry-link li, .condiBox .formInput .formInput-check label, .condiBox .formInput .formInput-radio label, .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span, .savepop .popContent-con table td, .type-b .condiBox .formInput .formInput-check label, .type-b .condiBox .formInput .formInput-check span {
+  font-weight: 400;
+}
+.inpuiry-link strong, .condiBox .formInput div label, .condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p, .app-search .foldBtn button, .type-b .condiBox .formInput div label, .type-b .condiBox .formInput .formInput-check p {
+  font-weight: 500;
+}
+.inpuiry-title, .inpuiry-link-title, h3 {
+  font-weight: 700;
+}
+h3 {
+  font-size: 18px;
+}
+.inpuiry .table-wrap table tbody td, .savepop .popContent-con table td {
+  font-size: 16px;
+}
+.condiBox .formInput .formInput-check p, .condiBox .formInput .formInput-radio p, .type-b .condiBox .formInput .formInput-check p {
+  font-size: 15px;
+}
+.gm-table tbody, .app-search .foldBtn button {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-radio span, .type-b .condiBox .formInput .formInput-check span {
+  font-size: 13px;
+}
+.list-system {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 40;
+}
+.list-system-box {
+  width: 297px;
+  height: 412px;
+  padding: 25px 20px 20px 20px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+.list-system-header button {
+  float: right;
+}
+.list-system-top {
+  background-color: #00a4ba;
+}
+.list-system-top-check {
+  width: 35px;
+  height: 30px;
+  line-height: 30px;
+  border-right: 1px solid #fff;
+  text-align: center;
+  position: relative;
+  left: 1px;
+}
+.list-system-top-title {
+  width: 221px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 16px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+.list-system-top-title h5 {
+  color: #fff;
+}
+.list-system-table {
+  overflow: auto;
+  width: 100%;
+  height: 255px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #AFBABE;
+}
+.list-system-table::-webkit-scrollbar {
+  width: 15px;
+  background-clip: padding-box;
+}
+.list-system-table::-webkit-scrollbar-thumb {
+  background-color: #034ea2;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+.list-system-table::-webkit-scrollbar-track {
+  background-color: #b8b8b8;
+}
+.list-system table {
+  border-collapse: collapse;
+}
+.list-system th {
+  border-right: 1px solid #9ad5db;
+}
+.list-system input[type=checkbox] {
+  transform: scale(1.4);
+}
+.list-system thead {
+  background-color: #00a4ba;
+}
+.list-system td {
+  border: 1px solid #AFBABE;
+  height: 34px;
+  padding: 0 7px;
+  font-size: 14px;
+}
+.list-system td:nth-child(2) {
+  text-align: left;
+}
+.list-system .list-system-btn-wrap .list-system--white {
+  background-color: #F8F8F8;
+  border: 1px solid #A7A7A7;
+}
+.list-system .list-system-btn-wrap .list-system--blue {
+  background-color: #0E4194;
+  border: 1px solid #A7A7A7;
+  color: #fff;
+}
+.list-system .list-system-btn {
+  padding: 7.5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.gm-chart {
+  margin-bottom: 22px;
+}
+.gm-chart .tooltip {
+  width: 35px;
+}
+.gm-chart .tooltip-btn {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  background-image: none;
+}
+.gm-chart .a-center {
+  display: flex;
+  align-items: center;
+}
+.gm-chart .pb-0 {
+  padding-bottom: 0 !important;
+}
+.gm-chart .tooltip-con {
+  color: #fff;
+  bottom: 46px;
+}
+.gm-chart__total {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+.gm-chart__total h3 {
+  float: left;
+  margin-right: 20px;
+  padding-top: 2px;
+}
+.gm-chart__total--sm {
+  font-size: 15px;
+  position: absolute;
+  margin-top: 5px;
+}
+.gm-chart .icon-discription {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.gm-chart__content {
+  font-size: 14px;
+}
+.gm-chart__content__excel {
+  margin-right: 40px;
+}
+.gm-chart__content__excel dl.down-select {
+  width: 230px;
+}
+.gm-chart__content__excel button.btn-block {
+  width: 96px;
+  height: 35px;
+  margin-left: 5px;
+  padding: 0;
+}
+.gm-chart__content__page > .formInput-select {
+  margin-right: 5px;
+}
+.gm-chart__content__page label.float-left {
+  padding-top: 7px;
+  margin-right: 5px;
+}
+.gm-chart__content__page dl.choice {
+  width: 68px;
+}
+.gm-chart__content__page dl.align {
+  width: 114px;
+}
+.gm-chart .icon-setting {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #a7a7a7;
+  border-radius: 4px;
+  background-color: #F8F8F8;
+}
+
+.gm-table {
+  background: linear-gradient(to bottom, #36bac6 50%, #ececec 50%);
+  border-collapse: separate;
+  border: 1px solid #bebebe;
+  width: 100%;
+  margin-top: 12px;
+  text-align: center;
+  border-spacing: 0;
+  border-radius: 3px;
+}
+.gm-table.icon-table {
+  border-left: none !important;
+}
+.gm-table.icon-table tr.dark-blue th {
+  background-color: #48C2CD;
+}
+.gm-table.icon-table tr.dark-blue .bg-blue {
+  background-color: #36BAC6 !important;
+}
+.gm-table.icon-table th,
+.gm-table.icon-table td {
+  padding: 0 !important;
+}
+.gm-table.icon-table th {
+  border-bottom: 1px solid #9AD5DB;
+}
+.gm-table.icon-table th:last-child {
+  border-right: 1px solid #9AD5DB;
+}
+.gm-table.icon-table td {
+  border-left: 1px solid #B8B8B8 !important;
+}
+.gm-table.icon-table td.pl-10 {
+  padding-left: 10px !important;
+}
+.gm-table.icon-table td.pr-10 {
+  padding-right: 10px !important;
+}
+.gm-table button.btn-system {
+  width: 35px;
+  height: 35px;
+}
+.gm-table input[type=checkbox] {
+  transform: scale(1.4);
+}
+.gm-table thead th {
+  padding: 9px 0 !important;
+  text-align: center;
+  border-right: 1px solid #9ad5db;
+  height: 55px;
+  color: #fff;
+  font-weight: 500;
+}
+.gm-table thead th:first-child {
+  border-radius: 3px 0 0 0;
+}
+.gm-table thead th:last-child {
+  border-radius: 0 3px 0 0;
+  border-right: none;
+}
+.gm-table.vertical-top td {
+  vertical-align: top;
+}
+.gm-table.tableA tbody td {
+  font-size: 16px;
+}
+.gm-table.tableA tbody .list-link-btn {
+  font-size: 16px;
+}
+.gm-table tbody {
+  color: #3d3d3d;
+}
+.gm-table tbody tr {
+  position: relative;
+}
+.gm-table tbody tr:last-child:hover::after {
+  border: 0;
+}
+.gm-table tbody tr:last-child td.footer-table {
+  padding: 0;
+  background-color: transparent;
+}
+.gm-table tbody tr:last-child td:not(.footer-table) {
+  border-bottom: 1px solid #AFBABE;
+}
+.gm-table tbody th:first-child {
+  -moz-border-radius: 3px 0 0 0;
+  -webkit-border-radius: 3px 0 0 0;
+  border-radius: 3px 0 0 0;
+}
+.gm-table tbody th:last-child {
+  -moz-border-radius: 0 3px 0 0;
+  -webkit-border-radius: 0 3px 0 0;
+  border-radius: 0 3px 0 0;
+}
+.gm-table tbody th:only-child {
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+.gm-table tbody tr:last-child td:first-child {
+  -moz-border-radius: 0 0 0 3px;
+  -webkit-border-radius: 0 0 0 3px;
+  border-radius: 0 0 0 3px;
+}
+.gm-table tbody tr:last-child td:last-child {
+  -moz-border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+.gm-table tbody td {
+  padding: 19px 14px;
+  border: 1px solid #AFBABE;
+  border-bottom: 0;
+  border-right: 0;
+}
+.gm-table tbody td:first-child {
+  border-left: none;
+}
+.gm-table tbody td:nth-child(even) {
+  background-color: #f8f8f8;
+}
+.gm-table tbody td:nth-child(odd) {
+  background-color: #fff;
+}
+.gm-table tbody .mb-5 {
+  margin-bottom: 5px;
+}
+.gm-table tbody .btn {
+  padding: 7px 12px;
+}
+.gm-table tbody .list-link {
+  position: relative;
+}
+.gm-table tbody .list-link-btn {
+  font-size: 14px;
+}
+.gm-table tbody .summary {
+  display: none;
+  position: absolute;
+  left: 30%;
+  top: -202.7px;
+  width: 609px;
+  background-color: #3d3d3d;
+  z-index: 30;
+  border-radius: 10px;
+  color: #fff;
+  text-align: left;
+  padding: 20px;
+}
+.gm-table tbody .summary::before {
+  content: "";
+  position: absolute;
+  left: 21px;
+  bottom: -24px;
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-top: 12px solid #3d3d3d;
+  border-bottom: 12px solid transparent;
+}
+.gm-table tbody .summary-header {
+  margin-bottom: 16px;
+}
+.gm-table tbody .summary-header h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.gm-table tbody .summary-header .btn-cirarrow {
+  float: right;
+}
+.gm-table tbody .summary-header .btn-cirarrow strong {
+  display: block;
+  float: left;
+  padding-top: 2px;
+  margin-right: 10px;
+  font-weight: 500;
+}
+.gm-table tbody .summary-header .btn-cirarrow a {
+  display: block;
+  width: 26px;
+  height: 26px;
+  float: left;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.gm-table tbody .summary-contents {
+  width: 100%;
+  position: relative;
+}
+.gm-table tbody .summary-contents img {
+  display: block;
+  width: 101px;
+  height: 121px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.gm-table tbody .summary-contents dl {
+  width: 213px;
+}
+.gm-table tbody .summary-contents dl.summary-contents-left {
+  width: 195px;
+  margin-right: 40px;
+}
+.gm-table tbody .summary-contents dl.summary-contents-left::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #7b7b7b;
+  position: absolute;
+  top: 0;
+  left: 335px;
+}
+.gm-table tbody .summary-contents dt,
+.gm-table tbody .summary-contents dd {
+  float: left;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  word-break: break-all;
+}
+.gm-table .footer-table {
+  text-align: center;
+  background-color: transparent;
+}
+.gm-table .footer-table.fpd {
+  padding: 11px 14px 3px 14px !important;
+}
+.gm-table .footer-table-page {
+  float: left;
+}
+.gm-table .footer-table-page label {
+  display: block;
+  padding-top: 6px;
+  margin-right: 7px;
+}
+.gm-table .footer-table-page dl {
+  width: 68px;
+  text-align: left;
+}
+.gm-table .footer-table-pagination {
+  display: inline-block;
+}
+.gm-table .footer-table-pagination a {
+  display: block;
+  min-width: 30px;
+  padding: 0 5px;
+  height: 30px;
+  line-height: 26px;
+  border: 1px solid #a7a7a7;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.gm-table .footer-table-pagination a[role=button] {
+  display: inline-block;
+  margin-right: 5px;
+}
+.gm-table .footer-table-pagination li {
+  float: left;
+}
+.gm-table .footer-table-pagination .is_active {
+  background-color: #4d4d4d;
+  color: #fff;
+}
+.gm-table .footer-table-pagination-before {
+  margin-right: 20px;
+}
+.gm-table .footer-table-pagination-before .icon-arrow--s {
+  transform: rotate(90deg);
+}
+.gm-table .footer-table-pagination-after {
+  margin-left: 20px;
+}
+.gm-table .footer-table-pagination-after .icon-arrow-double {
+  transform: rotate(180deg);
+}
+.gm-table .footer-table-pagination-after .icon-arrow--s {
+  transform: rotate(-90deg);
+}
+.gm-table .footer-table-now-page {
+  float: right;
+}
+.gm-table .footer-table-now-page input[type=number] {
+  width: 43px;
+  height: 30px;
+  background-color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #B1B1B1;
+}
+.gm-table .footer-table-now-page input[type=number]::-webkit-outer-spin-button, .gm-table .footer-table-now-page input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.conarea {
+  padding-bottom: 50px;
+}
+.conarea .inpuiry-box {
+  padding: 40px 40px 0 40px;
+}
+.conarea .inpuiry-box:last-child {
+  margin-bottom: 20px;
+  padding: 40px 41px 41px 40px;
+}
+.conarea .inpuiry-box .mini-title {
+  font-size: 18px;
+  margin-bottom: 17px;
+}
+.conarea .inpuiry-box .user-left {
+  width: 33.4%;
+  padding: 25px 0 25px 0;
+  border-right: 0;
+}
+.conarea .inpuiry-box .user-left dt {
+  width: 74px;
+  margin-right: 45px;
+}
+.conarea .inpuiry-box .user div {
+  height: 22.6px;
+}
+.conarea .inpuiry-box .user-center {
+  width: 33.3%;
+  padding: 25px 0 25px 40px;
+  border-right: 1px solid #d8d8d8;
+  border-left: 1px solid #d8d8d8;
+}
+.conarea .inpuiry-box .user-center dt {
+  width: 59px;
+  margin-right: 45px;
+}
+.conarea .inpuiry-box .user-right {
+  width: 33.3%;
+  padding: 25px 0 25px 40px;
+}
+.conarea .inpuiry-box .user-right dt {
+  width: 59px;
+  margin-right: 45px;
+}
+.conarea .inpuiry-box .table-wrap {
+  padding-bottom: 0;
+}
+.conarea .inpuiry-box table.subTable {
+  margin-bottom: 0;
+}
+.conarea .inpuiry-box table {
+  margin-bottom: 51px;
+}
+.conarea .inpuiry-box table:last-child {
+  margin-bottom: 0px;
+}
+.conarea .inpuiry-box table thead tr th {
+  padding: 12.5px 0;
+}
+.conarea .inpuiry-box table tbody td {
+  font-size: 16px;
+}
+.conarea .inpuiry-box table tbody .formInput-radio .radioArea {
+  float: left;
+  margin-right: 18px;
+  padding: 0;
+}
+.conarea .inpuiry-box table tbody .formInput-radio .radioArea label {
+  padding-top: 1px;
+}
+.conarea .btn {
+  font-size: 15px;
+}
+
+.subTable-wrap {
+  padding-bottom: 0;
+}
+.subTable-wrap .inpuiry-heading h4 {
+  margin-bottom: 26px;
+}
+
+.detailLine--4 ul {
+  width: 25%;
+}
+
+.detailLine--3 ul {
+  width: 33.3%;
+}
+
+.detailLine--2 ul {
+  width: 50%;
+}
+
+.detailLine--1 ul {
+  width: 100%;
+}
+
+.menuService-select {
+  padding: 30px;
+  border-bottom: 1px solid #bebebe;
+}
+.menuService-check {
+  padding: 30px 30px 0 30px;
+}
+.menuService h5 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.menuService .form-box {
+  float: left;
+  width: 270px;
+  margin-right: 100px;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+.menuService .form-box:last-child {
+  margin-right: 0;
+}
+.menuService .form-box input[type=text] {
+  width: 100%;
+}
+.menuService .form-box label {
+  margin-top: 10px;
+}
+.menuService .form-box .radioArea {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.detailLine {
+  padding-bottom: 40px;
+  position: relative;
+}
+.detailLine ul {
+  float: left;
+  padding-left: 40px;
+}
+.detailLine ul:not(:nth-child(1))::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #d8d8d8;
+  position: absolute;
+  margin-left: -40px;
+}
+.detailLine ul:first-child {
+  padding-left: 0;
+}
+.detailLine ul li {
+  margin-top: 15px;
+}
+.detailLine ul li strong.title {
+  float: left;
+  font-size: 16px;
+  font-weight: 500;
+  width: 125px;
+}
+.detailLine ul li p {
+  font-size: 15px;
+  font-weight: normal;
+  float: left;
+  line-height: 1.5;
+}
+.detailLine ul li p span {
+  margin-right: 20px;
+}
+.detailLine ul li::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.detailLine ul li:first-child {
+  margin-top: 25px;
+}
+
+.text-right .btn {
+  font-size: 15px;
+  height: 44px;
+  padding: 0 20px;
+  line-height: 44px;
+}
+.text-right .btn-mint {
+  min-width: 80px;
+}

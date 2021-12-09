@@ -1,0 +1,19 @@
+.inpuiry-box ul.strong-139-50 li.data-item strong {
+  width: 139px;
+  margin-right: 50px;
+}
+.inpuiry-box ul.strong-139-50 li.data-item > span {
+  width: calc(100% - 189px);
+}
+.inpuiry-box ul.strong-139-50.formInput li.data-item:not(.none) strong {
+  height: 24px;
+  line-height: 24px;
+}
+.inpuiry-box ul.strong-139-50.formInput li.data-item:not(.none) span {
+  height: 24px;
+  line-height: 24px;
+}
+
+.pb-35 {
+  padding-bottom: 35px !important;
+}

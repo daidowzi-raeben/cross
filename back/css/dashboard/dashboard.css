@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: #f1f1f1;
+  height: 100%;
+}
+
+.wrap .container .dashboard-info {
+  background: url("../../img/dashboard/dash_header_bg.svg") 0/cover;
+  width: 286px;
+  height: 100%;
+  position: absolute;
+  margin: 20px;
+  left: 0;
+  top: 0;
+  background-color: #164194;
+}

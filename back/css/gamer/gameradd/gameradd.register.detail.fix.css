@@ -1,0 +1,5 @@
+@import "../../../../src/css/air-datepicker/datepicker.css";
+@import "../../../../src/css/air-datepicker/datepicker_back.css";
+.datepicker--nav-action {
+  background: url(../../../img/common/arrow-circle-b.svg) #fff no-repeat 50% 40% !important;
+}

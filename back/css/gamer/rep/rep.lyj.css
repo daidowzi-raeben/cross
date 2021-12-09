@@ -1,0 +1,23 @@
+.b-gray {
+  background: #f8f8f8 !important;
+}
+
+.m-center {
+  margin: 0 auto;
+}
+
+.repdorm .text-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 14px;
+}
+.repdorm .text-title::after {
+  content: none;
+}
+.repdorm .text-title h4 {
+  margin-bottom: 0;
+}
+.repdorm .sub-tit {
+  margin-bottom: 26px;
+}

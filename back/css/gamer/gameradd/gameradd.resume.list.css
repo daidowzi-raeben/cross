@@ -1,0 +1,22 @@
+.mb-14 {
+  margin-bottom: 14px !important;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mr-80 {
+  margin-right: 80px !important;
+}
+
+.resultBox .resultBox-item {
+  max-width: calc(100% - 298px) !important;
+}
+.resultBox .resultBox-lately button::after {
+  background-image: url(../../../img/common/arrow-s.svg) !important;
+}
+.resultBox .resultBox-btn {
+  width: 120px !important;
+  text-align: center;
+}

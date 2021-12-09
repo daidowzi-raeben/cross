@@ -1,0 +1,60 @@
+.inpuiry-fl .formInput {
+  width: 100%;
+}
+.inpuiry-fl .formInput input {
+  margin-right: 5px;
+}
+
+.athletic-btn .btn-mint {
+  margin-left: 10px;
+}
+
+.wd100 {
+  width: 100%;
+}
+
+.mt13 {
+  margin-top: 13px;
+}
+
+.api-list {
+  width: 100%;
+}
+.api-list li {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.checkbox-section {
+  height: auto !important;
+}
+
+.radiopd {
+  padding: 30px 0 !important;
+}
+
+.data-item .wd-350 {
+  width: 350px !important;
+}
+
+.data-item .formInput-select {
+  display: inline-block;
+}
+.data-item .info {
+  vertical-align: top;
+}
+
+.squaretop {
+  top: 10px;
+}
+
+.odd-color td:nth-child(even) {
+  background-color: transparent;
+}
+.odd-color td:nth-child(odd) {
+  background-color: #F8F8F8;
+}
+.odd-color td.odd-last {
+  background-color: #fff;
+}

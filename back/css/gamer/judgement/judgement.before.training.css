@@ -1,0 +1,15 @@
+.btn {
+  font-size: 15px;
+  padding: 12px 26px 11px;
+}
+
+td {
+  padding: 17px 10px;
+  height: 117px;
+}
+td:nth-child(1) {
+  padding: 15px 10px;
+}
+td:nth-child(5), td:nth-child(6) {
+  padding: 13px 10px;
+}

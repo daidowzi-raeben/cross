@@ -1,0 +1,19 @@
+.gm-table tbody tr.pd-17-10 td {
+  padding: 17px 10px;
+}
+
+.type-b .conSignebox .condiBox.single .formInput-check .checkArea.mr-0 {
+  margin-right: 0;
+}
+.type-b .conSignebox .condiBox.single .formInput-check .checkArea.mb-17 {
+  margin-bottom: 17px;
+}
+.type-b .conSignebox .condiBox.single .formInput-check .checkArea.mb-14 {
+  margin-bottom: 14px;
+}
+.type-b .conSignebox .condiBox.single .formInput.mr-75 > div {
+  margin-right: 75px;
+}
+.type-b .conSignebox .condiBox.single .formInput.mr-75 > div.mr-0 {
+  margin-right: 0;
+}

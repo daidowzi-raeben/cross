@@ -1,0 +1,99 @@
+.wdpop {
+  margin: 0 auto;
+}
+.wdpop.wd-1620 {
+  width: 1620px;
+  padding: 40px 50px 41px;
+}
+.wdpop.wd-1365 {
+  width: 1365px;
+  padding: 30px 50px;
+}
+.wdpop.wd-1365 .wdpop-header {
+  margin-bottom: 13px;
+}
+.wdpop.wd-1365 .wdpop-header.mb-22 {
+  margin-bottom: 22px;
+}
+.wdpop-header {
+  width: 100%;
+  border-bottom: 2px solid #0e4194;
+  margin-bottom: 30px;
+}
+.wdpop-header h3 {
+  margin-bottom: 22px;
+}
+.wdpop-contents .app-condition .conSignebox .condiBox.single .formInput {
+  padding: 35px;
+}
+.wdpop-contents .app-condition .conSignebox .condiBox.single .formInput > div {
+  min-height: 0;
+  margin-right: 75px;
+}
+.wdpop-contents .app-condition .conSignebox .condiBox.single .formInput > div:nth-child(3) {
+  margin-right: 74px;
+}
+.wdpop-contents .app-condition .conSignebox .condiBox.single .formInput > div:nth-child(4) {
+  margin-right: 74px;
+}
+.wdpop-contents .app-condition .conSignebox .condiBox.single .formInput > div:nth-child(5) {
+  margin-right: 0;
+}
+.wdpop-contents .app-condition .conSignebox .condiBox.single .formInput-select {
+  height: 62px;
+}
+.wdpop-contents .btn-wrap {
+  margin-top: 20px;
+  margin-bottom: 43px;
+  width: 100%;
+  text-align: right;
+}
+.wdpop-contents .btn-wrap button {
+  padding: 0 26px;
+  height: 34px;
+  line-height: 34px;
+}
+.wdpop-contents .gm-table tbody tr:last-child td {
+  border-bottom: none;
+}
+.wdpop-contents .gm-chart > div {
+  position: relative;
+}
+.wdpop-contents .gm-chart > div p {
+  position: absolute;
+  right: 0;
+  top: 7px;
+}
+.wdpop-contents .gm-chart__total h3 {
+  font-size: 20px;
+}
+.wdpop-contents .inpuiry-box ul.strong-184 li.data-item strong {
+  width: 184px;
+}
+.wdpop-contents .inpuiry-box ul.strong-184 li.data-item span {
+  width: calc(100% - 184px);
+}
+.wdpop-footer input.hg-45 {
+  height: 45px;
+}
+.wdpop-footer button.btn-blue {
+  padding: 0 19px;
+}
+.wdpop .pt-7 {
+  padding-top: 7px;
+}
+.wdpop .mt-3 {
+  margin-top: 3px;
+}
+.wdpop .mt-8 {
+  margin-top: 8px;
+}
+.wdpop .mt-18 {
+  margin-top: 18px;
+}
+.wdpop .mr-2 {
+  margin-right: 2px;
+}
+.wdpop .mr-13 {
+  margin-right: 13px;
+}

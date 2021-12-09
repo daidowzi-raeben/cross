@@ -1,0 +1,23 @@
+.board.board__typeb .systemNotice-box {
+  height: 201px;
+}
+.board.board__typeb .board-section__header {
+  justify-content: flex-end;
+}
+.board.board__typeb .board-section__header.shortcuts-title {
+  justify-content: flex-start;
+}
+.board.board__typeb .systemNotice {
+  position: relative;
+}
+.board.board__typeb .systemNotice-head {
+  position: absolute;
+  left: 0;
+  top: -49px;
+}
+.board.board__typeb .systemNotice-list {
+  margin-top: 10px;
+}
+.board.board__typeb .systemNotice-list li i {
+  margin-bottom: 15px;
+}

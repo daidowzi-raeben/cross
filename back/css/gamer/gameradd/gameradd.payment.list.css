@@ -1,0 +1,36 @@
+.resultBox .resultBox-item {
+  max-width: calc(100% - 298px) !important;
+}
+.resultBox .resultBox-lately button::after {
+  background-image: url(../../../img/common/arrow-s.svg) !important;
+}
+.resultBox .resultBox-btn {
+  width: 120px !important;
+  text-align: center;
+}
+
+.condiBox {
+  width: 100% !important;
+  height: 122px !important;
+  padding: 30px 31px;
+}
+.condiBox .formInput {
+  margin: 0 !important;
+}
+.condiBox .formInput div {
+  margin: 0 76px 0 0 !important;
+}
+.condiBox .formInput div input {
+  width: 230px;
+}
+.condiBox .formInput-select {
+  width: 230px;
+}
+
+.gm-chart-page {
+  width: 833px !important;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}

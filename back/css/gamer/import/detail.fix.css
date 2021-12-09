@@ -1,0 +1,54 @@
+.inpuiry__fix .inpuiry-box img {
+  margin-bottom: 23px;
+}
+.inpuiry__fix .inpuiry-box .btn-block {
+  height: 34px;
+  padding: 0 12px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.inpuiry__fix .inpuiry-box .btn-blue {
+  width: 154px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.inpuiry__fix .inpuiry-box .input-md {
+  width: 175px;
+}
+.inpuiry__fix .inpuiry-box .wd-350 {
+  width: 350px;
+}
+.inpuiry__fix .inpuiry-box .wd-335 {
+  width: 335px;
+}
+.inpuiry__fix .inpuiry-box .mt-5 {
+  margin-top: 5px;
+}
+.inpuiry__fix .inpuiry-box .wd-134 {
+  width: 134px;
+}
+.inpuiry__fix .inpuiry-box .mr-50 {
+  margin-right: 50px;
+}
+.inpuiry__fix .inpuiry-box .radio-box {
+  height: 30px;
+}
+.inpuiry__fix .inpuiry-box .input-approve {
+  width: 264px;
+  margin-left: 12px;
+}
+.inpuiry__fix .inpuiry-box .formInput-select dt,
+.inpuiry__fix .inpuiry-box .formInput-select dd {
+  font-size: 15px;
+  font-weight: 400;
+}
+.inpuiry__fix .inpuiry-box .formInput-select a {
+  font-weight: 400;
+}
+.inpuiry__fix .inpuiry-box .sub-list--second .sub-item > dt {
+  margin-right: 50px;
+}
+.inpuiry__fix .btn-group {
+  display: inline-block;
+}

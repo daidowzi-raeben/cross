@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../css/air-datepicker/datepicker.css">
+    <link rel="stylesheet" href="../../css/slick/slick.css">
+    <link rel="stylesheet" href="../../css/slick/slick-theme.css">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/component.css">
+    <link rel="stylesheet" href="../../css/icon.css">
+    <link rel="stylesheet" href="../../css/guide.css">
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../js/jquery-ui.js"></script>
+    <script src="../../js/slick/slick.min.js"></script>
+    <script src="../../js/chart/Chart.min.js"></script>
+    <script src="../../js/chart/chartjs-plugin-datalabels.js"></script>
+    <script src="../../js/air-datepicker/datepicker.js"></script>
+    <script src="../../js/air-datepicker/datepicker.en.js"></script>
+    <title>Guide - 대한체육회</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="container guide clb">
+            <ul class="guide-list">
+                <li><a href="./" target="_self">Components</a></li>
+            </ul>
+            <div class="guide-content">
+<!-- 헤더 끝 -->
+
+<div class="content clb">
+    <h2> chart </h2>
+    <div class="codebox">
+        <button class="copybtn" onclick="copyText('#code1');" title="주소 복사">차트 html 복사</button>
+        <xmp id="code1" class="brush: html;">
+            <div class="chart-wrapper" style="width:190px; height:200px;">
+                <canvas id="todayChart" width="190px" height="190px"></canvas>
+                <span class="todayPer"><em></em>%</span>
+                <span class="todayText"></span>
+            </div>
+        </xmp>
+    </div>
+    <div class="codebox">
+    <button class="copybtn" onclick="copyText('#code2');" title="주소 복사">차트 js 복사</button>
+    <xmp id="code2" class="brush: html;">
+        var todayChart = document.getElementById('chartID').getContext('2d');
+        var todayData = 80 // 데이터 입력
+            dataesle =  100 - todayData;
+            todayText = '차트이름',
+        
+        $('.todayPer em').text(todayData);
+        $('.todayText').text(todayText)
+        
+        new Chart(todayChart, {
+            type: 'doughnut', // 차트형식
+            data: {
+                datasets: [{
+                    label: false,
+                    data: [todayData,dataesle],
+                    backgroundColor: ['#36BAC6'],
+                }],
+                labels: false
+            },
+            options: {
+                responsive: true,
+                
+                legend: {
+                    position: 'bottom'
+                },
+                cutoutPercentage:82,
+                plugins: {
+                    datalabels: {
+                        color: ['#fff'],
+                        borderWidth: 0,
+                        borderColor: ['#fff'],
+                        borderRadius : 25,
+                        anchor: 'center',
+                        formatter: function(value, context) {
+                            return (value > 10) ? null : null //data가 10 미만이면 숫자 값은 출력되지 않습니다.
+                        }
+                    },
+                },
+                title: {
+                    display: true,
+                    position: 'bottom',
+                },
+                tooltips: {
+                    enabled: false
+                },
+                hover: {
+                    animationDuration: 0
+                },
+            }
+        });
+    </xmp>
+    </div>
+    <h4>chart</h4>
+    <div class="chart-wrapper" style="width:190px; height:200px;">
+        <canvas id="todayChart" width="190px" height="190px"></canvas>
+        <span class="todayPer"><em></em>%</span>
+        <span class="todayText"></span>
+    </div>
+    <div class="commentBox font-13">
+        <p> 차트이름 : class="todayText"</p>
+        <p> 퍼센트 : class="todayPer"</p>
+        <p> 데이터 변경 : js에서 todayData값 변경</p>
+        
+    </div>
+</div>
+
+<!-- 푸터 시작 -->
+        </div>
+    </div>
+</div>
+<script src="../../js/common.js"></script>
+<script src="../../js/guide.js"></script>
+<script src="../../js/fn.default.js"></script>
+</body>
+</html>

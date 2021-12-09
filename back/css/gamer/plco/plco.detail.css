@@ -1,0 +1,34 @@
+.box-height {
+  height: 427px;
+}
+
+.minh-712 {
+  min-height: 712px !important;
+}
+
+.formInput-calender {
+  height: 50px;
+}
+
+.data-input {
+  width: calc(100% - 147px);
+  height: 119px;
+  resize: none;
+  font-size: 15px;
+  padding: 8px 10px;
+}
+.data-input:focus {
+  outline: none;
+}
+
+.pd-50 {
+  padding-top: 50px;
+}
+
+.btn-pd-7-26 {
+  padding: 7px 26px !important;
+}
+
+.undopd-35 {
+  padding: -35px -35px 0 -35px !important;
+}

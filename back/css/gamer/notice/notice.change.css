@@ -1,0 +1,79 @@
+.notice__fix .notice-header {
+  margin-bottom: 15.5px;
+}
+.notice__fix table tr {
+  border-bottom: none;
+}
+.notice__fix table th {
+  padding-top: 0;
+}
+.notice__fix table td {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+.notice__fix table input {
+  width: 100%;
+}
+.notice__fix table textarea {
+  width: 100%;
+  height: 500px;
+  padding: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "NotoSans";
+  border-color: #bebebe;
+  resize: none;
+  border-radius: 3px;
+}
+.notice__fix table textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+.notice__fix table .btn-file {
+  height: 35px;
+  padding: 0 9px;
+}
+.notice__fix table .file {
+  margin-top: 20px;
+  overflow: auto;
+  max-height: 118px;
+}
+.notice__fix table .break {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #bebebe;
+  border-radius: 3px;
+}
+.notice__fix table .break-letter {
+  width: 117px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border-right: 1px solid #bebebe;
+}
+.notice__fix table .break-form {
+  padding: 12px;
+}
+.notice__fix table .break-form input,
+.notice__fix table .break-form p {
+  display: inline-block;
+}
+.notice__fix table .break-form input {
+  margin-right: 15px;
+}
+.notice__fix table .break-form p {
+  font-size: 15px;
+}
+.notice__fix table .formInput .formInput-select {
+  position: relative;
+  top: 3px;
+}
+.notice__fix table .formInput .wd-100 {
+  width: 100px;
+}
+.notice__fix table .formInput .wd-200 {
+  width: 200px;
+}
+.notice__fix table .formInput .wd-90 {
+  width: 90px;
+}

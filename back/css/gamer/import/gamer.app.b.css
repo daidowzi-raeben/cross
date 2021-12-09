@@ -1,0 +1,152 @@
+.type-b .condiBox .formInput .formInput-check span, .type-b .condiBox .formInput .formInput-check label {
+  font-weight: 400;
+}
+.type-b .condiBox .formInput .formInput-check p, .type-b .condiBox .formInput div label {
+  font-weight: 500;
+}
+.type-b .condiBox .formInput .formInput-check p {
+  font-size: 15px;
+}
+.type-b .condiBox .formInput .formInput-check span {
+  font-size: 13px;
+}
+.type-b {
+  position: relative;
+}
+.type-b .conSignebox {
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+}
+.type-b .conSignebox .condiBox.single {
+  width: 100%;
+  min-width: 230px;
+  height: auto;
+  background-color: inherit;
+  border: 0;
+  padding: 0px;
+}
+.type-b .conSignebox .condiBox.single .formInput {
+  margin: 0;
+  padding: 35px 35px 0 35px;
+}
+.type-b .conSignebox .condiBox.single .formInput > hr.type-b__line {
+  width: 100%;
+  height: 1px;
+  margin: 35px 0;
+  float: unset !important;
+  border-top: 1px solid #BEBEBE;
+}
+.type-b .conSignebox .condiBox.single .formInput > div {
+  float: left;
+  width: 100%;
+  max-width: 230px;
+  min-height: 110px;
+  margin: 0;
+  margin-right: 60px;
+}
+.type-b .conSignebox .condiBox.single .formInput > div:nth-of-type(5n) {
+  margin-right: 0px;
+}
+.type-b .conSignebox .condiBox.single .formInput > div.formInput-radio > p {
+  padding-bottom: 4px;
+  border-bottom: 1px solid #b8b8b8;
+  margin-bottom: 9px;
+}
+.type-b .conSignebox .condiBox.single .formInput > div.formInput-radio .radioArea label {
+  font-weight: normal;
+}
+.type-b .condiBox {
+  float: left;
+  width: calc(25% - 25px);
+  min-width: 348px;
+  height: 585px;
+  padding: 22px 30px 44px;
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+  margin-right: 33px;
+}
+.type-b .condiBox:last-child {
+  margin-right: 0;
+}
+.type-b .condiBox .formInput {
+  margin: 33px 0 0;
+}
+.type-b .condiBox .formInput div {
+  margin: 15px 0 0;
+}
+.type-b .condiBox .formInput div label.labelTitle {
+  margin: 0 0 5px;
+}
+.type-b .condiBox .formInput div input[name=subCode] {
+  display: inline-block;
+  width: 100px;
+}
+.type-b .condiBox .formInput div input {
+  width: 100%;
+}
+.type-b .condiBox .formInput div .water {
+  margin: 0 6px;
+}
+.type-b .condiBox .formInput .formInput-check {
+  position: relative;
+  margin: 30px 0 0;
+}
+.type-b .condiBox .formInput .formInput-check p {
+  float: left;
+  width: 100%;
+  margin: 0 0 12px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #b8b8b8;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea {
+  float: left;
+  height: 18px;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea + .checkArea {
+  margin: 0 20px 5px 0;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea:first-of-type {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  margin: 0;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea:first-of-type label {
+  font-size: 14px;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea:last-of-type {
+  margin: 0;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea label {
+  padding-left: 21px;
+  line-height: 16px;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea label::before {
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea label.is_active::before {
+  background-color: #0E4194;
+  border-color: #0E4194;
+}
+.type-b .condiBox .formInput .formInput-check .checkArea input:hover {
+  display: none;
+}
+.type-b .condiBox .formInput .explanText {
+  float: right;
+}
+.type-b .condiBox .formInput .formInput-radio div.radioArea {
+  display: inline-block;
+  margin: 0;
+  margin-right: 14px;
+  padding: 0;
+  position: relative;
+  top: -4px;
+}
+.type-b .condiBox .formInput .formInput-radio div.radioArea label {
+  display: inline-block;
+  margin-top: 0;
+}

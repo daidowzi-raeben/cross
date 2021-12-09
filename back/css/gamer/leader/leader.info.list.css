@@ -1,0 +1,9 @@
+.resultBox-btn.w-auto {
+  width: auto;
+}
+.resultBox-btn.w-auto .w-auto {
+  width: auto;
+}
+.resultBox-item {
+  max-width: calc(100% - 740px);
+}

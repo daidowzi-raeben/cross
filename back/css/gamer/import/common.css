@@ -1,0 +1,121 @@
+.wd-206 {
+  width: 206px !important;
+}
+.wd-168 {
+  width: 168px !important;
+}
+.wd-106 {
+  width: 106px !important;
+}
+.wd-228 {
+  width: 228px !important;
+}
+.wd-133 {
+  width: 133px !important;
+}
+.wd-144 {
+  width: 144px !important;
+}
+.wd-128 {
+  width: 128px !important;
+}
+.wd-201 {
+  width: 201px !important;
+}
+.wd-44 {
+  width: 44px !important;
+}
+.wd-512 {
+  width: 512px !important;
+}
+.wd-612 {
+  width: 612px !important;
+}
+.wd-60 {
+  width: 60px !important;
+}
+.wd-848 {
+  width: 848px !important;
+}
+.wd-458 {
+  width: 458px !important;
+}
+.wd-96 {
+  width: 96px !important;
+}
+.wd-90 {
+  width: 90px !important;
+}
+.wd-52 {
+  width: 52px !important;
+}
+
+.ml-13 {
+  margin-left: 13px;
+}
+
+.p-0 {
+  padding: 0 !important;
+  text-indent: 0;
+}
+
+.pl-25 {
+  padding-left: 25px !important;
+}
+.pl-40 {
+  padding-left: 40px !important;
+}
+
+.r-h-35 {
+  height: 35px;
+  padding-top: 8px;
+}
+
+.mt-9 {
+  margin-top: 9px !important;
+}
+
+.mr-3 {
+  margin-right: 3px !important;
+}
+
+.btn-inpuiry--sm {
+  padding: 6px 12px;
+}
+
+.modalWrap .modal .modal-main table.typeB {
+  margin-bottom: 0;
+}
+.modalWrap .modal .modal-main table.typeB tbody tr td, .modalWrap .modal .modal-main table.typeB tbody tr th {
+  padding: 12px 10px;
+}
+.modalWrap .modal .modal-main table.typeB tbody tr td {
+  border-bottom: none;
+}
+
+.noticeDetail .notice-content ul.formInput li.item:first-child:not(.formInput-select li) {
+  padding: 10px 0 10px 30px;
+}
+.noticeDetail .notice-content ul.formInput li.item .typeB {
+  width: calc(100% - 80px);
+}
+.noticeDetail .notice-content ul.formInput li.item div.item-content {
+  font-size: 15px;
+}
+.noticeDetail .notice-content ul.formInput li.item div.item-content .formInput-radio .radioArea .etc {
+  position: absolute;
+  margin-top: -9px;
+  margin-left: 30px;
+}
+.noticeDetail .notice-content ul.formInput li.borderNone {
+  border-bottom: none;
+}
+.noticeDetail .notice-content ul.vote {
+  margin-bottom: 40px;
+}
+.noticeDetail .notice-content ul.vote li.item {
+  padding: 15px 0 15px 30px !important;
+}
+.noticeDetail .notice-content ul.voteApply li.item {
+  padding: 25px 0 25px 30px !important;
+}

@@ -1,0 +1,53 @@
+.inpuiry .inpuiry-box .user div.overUnset {
+  overflow: unset;
+}
+.inpuiry .inpuiry-box .user div.overUnset > dt {
+  padding-top: 7px;
+}
+.inpuiry .inpuiry-box .user div.overUnset > dt + dd {
+  width: 350px;
+}
+.inpuiry .inpuiry-box .user div.overUnset > dt + dd.sm {
+  width: 335px;
+}
+.inpuiry .inpuiry-box .user div.overUnset > dt + dd.sm input {
+  width: 100%;
+}
+.inpuiry .inpuiry-box .user div.overUnset dd.ss input {
+  width: 250px;
+  margin-left: 12px;
+}
+.inpuiry .inpuiry-box .register-fix dl.user {
+  width: 50%;
+}
+.inpuiry .inpuiry-box .register-fix dl.user dt {
+  width: 156px;
+}
+
+.btn {
+  border-radius: 4px;
+  color: #fff;
+}
+.btn-s {
+  padding: 6px 12px;
+}
+.btn-sm {
+  width: 80px;
+  height: 34px;
+  padding: 0;
+}
+.btn-m {
+  width: 154px;
+  height: 35px;
+  margin: 23px 73px 42px 20px;
+  padding: 7px 42px 7px 43px;
+}
+.btn-block {
+  background-color: #3d3d3d;
+}
+.btn-blue {
+  background-color: #0E4194;
+}
+.btn-mint {
+  background-color: #2CA0AF;
+}

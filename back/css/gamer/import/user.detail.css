@@ -1,0 +1,47 @@
+.id-box {
+  width: 100%;
+  padding: 40px 40px 0 40px;
+  border: 1px solid #bebebe;
+  border-radius: 3px;
+}
+.id-box-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.id-box hr {
+  margin: 0;
+}
+.id-box .quarterBox .id-box-data {
+  width: 25%;
+  height: 100%;
+}
+.id-box-data {
+  width: 50%;
+  padding: 25px 0 15px 40px;
+  border-right: 1px solid #bebebe;
+}
+.id-box-data:first-child {
+  padding-left: 0;
+}
+.id-box-data:last-child {
+  border-right: none;
+}
+.id-box dt,
+.id-box dd {
+  float: left;
+}
+.id-box dt {
+  width: 120px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.id-box dt:last-child {
+  margin-bottom: 0;
+}
+
+.id-box-btn {
+  text-align: right;
+  margin-top: 20px;
+}

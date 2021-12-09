@@ -1,0 +1,8 @@
+.inpuiry-title {
+  width: 100%;
+}
+.inpuiry-title .right {
+  float: right;
+  font-weight: 400;
+  font-size: 16px;
+}

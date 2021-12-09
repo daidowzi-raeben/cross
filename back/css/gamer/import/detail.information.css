@@ -1,0 +1,185 @@
+.conarea {
+  padding-bottom: 50px;
+}
+.conarea .inpuiry-box {
+  padding: 40px 40px 0 40px;
+}
+.conarea .inpuiry-box:last-child {
+  margin-bottom: 20px;
+  padding: 40px 41px 41px 40px;
+}
+.conarea .inpuiry-box .mini-title {
+  font-size: 18px;
+  margin-bottom: 17px;
+}
+.conarea .inpuiry-box .user-left {
+  width: 33.4%;
+  padding: 25px 0 25px 0;
+  border-right: 0;
+}
+.conarea .inpuiry-box .user-left dt {
+  width: 74px;
+  margin-right: 45px;
+}
+.conarea .inpuiry-box .user div {
+  height: 22.6px;
+}
+.conarea .inpuiry-box .user-center {
+  width: 33.3%;
+  padding: 25px 0 25px 40px;
+  border-right: 1px solid #d8d8d8;
+  border-left: 1px solid #d8d8d8;
+}
+.conarea .inpuiry-box .user-center dt {
+  width: 59px;
+  margin-right: 45px;
+}
+.conarea .inpuiry-box .user-right {
+  width: 33.3%;
+  padding: 25px 0 25px 40px;
+}
+.conarea .inpuiry-box .user-right dt {
+  width: 59px;
+  margin-right: 45px;
+}
+.conarea .inpuiry-box .table-wrap {
+  padding-bottom: 0;
+}
+.conarea .inpuiry-box table.subTable {
+  margin-bottom: 0;
+}
+.conarea .inpuiry-box table {
+  margin-bottom: 51px;
+}
+.conarea .inpuiry-box table:last-child {
+  margin-bottom: 0px;
+}
+.conarea .inpuiry-box table thead tr th {
+  padding: 12.5px 0;
+}
+.conarea .inpuiry-box table tbody td {
+  font-size: 16px;
+}
+.conarea .inpuiry-box table tbody .formInput-radio .radioArea {
+  float: left;
+  margin-right: 18px;
+  padding: 0;
+}
+.conarea .inpuiry-box table tbody .formInput-radio .radioArea label {
+  padding-top: 1px;
+}
+.conarea .btn {
+  font-size: 15px;
+}
+
+.subTable-wrap {
+  padding-bottom: 0;
+}
+.subTable-wrap .inpuiry-heading h4 {
+  margin-bottom: 26px;
+}
+
+.detailLine--4 ul {
+  width: 25%;
+}
+
+.detailLine--3 ul {
+  width: 33.3%;
+}
+
+.detailLine--2 ul {
+  width: 50%;
+}
+
+.detailLine--1 ul {
+  width: 100%;
+}
+
+.menuService-select {
+  padding: 30px;
+  border-bottom: 1px solid #bebebe;
+}
+.menuService-check {
+  padding: 30px 30px 0 30px;
+}
+.menuService h5 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.menuService .form-box {
+  float: left;
+  width: 270px;
+  margin-right: 100px;
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+.menuService .form-box:last-child {
+  margin-right: 0;
+}
+.menuService .form-box input[type=text] {
+  width: 100%;
+}
+.menuService .form-box label {
+  margin-top: 10px;
+}
+.menuService .form-box .radioArea {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.detailLine {
+  padding-bottom: 40px;
+  position: relative;
+}
+.detailLine ul {
+  float: left;
+  padding-left: 40px;
+}
+.detailLine ul:not(:nth-child(1))::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #d8d8d8;
+  position: absolute;
+  margin-left: -40px;
+}
+.detailLine ul:first-child {
+  padding-left: 0;
+}
+.detailLine ul li {
+  margin-top: 15px;
+}
+.detailLine ul li strong.title {
+  float: left;
+  font-size: 16px;
+  font-weight: 500;
+  width: 125px;
+}
+.detailLine ul li p {
+  font-size: 15px;
+  font-weight: normal;
+  float: left;
+  line-height: 1.5;
+}
+.detailLine ul li p span {
+  margin-right: 20px;
+}
+.detailLine ul li::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.detailLine ul li:first-child {
+  margin-top: 25px;
+}
+
+.text-right .btn {
+  font-size: 15px;
+  height: 44px;
+  padding: 0 20px;
+  line-height: 44px;
+}
+.text-right .btn-mint {
+  min-width: 80px;
+}

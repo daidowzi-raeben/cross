@@ -1,0 +1,2512 @@
+.font-l {
+  font-weight: 100;
+}
+.font-r {
+  font-family: 400;
+}
+.font-m {
+  font-weight: 500;
+}
+.font-b, .inpuiry-link-title {
+  font-weight: 700;
+}
+.font-eb {
+  font-weight: 900;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-35 {
+  font-size: 35px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-29 {
+  font-size: 29px;
+}
+.font-27 {
+  font-size: 27px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-23 {
+  font-size: 23px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-17 {
+  font-size: 17px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-12 {
+  font-size: 12px;
+}
+
+.font-l {
+  font-weight: 100;
+}
+.font-r {
+  font-family: 400;
+}
+.font-m {
+  font-weight: 500;
+}
+.font-b, .inpuiry-link-title {
+  font-weight: 700;
+}
+.font-eb {
+  font-weight: 900;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-35 {
+  font-size: 35px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-29 {
+  font-size: 29px;
+}
+.font-27 {
+  font-size: 27px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-23 {
+  font-size: 23px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-17 {
+  font-size: 17px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-12 {
+  font-size: 12px;
+}
+
+.sidenav.shortnav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.conarea .pagewrap .pagenav li a::after, .resultBox-lately button::after {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.inpuiry-link li, .inpuiry .user dd, .inpuiry .table-wrap table tbody.font-16 td, .inpuiry .table-wrap table tbody td, .gm-table tbody, .footer-info, .sidenav.managenav .managemenu > li .managemenu-sub, .header-login .user-department, .savepop .popContent-con table td, .condiBox .formInput .formInput-check span, .condiBox .formInput .formInput-check label {
+  font-weight: 400;
+}
+.inpuiry-link strong, .inpuiry .user dt, .inpuiry .table-wrap table th, .sidenav.shortnav li a, .sidenav.managenav .managemenu > li .managemenu-sub > li.is_active > a, .sidenav.managenav .managemenu, .header-nav .gnb ul li, .foldBtn button, .resultBox-lately button, .condiBox .formInput .formInput-check p, .condiBox .formInput div label {
+  font-weight: 500;
+}
+.inpuiry-title, .gm-chart-title h3, .conarea h2, .sidenav.shortnav .title, .sidenav.shortnav, .sidenav.managenav .title, .header-login .login-btn a, .header-login .login-timer, .header-login .user-name, .header-nav .subnav li.newMark::after, h3 {
+  font-weight: 700;
+}
+.conarea h2 {
+  font-size: 27px;
+}
+.gm-chart-title h3, .sidenav.managenav .title {
+  font-size: 20px;
+}
+.header-nav .gnb ul li {
+  font-size: 19px;
+}
+h3 {
+  font-size: 18px;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub, .header-login .callnum {
+  font-size: 17px;
+}
+.inpuiry .table-wrap table tbody.font-16 td, .inpuiry .table-wrap table th, .header-login .login-timer, .header-login .user, .savepop .popContent-con table td {
+  font-size: 16px;
+}
+.footer, .sidenav.shortnav li a, .condiBox .formInput .formInput-check p {
+  font-size: 15px;
+}
+.inpuiry .table-wrap table tbody td, .gm-table tbody, .header-login .login-btn a, .foldBtn button, .resultBox-lately button {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check span {
+  font-size: 13px;
+}
+.header-nav .subnav li.newMark::after {
+  font-size: 12px;
+}
+
+.sidenav.shortnav li a, .header-login .login-btn a {
+  border: 1px solid #B1B1B1;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.singeBox {
+  height: 122px;
+  width: 100%;
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+  padding: 22px 30px;
+}
+.singeBox .singeform {
+  float: left;
+  width: calc(25% - 74px);
+}
+.singeBox .singeform + .singeform {
+  margin-left: 94px;
+}
+.singeBox .singeform input {
+  width: 100%;
+}
+
+.conSignebox {
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+}
+.conSignebox .condiBox.single {
+  width: 100%;
+  min-width: 230px;
+  height: auto;
+  background-color: inherit;
+  border: 0;
+}
+.conSignebox .condiBox.single .formInput > div {
+  float: left;
+  width: calc(20% - 34px);
+  min-height: 75px;
+  margin: 0 0 40px 33px;
+}
+.conSignebox .condiBox.single .formInput > div:nth-of-type(5n) {
+  margin-right: 0;
+}
+
+.condiBox {
+  float: left;
+  width: calc(25% - 25px);
+  min-width: 348px;
+  height: 585px;
+  padding: 22px 30px 44px;
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+  margin-right: 33px;
+}
+.condiBox:last-child {
+  margin-right: 0;
+}
+.condiBox .formInput {
+  margin: 33px 0 0;
+}
+.condiBox .formInput div {
+  margin: 15px 0 0;
+}
+.condiBox .formInput div label.labelTitle {
+  margin: 0 0 5px;
+}
+.condiBox .formInput div input {
+  width: 100%;
+}
+.condiBox .formInput .formInput-check {
+  position: relative;
+  margin: 20px 0 32px;
+}
+.condiBox .formInput .formInput-check p {
+  float: left;
+  width: 100%;
+  margin: 0 0 12px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #B1B1B1;
+}
+.condiBox .formInput .formInput-check .checkArea {
+  float: left;
+  height: 18px;
+}
+.condiBox .formInput .formInput-check .checkArea + .checkArea {
+  margin: 0 20px 0 0;
+}
+.condiBox .formInput .formInput-check .checkArea:first-of-type {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  margin: 0;
+}
+.condiBox .formInput .formInput-check .checkArea:last-of-type {
+  margin: 0;
+}
+.condiBox .formInput .formInput-check .checkArea label {
+  padding-left: 21px;
+  line-height: 16px;
+}
+.condiBox .formInput .formInput-check .checkArea label::before {
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+}
+.condiBox .formInput .formInput-check .checkArea label.is_active::before {
+  background-color: #0E4194;
+  border-color: #0E4194;
+}
+.condiBox .formInput .explanText {
+  float: right;
+}
+
+.resultBox {
+  width: 100%;
+  margin: 27px 0 0;
+  border: 1px solid #BEBEBE;
+  border-radius: 3px;
+  background-color: #F8F8F8;
+}
+.resultBox-each {
+  float: left;
+  height: 77px;
+  padding: 23px 20px 0 27px;
+  border-right: 1px solid #aaa;
+}
+.resultBox-item {
+  max-width: calc(100% - 384px);
+  width: 100%;
+}
+.resultBox-item .search-list {
+  display: block;
+  margin: 4px 0 0 0;
+  float: left;
+  width: calc(100% - 146px);
+  overflow-y: hidden;
+}
+.resultBox-item .search-list ul {
+  width: auto;
+}
+.resultBox-item .search-list li {
+  display: flex;
+  float: left;
+  margin: 0 18px 0 0;
+}
+.resultBox-item .search-list span, .resultBox-item .search-list button {
+  display: block;
+  height: 20px;
+  line-height: 18px;
+}
+.resultBox-item .search-btn {
+  float: right;
+  width: 142px;
+}
+.resultBox-item .search-btn button {
+  width: 68px;
+}
+.resultBox-lately {
+  width: 178px;
+  padding: 25px 20px 0 20px;
+}
+.resultBox-lately button {
+  position: relative;
+}
+.resultBox-lately button::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: -20px;
+  bottom: 0;
+  margin: auto;
+  width: 12px;
+  height: 8px;
+  background-image: url("../../img/common/arrow-submenu.svg");
+  transform: rotate(-90deg);
+}
+.resultBox-lately button span {
+  margin: 0 0 0 1px;
+}
+.resultBox-btn {
+  padding: 21px;
+  width: 206px;
+  border-right: 0;
+}
+.resultBox-btn button {
+  width: 80px;
+}
+
+.foldBtn {
+  width: 120px;
+  margin: 0 auto 48px;
+}
+.foldBtn button {
+  padding: 3px 9px;
+  border: 1px solid #BEBEBE;
+  border-top: 0;
+  border-radius: 0 0 3px 3px;
+  text-align: center;
+  background-color: #F8F8F8;
+  color: #3d3d3d;
+}
+.foldBtn button i {
+  transform: rotate(180deg) translateY(2px);
+}
+
+.savepop {
+  max-width: none;
+  width: 789px;
+}
+.savepop .popContent-header {
+  padding: 0;
+}
+.savepop .popContent-con {
+  border: 0;
+}
+.savepop .popContent-con table {
+  width: 100%;
+  text-align: left;
+}
+.savepop .popContent-con table tr {
+  border-bottom: 1px solid #B1B1B1;
+}
+.savepop .popContent-con table th {
+  padding: 5px 8px;
+  border-top: 2px solid #0E4194;
+}
+.savepop .popContent-con table td {
+  padding: 5px 16px;
+  height: 55px;
+  line-height: 50px;
+}
+.savepop .popContent-con table td .tdBox-text {
+  width: calc(100% - 80px);
+}
+.savepop .popContent-con table td .tdBox-input {
+  width: calc(100% - 164px);
+  margin: 0 5px 0 0;
+}
+.savepop .popContent-con table td .tdBox-btn {
+  width: auto;
+}
+.savepop .popContent-con table td span {
+  float: left;
+  width: auto;
+  height: auto;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.savepop .popContent-con table td button {
+  float: left;
+  margin: 10px 0 0;
+}
+.savepop .popContent-con table td button + button {
+  margin: 10px 0 0 3px;
+}
+.savepop .popContent-con table td input {
+  width: 100%;
+}
+
+.font-l {
+  font-weight: 100;
+}
+.font-r {
+  font-family: 400;
+}
+.font-m {
+  font-weight: 500;
+}
+.font-b, .inpuiry-link-title {
+  font-weight: 700;
+}
+.font-eb {
+  font-weight: 900;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-35 {
+  font-size: 35px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-29 {
+  font-size: 29px;
+}
+.font-27 {
+  font-size: 27px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-23 {
+  font-size: 23px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-17 {
+  font-size: 17px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-12 {
+  font-size: 12px;
+}
+
+.font-l {
+  font-weight: 100;
+}
+.font-r {
+  font-family: 400;
+}
+.font-m {
+  font-weight: 500;
+}
+.font-b, .inpuiry-link-title {
+  font-weight: 700;
+}
+.font-eb {
+  font-weight: 900;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-35 {
+  font-size: 35px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-29 {
+  font-size: 29px;
+}
+.font-27 {
+  font-size: 27px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-23 {
+  font-size: 23px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-17 {
+  font-size: 17px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-12 {
+  font-size: 12px;
+}
+
+.sidenav.shortnav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.conarea .pagewrap .pagenav li a::after, .resultBox-lately button::after {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.inpuiry-link li, .inpuiry .user dd, .inpuiry .table-wrap table tbody.font-16 td, .inpuiry .table-wrap table tbody td, .gm-table tbody, .footer-info, .sidenav.managenav .managemenu > li .managemenu-sub, .header-login .user-department, .condiBox .formInput .formInput-check label, .condiBox .formInput .formInput-check span, .savepop .popContent-con table td {
+  font-weight: 400;
+}
+.inpuiry-link strong, .inpuiry .user dt, .inpuiry .table-wrap table th, .sidenav.shortnav li a, .sidenav.managenav .managemenu > li .managemenu-sub > li.is_active > a, .sidenav.managenav .managemenu, .header-nav .gnb ul li, .condiBox .formInput div label, .condiBox .formInput .formInput-check p, .resultBox-lately button, .foldBtn button {
+  font-weight: 500;
+}
+.inpuiry-title, .gm-chart-title h3, .conarea h2, .sidenav.shortnav .title, .sidenav.shortnav, .sidenav.managenav .title, .header-login .login-btn a, .header-login .login-timer, .header-login .user-name, .header-nav .subnav li.newMark::after, h3 {
+  font-weight: 700;
+}
+.conarea h2 {
+  font-size: 27px;
+}
+.gm-chart-title h3, .sidenav.managenav .title {
+  font-size: 20px;
+}
+.header-nav .gnb ul li {
+  font-size: 19px;
+}
+h3 {
+  font-size: 18px;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub, .header-login .callnum {
+  font-size: 17px;
+}
+.inpuiry .table-wrap table tbody.font-16 td, .inpuiry .table-wrap table th, .header-login .login-timer, .header-login .user, .savepop .popContent-con table td {
+  font-size: 16px;
+}
+.footer, .sidenav.shortnav li a, .condiBox .formInput .formInput-check p {
+  font-size: 15px;
+}
+.inpuiry .table-wrap table tbody td, .gm-table tbody, .header-login .login-btn a, .resultBox-lately button, .foldBtn button {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check span {
+  font-size: 13px;
+}
+.header-nav .subnav li.newMark::after {
+  font-size: 12px;
+}
+
+.sidenav.shortnav li a, .header-login .login-btn a {
+  border: 1px solid #B1B1B1;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 23px 20px 20px 11px;
+  color: #fff;
+  text-align: center;
+  background-image: linear-gradient(90deg, #164194 0%, #36bac6 100%);
+}
+.header-nav h1 {
+  width: 255px;
+}
+.header-nav .gnb {
+  padding: 29px 0 0 175px;
+}
+.header-nav .gnb ul {
+  margin: 0 auto;
+}
+.header-nav .gnb ul li {
+  float: left;
+  width: auto;
+  margin: 0 20px;
+  color: inherit;
+}
+.header-nav .gnb ul li.is_active, .header-nav .gnb ul li:hover {
+  padding: 0 0 18px 0;
+}
+.header-nav .gnb ul li.is_active a, .header-nav .gnb ul li:hover a {
+  position: relative;
+}
+.header-nav .gnb ul li.is_active a::after, .header-nav .gnb ul li:hover a::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  left: 0;
+  right: 0;
+  bottom: -19px;
+  background: #fff;
+}
+.header-nav .subnav {
+  width: auto;
+}
+.header-nav .subnav ul {
+  margin: -3px 0 0;
+}
+.header-nav .subnav li {
+  position: relative;
+  float: left;
+  width: auto;
+  padding: 0 13px;
+}
+.header-nav .subnav li:nth-of-type(3) {
+  padding: 0 11px;
+}
+.header-nav .subnav li + li::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  width: 1px;
+  height: 16px;
+  background-color: #fff;
+}
+.header-nav .subnav li.newMark a {
+  position: relative;
+  margin: 0 38px 0 6px;
+}
+.header-nav .subnav li.newMark::after {
+  content: "new";
+  position: absolute;
+  display: block;
+  top: 3px;
+  bottom: 0;
+  right: 13px;
+  height: 15px;
+  line-height: 14px;
+  margin: auto;
+  padding: 0 6px;
+  border-radius: 14px;
+  background-color: #FF0023;
+  letter-spacing: -1px;
+}
+.header-login {
+  width: 100%;
+  height: 52px;
+  padding: 14px 8px;
+  border-bottom: 1px solid #3d3d3d;
+  background-color: #fff;
+  color: #3d3d3d;
+}
+.header-login .user {
+  position: relative;
+  float: left;
+  padding: 0 15px;
+}
+.header-login .user::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 1px;
+  height: 100%;
+  background-color: #B1B1B1;
+}
+.header-login .user-name {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.header-login .user-department {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.header-login .login {
+  float: left;
+  padding: 0 15px;
+}
+.header-login .login-timer {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.header-login .login-btn {
+  float: left;
+}
+.header-login .login-btn a {
+  display: block;
+  padding: 1px 12px;
+  background-color: transparent;
+}
+.header-login .callnum {
+  position: relative;
+  float: right;
+  padding: 0 10px 0;
+  line-height: 20px;
+}
+.header-login .callnum i {
+  position: absolute;
+  top: -2px;
+  left: -24px;
+}
+
+.sidenav {
+  min-height: 805px;
+  position: absolute;
+  height: calc(100% - 132px);
+  z-index: 1;
+  top: 132px;
+  bottom: 0;
+  color: #3d3d3d;
+}
+.sidenav.managenav {
+  float: left;
+  left: 0;
+  width: 280px;
+  background-color: #F5F5F5;
+  border-right: 1px solid #B1B1B1;
+}
+.sidenav.managenav::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -20px;
+  height: 100%;
+  width: 20px;
+  opacity: 0.1;
+  background: linear-gradient(90deg, #3d3d3d, transparent);
+}
+.sidenav.managenav .openbtn {
+  top: 0;
+  right: -22px;
+  border-top: 0;
+  border-left: 0;
+  z-index: 1;
+  color: #3d3d3d;
+}
+.sidenav.managenav .title {
+  position: relative;
+  padding: 28px 0 8px 24px;
+  height: 77px;
+  border-bottom: 1px solid #707070;
+  background-color: #ECECEC;
+}
+.sidenav.managenav .title i {
+  display: inline-block;
+  width: 30px;
+  height: 24px;
+  margin: 0 4px 0 0;
+  background-size: cover;
+  transform: translateY(5px);
+}
+.sidenav.managenav .managemenu {
+  padding: 24px 0 0 15px;
+}
+.sidenav.managenav .managemenu > li > a {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 35px;
+  padding: 0px 12px 6px;
+  margin: 0 0 11px 0;
+  border-radius: 35px 0 0 35px;
+}
+.sidenav.managenav .managemenu > li > a::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 18px;
+  margin: auto;
+  width: 8px;
+  height: 14px;
+  background: url("../../../img/common/arrow-submenu.svg") no-repeat 0/200% 100%;
+  transform: rotate(180deg);
+}
+.sidenav.managenav .managemenu > li > a i {
+  width: 24px;
+  height: 24px;
+  margin: 0 14px 0 0;
+  transform: translateY(6px);
+  background-position: 0 0;
+  background-size: 200% 100%;
+}
+.sidenav.managenav .managemenu > li.is_active > a, .sidenav.managenav .managemenu > li:hover > a {
+  color: #fff;
+  background-image: linear-gradient(90deg, #164194 0%, #36bac6 100%);
+}
+.sidenav.managenav .managemenu > li.is_active > a::after, .sidenav.managenav .managemenu > li:hover > a::after {
+  transform: rotate(90deg);
+  background-position: 100% 0;
+}
+.sidenav.managenav .managemenu > li.is_active > a i, .sidenav.managenav .managemenu > li:hover > a i {
+  background-position: 100% 0;
+}
+.sidenav.managenav .managemenu > li.is_active .managemenu-sub {
+  display: block;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub {
+  display: none;
+  color: #3d3d3d;
+  padding: 0 0 34px 50px;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub > li {
+  margin: 0 0 10px 0;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub > li.is_active > a {
+  color: #164194;
+}
+.sidenav.managenav .managemenu > li .managemenu-sub > li a::after {
+  display: none;
+}
+.sidenav.managenav.foldmode {
+  font-size: 0;
+  width: 74px;
+}
+.sidenav.managenav.foldmode .title {
+  font-size: 0;
+}
+.sidenav.managenav.foldmode .openbtn button {
+  transform: rotate(180deg);
+}
+.sidenav.managenav.foldmode .managemenu li a::after {
+  display: none;
+}
+.sidenav.shortnav {
+  float: right;
+  right: 0;
+  width: 173px;
+  padding: 18px 8px;
+  background-color: #fff;
+  border-left: 1px solid #B1B1B1;
+  text-align: center;
+}
+.sidenav.shortnav.foldmode {
+  width: 0;
+  padding: 0;
+  border: 0;
+}
+.sidenav.shortnav.foldmode > *:not(.openbtn) {
+  display: none;
+}
+.sidenav.shortnav.foldmode .openbtn button {
+  transform: rotate(0deg);
+}
+.sidenav.shortnav .openbtn {
+  top: 0;
+  left: -28px;
+  width: 28px;
+  height: 36px;
+  border-top: 0;
+}
+.sidenav.shortnav .openbtn button {
+  transform: rotate(180deg);
+}
+.sidenav.shortnav .title {
+  position: relative;
+  height: 30px;
+  margin: 0 6px 5px 0;
+  transform: translateY(-10px);
+}
+.sidenav.shortnav .title i {
+  transform: translateY(8px);
+}
+.sidenav.shortnav li {
+  width: 154px;
+}
+.sidenav.shortnav li:hover a {
+  background-color: #36BAC6;
+  color: #fff;
+}
+.sidenav.shortnav li:hover a::before {
+  background-image: url("../../../img/common/arrow-round-w.svg");
+}
+.sidenav.shortnav li a {
+  transition: background-color 0.3s;
+  position: relative;
+  background-color: #00A4BA;
+  padding: 8px 6px 8px 27px;
+  text-align: left;
+  margin: 0 0 5px 0;
+}
+.sidenav.shortnav li a:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  margin: auto;
+  width: 7px;
+  height: 11px;
+  background-image: url("../../../img/common/arrow-round.svg");
+}
+.sidenav.shortnav img {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.sidenav.topnav {
+  position: fixed;
+  top: 0;
+  height: 100%;
+}
+
+.openbtn {
+  position: absolute;
+  width: 21px;
+  height: 29px;
+  background-color: #ECECEC;
+  border: 1px solid #BEBEBE;
+}
+.openbtn button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("../../../img/common/arrow-circle-dg.svg") no-repeat 50%;
+  font-size: 0;
+}
+
+.conarea {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  padding: 52px 52px 100px 124px;
+}
+.font-l {
+  font-weight: 100;
+}
+.font-r {
+  font-family: 400;
+}
+.font-m {
+  font-weight: 500;
+}
+.font-b, .inpuiry-link-title {
+  font-weight: 700;
+}
+.font-eb {
+  font-weight: 900;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-35 {
+  font-size: 35px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-29 {
+  font-size: 29px;
+}
+.font-27 {
+  font-size: 27px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-23 {
+  font-size: 23px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-17 {
+  font-size: 17px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-12 {
+  font-size: 12px;
+}
+
+.sidenav.shortnav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.conarea .pagewrap .pagenav li a::after, .resultBox-lately button::after {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.inpuiry-link li, .inpuiry .user dd, .inpuiry .table-wrap table tbody.font-16 td, .inpuiry .table-wrap table tbody td, .gm-table tbody, .footer-info, .condiBox .formInput .formInput-check label, .condiBox .formInput .formInput-check span, .savepop .popContent-con table td, .header-login .user-department, .sidenav.managenav .managemenu > li .managemenu-sub {
+  font-weight: 400;
+}
+.inpuiry-link strong, .inpuiry .user dt, .inpuiry .table-wrap table th, .condiBox .formInput div label, .condiBox .formInput .formInput-check p, .resultBox-lately button, .foldBtn button, .header-nav .gnb ul li, .sidenav.managenav .managemenu, .sidenav.managenav .managemenu > li .managemenu-sub > li.is_active > a, .sidenav.shortnav li a {
+  font-weight: 500;
+}
+.inpuiry-title, .gm-chart-title h3, h3, .header-nav .subnav li.newMark::after, .header-login .user-name, .header-login .login-timer, .header-login .login-btn a, .sidenav.managenav .title, .sidenav.shortnav, .sidenav.shortnav .title, .conarea h2 {
+  font-weight: 700;
+}
+.conarea h2 {
+  font-size: 27px;
+}
+.gm-chart-title h3, .sidenav.managenav .title {
+  font-size: 20px;
+}
+.header-nav .gnb ul li {
+  font-size: 19px;
+}
+h3 {
+  font-size: 18px;
+}
+.header-login .callnum, .sidenav.managenav .managemenu > li .managemenu-sub {
+  font-size: 17px;
+}
+.inpuiry .table-wrap table tbody.font-16 td, .inpuiry .table-wrap table th, .savepop .popContent-con table td, .header-login .user, .header-login .login-timer {
+  font-size: 16px;
+}
+.footer, .condiBox .formInput .formInput-check p, .sidenav.shortnav li a {
+  font-size: 15px;
+}
+.inpuiry .table-wrap table tbody td, .gm-table tbody, .resultBox-lately button, .foldBtn button, .header-login .login-btn a {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check span {
+  font-size: 13px;
+}
+.header-nav .subnav li.newMark::after {
+  font-size: 12px;
+}
+
+.header-login .login-btn a, .sidenav.shortnav li a {
+  border: 1px solid #B1B1B1;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.conarea .pagewrap {
+  margin: 0 0 30px 0;
+  padding: 0 0 0 2px;
+}
+.conarea .pagewrap h2 {
+  float: left;
+  width: 50%;
+}
+.conarea .pagewrap .pagenav {
+  float: right;
+  text-align: right;
+  margin: 15px 2px 0;
+}
+.conarea .pagewrap .pagenav li {
+  display: inline;
+  float: left;
+}
+.conarea .pagewrap .pagenav li a::after {
+  content: " ";
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin: 0 10px;
+  background-image: url("../../../img/common/arrow-s.svg");
+  transform: rotate(-90deg);
+}
+.conarea .pagewrap .pagenav li:last-child a::after {
+  display: none;
+}
+
+.font-l {
+  font-weight: 100;
+}
+.font-r {
+  font-family: 400;
+}
+.font-m {
+  font-weight: 500;
+}
+.font-b, .inpuiry-link-title {
+  font-weight: 700;
+}
+.font-eb {
+  font-weight: 900;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-35 {
+  font-size: 35px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-29 {
+  font-size: 29px;
+}
+.font-27 {
+  font-size: 27px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-23 {
+  font-size: 23px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-17 {
+  font-size: 17px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-12 {
+  font-size: 12px;
+}
+
+.font-l {
+  font-weight: 100;
+}
+.font-r {
+  font-family: 400;
+}
+.font-m {
+  font-weight: 500;
+}
+.font-b, .inpuiry-link-title {
+  font-weight: 700;
+}
+.font-eb {
+  font-weight: 900;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-35 {
+  font-size: 35px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-29 {
+  font-size: 29px;
+}
+.font-27 {
+  font-size: 27px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-23 {
+  font-size: 23px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-17 {
+  font-size: 17px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-12 {
+  font-size: 12px;
+}
+
+.sidenav.shortnav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.resultBox-lately button::after, .conarea .pagewrap .pagenav li a::after {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.inpuiry-link li, .inpuiry .user dd, .inpuiry .table-wrap table tbody.font-16 td, .inpuiry .table-wrap table tbody td, .gm-table tbody, .footer-info, .condiBox .formInput .formInput-check label, .condiBox .formInput .formInput-check span, .savepop .popContent-con table td, .header-login .user-department, .sidenav.managenav .managemenu > li .managemenu-sub {
+  font-weight: 400;
+}
+.inpuiry-link strong, .inpuiry .user dt, .inpuiry .table-wrap table th, .condiBox .formInput div label, .condiBox .formInput .formInput-check p, .resultBox-lately button, .foldBtn button, .header-nav .gnb ul li, .sidenav.managenav .managemenu, .sidenav.managenav .managemenu > li .managemenu-sub > li.is_active > a, .sidenav.shortnav li a {
+  font-weight: 500;
+}
+.inpuiry-title, .gm-chart-title h3, h3, .header-nav .subnav li.newMark::after, .header-login .user-name, .header-login .login-timer, .header-login .login-btn a, .sidenav.managenav .title, .sidenav.shortnav, .sidenav.shortnav .title, .conarea h2 {
+  font-weight: 700;
+}
+.conarea h2 {
+  font-size: 27px;
+}
+.gm-chart-title h3, .sidenav.managenav .title {
+  font-size: 20px;
+}
+.header-nav .gnb ul li {
+  font-size: 19px;
+}
+h3 {
+  font-size: 18px;
+}
+.header-login .callnum, .sidenav.managenav .managemenu > li .managemenu-sub {
+  font-size: 17px;
+}
+.inpuiry .table-wrap table tbody.font-16 td, .inpuiry .table-wrap table th, .savepop .popContent-con table td, .header-login .user, .header-login .login-timer {
+  font-size: 16px;
+}
+.footer, .condiBox .formInput .formInput-check p, .sidenav.shortnav li a {
+  font-size: 15px;
+}
+.inpuiry .table-wrap table tbody td, .gm-table tbody, .resultBox-lately button, .foldBtn button, .header-login .login-btn a {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check span {
+  font-size: 13px;
+}
+.header-nav .subnav li.newMark::after {
+  font-size: 12px;
+}
+
+.header-login .login-btn a, .sidenav.shortnav li a {
+  border: 1px solid #B1B1B1;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.footer {
+  padding: 80px 80px 74px 112px;
+  color: #3d3d3d;
+}
+.footer .footcon {
+  width: 1520px;
+  max-width: 100%;
+}
+.footer-policyLink {
+  float: left;
+  padding: 0 10px;
+  border-right: 1px solid #aaa;
+}
+.footer-info {
+  float: left;
+}
+.footer-info dt {
+  padding: 0 0 0 10px;
+  float: left;
+}
+.footer-info dd {
+  float: left;
+  padding: 0 10px;
+  border-right: 1px solid #aaa;
+}
+.footer-copyright {
+  float: left;
+  padding: 0 10px;
+}
+
+.font-l {
+  font-weight: 100;
+}
+.font-r {
+  font-family: 400;
+}
+.font-m {
+  font-weight: 500;
+}
+.font-b, .inpuiry-link-title {
+  font-weight: 700;
+}
+.font-eb {
+  font-weight: 900;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-35 {
+  font-size: 35px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-29 {
+  font-size: 29px;
+}
+.font-27 {
+  font-size: 27px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-23 {
+  font-size: 23px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-17 {
+  font-size: 17px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-12 {
+  font-size: 12px;
+}
+
+.font-l {
+  font-weight: 100;
+}
+.font-r {
+  font-family: 400;
+}
+.font-m {
+  font-weight: 500;
+}
+.font-b, .inpuiry-link-title {
+  font-weight: 700;
+}
+.font-eb {
+  font-weight: 900;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-35 {
+  font-size: 35px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-29 {
+  font-size: 29px;
+}
+.font-27 {
+  font-size: 27px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-23 {
+  font-size: 23px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-17 {
+  font-size: 17px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-12 {
+  font-size: 12px;
+}
+
+.sidenav.shortnav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.resultBox-lately button::after, .conarea .pagewrap .pagenav li a::after {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.inpuiry-link li, .inpuiry .user dd, .inpuiry .table-wrap table tbody.font-16 td, .inpuiry .table-wrap table tbody td, .gm-table tbody, .condiBox .formInput .formInput-check label, .condiBox .formInput .formInput-check span, .savepop .popContent-con table td, .header-login .user-department, .sidenav.managenav .managemenu > li .managemenu-sub, .footer-info {
+  font-weight: 400;
+}
+.inpuiry-link strong, .inpuiry .user dt, .inpuiry .table-wrap table th, .condiBox .formInput div label, .condiBox .formInput .formInput-check p, .resultBox-lately button, .foldBtn button, .header-nav .gnb ul li, .sidenav.managenav .managemenu, .sidenav.managenav .managemenu > li .managemenu-sub > li.is_active > a, .sidenav.shortnav li a {
+  font-weight: 500;
+}
+.inpuiry-title, .gm-chart-title h3, h3, .header-nav .subnav li.newMark::after, .header-login .user-name, .header-login .login-timer, .header-login .login-btn a, .sidenav.managenav .title, .sidenav.shortnav, .sidenav.shortnav .title, .conarea h2 {
+  font-weight: 700;
+}
+.conarea h2 {
+  font-size: 27px;
+}
+.gm-chart-title h3, .sidenav.managenav .title {
+  font-size: 20px;
+}
+.header-nav .gnb ul li {
+  font-size: 19px;
+}
+h3 {
+  font-size: 18px;
+}
+.header-login .callnum, .sidenav.managenav .managemenu > li .managemenu-sub {
+  font-size: 17px;
+}
+.inpuiry .table-wrap table tbody.font-16 td, .inpuiry .table-wrap table th, .savepop .popContent-con table td, .header-login .user, .header-login .login-timer {
+  font-size: 16px;
+}
+.condiBox .formInput .formInput-check p, .sidenav.shortnav li a, .footer {
+  font-size: 15px;
+}
+.inpuiry .table-wrap table tbody td, .gm-table tbody, .resultBox-lately button, .foldBtn button, .header-login .login-btn a {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check span {
+  font-size: 13px;
+}
+.header-nav .subnav li.newMark::after {
+  font-size: 12px;
+}
+
+.header-login .login-btn a, .sidenav.shortnav li a {
+  border: 1px solid #B1B1B1;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.list-system {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 30;
+}
+.list-system-box {
+  width: 297px;
+  height: 412px;
+  padding: 25px 20px 20px 20px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+.list-system-header button {
+  float: right;
+}
+.list-system-top {
+  background-color: #00a4ba;
+}
+.list-system-top-check {
+  width: 35px;
+  height: 30px;
+  line-height: 30px;
+  border-right: 1px solid #fff;
+  text-align: center;
+}
+.list-system-top-title {
+  width: 221px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 16px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+.list-system-table {
+  overflow: auto;
+  width: 100%;
+  height: 255px;
+  margin-bottom: 8px;
+}
+.list-system-table::-webkit-scrollbar {
+  width: 15px;
+  background-clip: padding-box;
+}
+.list-system-table::-webkit-scrollbar-thumb {
+  background-color: #034ea2;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+.list-system-table::-webkit-scrollbar-track {
+  background-color: #b8b8b8;
+}
+.list-system table {
+  border-collapse: collapse;
+}
+.list-system th {
+  border-right: 1px solid #9ad5db;
+  font-weight: 500;
+}
+.list-system input[type=checkbox] {
+  transform: scale(1.4);
+}
+.list-system thead {
+  background-color: #00a4ba;
+}
+.list-system td {
+  border: 1px solid #AFBABE;
+  height: 34px;
+  padding-left: 9.5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.list-system .list-system-btn {
+  padding: 7.5px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.list-system .list-system-btn:first-child {
+  background-color: #F8F8F8;
+  border: 1px solid #a7a7a7;
+  color: #3d3d3d;
+}
+.list-system .list-system-btn:last-child {
+  background-color: #0e4194;
+  border: 1px solid #a7a7a7;
+  color: #fff;
+  text-align: right;
+}
+
+.gm-chart-title {
+  margin: 4px 0 18px;
+}
+.gm-chart-page {
+  float: right;
+  width: 708px;
+}
+.gm-chart-page-btn {
+  display: block;
+  padding: 8px 12px 7px 14px;
+}
+.gm-chart .tooltip-topCenter {
+  transform: translate(-41px, -17px);
+}
+.gm-chart-excel {
+  margin-right: 40px;
+}
+.gm-chart-excel button {
+  width: 96px;
+  padding: 7px 0;
+  margin-top: 2px;
+}
+.gm-chart .down-select {
+  position: relative;
+  top: 1px;
+  width: 230px;
+  margin-right: 5px;
+}
+.gm-chart-option p {
+  padding-top: 5px;
+  margin-right: 7px;
+}
+.gm-chart-option label[for=page-choice] {
+  padding-top: 5px;
+  font-size: 14px;
+  color: #3d3d3d;
+  margin-right: 7px;
+}
+.gm-chart-option .choice {
+  width: 68px;
+  margin-right: 5px;
+}
+.gm-chart-option .align {
+  width: 114px;
+  margin-right: 10px;
+}
+.gm-chart .icon-setting {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #a7a7a7;
+  border-radius: 4px;
+  background-color: #F8F8F8;
+}
+.gm-chart .mr-60 {
+  margin-right: 60px;
+}
+.gm-chart .mr-16 {
+  margin-right: 16px;
+}
+.gm-chart .mr-17 {
+  margin-right: 17px;
+}
+.gm-chart .mr-19 {
+  margin-right: 19px;
+}
+.gm-chart .amount {
+  position: relative;
+  left: -3px;
+  font-size: 15px;
+}
+
+.gm-table {
+  width: 100%;
+  margin-top: 12px;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.gm-table input[type=checkbox] {
+  transform: scale(1.4);
+}
+.gm-table thead {
+  background-color: #36bac6;
+}
+.gm-table thead th {
+  padding: 13px 0;
+  border-right: 1px solid #AFBABE;
+  color: #fff;
+  font-weight: 500;
+}
+.gm-table tbody {
+  color: #3d3d3d;
+}
+.gm-table tbody tr:hover:not(:last-child) {
+  border: 1px solid #36bac6;
+}
+.gm-table tbody tr:last-child:hover::after {
+  border: 0;
+}
+.gm-table tbody tr:last-child td {
+  padding: 0;
+  background-color: #ececec;
+}
+.gm-table tbody td {
+  padding: 19px 14px;
+  border: 1px solid #AFBABE;
+}
+.gm-table tbody td:nth-child(even) {
+  background-color: #f8f8f8;
+}
+.gm-table tbody .list-link {
+  position: relative;
+}
+.gm-table tbody .list-link-btn {
+  cursor: pointer;
+  color: #3d3d3d;
+}
+.gm-table tbody .summary {
+  display: none;
+  position: absolute;
+  left: 42px;
+  top: -202.7px;
+  width: 670.9px;
+  background-color: #3d3d3d;
+  z-index: 30;
+  border-radius: 10px;
+  color: #fff;
+  text-align: left;
+  padding: 21px 31px;
+}
+.gm-table tbody .summary::before {
+  content: "";
+  position: absolute;
+  left: 21px;
+  bottom: -24px;
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-top: 12px solid #3d3d3d;
+  border-bottom: 12px solid transparent;
+}
+.gm-table tbody .summary-header {
+  margin-bottom: 16px;
+  color: #fff;
+}
+.gm-table tbody .summary-header .btn-cirarrow {
+  float: right;
+}
+.gm-table tbody .summary-header .btn-cirarrow strong {
+  display: block;
+  float: left;
+  padding-top: 2px;
+  margin-right: 10px;
+  color: #fff;
+}
+.gm-table tbody .summary-header .btn-cirarrow a {
+  display: block;
+  width: 26px;
+  height: 26px;
+  float: left;
+  background-color: #fff;
+  border-radius: 50%;
+  transform: rotate(180deg);
+}
+.gm-table tbody .summary h4 {
+  color: #fff;
+}
+.gm-table tbody .summary img {
+  display: block;
+  width: 101px;
+  height: 121px;
+  margin-right: 20px;
+}
+.gm-table tbody .summary dt,
+.gm-table tbody .summary dd {
+  float: left;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+}
+.gm-table tbody .summary dt {
+  margin-right: 5px;
+}
+.gm-table tbody .summary-contents-left {
+  padding-right: 20px;
+  border-right: 1px solid #7b7b7b;
+  margin-right: 20px;
+}
+.gm-table .footer-table {
+  text-align: center;
+}
+.gm-table .footer-table.fpd {
+  padding: 11px 14px 3px 14px;
+}
+.gm-table .footer-table-page {
+  float: left;
+}
+.gm-table .footer-table-page label {
+  display: block;
+  padding-top: 6px;
+  margin-right: 7px;
+}
+.gm-table .footer-table-page dl {
+  width: 68px;
+  text-align: left;
+}
+.gm-table .footer-table-pagination {
+  display: inline-block;
+}
+.gm-table .footer-table-pagination a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 26px;
+  border: 1px solid #a7a7a7;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.gm-table .footer-table-pagination a[role=button] {
+  display: inline-block;
+  margin-right: 5px;
+}
+.gm-table .footer-table-pagination li {
+  float: left;
+}
+.gm-table .footer-table-pagination .is_active {
+  background-color: #4d4d4d;
+  color: #fff;
+}
+.gm-table .footer-table-pagination-before {
+  margin-right: 20px;
+}
+.gm-table .footer-table-pagination-before .icon-arrow--s {
+  transform: rotate(90deg);
+}
+.gm-table .footer-table-pagination-after {
+  margin-left: 20px;
+}
+.gm-table .footer-table-pagination-after .icon-arrow-double {
+  transform: rotate(180deg);
+}
+.gm-table .footer-table-pagination-after .icon-arrow--s {
+  transform: rotate(-90deg);
+}
+.gm-table .footer-table-now-page {
+  float: right;
+}
+.gm-table .footer-table-now-page input[type=number] {
+  width: 43px;
+  height: 30px;
+  background-color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #B1B1B1;
+}
+.gm-table .footer-table-now-page input[type=number]::-webkit-outer-spin-button, .gm-table .footer-table-now-page input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.font-l {
+  font-weight: 100;
+}
+.font-r {
+  font-family: 400;
+}
+.font-m {
+  font-weight: 500;
+}
+.font-b, .inpuiry-link-title {
+  font-weight: 700;
+}
+.font-eb {
+  font-weight: 900;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-35 {
+  font-size: 35px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-29 {
+  font-size: 29px;
+}
+.font-27 {
+  font-size: 27px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-23 {
+  font-size: 23px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-17 {
+  font-size: 17px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-12 {
+  font-size: 12px;
+}
+
+.font-l {
+  font-weight: 100;
+}
+.font-r {
+  font-family: 400;
+}
+.font-m {
+  font-weight: 500;
+}
+.font-b, .inpuiry-link-title {
+  font-weight: 700;
+}
+.font-eb {
+  font-weight: 900;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-35 {
+  font-size: 35px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-29 {
+  font-size: 29px;
+}
+.font-27 {
+  font-size: 27px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-23 {
+  font-size: 23px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-17 {
+  font-size: 17px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-12 {
+  font-size: 12px;
+}
+
+.sidenav.shortnav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.resultBox-lately button::after, .conarea .pagewrap .pagenav li a::after {
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.inpuiry-link li, .inpuiry .user dd, .inpuiry .table-wrap table tbody.font-16 td, .inpuiry .table-wrap table tbody td, .condiBox .formInput .formInput-check label, .condiBox .formInput .formInput-check span, .savepop .popContent-con table td, .header-login .user-department, .sidenav.managenav .managemenu > li .managemenu-sub, .footer-info, .gm-table tbody {
+  font-weight: 400;
+}
+.inpuiry-link strong, .inpuiry .user dt, .inpuiry .table-wrap table th, .condiBox .formInput div label, .condiBox .formInput .formInput-check p, .resultBox-lately button, .foldBtn button, .header-nav .gnb ul li, .sidenav.managenav .managemenu, .sidenav.managenav .managemenu > li .managemenu-sub > li.is_active > a, .sidenav.shortnav li a {
+  font-weight: 500;
+}
+.inpuiry-title, h3, .header-nav .subnav li.newMark::after, .header-login .user-name, .header-login .login-timer, .header-login .login-btn a, .sidenav.managenav .title, .sidenav.shortnav, .sidenav.shortnav .title, .conarea h2, .gm-chart-title h3 {
+  font-weight: 700;
+}
+.conarea h2 {
+  font-size: 27px;
+}
+.sidenav.managenav .title, .gm-chart-title h3 {
+  font-size: 20px;
+}
+.header-nav .gnb ul li {
+  font-size: 19px;
+}
+h3 {
+  font-size: 18px;
+}
+.header-login .callnum, .sidenav.managenav .managemenu > li .managemenu-sub {
+  font-size: 17px;
+}
+.inpuiry .table-wrap table tbody.font-16 td, .inpuiry .table-wrap table th, .savepop .popContent-con table td, .header-login .user, .header-login .login-timer {
+  font-size: 16px;
+}
+.condiBox .formInput .formInput-check p, .sidenav.shortnav li a, .footer {
+  font-size: 15px;
+}
+.inpuiry .table-wrap table tbody td, .resultBox-lately button, .foldBtn button, .header-login .login-btn a, .gm-table tbody {
+  font-size: 14px;
+}
+.condiBox .formInput .formInput-check span {
+  font-size: 13px;
+}
+.header-nav .subnav li.newMark::after {
+  font-size: 12px;
+}
+
+.header-login .login-btn a, .sidenav.shortnav li a {
+  border: 1px solid #B1B1B1;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.inpuiry-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #F2F4F7;
+  padding: 46px 28.5px 51px 30px;
+  border: 1px solid #c1cede;
+}
+.inpuiry-bg strong {
+  width: 101px;
+}
+.inpuiry-bg.white-bg {
+  background-color: transparent;
+  padding: 0px;
+}
+
+.inpuiry {
+  width: 100%;
+  height: 100%;
+}
+.inpuiry-content {
+  width: 100%;
+  height: 100%;
+}
+.inpuiry-info {
+  width: 84.2%;
+  padding-right: 24px;
+}
+.inpuiry-title {
+  margin-bottom: 25px;
+  color: #3d3d3d;
+  font-size: 18px;
+}
+.inpuiry-photo {
+  width: 191px;
+  height: 228px;
+  margin-right: 56px;
+}
+.inpuiry .text-title h4 {
+  float: left;
+}
+.inpuiry .text-title p {
+  float: right;
+}
+.inpuiry div .height-585 {
+  height: 585px;
+}
+.inpuiry .table-wrap {
+  height: 777px;
+}
+.inpuiry .table-wrap .btn {
+  padding: 7px 16px;
+}
+.inpuiry .table-wrap hr {
+  margin-bottom: 25px;
+}
+.inpuiry .table-wrap .plus-btn {
+  position: relative;
+  top: -7px;
+  float: right;
+}
+.inpuiry .table-wrap table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #AFBABE;
+  border-collapse: collapse;
+}
+.inpuiry .table-wrap table thead {
+  background-color: #36bac6;
+  color: #fff;
+}
+.inpuiry .table-wrap table th {
+  border-right: 1px solid #9ad5db;
+  padding: 13px 0;
+}
+.inpuiry .table-wrap table tbody td {
+  border: 1px solid #AFBABE;
+  padding: 23px 10px;
+}
+.inpuiry .table-wrap table tbody.font-16 td {
+  padding: 17px 10px;
+}
+.inpuiry .table-wrap table tbody td:nth-child(even) {
+  background-color: #f8f8f8;
+}
+.inpuiry .table-wrap .punish-table td {
+  vertical-align: top;
+}
+.inpuiry .table-wrap .recode-table td {
+  vertical-align: middle;
+}
+.inpuiry .table-wrap .recode-table td:nth-child(2) {
+  text-align: left;
+}
+.inpuiry .table-wrap .recode-table td:nth-child(3) {
+  text-align: center;
+}
+.inpuiry .table-wrap .recode-table td:nth-child(4) {
+  text-align: left;
+}
+.inpuiry .table-wrap .team-history td {
+  vertical-align: top;
+  text-align: center;
+}
+.inpuiry .table-wrap table.vertical-top td {
+  vertical-align: top;
+}
+.inpuiry .table-wrap td.text-left {
+  text-align: left;
+}
+.inpuiry .table-wrap td.text-right {
+  text-align: right;
+}
+.inpuiry .table-wrap td.text-center {
+  text-align: center;
+}
+.inpuiry input[type=checkbox] {
+  transform: scale(1.4);
+}
+.inpuiry .user div {
+  overflow: hidden;
+  margin-bottom: 15.1px;
+}
+.inpuiry .user dt, .inpuiry .user dd {
+  float: left;
+  color: #3d3d3d;
+}
+.inpuiry .user dt {
+  width: 147px;
+  word-break: keep-all;
+}
+.inpuiry .user-left {
+  padding-top: 25px;
+  padding-right: 91px;
+  padding-bottom: 32px;
+  border-right: 1px solid #d8d8d8;
+}
+.inpuiry .user-right {
+  padding: 25px 40px;
+}
+.inpuiry .user-right dt {
+  width: 107px;
+}
+.inpuiry hr {
+  margin: 0;
+}
+.inpuiry .hr-margin {
+  margin-bottom: 25px;
+}
+.inpuiry-inner {
+  padding-top: 22px;
+}
+.inpuiry-inner .last-inner {
+  padding-bottom: 25px;
+  height: 377px;
+}
+.inpuiry-box {
+  width: 100%;
+  background-color: #fff;
+  padding: 38px 38px 25px 38px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  border: 1px solid #AFBABE;
+}
+.inpuiry-box li {
+  display: block;
+  font-weight: 500;
+}
+.inpuiry-box:last-child {
+  margin-bottom: 20px;
+}
+.inpuiry-box.last-box {
+  height: 377px;
+}
+.inpuiry-box:nth-child(2) {
+  padding-bottom: 0;
+}
+.inpuiry-btn-wrap {
+  text-align: right;
+  width: 83.97%;
+  padding-right: 25px;
+}
+
+.inpuiry-link {
+  width: 15.6%;
+  height: 100%;
+  background-color: #fff;
+  padding: 31px 34px;
+  border-radius: 4px;
+  border: 1px solid #AFBABE;
+  margin-bottom: 30px;
+  margin-left: auto;
+}
+.inpuiry-link-title {
+  line-height: 20px;
+  color: #3d3d3d;
+  margin-bottom: 18px;
+}
+.inpuiry-link strong {
+  width: 100%;
+}
+.inpuiry-link li {
+  display: block;
+  margin-bottom: 5px;
+}
+.inpuiry-link a {
+  color: #3d3d3d;
+}
+.inpuiry-link-list {
+  margin-bottom: 25px;
+}
+.inpuiry-link-list-title {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.font-l {
+  font-weight: 100;
+}
+.font-r {
+  font-family: 400;
+}
+.font-m {
+  font-weight: 500;
+}
+.font-b, .inpuiry-link-title {
+  font-weight: 700;
+}
+.font-eb {
+  font-weight: 900;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-35 {
+  font-size: 35px;
+}
+.font-30 {
+  font-size: 30px;
+}
+.font-29 {
+  font-size: 29px;
+}
+.font-27 {
+  font-size: 27px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-23 {
+  font-size: 23px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-17 {
+  font-size: 17px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-13 {
+  font-size: 13px;
+}
+.font-12 {
+  font-size: 12px;
+}
+
+.management .dlb {
+  display: inline-block;
+  vertical-align: middle;
+}
+.management-inner {
+  border: 1px solid #bebebe;
+  padding: 40px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.management-box {
+  margin-bottom: 15px;
+}
+.management hr {
+  margin-bottom: 25px;
+}
+.management h3 {
+  font-size: 18px;
+  padding-bottom: 26px;
+  border-bottom: 1px solid #3d3d3d;
+  margin-bottom: 25px;
+}
+.management h5 {
+  width: 150px;
+  font-size: 16px;
+  color: #3d3d3d;
+  float: left;
+  margin-top: 5px;
+  font-weight: 500;
+}
+.management p {
+  color: #3d3d3d;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.management-input {
+  float: left;
+}
+.management .wd-350 {
+  width: 350px;
+}
+.management .club {
+  position: relative;
+  left: 250px;
+}
+.management .club-select {
+  position: relative;
+  left: -83px;
+}
+.management .school-code {
+  margin-right: 10px;
+}
+.management dl.divison-list {
+  width: 225px;
+  margin-right: 20px;
+}
+.management dl.code-group-list {
+  width: 261px;
+  margin-bottom: 15px;
+}
+.management dl.detail-group1 {
+  width: 261px;
+  margin-bottom: 15px;
+}
+.management dl.detail-group2 {
+  width: 261px;
+}
+.management .day input {
+  width: 179px;
+}
+.management .btn-block {
+  padding: 7px 12px 6px 12px;
+  font-size: 15px;
+}
+.management label {
+  margin-right: 20px;
+  font-weight: 400;
+}
+.management label[for=code-group] {
+  margin-right: 29px;
+}
+.management-btn {
+  text-align: right;
+}
+.management-btn .btn {
+  padding: 12px 26px 11px;
+}
+.management-input.team-checkbox {
+  margin-top: 10px;
+}
+.management p.management-composition-text {
+  margin-top: 10px;
+}
