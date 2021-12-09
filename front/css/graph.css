@@ -1,0 +1,214 @@
+.graph .b-ltb {
+  border-top: 1px solid #d2d2d2 !important;
+  border-left: 1px solid #d2d2d2 !important;
+  border-bottom: 1px solid #d2d2d2 !important;
+}
+.graph .b-r-3 {
+  border-right: 1px solid #3d3d3d !important;
+}
+.graph .b-r-d {
+  border-right: 1px solid #d2d2d2 !important;
+}
+.graph-blue {
+  background-color: #00b3ca;
+}
+.graph-mint {
+  background-color: #7dd0b6;
+}
+.graph-green {
+  background-color: #98b97c;
+}
+.graph-pink {
+  background-color: #e38690;
+}
+.graph-scroll {
+  width: 100%;
+}
+.graph-scroll--table {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.graph-scroll--table table {
+  min-width: 100%;
+  border: 1px solid #3d3d3d;
+}
+.graph-scroll--table table tr:last-child td,
+.graph-scroll--table table tr:last-child th {
+  border-bottom: 1px solid #3d3d3d !important;
+}
+.graph-scroll--table table .center {
+  text-align: center;
+}
+.graph-scroll--table table thead th {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  background-color: #f1f4f6;
+  padding: 0px 8px;
+  height: 40px;
+  text-align: left;
+  border-bottom: 1px solid #d2d2d2;
+}
+.graph-scroll--table table thead th.title {
+  height: 138px;
+}
+.graph-scroll--table .thead {
+  width: 207px;
+  left: 0;
+  z-index: 1;
+}
+.graph-scroll--table .thead table {
+  width: 207px;
+}
+.graph-scroll--table .container {
+  position: relative;
+  overflow: hidden;
+}
+.graph-scroll--table .container table {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  min-width: unset !important;
+  border-left: none;
+}
+.graph-scroll--table .container table thead tr td {
+  width: 50px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: normal;
+  border: solid 1px #d2d2d2;
+  text-align: center;
+  padding: 0 10px;
+}
+.graph-scroll--table .container table thead tr th {
+  text-align: center;
+}
+.graph-scroll--table .container table thead tr:first-child th {
+  height: 49px;
+  padding: 0;
+  border-bottom: none;
+  border-right: 1px solid #3d3d3d;
+}
+.graph-scroll--table .container table thead tr:nth-child(2) th {
+  height: 49px;
+  padding: 0;
+  border-top: solid 1px #d2d2d2;
+  border-bottom: none;
+  border-right: 1px solid #3d3d3d;
+}
+.graph-scroll--table .container table thead tr.kind th {
+  height: 40px;
+  width: 50px;
+  padding: 0;
+  background-color: #f5f4ef;
+  text-align: center;
+  border: solid 1px #d2d2d2;
+  border-bottom: 1px solid #3d3d3d;
+}
+.graph-scroll--table .container table thead tr.kind th:last-child {
+  border-right: 1px solid #3d3d3d;
+}
+.graph-scroll--bar .parent {
+  height: 390px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.graph-scroll--bar .parent .container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  pointer-events: none;
+  text-align: center;
+  overflow: hidden;
+}
+.graph-scroll--bar .parent .container::after {
+  background-color: #bebebe;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  content: "";
+  bottom: 130px;
+  z-index: 0;
+}
+.graph-scroll--bar .parent .container li {
+  height: 100%;
+  position: relative;
+  padding-right: 88px;
+}
+.graph-scroll--bar .parent .container li:last-child {
+  padding-right: 0;
+}
+.graph-scroll--bar .parent .container-graph {
+  height: 258px;
+}
+.graph-scroll--bar .parent .container-graph .data-title {
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  bottom: -45px;
+  margin-left: 5px;
+}
+.graph-scroll--bar .parent .container-graph .data-option {
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  min-width: 50px;
+  margin-left: -14px;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+.graph-scroll--bar .parent .container-graph div.item {
+  position: relative;
+  width: 12px;
+  float: left;
+  margin-right: 25px;
+  height: 258px;
+}
+.graph-scroll--bar .parent .container-graph div.item:last-child {
+  margin-right: 0;
+}
+.graph-scroll--bar .parent .container-graph div.item span {
+  position: absolute;
+  border-radius: 10px;
+  width: 100%;
+  bottom: -5px;
+  min-height: 20px;
+  z-index: 1;
+}
+.graph-scroll--bar .parent .container-title {
+  font-size: 15px;
+  font-weight: bold;
+  min-width: 94px;
+  min-height: 35px;
+  padding: 7px 20px;
+  border-radius: 18px;
+  border: solid 1px #969eb2;
+  margin-top: 57px;
+  display: inline-block;
+}
+
+.graph-slider {
+  width: 500px;
+  height: 390;
+  overflow: hidden;
+}
+.graph-slider .slider-inner .slider-item .container-graph .item .graph-blue {
+  background-color: #00b3ca;
+}
+.graph-slider .slider-inner .slider-item .container-graph .item .graph-mint {
+  background-color: #7dd0b6;
+}
+.graph-slider .slider-inner .slider-item .container-graph .item .graph-green {
+  background-color: #98b97c;
+}
+.graph-slider .slider-inner .slider-item .container-graph .item .graph-pink {
+  background-color: #e38690;
+}

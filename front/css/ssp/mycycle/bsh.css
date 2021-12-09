@@ -1,0 +1,79 @@
+.wd-362 {
+  width: 362px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.nosearchTitle {
+  margin: 76px 0 50px;
+  font-size: 25px;
+}
+
+.bottom-btn-wrap {
+  margin: 20px 0 100px;
+  text-align: right;
+}
+
+table.pn-10 tbody td {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.mediaBox {
+  border-top: 1px solid #acacac;
+  width: 100%;
+  margin: 10px 0 30px;
+}
+.mediaBox > li {
+  padding: 35px 20px;
+  border-bottom: 1px solid #d2d2d2;
+  overflow: hidden;
+}
+.mediaBox-left {
+  float: left;
+  width: 260px;
+  height: 155px;
+}
+.mediaBox-right {
+  float: left;
+  margin-left: 50px;
+}
+.mediaBox-right h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  padding-top: 17px;
+}
+.mediaBox-right ul {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 85px;
+}
+.mediaBox-right ul li {
+  margin-bottom: 5px;
+}
+.mediaBox-right ul li strong {
+  font-weight: 500;
+  display: inline-block;
+  width: 80px;
+}
+.mediaBox-right ul li span {
+  display: inline-block;
+  width: 315px;
+}
+.mediaBox-arrow {
+  float: right;
+  margin-right: 60px;
+  line-height: 155px;
+}

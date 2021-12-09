@@ -1,0 +1,871 @@
+
+        
+        <!DOCTYPE html>
+        <html lang="ko">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>스포츠지원포털 - 타임라인</title>
+            <link rel="stylesheet" href="../../../css/fullcalendar/main.css">
+            <link rel="stylesheet" href="../../../css/air-datepicker/datepicker.css">
+            <link rel="stylesheet" href="../../../css/slick/slick.css">
+            <link rel="stylesheet" href="../../../css/slick/slick-theme.css">
+            <link rel="stylesheet" href="../../../css/reset.css">
+            <link rel="stylesheet" href="../../../css/common.css">
+            <link rel="stylesheet" href="../../../css/ssp/sub.css">
+            <link rel="stylesheet" href="../../../css/component.css">
+            <script src="../../../js/jquery.min.js"></script>
+            <script src="../../../js/fullcalendar/main.js"></script>
+            <script src="../../../js/jquery-ui.js"></script>
+            <script src="../../../js/slick.min.js"></script>
+            <script src="../../../js/common.js"></script>
+            <script src="../../../js/air-datepicker/datepicker.js"></script>
+            <script src="../../../js/air-datepicker/datepicker.en.js"></script>
+        </head>
+
+        <body>
+            <div class="wrap ssp-sub">
+                <div class="header">
+                    <div class="totalMenu">
+                        <div class="totalMenu-inner">
+                            <span class="leftTxt">
+                                Sports Support Portal
+                            </span>
+                            <div class="totalMenu-inner__left">
+                                <div class="text">
+                                    <img class="logo" src="../img/main/logo.svg" alt="logo">
+                                    <h1 class="NotoSerif"><span class="NotoSerifTC">統合</span><br>통합된 하나의 길</h1>
+                                    <p>더 큰 미래, 그 이상의 가치를 위해,<br>하나된 스포츠지원포털로<br>대한민국 스포츠 발전을 만들어갑니다.</p>
+                                    <h2>Sports life for everyone!</h2>
+                                </div>
+                            </div>
+                            <div class="totalMenu-inner__right">
+                                <button class="btn-close"></button>
+                                <ul>
+                                    <li>
+                                        <div class="titLeft">
+                                            <strong><a href="" class="is_active">내 생애주기</a></strong>
+                                        </div>
+                                        <!-- 3depth 없을 시 titRight에 inline클래스 추가 -->
+                                        <div class="titRight">
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">내 생애주기</a></strong>
+                                                </div>
+                                            </div>
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="" class="is_active">신청이력</a></strong>
+                                                    <!-- 3depth ul 생성-->
+                                                    <ul>
+                                                        <li><a href="">경기인 신청이력</a></li>
+                                                        <li><a href="">훈·포장 신청이력</a></li>
+                                                        <li><a href="">증명서 발급신청이력</a></li>
+                                                    </ul>
+                                                    <!-- 3depth ul 생성-->
+                                                </div>
+                                            </div>
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">활동이력</a></strong>
+                                                    <ul>
+                                                        <li><a href="">경기인 등록이력</a></li>
+                                                        <li><a href="">대표선수·후보선수 훈련이력</a></li>
+                                                        <li><a href="">선수실적</a></li>
+                                                        <li><a href="">대회경기영상</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">교육이력</a></strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="titLeft">
+                                            <strong><a href="">경기인 등록</a></strong>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="titLeft">
+                                            <strong><a href="">증명서발급</a></strong>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="titLeft">
+                                            <strong><a href="">등록현황</a></strong>
+                                        </div>
+                                        <div class="titRight inline">
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">선수</a></strong>
+                                                </div>
+                                            </div>
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">지도자</a></strong>
+                                                </div>
+                                            </div>
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">심판</a></strong>
+                                                </div>
+                                            </div>
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong class="mb-10"><a href="">선수관리담당자</a></strong>
+                                                </div>
+                                            </div>
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">팀</a></strong>
+                                                </div>
+                                            </div>
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">선수통합검색</a></strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="titLeft">
+                                            <strong><a href="">S피플</a></strong>
+                                        </div>
+                                        <div class="titRight inline">
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">스포츠 히어로</a></strong>
+                                                </div>
+                                            </div>
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">동호회/클럽</a></strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="titLeft">
+                                            <strong><a href="">S미디어</a></strong>
+                                        </div>
+                                        <div class="titRight inline">
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">대회경기</a></strong>
+                                                </div>
+                                            </div>
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">스포츠스타</a></strong>
+                                                </div>
+                                            </div>
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">배워봅시다</a></strong>
+                                                </div>
+                                            </div>
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">생생스포츠</a></strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="titLeft">
+                                            <strong><a href="">체육일정</a></strong>
+                                        </div>
+                                        <div class="titRight inline">
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">월간일정</a></strong>
+                                                </div>
+                                            </div>
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">연간일정</a></strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="bb--none">
+                                        <div class="titLeft">
+                                            <strong><a href="">이용안내</a></strong>
+                                        </div>
+                                        <div class="titRight inline">
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">스포츠지원포털 소개</a></strong>
+                                                </div>
+                                            </div>
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">이용약관</a></strong>
+                                                </div>
+                                            </div>
+                                            <div class="titRight-wrap">
+                                                <div class="subMenu">
+                                                    <strong><a href="">전화번호안내</a></strong>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="searchPop">
+                        <button type="button" class="searchPop-close">
+                            <i class="icon icon-close_w--2"></i>
+                        </button>
+                        <div class="searchPop-inner">
+                            <h1>SEARCH</h1>
+                            <div class="input-area">
+                                <input type="text" placeholder="검색어를 입력하세요.">
+                                <button type="button"></button>
+                            </div>
+                            <div class="keyword">
+                                <span>KEYWORDS</span>
+                                <ul>
+                                    <li><a href="">#내생애주기</a></li>
+                                    <li><a href="">#경기인관리</a></li>
+                                    <li><a href="">#경기인등록</a></li>
+                                    <li><a href="">#S피플</a></li>
+                                    <li><a href="">#증명서발급</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="login">
+                        <ul class="join">
+                            <li><a href="">로그인</a></li>
+                            <li><a href="">회원가입</a></li>
+                        </ul>
+                    </div>
+                    <div class="fixed-top">
+                        <div class="fixed-top__left">
+                            <a href=""></a>
+                            <div class="logo"></div>
+                        </div>
+                        <ul class="fixed-top__mid">
+                            <li class="is_active"><a href="">내 생애주기</a></li>
+                            <li class=""><a href="">경기인 등록</a></li>
+                            <li class=""><a href="">증명서 발급</a></li>
+                            <li class=""><a href="">등록현황</a></li>
+                            <li class="@@active_5"><a href="">S피플</a></li>
+                            <li class="@@active_6"><a href="">S미디어</a></li>
+                            <li class="@@active_7"><a href="">체육일정</a></li>
+                            <li class="@@active_8"><a href="">이용안내</a></li>
+                        </ul>
+                        <div class="fixed-top__right">
+                            <i class="search"></i>
+                            <i class="menu"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- header end -->
+                
+<!-- header -->
+
+<div class="nav cycle">
+    <div class="nav-inner">
+        <div class="home"><a href=""></a><i class="icon-home"></i></div>
+        <div class="menu font">
+            <span class="toggle">
+                내 생애주기
+            </span>
+            <!-- 2depth 드롭 -->
+            <div class="menu-drop">
+                <ul>
+                    <li><a href="">타임라인</a></li>
+                    <li><a href="">신청이력</a></li>
+                    <li><a href="">활동이력</a></li>
+                    <li class="bb-none"><a href="">교육이력</a></li>
+                </ul>
+            </div>
+        </div>
+        <ul class="nav-sub">
+            <li class="is_active nav-sub__item">
+                <a href="#">타임라인</a>
+            </li>
+            <li class=" nav-sub__item">
+                <a href="#">신청이력</a>
+                <div class="nav-sub__wrap">
+                    <ul>
+                        <li><a href="#">경기인 신청이력</a></li>
+                        <li><a href="#">훈·포장 신청이력</a></li>
+                        <li><a href="#">증명서 발급신청이력</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class=" nav-sub__item">
+                <a href="#">활동이력</a>
+                <div class="nav-sub__wrap">
+                    <ul>
+                        <li class="is_active"><a href="#">경기인 등록이력</a></li>
+                        <li><a href="#">대표선수·후보선수 훈련이력</a></li>
+                        <li><a href="#">선수실적</a></li>
+                        <li><a href="#">대회경기영상</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class=" nav-sub__item">
+                <a href="#">교육이력</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+<!-- nav -->
+
+    <div class="ssp-banner mycycle">
+        <div class="inner">
+            <h1 class="font-43">내 생애주기</h1>
+            <p class="font-16">내 생애 전체 체육활동을 인포그래픽으로 볼 수 있습니다. 지금 확인해보세요.</p>
+            <ul>
+                <li>Home</li>
+                <li>내 생애주기</li>
+                <li>타임라인</li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+<!-- banner -->
+
+<div class="container cycle">
+    <div class="container-inner">
+        <div class="info">
+            <h2 class="font-25">내 생애주기 개인정보</h2>
+            <div class="info-con">
+                <div class="info-con__photo">
+                    <div class="img">
+                        <img src="../../../img/ssp/thumb_player.png" alt="thumb_player">
+                    </div>
+                    <button type="button" class="issue font-15">증명서 발급신청 내역</button>
+                </div>
+                <div class="info-con__detail">
+                    <div class="icon-wrap">
+                        <i class="icon-share"></i>
+                        <div class="user">
+                            <i class="icon-user" onclick="pop_open()"></i>
+                            <div class="user-pop">
+                                <div class="user-pop__tit">
+                                    <span>선수검색 공개설정</span>
+                                    <p>선수통합검색에서 공개여부를 결정할 수 있습니다.</p>
+                                </div>
+                                <div class="user-pop__con">
+                                    <div class="formInput">
+                                        <div class="formInput-radio">
+                                            <div class="radioArea clb">
+                                                <input type="radio" name="groupa" title="GroupA-라디오버튼1" id="radiobtn1">
+                                                <label for="radiobtn1">공개</label>
+                                            </div>
+                                            <div class="radioArea clb">
+                                                <input type="radio" name="groupa" title="GroupA-라디오버튼2" id="radiobtn2">
+                                                <label for="radiobtn2">비공개</label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="date">
+                                        2021/11/25 03:27:36
+                                    </div>
+                                </div>
+                                <div class="user-pop__foot">
+                                    <button type="button" onclick="pop_close()">확인</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="font-23 font-m">강대한 선수</h3>
+                    <div class="info-con__detail--left">
+                        <dl>
+                            <dt>등록연도</dt>
+                            <dd>2021</dd>
+                        </dl>
+                        <dl>
+                            <dt>소속</dt>
+                            <dd>서울특별시체육회(WU01465)</dd>
+                        </dl>
+                        <dl>
+                            <dt>종목</dt>
+                            <dd>태권도</dd>
+                        </dl>
+                        <dl>
+                            <dt>세부종목</dt>
+                            <dd>-68Kg</dd>
+                        </dl>
+                        <dl>
+                            <dt>종별</dt>
+                            <dd>19세이하부</dd>
+                        </dl>
+                        <dl>
+                            <dt>시도</dt>
+                            <dd>서울특별시</dd>
+                        </dl>
+                        <dl>
+                            <dt>주소</dt>
+                            <dd>(04782) 서울특별시 성동구 연무장5길 9-16 (성수동2가)</dd>
+                        </dl>
+                    </div>
+                    <div class="info-con__detail--right">
+                        <dl>
+                            <dt>생년월일</dt>
+                            <dd>19880101</dd>
+                        </dl>
+                        <dl>
+                            <dt>시력(좌/우)</dt>
+                            <dd>1.3/1.0</dd>
+                        </dl>
+                        <dl>
+                            <dt>신장/체중</dt>
+                            <dd>183Cm/75Kg</dd>
+                        </dl>
+                        <dl>
+                            <dt>학력</dt>
+                            <dd>대학교 4년제</dd>
+                        </dl>
+                        <dl>
+                            <dt>선수검색 공개설정</dt>
+                            <dd>예 / 아니오</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="timeLine">
+            <i class="icon-clock"></i>
+            <dl>
+                <dt class="font-23 font-b">내 생애주기 Time line</dt>
+                <dd>최근 5년간의 내 생애주기가 표시되며, 더보기를 클릭하시면 추가 5년간의 내 생애주기가 표시됩니다.</dd>
+            </dl>
+        </div>
+        <div class="contents">
+            <div class="go-more">
+                <i class="icon-plus__more"></i>
+            </div>
+            <div class="history-circle history-circle__top">
+                <div class="history-circle--inner font-25">2020</div>
+            </div>
+            <!-- 연도별 추가요소-->
+            <div class="history">
+                <div class="history-circle history-circle__bottom">
+                    <div class="history-circle--inner font-25">2021</div>
+                </div>
+                <div class="history-con">
+                    <ul>
+                        <li class="center-bar"></li>
+                        <li class="history-con__left history-flex">
+                            <div class="item">
+                                <span class="item-bar"></span>
+                                <div class="item-tit">
+                                    <span class="blue font-18">등록이력</span>
+                                </div>
+                                <ul class="item-list">
+                                    <li class="item-list__ch">
+                                        <h5 class="font-17 font-m">경기인 구분 : 선수</h5>
+                                        <div class="line">
+                                            <span>종목: 태권도</span>
+                                            <span>종별: 19세이하부</span>
+                                        </div>
+                                        <div class="line">
+                                            <span>시도 : 서울특별시</span>
+                                            <span>소속팀명 : 서울특별시청</span>
+                                            <span>등록구분 : 운동부 및 클럽</span>
+                                        </div>
+                                    </li>
+                                    <!-- item-bar 끝나는 지점 h5에 target 클래스 추가 -->
+                                    <li class="item-list__ch">
+                                        <h5 class="font-17 font-m target">경기인 구분 : 지도자</h5>
+                                        <div class="line">
+                                            <span>종목: 태권도</span>
+                                            <span>종별: 19세이하부</span>
+                                        </div>
+                                        <div class="line">
+                                            <span>시도 : 서울특별시</span>
+                                            <span>소속팀명 : 서울특별시청</span>
+                                            <span>등록구분 : 운동부 및 클럽</span>
+                                        </div>
+                                        <div class="line">
+                                            <span>지도자 구분 : 감독</span>
+                                            <span>기간 : 03/01~현재</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <span class="item-bar"></span>
+                                <div class="item-tit">
+                                    <span class="red font-18">국내 종합대회 참가</span>
+                                </div>
+                                <ul class="item-list">
+                                    <li class="item-list__ch">
+                                        <h5 class="font-17 font-m">제 102회 전국체육대회</h5>
+                                        <div class="line">
+                                            <span>국내외: 국제</span>
+                                            <span>종목 : 자유형 50m</span>
+                                            <span>순위 : 1위</span>
+                                        </div>
+                                        <div class="line">
+                                            <span>국내외: 국제</span>
+                                            <span>종목 : 배영 400m</span>
+                                            <span>순위 : 5위</span>
+                                        </div>
+                                        <div class="line">
+                                            <span>국내외: 국제</span>
+                                            <span>종목 : 혼계형 400m</span>
+                                            <span>순위 : 3위</span>
+                                        </div>
+                                        <div class="media">
+                                            <h5 class="font-18 font-m target">경기영상</h5>
+                                            <ul>
+                                                <li><img src="../../../img/ssp/match_thumb.png" alt="match_thumb"></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <span class="item-bar"></span>
+                                <div class="item-tit">
+                                    <span class="yellow font-18">국제기구 파견</span>
+                                </div>
+                                <ul class="item-list">
+                                    <li class="item-list__ch">
+                                        <h5 class="font-17 font-m target">국제도핑검사기구(ITA) 파견</h5>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="history-con__right history-flex">
+                            <div class="item">
+                                <span class="item-bar"></span>
+                                <div class="item-tit">
+                                    <span class="green font-18">경기실적</span>
+                                </div>
+                                <ul class="item-list">
+                                    <li class="item-list__ch">
+                                        <h5 class="font-17 font-m">2021년 WT월드그랑프리파이널</h5>
+                                        <div class="line">
+                                            <span>국내외: 국제</span>
+                                            <span>경기구분 : 겨루기</span>
+                                            <span>종목 : -68Kg</span>
+                                            <span>순위 : 1위</span>
+                                            <div class="media">
+                                                <h5 class="font-18 font-m">경기영상</h5>
+                                                <ul>
+                                                    <li><img src="../../../img/ssp/match_thumb.png" alt="match_thumb">
+                                                    </li>
+                                                    <li><img src="../../../img/ssp/match_thumb.png" alt="match_thumb">
+                                                    </li>
+                                                    <li><img src="../../../img/ssp/match_thumb.png" alt="match_thumb">
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item-list__ch">
+                                        <h5 class="font-17 font-m">24회 세계태권도선수권대회</h5>
+                                        <div class="line">
+                                            <span>국내외: 국제</span>
+                                            <span>경기구분 : 겨루기</span>
+                                        </div>
+                                    </li>
+                                    <li class="item-list__ch">
+                                        <h5 class="font-17 font-m">2021년 춘천코리아오픈국제태권도대회</h5>
+                                        <div class="line">
+                                            <span>국내외 : 국제</span>
+                                            <span>경기구분 : 겨루기</span>
+                                            <span>종목 : -68Kg</span>
+                                            <span>순위 : 1위</span>
+                                            <div class="media">
+                                                <h5 class="font-18 font-m ">경기영상</h5>
+                                                <ul>
+                                                    <li><img src="../../../img/ssp/match_thumb.png" alt="match_thumb">
+                                                    </li>
+                                                    <li><img src="../../../img/ssp/match_thumb.png" alt="match_thumb">
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item-list__ch">
+                                        <h5 class="font-17 font-m target">2021년 WT월드그랑프리시리즈1</h5>
+                                        <div class="line">
+                                            <span>국내외 : 국제</span>
+                                            <span>종목 : 자유형 50m</span>
+                                            <span>순위: 1위</span>
+                                        </div>
+                                        <div class="line">
+                                            <span>국내외: 국제</span>
+                                            <span>종목 : 배영 400m</span>
+                                            <span>순위: 5위</span>
+                                        </div>
+                                        <div class="line">
+                                            <span>국내외 : 국제</span>
+                                            <span>종목 : 혼계형 400m</span>
+                                            <span>순위 : 3위</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 추가요소-->
+        </div>
+        <div class="state">
+            <div class="state-top">
+                <h3 class="font-23">온라인 교육 수료 현황</h3>
+                <p>온라인 교육 수료가 완료되지 않으신 분은 교육 수료를 완료해주세요.</p>
+            </div>
+            <ul>
+                <li>
+                    <div class="state-item">
+                        <a href=""></a>
+                        <h3 class="font-21">2021년 스포츠 인권교육</h3>
+                        <p>수료일 : 2021-10-07 16:52:15</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="state-item">
+                        <a href=""></a>
+                        <h3 class="font-21">2021년 도핑방지교육</h3>
+                        <p>교육 미수료</p>
+                    </div>
+                    <p class="sub-tit">위 박스를 클릭하시면 온라인 교육을 받으실 수 있습니다.</p>
+                </li>
+            </ul>
+
+        </div>
+        <div class="service">
+            <div class="service-top">
+                <h3 class="font-23">더욱 다양한 서비스를 경험해보세요</h3>
+                <p>경기인 등록부터 채용까지 다양한 서비스가 준비되어 있습니다.</p>
+                <p>지금 바로 경험하실 수 있습니다.</p>
+            </div>
+            <div class="service-list">
+                <ul>
+                    <li class="service-list__item">
+                        <div>
+                            <strong class="font-21 font-b">경기인 등록</strong>
+                            <div class="icon">
+                                <img src="../../../img/ssp/service_icon_1.svg" alt="service_icon_1">
+                            </div>
+                            <p class="font-r">경기인 등록을 통해 등록이력을 관리해보세요.</p>
+                        </div>
+                        <span class="list-tit font-17">스포츠지원포털<i class="icon-arrow"></i></span>
+                    </li>
+                    <li class="service-list__item">
+                        <div>
+                            <strong class="font-21 font-b">공공스포츠클럽<br>등록</strong>
+                            <div class="icon">
+                                <img src="../../../img/ssp/service_icon_2.svg" alt="service_icon_2">
+                            </div>
+                            <p>수준별 맞춤 프로그램 등 회원
+                                특성에 최적화된 서비스를
+                                경험헤보세요.</p>
+                        </div>
+                        <span class="list-tit font-17">공공스포츠클럽<i class="icon-arrow"></i></span>
+                    </li>
+                    <li class="service-list__item">
+                        <div>
+                            <strong class="font-21 font-b">국제스포츠기구<br>파견신청</strong>
+                            <div class="icon">
+                                <img src="../../../img/ssp/service_icon_3.svg" alt="service_icon_3">
+                            </div>
+                            <p>세계 각국으로 파견되는
+                                체육전문 인력 선발요강을 모아
+                                보는 곳입니다.</p>
+                        </div>
+                        <span class="list-tit font-17">국제스포츠정보센터<i class="icon-arrow"></i></span>
+                    </li>
+                    <li class="service-list__item">
+                        <div>
+                            <strong class="font-21 font-b">체육인 복지지원</strong>
+                            <div class="icon">
+                                <img src="../../../img/ssp/service_icon_4.svg" alt="service_icon_4">
+                            </div>
+                            <p>다양한 복지 지원이 마련되어
+                                있으니, 나에게 맞는 내용을
+                                확인해보세요.</p>
+                        </div>
+                        <span class="list-tit font-17">체육인복지포털<i class="icon-arrow"></i></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="service-em">
+                <h3 class="font-21 font-b">체육인 채용정보</h3>
+                <div class="service-em__left">
+                    <div class="tit-area">
+                        <h4 class="font-18 font-m">국제스포츠정보센터 채용정보</h4>
+                        <span class="line"></span>
+                    </div>
+                    <div class="emInfo">
+                        <div class="emInfo-item">
+                            <div class="date">
+                                <div class="dday font-14 font-s">D-DAY</div>
+                                <strong class="font-20 font-b">68</strong>
+                            </div>
+                            <dl>
+                                <dt>(사)대한아이스하키협회 2021년 동계종목 특별지원 대외협력 선발</dt>
+                                <dd>신청기간 2021/10/05 ~ 2021/10/19</dd>
+                            </dl>
+                        </div>
+                        <div class="emInfo-item">
+                            <div class="date">
+                                <div class="dday font-14 font-s">D-DAY</div>
+                                <strong class="font-20 font-b">68</strong>
+                            </div>
+                            <dl>
+                                <dt>대한핸드볼협회 정규직 직원 채용 공고</dt>
+                                <dd>신청기간 2021/10/05 ~ 2021/10/19</dd>
+                            </dl>
+                        </div>
+                        <div class="emInfo-item">
+                            <div class="date">
+                                <div class="dday font-14 font-s">D-DAY</div>
+                                <strong class="font-20 font-b">68</strong>
+                            </div>
+                            <dl>
+                                <dt>2021년 한국체육산업개발(주) 신규직원 채용</dt>
+                                <dd>신청기간 2021/10/05 ~ 2021/10/19</dd>
+                            </dl>
+                        </div>
+                        <div class="emInfo-item">
+                            <div class="date">
+                                <div class="dday font-14 font-s">D-DAY</div>
+                                <strong class="font-20 font-b">68</strong>
+                            </div>
+                            <dl>
+                                <dt>2021 국제스포츠 리더와 함께하는 실무체험 인턴십 3차 모집공고</dt>
+                                <dd>신청기간 2021/10/05 ~ 2021/10/19</dd>
+                            </dl>
+                        </div>
+                        <div class="emInfo-item">
+                            <div class="date">
+                                <div class="dday font-14 font-s">D-DAY</div>
+                                <strong class="font-20 font-b">68</strong>
+                            </div>
+                            <dl>
+                                <dt>2021년도 대한카누연맹 국제업무 전문인력 채용 공고</dt>
+                                <dd>신청기간 2021/10/05 ~ 2021/10/19</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="foot">
+                        <div class="btn-more">
+                            더보기
+                            <a href=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-em__right">
+                    <div class="tit-area">
+                        <h4 class="font-18 font-m">대한체육회 채용정보</h4>
+                        <span class="line"></span>
+                    </div>
+                    <ul>
+                        <li>2021 남자 하키 국가대표 의무트레이너 모집 공고</li>
+                        <li>(사)대한펜싱협회 국가대표 여자 에뻬 지도자(코치) 채용 재공고</li>
+                        <li>대한체육회 정원외운영직 및 계약직 공개채용</li>
+                        <li>대한소프트테니스협회 정규직 채용 공고 (회계)</li>
+                        <li>(사)대한자전거연맹 신입직원(계약직) 채용 공고</li>
+                        <li>(사)대한테니스협회 사무처 계약직 (출산휴가 및 육아휴직 대체인력) 직원 채용...</li>
+                        <li>사단법인 대한바이애슬론연맹 사무처 직원채용 공고</li>
+                        <li>대한조정협회 국가대표 의무트레이너 공개채용 공고</li>
+                    </ul>
+                    <div class="foot">
+                        <div class="btn-more">
+                            더보기
+                            <a href=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- footer -->
+<!-- footer start -->
+
+
+<div class="footer">
+    <div class="footer-inner">
+        <div class="footer-inner__info">
+            <div class="footer-inner__info--left">
+                <a href=""></a>
+                <img src="../../../img/main/guide_logo.svg" alt="guide_logo">
+            </div>
+            <div class="footer-inner__info--right">
+                <ul>
+                    <li class="strong"><a href="">개인정보처리방침</a></li>
+                    <li><a href="">이용약관</a></li>
+                    <li><a href="">스포츠지원포털 소개</a></li>
+                </ul>
+                <span>[05540] 서울특별시 송파구 올림픽로 424올림픽문화(올림픽컨벤션)센터</span>
+                <span>ⓒ 스포츠지원포털</span>
+            </div>
+        </div>
+        <div class="footer-inner__sponsor">
+            <div class="footer-inner__sponsor--logo">
+                <ul>
+                    <li><img src="../../../img/main/sponsor_dea.svg" alt="sponsor_dea"><a href=""></a></li>
+                    <li><img src="../../../img/main/sponsor_mun.svg" alt="sponsor_mun"><a href=""></a></li>
+                    <li><img src="../../../img/main/sponsor_guc.svg" alt="sponsor_guc"><a href=""></a></li>
+                </ul>
+                <span><a href=""></a></span>
+            </div>
+            <p>본 사업은 문화체육관광부와 국민체육진흥공단의 재정후원을 받고 있습니다.</p>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+<script src="../../../js/graph.js"></script>
+<script src="../../../js/dragTable.js"></script>
+
+</html>
+
+    <script>
+        window.onload = function () {
+            var cycle_h = $('.cycle .history-con ul').outerHeight();
+            $('.cycle .center-bar').css('height', cycle_h + 125 + 'px');
+            var history_b = $('.history-flex .item .item-bar');
+    
+            history_b.each(function () {
+                var li_length = $(this).siblings('.item-list').children().length;
+                var item_offset = $(this).parent().offset().top;
+                var target_offset = $(this).siblings('.item-list').children().eq(li_length - 1).find('.target')
+                    .offset().top;
+                console.log(target_offset - item_offset);
+                $(this).css('height', target_offset - item_offset);
+    
+            });
+        }
+        function pop_open(){
+            $('.user-pop').fadeIn(300);
+        }
+        function pop_close(){
+          $('.user-pop').fadeOut(300);
+        }
+    </script>
