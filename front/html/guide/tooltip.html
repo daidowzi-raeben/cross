@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../css/air-datepicker/datepicker.css">
+    <link rel="stylesheet" href="../../css/slick/slick.css">
+    <link rel="stylesheet" href="../../css/slick/slick-theme.css">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/component.css">
+    <link rel="stylesheet" href="../../css/icon.css">
+    <link rel="stylesheet" href="../../css/guide/guide.css">
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../js/jquery-ui.js"></script>
+    <script src="../../js/slick/slick.min.js"></script>
+    <script src="../../js/chart/Chart.min.js"></script>
+    <script src="../../js/chart/chartjs-plugin-datalabels.js"></script>
+    <script src="../../js/air-datepicker/datepicker.js"></script>
+    <script src="../../js/air-datepicker/datepicker.en.js"></script>
+    <title>Guide - 대한체육회</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="container guide clb">
+            <ul class="guide-list">
+                <li><a href="./" target="_self">Components</a></li>
+            </ul>
+            <div class="guide-content">
+<!-- 헤더 끝 -->
+
+    <div class="content clb">
+        <h2>tooltip</h2>
+        <div class="codebox">
+            <button class="copybtn" onclick="copyText('#code1');" title="주소 복사">툴팁 라지 코드복사</button>
+            <xmp id="code1" class="brush: html;">
+                <div>
+                    <p>tooltip-topLeft</p>
+                    <div class="tooltip">
+                        <button class="tooltip-btn"></button>
+                        <!--  
+                            tooltip-topLeft
+                            tooltip-topCenter
+                            tooltip-topRight
+                            tooltip-right
+                            tooltip-left
+                            아래 div class 교체 후 사용
+                        -->
+                        <div class="tooltip-con tooltip-l tooltip-topLeft">
+                            <div class="toolCon">
+                                <span class="toolCon-title">TOOL TIP명</span>
+                                <p class="toolCon-text">도움말 설명이 들어갈 수 있는 자리로 문장의 길이에 맞게 툴팁의 크기조정이 가능하다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xmp>
+        </div>
+        <div class="codebox">
+            <button class="copybtn" onclick="copyText('#code2');" title="주소 복사">툴팁 스몰 코드복사</button>
+            <xmp id="code2" class="brush: html;">
+                <div>
+                    <p>tooltip-topLeft</p>
+                    <div class="tooltip">
+                        <button class="tooltip-btn"></button>
+                        <!--  
+                            tooltip-topLeft
+                            tooltip-topCenter
+                            tooltip-topRight
+                            tooltip-right
+                            tooltip-left
+                            아래 div class 교체 후 사용
+                        -->
+                        <div class="tooltip-con tooltip-s tooltip-topLeft">
+                            <div class="toolCon">
+                                <p class="toolCon-text">엑셀파일다운로드</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xmp>
+        </div>
+        
+        <h3>Large Tool-tip</h3>
+        <div class="conWrap clb">
+            <div class="float-left condiv">
+                <p>tooltip-topLeft</p>
+                <div class="tooltip">
+                    <button class="tooltip-btn"></button>
+                    <div class="tooltip-con tooltip-l tooltip-topLeft">
+                        <div class="toolCon">
+                            <span class="toolCon-title">TOOL TIP명</span>
+                            <p class="toolCon-text">도움말 설명이 들어갈 수 있는 자리로 문장의 길이에 맞게 툴팁의 크기조정이 가능하다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="float-left condiv">
+                <p>tooltip-topCenter</p>
+                <div class="tooltip">
+                    <button class="tooltip-btn"></button>
+                    <div class="tooltip-con tooltip-l tooltip-topCenter">
+                        <div class="toolCon">
+                            <span class="toolCon-title">TOOL TIP명</span>
+                            <p class="toolCon-text">도움말 설명이 들어갈 수 있는 자리로 문장의 길이에 맞게 툴팁의 크기조정이 가능하다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="float-left condiv">
+                <p>tooltip-topRight</p>
+                <div class="tooltip">
+                    <button class="tooltip-btn"></button>
+                    <div class="tooltip-con tooltip-l tooltip-topRight">
+                        <div class="toolCon">
+                            <span class="toolCon-title">TOOL TIP명</span>
+                            <p class="toolCon-text">도움말 설명이 들어갈 수 있는 자리로 문장의 길이에 맞게 툴팁의 크기조정이 가능하다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="float-left condiv">
+                <p>tooltip-right</p>
+                <div class="tooltip">
+                    <button class="tooltip-btn"></button>
+                    <div class="tooltip-con tooltip-l tooltip-right">
+                        <div class="toolCon">
+                            <span class="toolCon-title">TOOL TIP명</span>
+                            <p class="toolCon-text">도움말 설명이 들어갈 수 있는 자리로 문장의 길이에 맞게 툴팁의 크기조정이 가능하다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="float-left condiv">
+                <p>tooltip-left</p>
+                <div class="tooltip">
+                    <button class="tooltip-btn"></button>
+                    <div class="tooltip-con tooltip-l tooltip-left">
+                        <div class="toolCon">
+                            <span class="toolCon-title">TOOL TIP명</span>
+                            <p class="toolCon-text">도움말 설명이 들어갈 수 있는 자리로 문장의 길이에 맞게 툴팁의 크기조정이 가능하다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="commentBox font-13">
+                <p class="colorTag"><i></i>BG color : <span>#FFFFFF</span></p>
+                <p class="colorTag"><i></i>Text color : <span>#3D3D3D</span></p>
+            </div>
+        </div>
+        <div class="conWrap clb">
+        <h3>Small Tool-tip</h3>
+            <div class="float-left condiv">
+                <p>tooltip-topLeft</p>
+                <div class="tooltip">
+                    <button class="tooltip-btn"></button>
+                    <div class="tooltip-con tooltip-s tooltip-topLeft">
+                        <div class="toolCon">
+                            <p class="toolCon-text">엑셀파일다운로드</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="float-left condiv">
+                <p>tooltip-topCenter</p>
+                <div class="tooltip">
+                    <button class="tooltip-btn"></button>
+                    <div class="tooltip-con tooltip-s tooltip-topCenter">
+                        <div class="toolCon">
+                            <p class="toolCon-text">엑셀파일다운로드</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="float-left condiv">
+                <p>tooltip-topRight</p>
+                <div class="tooltip">
+                    <button class="tooltip-btn"></button>
+                    <div class="tooltip-con tooltip-s tooltip-topRight">
+                        <div class="toolCon">
+                            <p class="toolCon-text">엑셀파일다운로드</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="float-left condiv">
+                <p>tooltip-right</p>
+                <div class="tooltip">
+                    <button class="tooltip-btn"></button>
+                    <div class="tooltip-con tooltip-s tooltip-right">
+                        <div class="toolCon">
+                            <p class="toolCon-text">엑셀파일다운로드</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="float-left condiv">
+                <p>tooltip-left</p>
+                <div class="tooltip">
+                    <button class="tooltip-btn"></button>
+                    <div class="tooltip-con tooltip-s tooltip-left">
+                        <div class="toolCon">
+                            <p class="toolCon-text">엑셀파일다운로드</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="commentBox font-13">
+                <p class="colorTag"><i></i>BG color : <span>#FFFFFF</span></p>
+                <p class="colorTag"><i></i>Text color : <span>#3D3D3D</span></p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 푸터 시작 -->
+            </div>
+    </div>
+</div>
+<script src="../../js/common.js"></script>
+<script src="../../js/guide.js"></script>
+<script src="../../js/fn.default.js"></script>
+</body>
+</html>
