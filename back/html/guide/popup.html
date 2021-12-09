@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../css/air-datepicker/datepicker.css">
+    <link rel="stylesheet" href="../../css/slick/slick.css">
+    <link rel="stylesheet" href="../../css/slick/slick-theme.css">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/component.css">
+    <link rel="stylesheet" href="../../css/icon.css">
+    <link rel="stylesheet" href="../../css/guide.css">
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script src="../../js/jquery-ui.js"></script>
+    <script src="../../js/slick/slick.min.js"></script>
+    <script src="../../js/chart/Chart.min.js"></script>
+    <script src="../../js/chart/chartjs-plugin-datalabels.js"></script>
+    <script src="../../js/air-datepicker/datepicker.js"></script>
+    <script src="../../js/air-datepicker/datepicker.en.js"></script>
+    <title>Guide - 대한체육회</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="container guide clb">
+            <ul class="guide-list">
+                <li><a href="./" target="_self">Components</a></li>
+            </ul>
+            <div class="guide-content">
+<!-- 헤더 끝 -->
+
+<div class="content clb">
+    <h2>popup</h2>
+    <div class="codebox">
+        <button class="copybtn" onclick="copyText('#code1');" title="주소 복사">팝업1 코드복사</button>
+        <xmp id="code1" class="brush: html;">
+            <div>
+                <button class="popbtn btn btn-block" type="button" data-name="popup1" >popup1</button>
+                <div id="popup1" class="popup">
+                    <div class="popup-bg has_close"></div>
+                    <div class="popup-box">
+                        <div class="popContent">
+                            <div class="popContent-header clb">
+                                <span>
+                                팝업타이틀
+                                </span>
+                                <button class="has_close" type="button">
+                                    <i class="icon icon-closebtn" ></i>닫기
+                                </button>
+                            </div>
+                            <div class="popContent-con">
+                                <span>팝업제목<br/>
+                                줄바꿈시 <br/>
+                                </span>
+                                <p>팝업내용</p>
+                            </div>
+                            <div class="popContent-footer clb">
+                                <div class="popContent-footer--left">
+                                    <span>2021.07.날짜</span>
+                                    <span>등록자</span>
+                                </div>
+                                <div class="popContent-footer--right">
+                                    <a download=""><i class="icon icon-clipbtn"></i>다운로드</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xmp>
+    </div>
+    <div class="codebox">
+        <button class="copybtn" onclick="copyText('#code2');" title="주소 복사">팝업2 코드복사</button>
+        <xmp id="code2" class="brush: html;">
+            <div>
+                <button class="popbtn btn btn-block" type="button" data-name="popup2">popup2</button>
+                <div id="popup2" class="popup">
+                    <div class="popup-bg has_close"></div>
+                    <div class="popup-box">
+                        <div class="popContent">
+                            <div class="popContent-header clb">
+                                팝업타이틀
+                                <button type="button">닫기</button>
+                            </div>
+                            <div class="popContent-con">
+                                <span>소제목두줄까지</span>
+                                <p>팝업 일반 텍스트로 들어가는 자리이며, 자리수는
+                                    늘어 날 수 있습니다.</p>
+                            </div>
+                            <div class="popContent-footer clb">
+                                <div class="popContent-footer--right">
+                                    <button class="has_close font-r font-16" type="button">취소</button>
+                                    <button class="has_close submit font-b font-16" type="button">확인</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xmp>
+    </div>
+    <div class="float-left">
+        <h4>popup1</h4>
+        <button class="popbtn btn btn-block" type="button" data-name="popup1" >popup1</button>
+        <div class="commentBox font-13">
+            <p>- Font family</p>
+            <p>팝업 타이틀 (Noto Sans CJK KR / Bold)  size 16pt</p>
+            <p>타이틀 텍스트 (Noto Sans CJK KR / Medium)  size 19pt</p>
+            <p>텍스트 (Noto Sans CJK KR / Regular)  size 16pt</p>
+            <p>- Vertex(꼭지점) : Rounding 10px</p>
+        </div>
+        <div id="popup1" class="popup">
+            <div class="popup-bg has_close"></div>
+            <div class="popup-box">
+                <div class="popContent">
+                    <div class="popContent-header clb">
+                        <span>
+                        팝업타이틀팝업타이틀팝업타이틀팝업타이틀팝업타이틀팝업타이틀팝업타이틀
+                        </span>
+                        <button class="has_close" type="button">
+                            <i class="icon icon-closebtn" ></i>닫기
+                        </button>
+                    </div>
+                    <div class="popContent-con">
+                        <span>추석연휴 정부24서비스(주민등록증 인증)<br/>일시중단 안내</span>
+                        <p>시스템 공지사항 내용이 출력되며, 첨부되는 파일이 있다면 아래와 같이 첨부파일 아이콘이 자동출력됩니다. 추석연휴 기간동안 정부24 서비스 일시중단으로 인해 신분증 인증 기능(주민등록증)이 일시적으로 제한될 예정입니다. </p>
+                    </div>
+                    <div class="popContent-footer clb">
+                        <div class="popContent-footer--left">
+                            <span>2021.07.날짜</span>
+                            <span>등록자</span>
+                        </div>
+                        <div class="popContent-footer--right">
+                            <a download=""><i class="icon icon-clipbtn"></i>다운로드</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="float-left">
+        <h4>popup2</h4>
+        <button class="popbtn btn btn-block" type="button" data-name="popup2">popup2</button>
+        <div class="commentBox font-13">
+            <p>- Font family</p>
+            <p>팝업 타이틀 (Noto Sans CJK KR / Bold)  size 16pt</p>
+            <p>타이틀 텍스트 (Noto Sans CJK KR / Medium)  size 19pt</p>
+            <p>텍스트 (Noto Sans CJK KR / Regular)  size 16pt</p>
+            <p>- Vertex(꼭지점) : Rounding 10px</p>
+        </div>
+        <div id="popup2" class="popup">
+            <div class="popup-bg has_close"></div>
+            <div class="popup-box">
+                <div class="popContent">
+                    <div class="popContent-header clb">
+                        팝업타이틀
+                        <button type="button">닫기</button>
+                    </div>
+                    <div class="popContent-con">
+                        <span>소제목두줄까지</span>
+                        <p>팝업 일반 텍스트로 들어가는 자리이며, 자리수는
+                            늘어 날 수 있습니다.</p>
+                    </div>
+                    <div class="popContent-footer clb">
+                        <div class="popContent-footer--right">
+                            <button class="has_close font-r font-16" type="button">취소</button>
+                            <button class="has_close submit font-b font-16" type="button">확인</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 푸터 시작 -->
+        </div>
+    </div>
+</div>
+<script src="../../js/common.js"></script>
+<script src="../../js/guide.js"></script>
+<script src="../../js/fn.default.js"></script>
+</body>
+</html>

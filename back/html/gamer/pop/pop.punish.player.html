@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../../css/reset.css">
+        <link rel="stylesheet" href="../../../css/component.css">
+        <link rel="stylesheet" href="../../../css/common.css">
+        <link rel="stylesheet" href="../../../css/global.css">
+        <link rel="stylesheet" href="../../../css/icon.css">
+        <link rel="stylesheet" href="../../../css/jquery-ui.css">
+        <script src="../../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../../js/jquery-ui.js"></script>
+        <title>선수정보 선택</title>
+    </head>
+    <body>
+    <div class="wdpop wd-1620">
+        <div class="wdpop-header clb">
+            <h3 class="float-left">선수정보 선택</h3>
+            <button type="button" class="float-right">
+                <i class="icon icon-closebtn btn-close"></i>
+            </button>
+        </div>
+        <div class="wdpop-contents clb">
+            <form action="/" method="GET">
+                
+    <div class="app-condition type-b clb">
+        <div class="conSignebox clb">
+            <div class="condiBox single">
+                <div class="formInput clb">
+                    <div>
+                        <label for="event" class="labelTitle">종목</label>
+                        <input class="wd-230" name="event" type="text" value="검도" id="event" disabled/>
+                    </div>
+                    <div class="formInput-select">
+                        <label class="labelTitle" for="evnetKind">종별</label>
+                        <select name="evnetKind" id="evnetKind">
+                            <option value="0" selected>전체</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                        <dl>
+                            <dt></dt>
+                            <dd>
+                                <ul></ul>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="formInput-select">
+                        <label class="labelTitle" for="city">시도</label>
+                        <select name="city" id="city">
+                            <option value="0" selected>전체</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                        <dl>
+                            <dt></dt>
+                            <dd>
+                                <ul></ul>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div>
+                        <label for="year" class="labelTitle">등록년도</label>
+                        <input class="wd-230" name="year" type="number" id="year"/>
+                    </div>
+                    <div>
+                        <label for="name" class="labelTitle">이름(한글)</label>
+                        <input class="wd-230" name="name" type="text" id="name"/>
+                    </div>
+                </div>
+            </div>
+            <!-- formBox e -->
+        </div>
+    </div>
+
+
+
+
+
+            </form>
+            <div class="btn-wrap">
+                <button type="button" class="btn btn-mint mr-7">체육인번호조회</button>
+                <button type="button" class="btn btn-blue">검색</button>
+            </div>
+            
+    <div class="gm-chart">
+        <div class="clb">
+            <div class="gm-chart__total">
+                <h3>선수정보 목록</h3>
+                <span>2,398</span>
+                <span class="gm-chart__total--sm">건</span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+            
+    <table class="gm-table tableA">
+        <colgroup>
+            <col style="width:69px" />
+            <col style="width:127px" />
+            <col style="width:201px" />
+            <col style="width:120px" />
+            <col style="width:130px" />
+            <col style="width:125px" />
+            <col style="width:66px" />
+             <col style="width:auto" />
+            <col style="width:196px" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">번호</th>
+                <th scope="col">등록년도</th>
+                <th scope="col">체육인번호</th>
+                <th scope="col">생년월일</th>
+                <th scope="col">성별</th>
+                <th scope="col">종별</th>
+                <th scope="col">시도</th>
+                <th scope="col">소속팀</th>
+                <th scope="col">승인상태</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- 데이터 반복구간 -->
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+            <tr class="pd-17-10">
+                <td><span class="font-roboto">9987</span></td>
+                <td><span class="font-roboto">2000</span></td>
+                <td><span class="font-roboto">123456 1BC0000</span></td>
+                <td><span class="font-roboto">1900.00.00</span></td>
+                <td class="text-left">남자</td>
+                <td class="text-left">실업(일반)</td>
+                <td>전북</td>
+                <td class="text-left">소속팀</td>
+                <td>비등록</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="wdpop-footer"></div>
+    </div>
+<script src="../../../js/common.js"></script>
+<script src="../../../js/gamer.js"></script>
+</body>
+</html>
